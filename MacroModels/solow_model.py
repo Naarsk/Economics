@@ -1,8 +1,6 @@
 import numpy as np
 from scipy.optimize import approx_fprime
 import pandas as pd
-from sympy.abc import alpha
-
 
 class Solow():
     """
