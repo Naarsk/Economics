@@ -2,7 +2,7 @@ import numpy as np
 from scipy.optimize import approx_fprime
 import pandas as pd
 
-class Solow():
+class SolowModel:
     """
     A class to represent the Solow model of economic growth.
 
@@ -222,6 +222,7 @@ class CES(ProductionFunction):
             Returns
             -------
             The output of the CES production function, which is given by a_h*(gamma*(a_k*k)**((sigma-1)/sigma) + a_l*(a_k*k)**((sigma-1)/sigma))**(sigma/(sigma-1)).
+            :param params:
 
             """
             k=x[0]
