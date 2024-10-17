@@ -65,7 +65,7 @@ class SolowModel:
         self.time = range(time_horizon)
 
 
-    def evaluate(self):
+    def __call__(self, *args, **kwargs):
         """
         Evaluate the Solow model.
 
@@ -156,27 +156,27 @@ class CobbDouglas(ProductionFunction):
         -------
         None
         """
-        def cobb_douglas(x: list[2], params: float):
+        def cobb_douglas(x: list[2]):
+
             """
-            The Cobb-Douglas production function.
+            Evaluate the Cobb-Douglas production function with the given variables and parameters.
 
             Parameters
             ----------
             x : list[2]
-                A list with two elements, the first being the capital stock (k) and the second being the labor (l).
-
+                A list of the variables to evaluate the production function with. The first element
+                is capital, and the second element is labor.
             Returns
             -------
-            The output of the Cobb-Douglas production function, which is given by k ** alpha * l ** (1 - alpha).
-
+            float
+                The output of the Cobb-Douglas production function.
             """
             k = x[0]
             l = x[1]
-            alpha=params
 
             return k ** alpha * l ** (1 - alpha)
 
-        super().__init__(func=cobb_douglas, params=alpha)
+        super().__init__(func=cobb_douglas, params=[alpha,])
 
     def __call__(self, x):
         """
@@ -210,7 +210,7 @@ class CES(ProductionFunction):
         -------
         None
         """
-        def ces(x: list[5], params: list[2]):
+        def ces(x: list[5]):
             """
             The Constant Elasticity of Substitution (CES) production function.
 
@@ -222,8 +222,6 @@ class CES(ProductionFunction):
             Returns
             -------
             The output of the CES production function, which is given by a_h*(gamma*(a_k*k)**((sigma-1)/sigma) + a_l*(a_k*k)**((sigma-1)/sigma))**(sigma/(sigma-1)).
-            :param params:
-
             """
             k=x[0]
             l=x[1]
@@ -231,25 +229,28 @@ class CES(ProductionFunction):
             a_k=x[3]
             a_l=x[4]
 
-            gamma=params[0]
-            sigma=params[1]
             return a_h*(gamma*(a_k*k)**((sigma-1)/sigma) + a_l*(a_k*k)**((sigma-1)/sigma))**(sigma/(sigma-1))
 
         super().__init__(func=ces, params=[sigma,gamma])
 
-        def _call__(self, x):
-            """
-            Evaluate the production function with the given variables and parameters.
+    def __call__(self, x):
+        """
+        Evaluate the production function with the given variables and parameters.
 
-            Parameters
-            ----------
-            x : list
-                A list of the variables to evaluate the production function with.
+        Parameters
+        ----------
+        x : list
+            A list of the variables to evaluate the production function with.
 
-            Returns
-            -------
-            float
-                The output of the production function.
-            """
-            return super().__call__(x)
+        Returns
+        -------
+        float
+            The output of the production function.
+        """
+        return super().__call__(x)
 
+class BalancedGrowth(SolowModel):
+    def __init__(self, saving_rate, depreciation_rate, starting_capital, labor_growth_function, starting_pop_level,
+                 production_function, time_horizon=1000):
+        super().__init__(saving_rate, depreciation_rate, starting_capital, production_function, labor_growth_function,
+                         starting_pop_level, time_horizon)
