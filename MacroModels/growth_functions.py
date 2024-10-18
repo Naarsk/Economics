@@ -1,5 +1,8 @@
-def logistic_map(x):
-    return (1+2.02) * x * (1-x*0.002)
+def logistic_map(x,r, n):
+    return (1+r) * x * (1-x*n)
 
-def exponential_growth(x):
-    return (1+0.02) * x
+def compounded_growth(x,r):
+    return (1+r) * x
+
+def linear_growth(x,a):
+    return x+a

@@ -124,7 +124,7 @@ class CES(ProductionFunction):
             a_k=x[3]
             a_l=x[4]
 
-            return a_h*(gamma*(a_k*k)**((sigma-1)/sigma) + a_l*(a_k*k)**((sigma-1)/sigma))**(sigma/(sigma-1))
+            return a_h*(gamma*(a_k*k)**((sigma-1)/sigma) + (1-gamma)*(a_l*l)**((sigma-1)/sigma))**(sigma/(sigma-1))
 
         super().__init__(func=ces, params=[sigma,gamma])
 
