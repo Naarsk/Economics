@@ -6,3 +6,6 @@ def compounded_growth(x,r):
 
 def linear_growth(x,a):
     return x+a
+
+def identity(x):
+    return x
