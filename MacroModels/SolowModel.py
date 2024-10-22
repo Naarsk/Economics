@@ -2,9 +2,9 @@ import numpy as np
 import pandas as pd
 from scipy.optimize import approx_fprime
 
-from MacroModels.exogenous_variables import ExogenousVariables, ExogenousFunctions
-from MacroModels.growth_functions import compounded_growth, identity
-from MacroModels.production_functions import CobbDouglas
+from MacroModels.ExogenousVariables import ExogenousVariables, ExogenousFunctions
+from MacroModels.GrowthFunctions import compounded_growth, identity
+from MacroModels.ProductionFunctions import CobbDouglas
 
 class SolowModel:
     """
