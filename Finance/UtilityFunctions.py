@@ -1,6 +1,5 @@
-import numpy as np
 import numdifftools as nd
-from parso.python.tree import Lambda
+import numpy as np
 
 
 class UtilityFunction:
