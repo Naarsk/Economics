@@ -1,9 +1,10 @@
 import numpy as np
-from scipy.optimize import approx_fprime
+import numdifftools as nd
+from parso.python.tree import Lambda
 
 
 class UtilityFunction:
-    def __init__(self, func, params, ara = None):
+    def __init__(self, func, params):
         """
         Initialize a UtilityFunction object.
 
@@ -21,7 +22,6 @@ class UtilityFunction:
         """
         self.func=func
         self.params=params
-        self.ara=ara
 
     def __call__(self, x):
         """
@@ -39,11 +39,8 @@ class UtilityFunction:
         """
         return self.func(x, self.params)
 
-    def ara(self, x):
-        if self.ara is None:
-            return approx_fprime(x, self.func, 1e-8)
-        else:
-            return self.ara(x, self.params)
+    def absolute_risk_aversion(self, x):
+        return - nd.Derivative(self, order=2)(x)/nd.Derivative(self, order=1)(x)
 
 class CRRA(UtilityFunction):
     def __init__(self, params):
@@ -79,13 +76,6 @@ class CRRA(UtilityFunction):
                 The output of the CRRA utility function.
             """
             return x**(1-gamma)/(1-gamma)
-
-
-        def crra_ara(x, gamma):
-            return gamma/x
-
-        def crra_rra(x, gamma):
-            return gamma
 
         super().__init__(crra, params)
 

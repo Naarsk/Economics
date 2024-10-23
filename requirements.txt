@@ -4,3 +4,4 @@ scipy
 pydantic
 matplotlib
 statsmodels
+numdifftools

@@ -54,7 +54,7 @@ class SolowModel:
         self.production_function = production_function
 
         self.capital = np.zeros(time_horizon)
-        self.rates = np.zeros(time_horizon)
+        self.rental_rates = np.zeros(time_horizon)
         self.wages = np.zeros(time_horizon)
         self.income = np.zeros(time_horizon)
         self.income_per_cap = np.zeros(time_horizon)
@@ -85,18 +85,18 @@ class SolowModel:
             self.capital_per_cap[t] = self.capital[t] / self.labor[t]
 
             self.capital[t + 1] = self.saving_rate * self.income[t] + (1 - self.depreciation_rate) * self.capital[t]
-            self.rates[t] = approx_fprime(np.array([self.capital[t], self.labor[t]]), self.production_function)[0]
+            self.rental_rates[t] = approx_fprime(np.array([self.capital[t], self.labor[t]]), self.production_function)[0]
             self.wages[t] = approx_fprime(np.array([self.capital[t], self.labor[t]]), self.production_function)[1]
 
         self.income[-1] = self.production_function([self.capital[-1], self.labor[-1]])
         self.income_per_cap[-1] = self.income[-1] / self.labor[-1]
         self.capital_per_cap[-1] = self.capital[-1] / self.labor[-1]
-        self.rates[-1] = approx_fprime(np.array([self.capital[-1], self.labor[-1]]), self.production_function)[0]
+        self.rental_rates[-1] = approx_fprime(np.array([self.capital[-1], self.labor[-1]]), self.production_function)[0]
         self.wages[-1] = approx_fprime(np.array([self.capital[-1], self.labor[-1]]), self.production_function)[1]
 
         return pd.DataFrame({'time': self.time, 'capital': self.capital, 'labor': self.labor, 'income': self.income,
                              'income_per_cap': self.income_per_cap, 'capital_per_cap': self.capital_per_cap,
-                             'rates': self.rates, 'wages': self.wages})
+                             'rates': self.rental_rates, 'wages': self.wages})
 
 
 class BalancedGrowth(SolowModel):
