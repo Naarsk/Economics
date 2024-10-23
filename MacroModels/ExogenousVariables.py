@@ -3,7 +3,7 @@ import pandas as pd
 
 
 class ExogenousVariables:
-    def __init__(self, labor, hicks_progress, solow_progress, harrod_progress):
+    def __init__(self, labor : np.array, hicks_progress : np.array, solow_progress : np.array, harrod_progress : np.array):
         """
         Initialize an ExogenousVariables object.
 
