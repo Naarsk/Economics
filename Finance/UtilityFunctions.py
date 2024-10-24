@@ -86,7 +86,12 @@ class CRRA(UtilityFunction):
             float
                 The output of the CRRA utility function.
             """
-            return x**(1-gamma)/(1-gamma)
+            if gamma !=1 and gamma >=0:
+                return x**(1-gamma)/(1-gamma)
+            if gamma ==1:
+                return np.log(x)
+            else:
+                raise ValueError('gamma must be greater than 0')
 
         super().__init__(crra, np.array(params))
 
