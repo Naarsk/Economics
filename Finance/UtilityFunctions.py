@@ -1,9 +1,8 @@
 import numdifftools as nd
 import numpy as np
 
-
 class UtilityFunction:
-    def __init__(self, func, params):
+    def __init__(self, func, params : np.ndarray):
         """
         Initialize a UtilityFunction object.
 
@@ -12,7 +11,7 @@ class UtilityFunction:
         func : callable
             A function that takes two arguments (x and params) and returns
             the output of the utility function.
-        params : list
+        params : ndarray
             A list of parameters of the utility function.
 
         Returns
@@ -20,7 +19,7 @@ class UtilityFunction:
         None
         """
         self.func=func
-        self.params=params
+        self.params=np.array(params)
 
     def __call__(self, x):
         """
@@ -39,7 +38,20 @@ class UtilityFunction:
         return self.func(x, self.params)
 
     def absolute_risk_aversion(self, x):
-        return - nd.Derivative(self, order=2)(x)/nd.Derivative(self, order=1)(x)
+        """
+        Calculate the arrow-pratt measure of absolute risk aversion of the utility function at the given value of x.
+
+        Parameters
+        ----------
+        x : float
+            The value of x to calculate the absolute risk aversion of the utility function at.
+
+        Returns
+        -------
+        float
+            The absolute risk aversion of the utility function at x.
+        """
+        return - nd.Derivative(self, n=2)(x)/nd.Derivative(self, n=1)(x)
 
 class CRRA(UtilityFunction):
     def __init__(self, params):
@@ -49,8 +61,8 @@ class CRRA(UtilityFunction):
 
         Parameters
         ----------
-        params : list
-            A list of parameters of the CRRA utility function.
+        params : float
+            The parameter of the CRRA utility function.
 
         Returns
         -------
@@ -76,26 +88,7 @@ class CRRA(UtilityFunction):
             """
             return x**(1-gamma)/(1-gamma)
 
-        super().__init__(crra, params)
-
-
-    def __call__(self, x):
-        """
-        Evaluate the CRRA utility function with the given consumption value and parameters.
-
-        Parameters
-        ----------
-        x : float
-            The consumption value to evaluate the CRRA utility function with.
-
-        Returns
-        -------
-        float
-            The output of the CRRA utility function.
-
-        """
-        return super().__call__([x,])
-
+        super().__init__(crra, np.array(params))
 
 class CARA(UtilityFunction):
     def __init__(self, params):
@@ -106,7 +99,7 @@ class CARA(UtilityFunction):
 
         Parameters
         ----------
-        params : list
+        params : float
             A list of parameters of the CARA utility function.
 
         Returns
@@ -133,21 +126,4 @@ class CARA(UtilityFunction):
             """
             return -np.exp(-alpha*x)
 
-        super().__init__(cara, params)
-
-    def __call__(self, x):
-
-        """
-        Evaluate the CARA utility function with the given consumption value and parameters.
-
-        Parameters
-        ----------
-        x : float
-            The consumption value to evaluate the CARA utility function with.
-
-        Returns
-        -------
-        float
-            The output of the CARA utility function.
-        """
-        return super().__call__([x, ])
+        super().__init__(cara, np.array(params))
