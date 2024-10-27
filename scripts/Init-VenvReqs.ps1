@@ -5,10 +5,10 @@ Set-Location $MyDir\..\
 #########################################################################################
 
 Write-Host " - Init Venv"
-python -m venv venv
+python -m venv .venv
 
 Write-Host " - Activate Venv"
-venv\Scripts\Activate
+.venv\Scripts\Activate
 
 Write-Host " - Upgrade pip"
 python.exe -m pip install --upgrade pip

@@ -15,7 +15,7 @@ Write-Host " - Remove *.egg-info"
 Remove-Item -Recurse -Force *.egg-info -ErrorAction SilentlyContinue
 
 Write-Host " - Remove Python Venv"
-Remove-Item -Recurse -Force venv -ErrorAction SilentlyContinue
+Remove-Item -Recurse -Force .venv -ErrorAction SilentlyContinue
 
 #########################################################################################
 Write-Host "<< $scriptName - Done"
