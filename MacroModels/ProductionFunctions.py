@@ -1,3 +1,7 @@
+import numpy as np
+from scipy.optimize import minimize
+
+
 class ProductionFunction():
     def __init__(self, func, params):
         """
@@ -18,13 +22,13 @@ class ProductionFunction():
         self.func=func
         self.params=params
 
-    def __call__(self, x):
+    def __call__(self, inputs):
         """
         Evaluate the production function with the given variables and parameters.
 
         Parameters
         ----------
-        x : list
+        inputs : list
             A list of the variables to evaluate the production function with.
 
         Returns
@@ -32,7 +36,58 @@ class ProductionFunction():
         float
             The output of the production function.
         """
-        return self.func(x, self.params)
+        return self.func(inputs, self.params)
+
+
+    def cost_function(self, output_level, input_prices):
+        """
+        Calculate the minimum cost to produce a given output level.
+
+        Parameters
+        ----------
+        output_level : float
+            The desired output level of the production function.
+        input_prices : list
+            A list of prices for the inputs to the production function.
+
+        Returns
+        -------
+        float
+            The minimum cost to produce the desired output level."""
+        x0=np.ones(len(input_prices))
+        result=minimize(lambda x: np.dot(x, input_prices), x0=x0, constraints={"type": "ineq", "fun": lambda x: self(x) - output_level})
+
+        if result.success:
+            return result.x
+        else:
+            raise ValueError("Optimization failed.")
+
+    def restricted_cost_function(self, output_level,  input_prices, fixed_inputs : list [bool]):
+
+        """
+        Calculate the restricted cost to produce a given output level.
+
+        Parameters
+        ----------
+        output_level : float
+            The desired output level of the production function.
+        input_prices : list
+            A list of prices for the inputs to the production function.
+        fixed_inputs : list [bool]
+            A list of booleans indicating whether the corresponding input is fixed.
+
+        Returns
+        -------
+        float
+            The restricted cost to produce the desired output level."""
+        x0=np.ones(len(input_prices))
+        arg_func = lambda x: np.dot(np.dot(x, np.diag(fixed_inputs)), input_prices)
+
+        result=minimize(arg_func, x0=x0, constraints={"type": "ineq", "fun": lambda x: self(x) - output_level})
+        if result.success:
+            return result.x
+        else:
+            raise ValueError("Optimization failed.")
 
 
 class CobbDouglas(ProductionFunction):
@@ -72,13 +127,13 @@ class CobbDouglas(ProductionFunction):
 
         super().__init__(func=cobb_douglas, params=[alpha,])
 
-    def __call__(self, x):
+    def __call__(self, inputs):
         """
         Evaluate the production function with the given variables and parameters.
 
         Parameters
         ----------
-        x : list
+        inputs : list
             A list of the variables to evaluate the production function with.
 
         Returns
@@ -86,10 +141,10 @@ class CobbDouglas(ProductionFunction):
         float
             The output of the production function.
         """
-        return super().__call__(x)
+        return super().__call__(inputs)
 
 
-class CES(ProductionFunction):
+class SolowCES(ProductionFunction):
     def __init__(self, sigma, gamma):
         """
         Initialize a CES object.
@@ -128,13 +183,13 @@ class CES(ProductionFunction):
 
         super().__init__(func=ces, params=[sigma,gamma])
 
-    def __call__(self, x):
+    def __call__(self, inputs):
         """
         Evaluate the production function with the given variables and parameters.
 
         Parameters
         ----------
-        x : list
+        inputs : list
             A list of the variables to evaluate the production function with.
 
         Returns
@@ -142,4 +197,77 @@ class CES(ProductionFunction):
         float
             The output of the production function.
         """
-        return super().__call__(x)
+        return super().__call__(inputs)
+
+
+class Logit(ProductionFunction):
+    def __init__(self, beta, func, params):
+        """
+        Initialize a Logit object.
+
+        Parameters
+        ----------
+        beta : float
+            The beta parameter in the Logit production function.
+
+        Returns
+        -------
+        None
+        """
+
+        def logit(x: list[2]):
+            """
+            Evaluate the Logit production function with the given variables and parameters.
+
+            Parameters
+            ----------
+            x : list[2]
+                A list of the variables to evaluate the production function with. The first element
+                is capital, and the second element is labor.
+            Returns
+            -------
+            float
+                The output of the Logit production function.
+            """
+            k = x[0]
+            l = x[1]
+
+            return beta * k + (1 - beta) * l
+
+        super().__init__(logit, params)
+
+
+class CES(ProductionFunction):
+    def __init__(self, rho, weights : list):
+        """
+        Initialize a CES object.
+
+        Parameters
+        ----------
+        rho : float
+            The parameter in the CES production function.
+        weights : list
+            The distribution parameter in the CES production function.
+        Returns
+        -------
+        None
+        """
+        def ces(x: list):
+            """
+            Evaluate the CES production function with the given variables and parameters.
+
+            Parameters
+            ----------
+            x : list
+                A list of the input variables to evaluate the production function with.
+
+            Returns
+            -------
+            float
+                The output of the CES production function.
+            """
+
+
+            return sum(w * x[i]**rho for i, w in enumerate(weights))**(1/rho)
+
+        super().__init__(func=ces, params=[rho,weights])
