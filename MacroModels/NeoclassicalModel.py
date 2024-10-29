@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
-from scipy.optimize import approx_fprime, fsolve
+from scipy.integrate import odeint
+from scipy.optimize import approx_fprime, root_scalar
+from scipy.interpolate import interp1d
 
 from Finance.UtilityFunctions import UtilityFunction
 from MacroModels.ExogenousVariables import ExogenousVariables
@@ -31,12 +33,24 @@ class RamseyModel:
         self.capital[0] = self.starting_capital
         self.consumption[-1] = 0
 
-        def euler_method(x,t):
-            return x+(self.rates_of_return[t]-self.discounting_rate)/self.utility_function.absolute_risk_aversion(x)
+        labor_function = interp1d(self.time,self.labor)
 
-        for t in self.time.__reversed__():
-            self.consumption[t-1] = fsolve(euler_method, self.consumption[t], args=(t-1,))
+        def equations(x, t):
+            c, k = x # consumption, capital
+            r = approx_fprime(np.array([k, labor_function(t)]), self.production_function)[0]  # inflation rate
+            w = approx_fprime(np.array([k, labor_function(t)]), self.production_function)[1]  # wage
+            print(c)
+            e =  self.utility_function.absolute_risk_aversion(float(c)) * c  # elasticity of substitution
+            dc_dt = (r - self.depreciation_rate) * c / e
+            dk_dt = r*k+(w-c)*labor_function(t)
+            return [dc_dt, dk_dt]
 
+        def integrate(c_0_guess):
+            x0 = [self.starting_capital, c_0_guess]
+            sol = odeint(equations, x0, self.time)
+            return sol[:, 1][-1] - self.consumption[-1]
+
+        self.consumption[0] = root_scalar(integrate, x0=0.01).root
 
         for t in self.time[:-1]:
             self.income[t] = self.production_function([ self.capital[t], self.labor[t]])

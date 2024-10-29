@@ -122,7 +122,7 @@ class CobbDouglas(ProductionFunction):
         -------
         None
         """
-        def cobb_douglas(x: list[2]):
+        def cobb_douglas(x: list[2], params: list[float]):
 
             """
             Evaluate the Cobb-Douglas production function with the given variables and parameters.
@@ -139,26 +139,11 @@ class CobbDouglas(ProductionFunction):
             """
             k = x[0]
             l = x[1]
+            alpha = params[0]
 
             return k ** alpha * l ** (1 - alpha)
 
         super().__init__(func=cobb_douglas, params=[alpha,])
-
-    def __call__(self, inputs):
-        """
-        Evaluate the production function with the given variables and parameters.
-
-        Parameters
-        ----------
-        inputs : list
-            A list of the variables to evaluate the production function with.
-
-        Returns
-        -------
-        float
-            The output of the production function.
-        """
-        return super().__call__(inputs)
 
 
 class SolowCES(ProductionFunction):
