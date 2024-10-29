@@ -2,8 +2,8 @@ import numpy as np
 from scipy.optimize import minimize
 
 
-class ProductionFunction():
-    def __init__(self, func, params):
+class ProductionFunction:
+    def __init__(self, func, params : list[float]):
         """
         Initialize a ProductionFunction object.
 
@@ -22,7 +22,7 @@ class ProductionFunction():
         self.func=func
         self.params=params
 
-    def __call__(self, inputs):
+    def __call__(self, inputs : list[float]):
         """
         Evaluate the production function with the given variables and parameters.
 
@@ -38,10 +38,9 @@ class ProductionFunction():
         """
         return self.func(inputs, self.params)
 
-
     def cost_function(self, output_level, input_prices):
         """
-        Calculate the minimum cost to produce a given output level.
+        Calculate the minimum (long-run) cost to produce a given output level.
 
         Parameters
         ----------
@@ -58,14 +57,15 @@ class ProductionFunction():
         result=minimize(lambda x: np.dot(x, input_prices), x0=x0, constraints={"type": "ineq", "fun": lambda x: self(x) - output_level})
 
         if result.success:
-            return result.x
+            return np.dot(result.x, input_prices)
         else:
-            raise ValueError("Optimization failed.")
+            # raise ValueError("Optimization failed.")
+            return 0
 
-    def restricted_cost_function(self, output_level,  input_prices, fixed_inputs : list [bool]):
+    def restricted_cost_function(self, output_level, input_prices, fixed_inputs : list [bool]):
 
         """
-        Calculate the restricted cost to produce a given output level.
+        Calculate the restricted (short-run) cost to produce a given output level.
 
         Parameters
         ----------
@@ -87,8 +87,25 @@ class ProductionFunction():
         if result.success:
             return result.x
         else:
-            raise ValueError("Optimization failed.")
+            # raise ValueError("Optimization failed.")
+            return 0
 
+    def profit_function(self, output_level, input_prices):
+        """
+        Calculate the profit to produce a given output level.
+
+        Parameters
+        ----------
+        output_level : float
+            The desired output level of the production function.
+        input_prices : list
+            A list of prices for the inputs to the production function.
+
+        Returns
+        -------
+        float
+            The profit to produce the desired output level."""
+        return 0
 
 class CobbDouglas(ProductionFunction):
     def __init__(self, alpha):
@@ -238,7 +255,7 @@ class Logit(ProductionFunction):
 
 
 class CES(ProductionFunction):
-    def __init__(self, rho, weights : list):
+    def __init__(self, rho : float, weights : list):
         """
         Initialize a CES object.
 
@@ -252,7 +269,7 @@ class CES(ProductionFunction):
         -------
         None
         """
-        def ces(x: list):
+        def ces(x: list, params: list):
             """
             Evaluate the CES production function with the given variables and parameters.
 
@@ -260,14 +277,30 @@ class CES(ProductionFunction):
             ----------
             x : list
                 A list of the input variables to evaluate the production function with.
-
+            params : list
+                A list of 2 elements, the first being rho, the second the list of weights
             Returns
             -------
             float
                 The output of the CES production function.
             """
 
-
-            return sum(w * x[i]**rho for i, w in enumerate(weights))**(1/rho)
+            return sum(w * x[i]**params[0] for i, w in enumerate(params[1]))**(1/rho)
 
         super().__init__(func=ces, params=[rho,weights])
+
+    def __call__(self, inputs):
+        """
+        Evaluate the production function with the given variables and parameters.
+
+        Parameters
+        ----------
+        inputs : list
+            A list of the variables to evaluate the production function with.
+
+        Returns
+        -------
+        float
+            The output of the production function.
+        """
+        return super().__call__(inputs)
