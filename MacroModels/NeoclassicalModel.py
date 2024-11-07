@@ -39,8 +39,8 @@ class RamseyModel:
             c, k = x # consumption, capital
             r = approx_fprime(np.array([k, labor_function(t)]), self.production_function)[0]  # inflation rate
             w = approx_fprime(np.array([k, labor_function(t)]), self.production_function)[1]  # wage
-            print(c)
-            e =  self.utility_function.absolute_risk_aversion(float(c)) * c  # elasticity of substitution
+            #print(c)
+            e =  float(self.utility_function.absolute_risk_aversion(float(c)) * c)  # elasticity of substitution
             dc_dt = (r - self.depreciation_rate) * c / e
             dk_dt = r*k+(w-c)*labor_function(t)
             return [dc_dt, dk_dt]
@@ -50,7 +50,7 @@ class RamseyModel:
             sol = odeint(equations, x0, self.time)
             return sol[:, 1][-1] - self.consumption[-1]
 
-        self.consumption[0] = root_scalar(integrate, x0=0.01).root
+        self.consumption[0] = root_scalar(integrate, x0=self.starting_capital).root
 
         for t in self.time[:-1]:
             self.income[t] = self.production_function([ self.capital[t], self.labor[t]])
@@ -60,7 +60,8 @@ class RamseyModel:
             self.rates_of_return[t]=self.rental_rates[t]-self.depreciation_rate
 
             self.elasticity[t] = self.utility_function.absolute_risk_aversion(float(self.consumption[t])) * self.consumption[t]
-            self.consumption[t+1] = self.consumption[t]*(1+(self.rates_of_return-self.discounting_rate)/self.elasticity[t])
+
+            self.consumption[t+1] = self.consumption[t]*(1+(self.rates_of_return[t]-self.discounting_rate)/self.elasticity[t])
             self.assets[t+1]=self.rates_of_return*self.assets[t]+self.wages[t]*self.labor[t]-self.consumption[t]*self.labor[t]
 
 

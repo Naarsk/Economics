@@ -95,6 +95,22 @@ class CRRA(UtilityFunction):
 
         super().__init__(crra, np.array(params))
 
+    def absolute_risk_aversion(self, x):
+        """
+        Calculate the absolute risk aversion of the CRRA utility function at the given value of x.
+
+        Parameters
+        ----------
+        x : float
+            The value of x to calculate the absolute risk aversion of the CRRA utility function at.
+
+        Returns
+        -------
+        float
+            The absolute risk aversion of the CRRA utility function at x.
+        """
+        return float(self.params)
+
 class CARA(UtilityFunction):
     def __init__(self, params):
 
