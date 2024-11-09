@@ -1,4 +1,7 @@
+from typing import Any
+
 import numpy as np
+from numpy import ndarray, dtype
 from scipy.optimize import minimize
 
 
@@ -107,6 +110,35 @@ class ProductionFunction:
             The profit to produce the desired output level."""
         return 0
 
+    def gradient(self, inputs : list[float]) -> ndarray[Any, dtype[Any]]:
+        """
+        Evaluate the gradient of the production function with the given variables and parameters.
+
+        Parameters
+        ----------
+        inputs : list
+            A list of the variables to evaluate the production function with.
+
+        Returns
+        -------
+        ndarray
+            The gradient of the production function.
+        """
+        # Convert inputs to a numpy array
+        inputs = np.array(inputs)
+
+        # Compute the gradient using finite differences
+        eps = 1e-6
+        gradient = np.zeros_like(inputs)
+        for i in range(len(inputs)):
+            inputs_plus_eps = inputs.copy()
+            inputs_plus_eps[i] += eps
+            inputs_minus_eps = inputs.copy()
+            inputs_minus_eps[i] -= eps
+            gradient[i] = (self.func(inputs_plus_eps, self.params) - self.func(inputs_minus_eps, self.params)) / (2 * eps)
+
+        return gradient
+
 class CobbDouglas(ProductionFunction):
     def __init__(self, alpha):
 
@@ -132,16 +164,18 @@ class CobbDouglas(ProductionFunction):
             x : list[2]
                 A list of the variables to evaluate the production function with. The first element
                 is capital, and the second element is labor.
+            params : list[float]
+                The parameter alpha in the Cobb-Douglas production function.
             Returns
             -------
             float
                 The output of the Cobb-Douglas production function.
             """
-            k = x[0]
-            l = x[1]
-            alpha = params[0]
-
-            return k ** alpha * l ** (1 - alpha)
+            if params[0] < 0 or params[0] > 1:
+                # raise ValueError("Alpha must be between 0 and 1.")
+                return 0
+            else:
+                return x[0] ** params[0] * x[1] ** (1 - params[0])
 
         super().__init__(func=cobb_douglas, params=[alpha,])
 
