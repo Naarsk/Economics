@@ -42,14 +42,7 @@ class RamseyModel:
 
             r = self.production_function.gradient([k, l])[0] -self.depreciation_rate # rate of return
             w =  self.production_function.gradient([k, l])[1]  # wage
-
-            if c.any() == 0:
-                print('consumption is 0, t=', t)
-                pass
             e =  self.utility_function.absolute_risk_aversion(c) * c  # elasticity of substitution
-            if e.any() == 0:
-                print('elasticity is 0, t=', t)
-                pass
             dc_dt = (r - self.discounting_rate) * c / e
             dk_dt = r * k + (w - c) * l
 

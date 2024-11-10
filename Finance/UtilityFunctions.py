@@ -27,7 +27,7 @@ class UtilityFunction:
 
         Parameters
         ----------
-        x : array
+        x : ndarray
             A list of the variables to evaluate the utility function with.
 
         Returns
@@ -109,7 +109,6 @@ class CRRA(UtilityFunction):
         float
             The absolute risk aversion of the CRRA utility function at x.
         """
-        print(np.array(x))
         return np.array(self.params) / np.array(x)
 
 class CARA(UtilityFunction):
