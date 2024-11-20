@@ -93,6 +93,7 @@ class ProductionFunction:
             # raise ValueError("Optimization failed.")
             return 0
 
+
     def profit_function(self, output_level, input_prices):
         """
         Calculate the profit to produce a given output level.
