@@ -6,3 +6,9 @@ matplotlib
 statsmodels
 numdifftools
 yfinance
+pycodestyle
+coverage
+build
+twine
+notebook
+jupyter
