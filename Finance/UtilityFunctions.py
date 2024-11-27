@@ -111,6 +111,22 @@ class CRRA(UtilityFunction):
         """
         return np.array(self.params) / np.array(x)
 
+    def relative_risk_aversion(self, x=1):
+        """
+        Calculate the relative risk aversion of the CRRA utility function at the given value of x.
+
+        Parameters
+        ----------
+        x : float
+            The value of x to calculate the relative risk aversion of the CRRA utility function at.
+
+        Returns
+        -------
+        float
+            The relative risk aversion of the CRRA utility function at x.
+        """
+        return np.array(self.params)
+
 class CARA(UtilityFunction):
     def __init__(self, params):
 
@@ -149,18 +165,34 @@ class CARA(UtilityFunction):
 
         super().__init__(cara, np.array(params))
 
-    def absolute_risk_aversion(self, x):
+    def absolute_risk_aversion(self, x=1):
         """
-        Calculate the absolute risk aversion of the CRRA utility function at the given value of x.
+        Calculate the absolute risk aversion of the CARA utility function at the given value of x.
 
         Parameters
         ----------
         x : float
-            The value of x to calculate the absolute risk aversion of the CRRA utility function at.
+            The value of x to calculate the absolute risk aversion of the CARA utility function at.
 
         Returns
         -------
         float
-            The absolute risk aversion of the CRRA utility function at x.
+            The absolute risk aversion of the CARA utility function at x.
         """
         return np.array(self.params)
+
+    def relative_risk_aversion(self, x):
+        """
+        Calculate the relative risk aversion of the CARA utility function at the given value of x.
+
+        Parameters
+        ----------
+        x : float
+            The value of x to calculate the relative risk aversion of the CARA utility function at.
+
+        Returns
+        -------
+        float
+            The relative risk aversion of the CARA utility function at x.
+        """
+        return np.array(self.params)*x

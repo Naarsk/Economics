@@ -180,7 +180,6 @@ class CobbDouglas(ProductionFunction):
 
         super().__init__(func=cobb_douglas, params=[alpha,])
 
-
 class SolowCES(ProductionFunction):
     def __init__(self, sigma, gamma):
         """
@@ -236,7 +235,6 @@ class SolowCES(ProductionFunction):
         """
         return super().__call__(inputs)
 
-
 class Logit(ProductionFunction):
     def __init__(self, beta, func, params):
         """
@@ -272,7 +270,6 @@ class Logit(ProductionFunction):
             return beta * k + (1 - beta) * l
 
         super().__init__(logit, params)
-
 
 class CES(ProductionFunction):
     def __init__(self, rho : float, weights : list):
@@ -324,3 +321,39 @@ class CES(ProductionFunction):
             The output of the production function.
         """
         return super().__call__(inputs)
+
+class Inelastic(ProductionFunction):
+    def __init__(self, alpha : float, weights : list):
+        """
+        Initialize a CES object.
+
+        Parameters
+        ----------
+        alpha : float
+            The parameter in the CES production function.
+        weights : list
+            The distribution parameter in the CES production function.
+        Returns
+        -------
+        None
+        """
+        def inelastic(x: list, params: list):
+            """
+            Evaluate the inelastic production function with the given variables and parameters.
+
+            Parameters
+            ----------
+            x : list
+                A list of the input variables to evaluate the production function with.
+            params : list
+                A list of 2 elements, the first being alpha, the second the list of weights
+            Returns
+            -------
+
+            """
+            if len(x) == len(params[1]):
+                return (min(x * params[1]))**params[0]
+            else:
+                raise ValueError("x and weights must have the same length.")
+
+        super().__init__(func=inelastic, params=[alpha,weights])
