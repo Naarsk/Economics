@@ -173,8 +173,8 @@ class CobbDouglas(ProductionFunction):
                 The output of the Cobb-Douglas production function.
             """
             if params[0] < 0 or params[0] > 1:
-                # raise ValueError("Alpha must be between 0 and 1.")
-                return 0
+                raise ValueError("Alpha must be between 0 and 1.")
+                # return 0
             else:
                 return x[0] ** params[0] * x[1] ** (1 - params[0])
 

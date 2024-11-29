@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
-from scipy.integrate import solve_bvp
-from scipy.interpolate import interp1d
+import scipy
+from Demos.SystemParametersInfo import new_value
 
 from Finance.UtilityFunctions import UtilityFunction
 from MacroModels.ExogenousVariables import ExogenousVariables
@@ -25,42 +25,80 @@ class RamseyModel:
         self.rates_of_return = np.zeros(time_horizon)
         self.wages = np.zeros(time_horizon)
         self.income = np.zeros(time_horizon)
-        self.consumption = np.zeros(time_horizon)
+        self.consumption =  0.0001*np.ones(time_horizon)
         self.time = range(time_horizon)
         self.elasticity = np.zeros(time_horizon)
 
+        self.n_points = 3
+        self.explore = 0.8
+
     def __call__(self):
+        """
+        Solves the Ramsey model using Value Function Iteration (VFI).
 
-        n_steps = 5
-        t= np.linspace(0.0001, self.time[-1], len(self.time)*n_steps)
-        labor_function = interp1d(self.time,self.labor)
+        Bellman equation:
+        V(k)=max_{c} (f(k,c) + 1/(1+rho) * V(g(k,c))
 
-        # Define the function that returns the derivatives
-        def fun(t, y):
-            k, c = y
-            l = labor_function(t)
+        where:
+        f(k_t,c_t) = L_t u(c_t)
+        k_{t+1} = g(k_t,c_t) = (r+1)*k_t + (w_t- c_t)*l_t
+        c_{t+1} = (1+(r_t-rho)/ e(c_t))*c_t
 
-            r = self.production_function.gradient([k, l])[0] -self.depreciation_rate # rate of return
-            w =  self.production_function.gradient([k, l])[1]  # wage
-            e =  self.utility_function.absolute_risk_aversion(c) * c  # elasticity of substitution
-            dc_dt = (r - self.discounting_rate) * c / e
-            dk_dt = r * k + (w - c) * l
+        with:
+        r_t = F'_k(k_t,l_t) - delta
+        w_t = F'_l(k_t,l_t)
 
-            return [dk_dt, dc_dt]
+        and:
+        e elasticity
+        rho discounting rate
+        delta depreciation rate
 
-        # Define the boundary conditions
-        def bc(ya, yb):
-            return np.array([ya[0] - self.starting_capital,  # k(0) = self.starting_capital
-                             yb[1]])  # c(time_horizon) = 0
+        subject to:
+        k_0 given
+        c_T = 0
 
-        # Define the initial guess for the solution
-        def init_guess(t):
-            return np.ones((2, len(t)))*self.starting_capital
+        so V(k_T)= max_c(L_T u(0) 1/(1+rho) * V(g(k,c))
+        """
 
-        sol = solve_bvp(fun, bc, t, init_guess(t))
+        def bellman_equation(c: float, k: float, v: callable, u: callable, params: list):
+            # Model parameters
+            beta, r, w, l = params
 
-        self.consumption[0] = sol.sol(0)[1]
-        self.capital[0] = self.starting_capital
+            # Calculate next period's utility
+            V_prime = u(c) + beta * v(k * (1 - r) + l * (w - c))  # assume V is a function of k' and a
+
+            # return discounted next period's utility
+
+            return V_prime
+
+        def vfi(params, grid_k, grid_c, max_iter=1000, tol=1e-6):
+
+            grid_V = np.zeros(len(grid_k))  # initialize value function
+
+            for i in range(max_iter):
+                delta_V = 0
+                for k_idx, k in enumerate(grid_k):
+
+                    discounted_value = np.zeros(len(grid_c))
+                    V = lambda k: np.interp(k, grid_k, grid_V)
+
+                    for c_idx, c in enumerate(grid_c):
+                        # Calculate expected value using Bellman equation
+                        discounted_value[c_idx] = bellman_equation(k, c, V, self.utility_function, params)
+
+                    v_max = np.max(discounted_value)
+
+                    delta_V = np.max([delta_V, np.abs(v_max - grid_V[k_idx])])
+
+                    grid_V[k_idx] = v_max  # update value function
+
+                if delta_V < tol:
+                    print("converged")
+                    break
+
+            return grid_V
+
+
 
         for t in self.time[:-1]:
 
