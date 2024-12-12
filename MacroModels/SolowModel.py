@@ -92,6 +92,7 @@ class SolowModel:
         self.income_per_cap[-1] = self.income[-1] / self.labor[-1]
         self.capital_per_cap[-1] = self.capital[-1] / self.labor[-1]
         self.rental_rates[-1] = approx_fprime(np.array([self.capital[-1], self.labor[-1]]), self.production_function)[0]
+
         self.wages[-1] = approx_fprime(np.array([self.capital[-1], self.labor[-1]]), self.production_function)[1]
 
         return pd.DataFrame({'time': self.time, 'capital': self.capital, 'labor': self.labor, 'income': self.income,

@@ -1,7 +1,5 @@
 import numpy as np
 import pandas as pd
-import scipy
-from Demos.SystemParametersInfo import new_value
 
 from Finance.UtilityFunctions import UtilityFunction
 from MacroModels.ExogenousVariables import ExogenousVariables
