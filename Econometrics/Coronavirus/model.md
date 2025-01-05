@@ -38,7 +38,8 @@ $$ V_{t+1} = \beta_0 + \beta_1 V_t,$$
 where:
 $$\beta_0 = \frac{r \epsilon}{K}, \quad \beta_1=  r\epsilon.$$
 
+Estimate 
 
 % \dot V(t) = -r\epsilon\, \left(V_0-K^{-1}\right)e^{-r\epsilon t} 
 
-For P-0 consider the stationsry distribution as t_> infty and estimate t* as an average with that distribution
+For P-0 consider the stationary distribution as t_> infty and estimate t* as an average with that distribution
