@@ -2,144 +2,63 @@
 %! Date = 04/01/2025
 
 % Preamble
-\documentclass[11pt]{article}
+\documentclass[12pt]{article}
 
 % Packages
+\usepackage[top=1in, bottom=1.2in, left=1in, right=1in]{geometry}
 \usepackage{amsmath}
 \usepackage{upgreek}
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+
 
 % Document
 \begin{document}
     \section{Model}
-My first try was with the following differential equation
+    My first try was with the following differential equation
 
-$$\frac{dN}{dt} = r N \left(1-\frac{N}{K}\right), \quad N(0)=N_0$$
+    $$\frac{dN}{dt} = r N \left(1-\frac{N}{K}\right), \quad N(0)=N_0$$
 
-Which admits the following solution:
+    Which admits the following solution:
 
-$$N(t) = \frac{K}{1+ \left(\frac{K-P_0}{P_0}\right) e^{-rt}}$$
+    $$N(t) = \frac{K}{1+ \left(\frac{K-P_0}{P_0}\right) e^{-rt}}$$
 
-That has a flex (i.e. the max of its derivative) in:
-$$ t^* = \frac{1}{r}\ln \left(\frac{K-P_0}{P_0}\right)$$
+    That has a flex (i.e. the max of its derivative) in:
+    $$ t^* = \frac{1}{r}\ln \left(\frac{K-P_0}{P_0}\right)$$
 
-To use a linear regression, the differential equation can be discretized into:
-$$ N_{t+1} = \alpha_1 N_t + \alpha_2 N_{t}^2$$
+    To use a linear regression, the differential equation can be discretized into:
+    $$ N_{t+1} = \alpha_1 N_t + \alpha_2 N_{t}^2$$
 
-So the parameter can be found using:
-$$ r = \alpha_1-1, \quad K= \frac{1-\alpha_1}{\alpha_2}, \quad P_0 = 1$$
+    So the parameter can be found using:
+    $$ r = \alpha_1-1, \quad K= \frac{1-\alpha_1}{\alpha_2}, \quad P_0 = 1$$
 
-Recently, I found that:
-\begin{equation}
-    N_{t+1} = \alpha_1 N_t + \alpha_2 N_{t}^{1 + \varepsilon}
-\end{equation}
-
-With $\varepsilon \in (0,1)$ would work much better to reproduce the right-hand skewdness of the contagion curve.
-
-This equation too has a close form solution, being a Bernoulli differential equation:
-$$V = N^{-\epsilon}, \qquad \frac{\dot V}{V} = -r \epsilon \frac{\dot N}{N}, \quad \Rightarrow \quad \dot V = -r\epsilon V + \frac{r\epsilon}{K}. $$
-Which has close form solution:
-$$ V(t) = K^{-1} + \left(V_0-K^{-1}\right)e^{-r\epsilon t} \quad \Rightarrow \quad N(t)=\frac{1}{\left(K^{-1} + \left(N_0^{-\epsilon}-K^{-1}\right)e^{-r\epsilon t}\right)^\epsilon}\,.$$
-
-The maximum of its derivative is determined by solving:
-$$ \ddot N = -\frac{V^{-\frac{1+\epsilon}{\epsilon}}}{\epsilon} \left(\ddot V -\frac{1+\epsilon}{\epsilon} \frac{\dot V ^2}{V}\right)$$
-
-Where:
-$$ \dot V = -r\epsilon\left(V_0-K^{-1}\right)e^{-r\epsilon t}, \qquad \ddot V = (r\epsilon)^2 \left(V_0-K^{-1}\right)e^{-r\epsilon t}. $$
-
-In terms of finite differences:
-$$ V_{t+1} = \beta_0 + \beta_1 V_t,$$
-where:
-$$\beta_0 = \frac{r \epsilon}{K}, \quad \beta_1=  r\epsilon.$$
-
-\section{Estimation}
-    Let's consider:
+    Recently, I found that:
     \begin{equation}
-        N_{t} = \alpha_1 N_{t-1} + \alpha_2 N_{t-1}^{1 + \varepsilon} + U_t
+        N_{t+1} = \alpha_1 N_t + \alpha_2 N_{t}^{1 + \varepsilon}\label{eq:equation0}
     \end{equation}
-    For a dataset of size $T$. We use GMM estimation:
-    let's assume $U_t$ is exogenous to $N_{t-1}$ and $N_{t-2}$ every period:
-    \begin{equation}
-        E[U_t|N_{t-2}, N_{t-1}] = 0
-    \end{equation}
-    Which implies the following unconditional moment restriction:
-    \begin{equation}
-        E \, \begin{bmatrix} 1  \\ N_{t-1} \\ N_{t-2} \end{bmatrix} U_t = 0
-    \end{equation}
-    In canonical form:
-     \begin{equation}
-        E \, g(N_{t-2}, N_{t-1}, N_t, \theta) = 0,
-    \end{equation}
+
+    With $\varepsilon \in (0,1)$ would work much better to reproduce the right-hand skewdness of the contagion curve.
+
+    This equation too has a close form solution, being a Bernoulli differential equation:
+    $$V = N^{-\epsilon}, \qquad \frac{\dot V}{V} = -r \epsilon \frac{\dot N}{N}, \quad \Rightarrow \quad \dot V = -r\epsilon V + \frac{r\epsilon}{K}. $$
+    Which has close form solution:
+    $$ V(t) = K^{-1} + \left(V_0-K^{-1}\right)e^{-r\epsilon t} \quad \Rightarrow \quad N(t)=\frac{1}{\left(K^{-1} + \left(N_0^{-\epsilon}-K^{-1}\right)e^{-r\epsilon t}\right)^\epsilon}\,.$$
+
+    The maximum of its derivative is determined by solving:
+    $$ \ddot N = -\frac{V^{-\frac{1+\epsilon}{\epsilon}}}{\epsilon} \left(\ddot V -\frac{1+\epsilon}{\epsilon} \frac{\dot V ^2}{V}\right)$$
+
     Where:
-    \begin{equation}
-        g(N_{t-2}, N_{t-1}, N_t, \theta) =  \begin{bmatrix} 1 \\ N_{t-1} \\ N_{t-2}  \end{bmatrix} \left( N_{t} - \alpha_1 N_{t-1} - \alpha_2 N_{t-1}^{1 + \varepsilon} \right), \qquad \theta = \begin{bmatrix}
-        \alpha_1 \\ \alpha_2 \\ \varepsilon \end{bmatrix}
-    \end{equation}
-    Bookkeeping:
-    \begin{itemize}
-        \item The estimator is just identified:
-        \begin{equation}
-            \dim \theta = \dim g = 3
-        \end{equation}
-        \item Function $g$ is non-linear in the parameters.
-        \item Its Jacobian is:
-        \begin{equation}
-            D(\theta)= \frac{\partial g}{\partial \theta} =
-            \begin{bmatrix}
-                \frac{\partial g}{\partial \alpha_1} & \frac{\partial g}{\partial \alpha_2} & \frac{\partial g}{\partial \varepsilon}
-            \end{bmatrix} = -
-            \begin{bmatrix}
-                N_{t-1} & N_{t-1}^{1+\varepsilon} & \alpha_2 N_{t-1}^{1+\varepsilon} \ln N_{t-1} \\
-                N_{t-1}^{2} & N_{t-1}^{2+\varepsilon} & \alpha_2 N_{t-1}^{2+\varepsilon} \ln N_{t-1}\\
-                N_{t-1} N_{t-2} & N_{t-1}^{1+\varepsilon} N_{t-2} & \alpha_2 N_{t-1}^{1+\varepsilon} N_{t-2} \ln N_{t-1}
-            \end{bmatrix}
-        \end{equation}
-    \end{itemize}
-    The estimator $\hat \theta$ is the minimizer:
-    \begin{equation}
-        \hat \theta = \arg \min_{\theta} \, E g(N_{t-2}, N_{t-1}, N_t, \theta)  \, S \, E g^T(N_{t-2}, N_{t-1}, N_t, \theta)
-    \end{equation}
-    for some weighting matrix $S$.
+    $$ \dot V = -r\epsilon\left(V_0-K^{-1}\right)e^{-r\epsilon t}, \qquad \ddot V = (r\epsilon)^2 \left(V_0-K^{-1}\right)e^{-r\epsilon t}. $$
 
+    In terms of finite differences:
+    $$ V_{t+1} = \beta_0 + \beta_1 V_t,$$
+    where:
+    $$\beta_0 = \frac{r \epsilon}{K}, \quad \beta_1=  r\epsilon.$$
 
-    \paragraph{Numerical procedure}:
-    \begin{enumerate}
-        \item Start by generating a random weighting matrix $S_0$.
-        \item Make a $3\times 3$ grid of values for the parameters $(\alpha_1, \alpha_2, \varepsilon)$.
-        \item Compute the sample equivalent of $m(\theta)=E g(N_t, N_{t+1}, \theta)$ for all points in the grid.
-        \item Take $\hat \theta^{(1)}$ for which the target function $E g(N_t, N_{t+1}, \theta)  \, S \, E g^T(N_t, N_{t+1}, \theta)$ is minimum.
-        \item Estimate the variance as the sample equivalent of $E g(N_t, N_{t+1}, \theta)  \, g^T(N_t, N_{t+1}, \theta)$ for $\theta = \hat \theta(1)$:
-        \begin{equation}
-            \hat V^{(1)}  = \frac{1}{T-1} \sum_{t=1}^{T-1} g(N_t, N_{t+1}, \hat \theta^{(1)}) g^T(N_t, N_{t+1}, \hat \theta^{(1)})
-        \end{equation}
-        \item Define a new weighting matrix $S^{(1)} = \left( \hat V^{(1)} \right)^{-1}$.
-        \item Iterate until convergence, i.e., until $\left \vert \hat \theta^{(t+1)} - \hat \theta^{(t)} \right \vert_{i} < \Delta$ for each component $i=1,2,3$.
-        \item Try with different starting matrices $S_0$ and different grids $(\alpha_1, \alpha_2, \varepsilon)$.
-    \end{enumerate}
-Or:
-  \begin{enumerate}
-        \item Start by generating a random weighting matrix $S_0$.
-        \item Numerically solve the FOCs for $\theta$:
-        \begin{equation}
-            \hat D(\theta) \, S_0 \, \hat m (\theta) = 0
-        \end{equation}
-         the resulting $\hat \theta^{(1)}$ minimize the target function $E m\theta)  \, S \, m(\theta)$.
-        \item Estimate the variance as the sample equivalent of $E g(N_t, N_{t+1}, \theta)  \, g^T(N_t, N_{t+1}, \theta)$ for $\theta = \hat \theta(1)$:
-        \begin{equation}
-            \hat V^{(1)}  = \frac{1}{T-1} \sum_{t=1}^{T-1} g(N_t, N_{t+1}, \hat \theta^{(1)}) g^T(N_t, N_{t+1}, \hat \theta^{(1)})
-        \end{equation}
-        \item Define a new weighting matrix $S^{(1)} = \left( \hat V^{(1)} \right)^{-1}$.
-        \item Iterate until convergence, i.e., until $\left \vert \hat \theta^{(t+1)} - \hat \theta^{(t)} \right \vert_{i} < \Delta$ for each component $i=1,2,3$.
-        \item Try with different starting matrices $S_0$ and different grids $(\alpha_1, \alpha_2, \varepsilon)$.
-    \end{enumerate}
+    \section{Estimation 1}\label{sec:estimation}
+    \input{Estimation}
 
-
-
-
-
-
-% \dot V(t) = -r\epsilon\, \left(V_0-K^{-1}\right)e^{-r\epsilon t}
-
-For P-0 consider the stationary distribution as $t \to \infty $ and estimate t* as an average with that distribution
 
 
 \end{document}
