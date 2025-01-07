@@ -1,6 +1,9 @@
 import numpy as np
 import pandas as pd
 
+from Econometrics.Coronavirus.code.read_data import dta
+
+
 def mean_func(params, data):
     N_t, N_t_1, N_t_2 = data
     alpha_1, alpha_2, epsilon = params
@@ -21,7 +24,7 @@ def mean_var(params, data):
     if len(N_t) == len(N_t_1) == len(N_t_2):
         U_t = N_t - alpha_1 * N_t_1 - alpha_2 * N_t_1 ** (1 + epsilon)
         U_t_sq = np.multiply(U_t, U_t)
-        N_t_1_sq = np.multiply(U_t, U_t)
+        N_t_1_sq = np.multiply(N_t_1, N_t_1)
         N_t_2_sq = np.multiply(N_t_2, N_t_2)
         N_t_cross = np.multiply(N_t_1,N_t_2)
 
@@ -29,7 +32,7 @@ def mean_var(params, data):
         v12 = np.average(np.multiply(U_t_sq, N_t_1))
         v13 = np.average(np.multiply(U_t_sq, N_t_2))
         v22 = np.average(np.multiply(U_t_sq, N_t_1_sq))
-        v23 = np.average(np.multiply(N_t_1, N_t_cross))
+        v23 = np.average(np.multiply(U_t_sq, N_t_cross))
         v33 = np.average(np.multiply(U_t_sq, N_t_2_sq))
     else:
         raise ValueError("N_t, N_t_1, N_t_2 must have the same length.")
@@ -55,30 +58,18 @@ def mean_jac(params, data):
         raise ValueError("N_t, N_t_1, N_t_2 must have the same length.")
     return np.matrix([[d11, d12, d13],[d21, d22, d23],[d31, d32, d33]])
 
-
-df= pd.read_csv('../WHO-COVID-19-global-daily-data.csv')
-start_date = '2020-02-15'
-end_date = '2020-07-15'
-italy_df = df[(df['Country'] == 'Italy') &
-              (df['Date_reported'] >= start_date) &
-              (df['Date_reported'] <= end_date)]
-dta=pd.DataFrame(italy_df['New_cases'].fillna(0))
-dta.insert(1, 'New_cases_lag_1', dta['New_cases'].shift(1).fillna(0))
-dta.insert(2, 'New_cases_lag_2', dta['New_cases'].shift(2).fillna(0))
-dta.insert(3, 'New_cases_lag_3', dta['New_cases'].shift(3).fillna(0))
-
 data = np.asarray(dta[['New_cases', 'New_cases_lag_1', 'New_cases_lag_2']][10:])
 
 theta = np.array([6.2, -5.4, 0.01])
 
 m=mean_func(theta, data.T)
 d=mean_jac(theta, data.T)
-v=mean_jac(theta, data.T)
+v=mean_var(theta, data.T)
 s = np.linalg.inv(v)
 
-alpha_1_grid = np.linspace(1, 15, 37)
-alpha_2_grid = np.linspace(-0.0, -10, 37)
-epsilon_grid = np.linspace(0.0, 0.4, 37)
+alpha_1_grid = np.linspace(1, 15, 47)
+alpha_2_grid = np.linspace(-0.0, -10, 47)
+epsilon_grid = np.linspace(0.0, 0.001, 47)
 
 delta_min = 10**(-3)
 S = s

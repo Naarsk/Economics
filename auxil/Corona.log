@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.3)  6 JAN 2025 17:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.3)  6 JAN 2025 18:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -293,9 +293,11 @@ Package pdftex.def Info: plots/epsilon_0.0001.png  used on input line 39.
 [2 <./plots/epsilon_1.png> <./plots/epsilon_0.1.png> <./plots/epsilon_0.01.png>
  <./plots/epsilon_0.001.png> <./plots/epsilon_0.0001.png>]
 
-[3])
+[3]
 
-[4] (C:/Users\leocr\Projects\Economics\auxil\Corona.aux)
+[4])
+
+[5] (C:/Users\leocr\Projects\Economics\auxil\Corona.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
@@ -323,10 +325,10 @@ sers/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pf
 b><C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmsy8.pfb>
-Output written on C:/Users\leocr\Projects\Economics\out\Corona.pdf (4 pages, 25
-6768 bytes).
+Output written on C:/Users\leocr\Projects\Economics\out\Corona.pdf (5 pages, 25
+9450 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

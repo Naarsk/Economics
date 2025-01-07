@@ -8,13 +8,13 @@
         \centering
         \begin{tabular}{lll}
             $\epsilon$ & $\beta_0$ & $\beta_1$ \\ \hline
-            1      & 5,61E-04 & 7,31E-01 \\
-            0.1    & 2,93E-02 & 9,42E-01 \\
-            0.01   & 4,54E-02 & 9,51E-01 \\
-            0.005  & 4,65E-02 & 9,52E-01 \\
-            0.001  & 4,74E-02 & 9,52E-01 \\
-            0.0005 & 4,75E-02 & 9,52E-01 \\
-            0.0001 & 4,76E-02 & 9,52E-01
+            1      & 5.61E-04 & 7.31E-01 \\
+            0.1    & 2.93E-02 & 9.42E-01 \\
+            0.01   & 4.54E-02 & 9.51E-01 \\
+            0.005  & 4.65E-02 & 9.52E-01 \\
+            0.001  & 4.74E-02 & 9.52E-01 \\
+            0.0005 & 4.75E-02 & 9.52E-01 \\
+            0.0001 & 4.76E-02 & 9.52E-01
         \end{tabular}
     \end{table}
     \begin{figure}[h!]
@@ -96,6 +96,33 @@
         \hat \theta = \arg \min_{\theta} \, E g^T(N_{t-2}, N_{t-1}, N_t, \theta)  \, S \, E g(N_{t-2}, N_{t-1}, N_t, \theta)
     \end{equation}
     for some weighting matrix $S$.
+    Result:
+    \begin{equation}
+        \theta =  \begin{bmatrix}
+        8.00 &-6.95 &  8.69 \,e-04
+        \end{bmatrix}     \end{equation}
+
+
+    \subsection{Case 2}
+    Let's assume that $U_t$ is exogenous to $N_{t-1}$ every period:
+    \begin{equation}
+        E[U_t|N_{t-1}] = 0
+    \end{equation}
+    Which implies the following unconditional moment restriction:
+    \begin{equation}
+        E \, \begin{bmatrix} 1  \\ N_{t-1} \\ N^{\epsilon}_{t-1} \end{bmatrix} U_t = 0
+    \end{equation}
+    In canonical form:
+     \begin{equation}
+        E \, g(N_{t-1}, N^{\epsilon}_{t-1}, N_t, \theta) = 0,
+    \end{equation}
+    This time we find:
+    \begin{equation}
+        \theta =  \begin{bmatrix}
+        8.00 &-6.95 &  8.69 \,e-04
+        \end{bmatrix}
+    \end{equation}
+
 
     \subsection{Numerical procedure}
     \subsubsection{Try 1}
