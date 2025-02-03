@@ -6,10 +6,10 @@ end_date = '2020-07-15'
 italy_df = df[(df['Country'] == 'Italy') &
               (df['Date_reported'] >= start_date) &
               (df['Date_reported'] <= end_date)]
-dta=pd.DataFrame(italy_df['New_cases'].fillna(0))
-dta.insert(1, 'New_cases_lag_1', dta['New_cases'].shift(1).fillna(0))
-dta.insert(2, 'New_cases_lag_2', dta['New_cases'].shift(2).fillna(0))
-dta.insert(3, 'New_cases_lag_3', dta['New_cases'].shift(3).fillna(0))
+dta=pd.DataFrame(italy_df['Cumulative_cases'].fillna(0))
+dta.insert(1, 'Cumulative_cases_lag_1', dta['Cumulative_cases'].shift(1).fillna(0))
+dta.insert(2, 'Cumulative_cases_lag_2', dta['Cumulative_cases'].shift(2).fillna(0))
+dta.insert(3, 'Cumulative_cases_lag_3', dta['Cumulative_cases'].shift(3).fillna(0))
 
 # Export the DataFrame to a Stata .dta file.
 dta.to_stata('../data/italy_data.dta', write_index=False)

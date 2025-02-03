@@ -37,7 +37,7 @@ def mean_var(params, data):
 
 
 
-data = np.asarray(dta[['New_cases', 'New_cases_lag_1']][10:])
+data = np.asarray(dta[['Cumulative_cases', 'Cumulative_cases_lag_1']][10:])
 
 theta = np.array([6.2, -5.4, 0.01])
 
@@ -45,11 +45,12 @@ m=mean_func(theta, data.T)
 v=mean_var(theta, data.T)
 s = np.linalg.inv(v)
 
-alpha_1_grid = np.linspace(1, 15, 47)
-alpha_2_grid = np.linspace(-0.0, -10, 47)
-epsilon_grid = np.linspace(0.0, 0.001, 47)
+alpha_1_grid = np.linspace(3.5, 4.5, 47)
+alpha_2_grid = np.linspace(-2.5, -3, 47)
+epsilon_grid = np.linspace(0.02, 0.03, 47)
 
 delta_min = 10**(-3)
+
 S = s
 count = 0
 delta = 1

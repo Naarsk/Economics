@@ -1,0 +1,114 @@
+ \subsection{GMM Regression of full model}
+    Let's consider the model:
+    \begin{equation}
+        N_{t} = \alpha_1 N_{t-1} + \alpha_2 N_{t-1}^{1 + \varepsilon} + U_t\label{eq:equation1}
+    \end{equation}
+    For a dataset of size $T$. We use GMM estimation, and since we have $3$ parameters, we need to use at least 3 moment conditions.
+    We consider different UCMR:
+    \begin{itemize}
+        \item Assuming $U_t$ is orthogonal to $N_{t-1}$ and $N_{t-2}$ every period.
+        \item Assuming $U_t$ is orthogonal to $N_{t-1}$ and $N^{\varepsilon}_{t-1}$ every period.
+    \end{itemize}
+
+    \subsection{Case 1}
+    Let's assume that $U_t$ is exogenous to $N_{t-1}$ and $N_{t-2}$ every period:
+    \begin{equation}
+        E[U_t|N_{t-2}, N_{t-1}] = 0
+    \end{equation}
+    Which implies the following unconditional moment restriction:
+    \begin{equation}
+        E \, \begin{bmatrix} 1  \\ N_{t-1} \\ N_{t-2} \end{bmatrix} U_t = 0
+    \end{equation}
+    In canonical form:
+     \begin{equation}
+        E \, g(N_{t-2}, N_{t-1}, N_t, \theta) = 0,
+    \end{equation}
+    Where:
+    \begin{equation}
+        g(N_{t-2}, N_{t-1}, N_t, \theta) =  \begin{bmatrix} 1 \\ N_{t-1} \\ N_{t-2}  \end{bmatrix} \left( N_{t} - \alpha_1 N_{t-1} - \alpha_2 N_{t-1}^{1 + \varepsilon} \right), \qquad \theta = \begin{bmatrix}
+        \alpha_1 \\ \alpha_2 \\ \varepsilon \end{bmatrix}
+    \end{equation}
+    Bookkeeping:
+    \begin{itemize}
+        \item The estimator is just identified:
+        \begin{equation}
+            \dim \theta = \dim g = 3
+        \end{equation}
+        \item Function $g$ is non-linear in the parameters.
+        \item Its Jacobian is:
+        \begin{equation}
+            D(\theta)= \frac{\partial g}{\partial \theta} =
+            \begin{bmatrix}
+                \frac{\partial g}{\partial \alpha_1} & \frac{\partial g}{\partial \alpha_2} & \frac{\partial g}{\partial \varepsilon}
+            \end{bmatrix} = -
+            \begin{bmatrix}
+                N_{t-1} & N_{t-1}^{1+\varepsilon} & \alpha_2 N_{t-1}^{1+\varepsilon} \ln N_{t-1} \\
+                N_{t-1}^{2} & N_{t-1}^{2+\varepsilon} & \alpha_2 N_{t-1}^{2+\varepsilon} \ln N_{t-1}\\
+                N_{t-1} N_{t-2} & N_{t-1}^{1+\varepsilon} N_{t-2} & \alpha_2 N_{t-1}^{1+\varepsilon} N_{t-2} \ln N_{t-1}
+            \end{bmatrix}
+        \end{equation}
+    \end{itemize}
+    The estimator $\hat \theta$ is the minimizer:
+    \begin{equation}
+        \hat \theta = \arg \min_{\theta} \, E g^T(N_{t-2}, N_{t-1}, N_t, \theta)  \, S \, E g(N_{t-2}, N_{t-1}, N_t, \theta)
+    \end{equation}
+    for some weighting matrix $S$.
+    Result:
+    \begin{equation}
+        \theta =  \begin{bmatrix}
+        8.00 &-6.95 &  8.69 \,e-04
+        \end{bmatrix}     \end{equation}
+
+
+    \subsection{Case 2}
+    Let's assume that $U_t$ is exogenous to $N_{t-1}$ every period:
+    \begin{equation}
+        E[U_t|N_{t-1}] = 0
+    \end{equation}
+    Which implies the following unconditional moment restriction:
+    \begin{equation}
+        E \, \begin{bmatrix} 1  \\ N_{t-1} \\ N^{\varepsilon}_{t-1} \end{bmatrix} U_t = 0
+    \end{equation}
+    In canonical form:
+     \begin{equation}
+        E \, g(N_{t-1}, N^{\varepsilon}_{t-1}, N_t, \theta) = 0,
+    \end{equation}
+    This time we find:
+    \begin{equation}
+        \theta =  \begin{bmatrix}
+        8.00 &-6.95 &  8.69 \,e-04
+        \end{bmatrix}
+    \end{equation}
+
+
+    \subsection{Numerical procedure}
+    \subsubsection{Try 1}
+    \begin{enumerate}
+        \item Start by generating a random weighting matrix $S_0$.
+        \item Make a $3\times 3$ grid of values for the parameters $(\alpha_1, \alpha_2, \varepsilon)$.
+        \item Compute the sample equivalent of $m(\theta)=E g(N_t, N_{t+1}, \theta)$ for all points in the grid.
+        \item Take $\hat \theta^{(1)}$ for which the target function $E g(N_t, N_{t+1}, \theta)  \, S \, E g^T(N_t, N_{t+1}, \theta)$ is minimum.
+        \item Estimate the variance as the sample equivalent of $E g(N_t, N_{t+1}, \theta)  \, g^T(N_t, N_{t+1}, \theta)$ for $\theta = \hat \theta(1)$:
+        \begin{equation}
+            \hat V^{(1)}  = \frac{1}{T-1} \sum_{t=1}^{T-1} g(N_t, N_{t+1}, \hat \theta^{(1)}) g^T(N_t, N_{t+1}, \hat \theta^{(1)})
+        \end{equation}
+        \item Define a new weighting matrix $S^{(1)} = \left( \hat V^{(1)} \right)^{-1}$.
+        \item Iterate until convergence, i.e., until $\left \vert \hat \theta^{(t+1)} - \hat \theta^{(t)} \right \vert_{i} < \Delta$ for each component $i=1,2,3$.
+        \item Try with different starting matrices $S_0$ and different grids $(\alpha_1, \alpha_2, \varepsilon)$.
+    \end{enumerate}
+    \subsubsection{Try 2}
+    \begin{enumerate}
+        \item Start by generating a random weighting matrix $S_0$.
+        \item Numerically solve the FOCs for $\theta$:
+        \begin{equation}
+            \hat D(\theta) \, S_0 \, \hat m (\theta) = 0
+        \end{equation}
+         the resulting $\hat \theta^{(1)}$ minimize the target function $E m\theta)  \, S \, m(\theta)$.
+        \item Estimate the variance as the sample equivalent of $E g(N_t, N_{t+1}, \theta)  \, g^T(N_t, N_{t+1}, \theta)$ for $\theta = \hat \theta(1)$:
+        \begin{equation}
+            \hat V^{(1)}  = \frac{1}{T-1} \sum_{t=1}^{T-1} g(N_t, N_{t+1}, \hat \theta^{(1)}) g^T(N_t, N_{t+1}, \hat \theta^{(1)})
+        \end{equation}
+        \item Define a new weighting matrix $S^{(1)} = \left( \hat V^{(1)} \right)^{-1}$.
+        \item Iterate until convergence, i.e., until $\left \vert \hat \theta^{(t+1)} - \hat \theta^{(t)} \right \vert_{i} < \Delta$ for each component $i=1,2,3$.
+        \item Try with different starting matrices $S_0$ and different grids $(\alpha_1, \alpha_2, \varepsilon)$.
+    \end{enumerate}

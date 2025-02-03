@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.3)  3 FEB 2025 13:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.3)  3 FEB 2025 20:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -178,9 +178,7 @@ tex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count289
 \l__pdf_internal_box=\box54
-) (C:/Users\leocr\Projects\Economics\auxil\Corona.aux
-(C:/Users\leocr\Projects\Economics\auxil\result_table/combined_regressions.aux)
-)
+) (C:/Users\leocr\Projects\Economics\auxil\Corona.aux)
 \openout1 = `Corona.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
@@ -273,24 +271,45 @@ Package pdftex.def Info: plots/real_data.png  used on input line 26.
 _data.png>]
 
 [2] (Estimation.tex
-
-[3]
-\openout2 = `result_table/combined_regressions.aux'.
-
+<plots/epsilon_1.png, id=21, 462.528pt x 346.896pt>
+File: plots/epsilon_1.png Graphic file (type png)
+<use plots/epsilon_1.png>
+Package pdftex.def Info: plots/epsilon_1.png  used on input line 11.
+(pdftex.def)             Requested size: 112.74277pt x 84.55356pt.
+<plots/epsilon_0.1.png, id=22, 462.528pt x 346.896pt>
+File: plots/epsilon_0.1.png Graphic file (type png)
+<use plots/epsilon_0.1.png>
+Package pdftex.def Info: plots/epsilon_0.1.png  used on input line 15.
+(pdftex.def)             Requested size: 112.74277pt x 84.55356pt.
+<plots/epsilon_0.01.png, id=23, 462.528pt x 346.896pt>
+File: plots/epsilon_0.01.png Graphic file (type png)
+<use plots/epsilon_0.01.png>
+Package pdftex.def Info: plots/epsilon_0.01.png  used on input line 19.
+(pdftex.def)             Requested size: 112.74277pt x 84.55356pt.
+<plots/epsilon_0.001.png, id=24, 462.528pt x 346.896pt>
+File: plots/epsilon_0.001.png Graphic file (type png)
+<use plots/epsilon_0.001.png>
+Package pdftex.def Info: plots/epsilon_0.001.png  used on input line 23.
+(pdftex.def)             Requested size: 112.74277pt x 84.55356pt.
+<plots/epsilon_0.0001.png, id=25, 462.528pt x 346.896pt>
+File: plots/epsilon_0.0001.png Graphic file (type png)
+<use plots/epsilon_0.0001.png>
+Package pdftex.def Info: plots/epsilon_0.0001.png  used on input line 27.
+(pdftex.def)             Requested size: 112.74277pt x 84.55356pt.
  (result_table/combined_regressions.tex
 result_table/combined_regressions.tex:7: Missing $ inserted.
 <inserted text> 
                 $
 l.7                & \varepsilon
-                                 =: 1 & \varepsilon =: 0.1 & \varepsilon =: ...
+                                 =: 1.0 & \varepsilon =: 0.1 & \varepsilon =...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 result_table/combined_regressions.tex:7: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \endtemplate 
-l.7                & \varepsilon =: 1 &
-                                        \varepsilon =: 0.1 & \varepsilon =: ...
+l.7                & \varepsilon =: 1.0 &
+                                          \varepsilon =: 0.1 & \varepsilon =...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -300,16 +319,16 @@ deleted material, e.g., by typing `I$}'.
 result_table/combined_regressions.tex:7: Missing $ inserted.
 <inserted text> 
                 $
-l.7                & \varepsilon =: 1 &
-                                        \varepsilon =: 0.1 & \varepsilon =: ...
+l.7                & \varepsilon =: 1.0 &
+                                          \varepsilon =: 0.1 & \varepsilon =...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 result_table/combined_regressions.tex:7: Missing } inserted.
 <inserted text> 
                 }
-l.7                & \varepsilon =: 1 &
-                                        \varepsilon =: 0.1 & \varepsilon =: ...
+l.7                & \varepsilon =: 1.0 &
+                                          \varepsilon =: 0.1 & \varepsilon =...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -319,7 +338,7 @@ my insertion and my current dilemma will both disappear.
 result_table/combined_regressions.tex:7: Missing $ inserted.
 <inserted text> 
                 $
-l.7 ...           & \varepsilon =: 1 & \varepsilon
+l.7 ...         & \varepsilon =: 1.0 & \varepsilon
                                                    =: 0.1 & \varepsilon =: 0...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -327,7 +346,7 @@ you left one out. Proceed, with fingers crossed.
 result_table/combined_regressions.tex:7: Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \endtemplate 
-l.7 ...  & \varepsilon =: 1 & \varepsilon =: 0.1 &
+l.7 ...& \varepsilon =: 1.0 & \varepsilon =: 0.1 &
                                                    \varepsilon =: 0.01 & \va...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -338,7 +357,7 @@ deleted material, e.g., by typing `I$}'.
 result_table/combined_regressions.tex:7: Missing $ inserted.
 <inserted text> 
                 $
-l.7 ...  & \varepsilon =: 1 & \varepsilon =: 0.1 &
+l.7 ...& \varepsilon =: 1.0 & \varepsilon =: 0.1 &
                                                    \varepsilon =: 0.01 & \va...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -346,7 +365,7 @@ you left one out. Proceed, with fingers crossed.
 result_table/combined_regressions.tex:7: Missing } inserted.
 <inserted text> 
                 }
-l.7 ...  & \varepsilon =: 1 & \varepsilon =: 0.1 &
+l.7 ...& \varepsilon =: 1.0 & \varepsilon =: 0.1 &
                                                    \varepsilon =: 0.01 & \va...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -357,7 +376,7 @@ my insertion and my current dilemma will both disappear.
 result_table/combined_regressions.tex:7: Missing $ inserted.
 <inserted text> 
                 $
-l.7 ...lon =: 1 & \varepsilon =: 0.1 & \varepsilon
+l.7 ...n =: 1.0 & \varepsilon =: 0.1 & \varepsilon
                                                    =: 0.01 & \varepsilon =: ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -470,78 +489,43 @@ my insertion and my current dilemma will both disappear.
 
 )
 
-[4
+[3 <./plots/epsilon_1.png> <./plots/epsilon_0.1.png> <./plots/epsilon_0.01.png>
+ <./plots/epsilon_0.001.png> <./plots/epsilon_0.0001.png>]
+(result_table/gmm_models.tex))
 
-]
-<plots/epsilon_1.png, id=27, 462.528pt x 346.896pt>
-File: plots/epsilon_1.png Graphic file (type png)
-<use plots/epsilon_1.png>
-Package pdftex.def Info: plots/epsilon_1.png  used on input line 11.
-(pdftex.def)             Requested size: 112.74277pt x 84.55356pt.
-<plots/epsilon_0.1.png, id=28, 462.528pt x 346.896pt>
-File: plots/epsilon_0.1.png Graphic file (type png)
-<use plots/epsilon_0.1.png>
-Package pdftex.def Info: plots/epsilon_0.1.png  used on input line 15.
-(pdftex.def)             Requested size: 112.74277pt x 84.55356pt.
-<plots/epsilon_0.01.png, id=29, 462.528pt x 346.896pt>
-File: plots/epsilon_0.01.png Graphic file (type png)
-<use plots/epsilon_0.01.png>
-Package pdftex.def Info: plots/epsilon_0.01.png  used on input line 19.
-(pdftex.def)             Requested size: 112.74277pt x 84.55356pt.
-<plots/epsilon_0.001.png, id=30, 462.528pt x 346.896pt>
-File: plots/epsilon_0.001.png Graphic file (type png)
-<use plots/epsilon_0.001.png>
-Package pdftex.def Info: plots/epsilon_0.001.png  used on input line 23.
-(pdftex.def)             Requested size: 112.74277pt x 84.55356pt.
-<plots/epsilon_0.0001.png, id=31, 462.528pt x 346.896pt>
-File: plots/epsilon_0.0001.png Graphic file (type png)
-<use plots/epsilon_0.0001.png>
-Package pdftex.def Info: plots/epsilon_0.0001.png  used on input line 27.
-(pdftex.def)             Requested size: 112.74277pt x 84.55356pt.
-
-
-[5
-
-
- <./plots/epsilon_1.png> <./plots/epsilon_0.1.png> <./plots/epsilon_0.01.png> <
-./plots/epsilon_0.001.png> <./plots/epsilon_0.0001.png>]
-
-[6])
-
-[7] (C:/Users\leocr\Projects\Economics\auxil\Corona.aux
-(C:/Users\leocr\Projects\Economics\auxil\result_table/combined_regressions.aux)
-)
+[4] (C:/Users\leocr\Projects\Economics\auxil\Corona.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4282 strings out of 473682
- 73545 string characters out of 5719216
- 471486 words of memory out of 5000000
- 27342 multiletter control sequences out of 15000+600000
- 566398 words of font info for 65 fonts, out of 8000000 for 9000
+ 4266 strings out of 473682
+ 72583 string characters out of 5719216
+ 468132 words of memory out of 5000000
+ 27328 multiletter control sequences out of 15000+600000
+ 566264 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,10n,77p,311b,491s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\leocr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-1200.pk><C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmbx12.pfb><C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmex10.pfb><C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi12.pfb><C:/Users/leocr/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/leocr/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/leocr/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/leocr/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/le
-ocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/U
-sers/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pf
-b><C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb><C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmsy8.pfb>
-Output written on C:/Users\leocr\Projects\Economics\out\Corona.pdf (7 pages, 30
-7596 bytes).
+ 67i,11n,77p,311b,489s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb><C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmex10.pfb><C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi10.pfb><C:/Users/leocr/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/leocr/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/leocr/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/leocr/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/leocr/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users
+/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C
+:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8
+.pfb><C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb><C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb>
+Output written on C:/Users\leocr\Projects\Economics\out\Corona.pdf (4 pages, 31
+8793 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 
 from Econometrics.Coronavirus.code.read_data import dta
 
@@ -58,7 +57,7 @@ def mean_jac(params, data):
         raise ValueError("N_t, N_t_1, N_t_2 must have the same length.")
     return np.matrix([[d11, d12, d13],[d21, d22, d23],[d31, d32, d33]])
 
-data = np.asarray(dta[['New_cases', 'New_cases_lag_1', 'New_cases_lag_2']][10:])
+data = np.asarray(dta[['Cumulative_cases', 'Cumulative_cases_lag_1', 'Cumulative_cases_lag_2']][10:])
 
 theta = np.array([6.2, -5.4, 0.01])
 
@@ -67,9 +66,9 @@ d=mean_jac(theta, data.T)
 v=mean_var(theta, data.T)
 s = np.linalg.inv(v)
 
-alpha_1_grid = np.linspace(1, 15, 47)
-alpha_2_grid = np.linspace(-0.0, -10, 47)
-epsilon_grid = np.linspace(0.0, 0.001, 47)
+alpha_1_grid = np.linspace(3, 5, 47)
+alpha_2_grid = np.linspace(-1, -3, 47)
+epsilon_grid = np.linspace(0.001, 0.1, 47)
 
 delta_min = 10**(-3)
 S = s

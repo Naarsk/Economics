@@ -1,0 +1,28 @@
+\begin{table}[htbp]\centering
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\caption{GMM Regression Table}
+\begin{tabular}{l*{4}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+                    &\multicolumn{1}{c}{N\_1 N\_2}&\multicolumn{1}{c}{N\_1 N\_2 N\_3}&\multicolumn{1}{c}{N\_1 N\_2 N\_3 N\_4}&\multicolumn{1}{c}{N\_1 N\_2 N\_3 NlnN}\\
+\hline
+alpha1              &                     &                     &                     &                     \\
+Constant            &       4.280         &       7.049         &       7.457         &       7.503         \\
+                    &     (6.681)         &         (.)         &         (.)         &         (.)         \\
+\hline
+alpha2              &                     &                     &                     &                     \\
+Constant            &      -2.528         &      -4.981\sym{***}&      -5.466\sym{***}&      -5.474\sym{***}\\
+                    &     (6.514)         &    (0.0550)         &    (0.0453)         &    (0.0493)         \\
+\hline
+epsilon             &                     &                     &                     &                     \\
+Constant            &      0.0210         &      0.0157\sym{***}&      0.0135\sym{***}&      0.0140\sym{***}\\
+                    &    (0.0436)         &  (0.000896)         &  (0.000672)         &  (0.000730)         \\
+\hline
+J                   &  16240992.8         & 252496718.1         & 161236752.4         & 209017433.8         \\
+J\_df                &           0         &           2         &           3         &           3         \\
+rank                &           3         &           2         &           2         &           2         \\
+\hline\hline
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+\end{table}
