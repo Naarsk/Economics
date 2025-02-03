@@ -30,12 +30,17 @@
         \caption{Regression Plot}
     \end{figure}
 
-    \subsection{GMM Regression}
+    \subsection{GMM Regression of Taylor model}
+
+
+
+    \subsection{GMM Regression of full model}
     Let's consider the model:
     \begin{equation}
         N_{t} = \alpha_1 N_{t-1} + \alpha_2 N_{t-1}^{1 + \varepsilon} + U_t\label{eq:equation1}
     \end{equation}
-    For a dataset of size $T$. We use GMM estimation, and since we have $3$ parameters, we need to use 3 moment conditions. We consider different UCMR:
+    For a dataset of size $T$. We use GMM estimation, and since we have $3$ parameters, we need to use at least 3 moment conditions.
+    We consider different UCMR:
     \begin{itemize}
         \item Assuming $U_t$ is orthogonal to $N_{t-1}$ and $N_{t-2}$ every period.
         \item Assuming $U_t$ is orthogonal to $N_{t-1}$ and $N^{\varepsilon}_{t-1}$ every period.

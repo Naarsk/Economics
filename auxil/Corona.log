@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.3)  3 FEB 2025 12:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.3)  3 FEB 2025 13:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -183,20 +183,20 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 )
 \openout1 = `Corona.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -260,13 +260,21 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
- (Estimation.tex
+<plots/real_data.png, id=1, 732.8178pt x 395.3169pt>
+File: plots/real_data.png Graphic file (type png)
+<use plots/real_data.png>
+Package pdftex.def Info: plots/real_data.png  used on input line 26.
+(pdftex.def)             Requested size: 375.80544pt x 202.72487pt.
+
 
 [1
 
-{C:/Users/leocr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/leocr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./plots/real
+_data.png>]
 
-[2]
+[2] (Estimation.tex
+
+[3]
 \openout2 = `result_table/combined_regressions.aux'.
 
  (result_table/combined_regressions.tex
@@ -462,45 +470,45 @@ my insertion and my current dilemma will both disappear.
 
 )
 
-[3
+[4
 
 ]
-<plots/epsilon_1.png, id=21, 462.528pt x 346.896pt>
+<plots/epsilon_1.png, id=27, 462.528pt x 346.896pt>
 File: plots/epsilon_1.png Graphic file (type png)
 <use plots/epsilon_1.png>
 Package pdftex.def Info: plots/epsilon_1.png  used on input line 11.
 (pdftex.def)             Requested size: 112.74277pt x 84.55356pt.
-<plots/epsilon_0.1.png, id=23, 462.528pt x 346.896pt>
+<plots/epsilon_0.1.png, id=28, 462.528pt x 346.896pt>
 File: plots/epsilon_0.1.png Graphic file (type png)
 <use plots/epsilon_0.1.png>
 Package pdftex.def Info: plots/epsilon_0.1.png  used on input line 15.
 (pdftex.def)             Requested size: 112.74277pt x 84.55356pt.
-<plots/epsilon_0.01.png, id=24, 462.528pt x 346.896pt>
+<plots/epsilon_0.01.png, id=29, 462.528pt x 346.896pt>
 File: plots/epsilon_0.01.png Graphic file (type png)
 <use plots/epsilon_0.01.png>
 Package pdftex.def Info: plots/epsilon_0.01.png  used on input line 19.
 (pdftex.def)             Requested size: 112.74277pt x 84.55356pt.
-<plots/epsilon_0.001.png, id=25, 462.528pt x 346.896pt>
+<plots/epsilon_0.001.png, id=30, 462.528pt x 346.896pt>
 File: plots/epsilon_0.001.png Graphic file (type png)
 <use plots/epsilon_0.001.png>
 Package pdftex.def Info: plots/epsilon_0.001.png  used on input line 23.
 (pdftex.def)             Requested size: 112.74277pt x 84.55356pt.
-<plots/epsilon_0.0001.png, id=26, 462.528pt x 346.896pt>
+<plots/epsilon_0.0001.png, id=31, 462.528pt x 346.896pt>
 File: plots/epsilon_0.0001.png Graphic file (type png)
 <use plots/epsilon_0.0001.png>
 Package pdftex.def Info: plots/epsilon_0.0001.png  used on input line 27.
 (pdftex.def)             Requested size: 112.74277pt x 84.55356pt.
 
 
-[4
+[5
 
 
  <./plots/epsilon_1.png> <./plots/epsilon_0.1.png> <./plots/epsilon_0.01.png> <
 ./plots/epsilon_0.001.png> <./plots/epsilon_0.0001.png>]
 
-[5])
+[6])
 
-[6] (C:/Users\leocr\Projects\Economics\auxil\Corona.aux
+[7] (C:/Users\leocr\Projects\Economics\auxil\Corona.aux
 (C:/Users\leocr\Projects\Economics\auxil\result_table/combined_regressions.aux)
 )
  ***********
@@ -509,13 +517,13 @@ L3 programming layer <2024-11-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4262 strings out of 473682
- 73139 string characters out of 5719216
- 471401 words of memory out of 5000000
- 27322 multiletter control sequences out of 15000+600000
- 564483 words of font info for 58 fonts, out of 8000000 for 9000
+ 4282 strings out of 473682
+ 73545 string characters out of 5719216
+ 471486 words of memory out of 5000000
+ 27342 multiletter control sequences out of 15000+600000
+ 566398 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,10n,77p,284b,491s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 67i,10n,77p,311b,491s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\leocr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -530,10 +538,10 @@ sers/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pf
 b><C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmsy8.pfb>
-Output written on C:/Users\leocr\Projects\Economics\out\Corona.pdf (6 pages, 25
-9173 bytes).
+Output written on C:/Users\leocr\Projects\Economics\out\Corona.pdf (7 pages, 30
+7596 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
+ 99 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
