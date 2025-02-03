@@ -3,20 +3,8 @@
     \begin{equation}
         V_{t+1} = \beta_0 + \beta_1 V_t
     \end{equation}
-    where $V_t=N_t^{-\epsilon}$, for different values of $\epsilon$.
-    \begin{table}[h!]
-        \centering
-        \begin{tabular}{lll}
-            $\epsilon$ & $\beta_0$ & $\beta_1$ \\ \hline
-            1      & 5.61E-04 & 7.31E-01 \\
-            0.1    & 2.93E-02 & 9.42E-01 \\
-            0.01   & 4.54E-02 & 9.51E-01 \\
-            0.005  & 4.65E-02 & 9.52E-01 \\
-            0.001  & 4.74E-02 & 9.52E-01 \\
-            0.0005 & 4.75E-02 & 9.52E-01 \\
-            0.0001 & 4.76E-02 & 9.52E-01
-        \end{tabular}
-    \end{table}
+    where $V_t=N_t^{-\varepsilon}$, for different values of $\varepsilon$.
+    \include{result_table/combined_regressions}
     \begin{figure}[h!]
         \centering
         \begin{subfigure}[b]{0.3\textwidth}
@@ -39,7 +27,7 @@
             \includegraphics[width=.8\linewidth]{plots/epsilon_0.0001}
             \caption{Caption for plot 5}
         \end{subfigure}
-        \caption{Overall caption for the figure}
+        \caption{Regression Plot}
     \end{figure}
 
     \subsection{GMM Regression}
@@ -50,7 +38,7 @@
     For a dataset of size $T$. We use GMM estimation, and since we have $3$ parameters, we need to use 3 moment conditions. We consider different UCMR:
     \begin{itemize}
         \item Assuming $U_t$ is orthogonal to $N_{t-1}$ and $N_{t-2}$ every period.
-        \item Assuming $U_t$ is orthogonal to $N_{t-1}$ and $N^{\epsilon}_{t-1}$ every period.
+        \item Assuming $U_t$ is orthogonal to $N_{t-1}$ and $N^{\varepsilon}_{t-1}$ every period.
     \end{itemize}
 
     \subsection{Case 1}
@@ -110,11 +98,11 @@
     \end{equation}
     Which implies the following unconditional moment restriction:
     \begin{equation}
-        E \, \begin{bmatrix} 1  \\ N_{t-1} \\ N^{\epsilon}_{t-1} \end{bmatrix} U_t = 0
+        E \, \begin{bmatrix} 1  \\ N_{t-1} \\ N^{\varepsilon}_{t-1} \end{bmatrix} U_t = 0
     \end{equation}
     In canonical form:
      \begin{equation}
-        E \, g(N_{t-1}, N^{\epsilon}_{t-1}, N_t, \theta) = 0,
+        E \, g(N_{t-1}, N^{\varepsilon}_{t-1}, N_t, \theta) = 0,
     \end{equation}
     This time we find:
     \begin{equation}
@@ -161,6 +149,6 @@
 
 
 
-% \dot V(t) = -r\epsilon\, \left(V_0-K^{-1}\right)e^{-r\epsilon t}
+% \dot V(t) = -r\varepsilon\, \left(V_0-K^{-1}\right)e^{-r\varepsilon t}
 
 For P-0 consider the stationary distribution as $t \to \infty $ and estimate t* as an average with that distribution

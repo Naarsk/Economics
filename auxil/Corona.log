@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.3)  6 JAN 2025 18:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.3)  3 FEB 2025 12:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -178,7 +178,9 @@ tex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count289
 \l__pdf_internal_box=\box54
-) (C:/Users\leocr\Projects\Economics\auxil\Corona.aux)
+) (C:/Users\leocr\Projects\Economics\auxil\Corona.aux
+(C:/Users\leocr\Projects\Economics\auxil\result_table/combined_regressions.aux)
+)
 \openout1 = `Corona.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -263,54 +265,257 @@ Package caption Info: End \AtBeginDocument code.
 [1
 
 {C:/Users/leocr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<plots/epsilon_1.png, id=15, 462.528pt x 346.896pt>
+
+[2]
+\openout2 = `result_table/combined_regressions.aux'.
+
+ (result_table/combined_regressions.tex
+result_table/combined_regressions.tex:7: Missing $ inserted.
+<inserted text> 
+                $
+l.7                & \varepsilon
+                                 =: 1 & \varepsilon =: 0.1 & \varepsilon =: ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+result_table/combined_regressions.tex:7: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.7                & \varepsilon =: 1 &
+                                        \varepsilon =: 0.1 & \varepsilon =: ...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+result_table/combined_regressions.tex:7: Missing $ inserted.
+<inserted text> 
+                $
+l.7                & \varepsilon =: 1 &
+                                        \varepsilon =: 0.1 & \varepsilon =: ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+result_table/combined_regressions.tex:7: Missing } inserted.
+<inserted text> 
+                }
+l.7                & \varepsilon =: 1 &
+                                        \varepsilon =: 0.1 & \varepsilon =: ...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+result_table/combined_regressions.tex:7: Missing $ inserted.
+<inserted text> 
+                $
+l.7 ...           & \varepsilon =: 1 & \varepsilon
+                                                   =: 0.1 & \varepsilon =: 0...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+result_table/combined_regressions.tex:7: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.7 ...  & \varepsilon =: 1 & \varepsilon =: 0.1 &
+                                                   \varepsilon =: 0.01 & \va...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+result_table/combined_regressions.tex:7: Missing $ inserted.
+<inserted text> 
+                $
+l.7 ...  & \varepsilon =: 1 & \varepsilon =: 0.1 &
+                                                   \varepsilon =: 0.01 & \va...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+result_table/combined_regressions.tex:7: Missing } inserted.
+<inserted text> 
+                }
+l.7 ...  & \varepsilon =: 1 & \varepsilon =: 0.1 &
+                                                   \varepsilon =: 0.01 & \va...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+result_table/combined_regressions.tex:7: Missing $ inserted.
+<inserted text> 
+                $
+l.7 ...lon =: 1 & \varepsilon =: 0.1 & \varepsilon
+                                                   =: 0.01 & \varepsilon =: ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+result_table/combined_regressions.tex:7: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.7 ... \varepsilon =: 0.1 & \varepsilon =: 0.01 &
+                                                   \varepsilon =: 0.001 & \v...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+result_table/combined_regressions.tex:7: Missing $ inserted.
+<inserted text> 
+                $
+l.7 ... \varepsilon =: 0.1 & \varepsilon =: 0.01 &
+                                                   \varepsilon =: 0.001 & \v...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+result_table/combined_regressions.tex:7: Missing } inserted.
+<inserted text> 
+                }
+l.7 ... \varepsilon =: 0.1 & \varepsilon =: 0.01 &
+                                                   \varepsilon =: 0.001 & \v...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+result_table/combined_regressions.tex:7: Missing $ inserted.
+<inserted text> 
+                $
+l.7 ... =: 0.1 & \varepsilon =: 0.01 & \varepsilon
+                                                   =: 0.001 & \varepsilon =:...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+result_table/combined_regressions.tex:7: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.7 ...varepsilon =: 0.01 & \varepsilon =: 0.001 &
+                                                   \varepsilon =: 0.0001  \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+result_table/combined_regressions.tex:7: Missing $ inserted.
+<inserted text> 
+                $
+l.7 ...varepsilon =: 0.01 & \varepsilon =: 0.001 &
+                                                   \varepsilon =: 0.0001  \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+result_table/combined_regressions.tex:7: Missing } inserted.
+<inserted text> 
+                }
+l.7 ...varepsilon =: 0.01 & \varepsilon =: 0.001 &
+                                                   \varepsilon =: 0.0001  \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+result_table/combined_regressions.tex:7: Missing $ inserted.
+<inserted text> 
+                $
+l.7 ...: 0.01 & \varepsilon =: 0.001 & \varepsilon
+                                                   =: 0.0001  \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+result_table/combined_regressions.tex:8: Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \endtemplate 
+l.8 \hline
+          
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+result_table/combined_regressions.tex:8: Missing $ inserted.
+<inserted text> 
+                $
+l.8 \hline
+          
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+result_table/combined_regressions.tex:8: Missing } inserted.
+<inserted text> 
+                }
+l.8 \hline
+          
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+)
+
+[3
+
+]
+<plots/epsilon_1.png, id=21, 462.528pt x 346.896pt>
 File: plots/epsilon_1.png Graphic file (type png)
 <use plots/epsilon_1.png>
-Package pdftex.def Info: plots/epsilon_1.png  used on input line 23.
+Package pdftex.def Info: plots/epsilon_1.png  used on input line 11.
 (pdftex.def)             Requested size: 112.74277pt x 84.55356pt.
-<plots/epsilon_0.1.png, id=17, 462.528pt x 346.896pt>
+<plots/epsilon_0.1.png, id=23, 462.528pt x 346.896pt>
 File: plots/epsilon_0.1.png Graphic file (type png)
 <use plots/epsilon_0.1.png>
-Package pdftex.def Info: plots/epsilon_0.1.png  used on input line 27.
+Package pdftex.def Info: plots/epsilon_0.1.png  used on input line 15.
 (pdftex.def)             Requested size: 112.74277pt x 84.55356pt.
-<plots/epsilon_0.01.png, id=18, 462.528pt x 346.896pt>
+<plots/epsilon_0.01.png, id=24, 462.528pt x 346.896pt>
 File: plots/epsilon_0.01.png Graphic file (type png)
 <use plots/epsilon_0.01.png>
-Package pdftex.def Info: plots/epsilon_0.01.png  used on input line 31.
+Package pdftex.def Info: plots/epsilon_0.01.png  used on input line 19.
 (pdftex.def)             Requested size: 112.74277pt x 84.55356pt.
-<plots/epsilon_0.001.png, id=19, 462.528pt x 346.896pt>
+<plots/epsilon_0.001.png, id=25, 462.528pt x 346.896pt>
 File: plots/epsilon_0.001.png Graphic file (type png)
 <use plots/epsilon_0.001.png>
-Package pdftex.def Info: plots/epsilon_0.001.png  used on input line 35.
+Package pdftex.def Info: plots/epsilon_0.001.png  used on input line 23.
 (pdftex.def)             Requested size: 112.74277pt x 84.55356pt.
-<plots/epsilon_0.0001.png, id=20, 462.528pt x 346.896pt>
+<plots/epsilon_0.0001.png, id=26, 462.528pt x 346.896pt>
 File: plots/epsilon_0.0001.png Graphic file (type png)
 <use plots/epsilon_0.0001.png>
-Package pdftex.def Info: plots/epsilon_0.0001.png  used on input line 39.
+Package pdftex.def Info: plots/epsilon_0.0001.png  used on input line 27.
 (pdftex.def)             Requested size: 112.74277pt x 84.55356pt.
 
 
-[2 <./plots/epsilon_1.png> <./plots/epsilon_0.1.png> <./plots/epsilon_0.01.png>
- <./plots/epsilon_0.001.png> <./plots/epsilon_0.0001.png>]
+[4
 
-[3]
 
-[4])
+ <./plots/epsilon_1.png> <./plots/epsilon_0.1.png> <./plots/epsilon_0.01.png> <
+./plots/epsilon_0.001.png> <./plots/epsilon_0.0001.png>]
 
-[5] (C:/Users\leocr\Projects\Economics\auxil\Corona.aux)
+[5])
+
+[6] (C:/Users\leocr\Projects\Economics\auxil\Corona.aux
+(C:/Users\leocr\Projects\Economics\auxil\result_table/combined_regressions.aux)
+)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4230 strings out of 473682
- 71528 string characters out of 5719216
- 470052 words of memory out of 5000000
- 27300 multiletter control sequences out of 15000+600000
+ 4262 strings out of 473682
+ 73139 string characters out of 5719216
+ 471401 words of memory out of 5000000
+ 27322 multiletter control sequences out of 15000+600000
  564483 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,10n,77p,284b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 67i,10n,77p,284b,491s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\leocr\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -325,10 +530,10 @@ sers/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pf
 b><C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb><C:/Users/leocr/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmsy8.pfb>
-Output written on C:/Users\leocr\Projects\Economics\out\Corona.pdf (5 pages, 25
-9450 bytes).
+Output written on C:/Users\leocr\Projects\Economics\out\Corona.pdf (6 pages, 25
+9173 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
+ 92 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
