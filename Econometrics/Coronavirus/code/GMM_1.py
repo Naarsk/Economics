@@ -66,9 +66,9 @@ d=mean_jac(theta, data.T)
 v=mean_var(theta, data.T)
 s = np.linalg.inv(v)
 
-alpha_1_grid = np.linspace(3, 5, 47)
-alpha_2_grid = np.linspace(-1, -3, 47)
-epsilon_grid = np.linspace(0.001, 0.1, 47)
+alpha_1_grid = np.linspace(3, 4, 47)
+alpha_2_grid = np.linspace(-1.5, -2, 47)
+epsilon_grid = np.linspace(0.02, 0.03, 47)
 
 delta_min = 10**(-3)
 S = s
@@ -100,3 +100,4 @@ while delta > delta_min:
     if count > 4:
         break
     count=count+1
+

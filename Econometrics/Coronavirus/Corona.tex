@@ -36,16 +36,16 @@
 
     Which admits the following solution:
 
-    $$N(t) = \frac{K}{1+ \left(\frac{K-P_0}{P_0}\right) e^{-rt}}$$
+    $$N(t) = \frac{K}{1+ \left(\frac{K-N_0}{N_0}\right) e^{-rt}}$$
 
     That has a flex (i.e. the max of the new infections curve) in:
-    $$ t^* = \frac{1}{r}\ln \left(\frac{K-P_0}{P_0}\right)$$
+    $$ t^* = \frac{1}{r}\ln \left(\frac{K-N_0}{N_0}\right)$$
 
     To use a linear regression, the differential equation can be discretized into:
     $$ N_{t+1} = \alpha_1 N_t + \alpha_2 N_{t}^2$$
 
     So the parameter can be found using:
-    $$ r = \alpha_1-1, \quad K= \frac{1-\alpha_1}{\alpha_2}, \quad P_0 = 1$$
+    $$ r = \alpha_1-1, \quad K= \frac{1-\alpha_1}{\alpha_2}$$
 
     \subsection{Bernoulli equation model}
 
@@ -63,7 +63,7 @@
     $$ V(t) = K^{-1} + \left(V_0-K^{-1}\right)e^{-r\varepsilon t} \quad \Rightarrow \quad N(t)=\frac{1}{\left(K^{-1} + \left(N_0^{-\varepsilon}-K^{-1}\right)e^{-r\varepsilon t}\right)^\varepsilon}\,.$$
 
     The maximum of its derivative is determined by solving:
-    $$ \ddot N = -\frac{V^{-\frac{1+\varepsilon}{\varepsilon}}}{\varepsilon} \left(\ddot V -\frac{1+\varepsilon}{\varepsilon} \frac{\dot V ^2}{V}\right)$$
+    $$ \ddot N = -\frac{V^{-\frac{1+\varepsilon}{\varepsilon}}}{\varepsilon} \left(\ddot V -\frac{1+\varepsilon}{\varepsilon} \frac{\dot V ^2}{V}\right) \quad \to \quad t^* = \frac{1}{\varepsilon r}\ln \left(\varepsilon K N_0^{-\varepsilon}-\varepsilon\right) $$
 
     Where:
     $$ \dot V = -r\varepsilon\left(V_0-K^{-1}\right)e^{-r\varepsilon t}, \qquad \ddot V = (r\varepsilon)^2 \left(V_0-K^{-1}\right)e^{-r\varepsilon t}. $$
@@ -71,7 +71,7 @@
     In terms of finite differences:
     $$ V_{t+1} = \beta_0 + \beta_1 V_t,$$
     where:
-    $$\beta_0 = -\frac{\alpha_2}{\varepsilon} = \frac{r \varepsilon}{K}, \quad \beta_1=\varepsilon(1-\alpha_1) = - r\varepsilon.$$
+    $$\beta_0 = -\alpha_2\varepsilon = \frac{r \varepsilon}{K}, \quad \beta_1=\varepsilon(1-\alpha_1) = - r\varepsilon.$$
 
     \subsection{Taylor expansion for small $\varepsilon$}
     Assuming $\varepsilon \simeq 0$, we can expand $N_{t}^{\,1+\varepsilon}$ as:

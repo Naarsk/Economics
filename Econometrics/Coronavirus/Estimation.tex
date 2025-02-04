@@ -9,23 +9,23 @@
         \centering
         \begin{subfigure}[b]{0.3\textwidth}
             \includegraphics[width=.8\linewidth]{plots/epsilon_1}
-            \caption{Caption for plot 1}
+            \caption{$\varepsilon = 1$}
         \end{subfigure} \quad
         \begin{subfigure}[b]{0.3\textwidth}
             \includegraphics[width=.8\linewidth]{plots/epsilon_0.1}
-            \caption{Caption for plot 2}
+            \caption{$\varepsilon = 0.1$}
         \end{subfigure} \quad
         \begin{subfigure}[b]{0.3\textwidth}
             \includegraphics[width=.8\linewidth]{plots/epsilon_0.01}
-            \caption{Caption for plot 3}
+            \caption{$\varepsilon = 0.01$}
         \end{subfigure}\\
         \begin{subfigure}[b]{0.3\textwidth}
             \includegraphics[width=.8\linewidth]{plots/epsilon_0.001}
-            \caption{Caption for plot 4}
+            \caption{$\varepsilon = 0.001$}
         \end{subfigure} \quad
         \begin{subfigure}[b]{0.3\textwidth}
             \includegraphics[width=.8\linewidth]{plots/epsilon_0.0001}
-            \caption{Caption for plot 5}
+            \caption{$\varepsilon = 0.0001$}
         \end{subfigure}
         \caption{Regression Plot}
     \end{figure}
@@ -42,7 +42,18 @@
 
     We assume that $U_t$ is mean independent of all the $N_s$ for $s\leq t-1$. For 3 parameters, at least 3 instruments are needed:
 
-    \input{result_table/gmm_models}
+    \input{result_table/gmm_stata}
+
+    All the model failed to converge in Stata (tried with different criteria, but without luck).
+
+    \begin{figure}
+        \centering
+        \includegraphics{plots/gmm_stata}
+    \end{figure}
+
+    \subsection{GMM estimation with grid search}
+
+    I therefore implemented the (iterative) GMM in python, with the minimization done by grid search on the parameters:
 
 
     \subsection{Ramsay Test}

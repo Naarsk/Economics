@@ -23,8 +23,17 @@ gen XlnX2 = X*ln(X)^2
 gen XlnX3 = X*ln(X)^3
 
 
+scalar N0 = Y[1]
+
+display N0
+
+**# Bookmark #1
+
+
 * Ensure no missing values
 drop if missing(Y) | missing(X) | missing(X2) | missing(X3) | missing(X4) | missing(X5)
+
+display Y[1]
 
 * Ensure no zero or negative X values
 drop if X <= 0
@@ -37,6 +46,10 @@ ereturn list
 estat overid
 
 eststo X_X2
+
+nlcom (1/_b[epsilon]*(_b[alpha1]-1)) * ln(_b[epsilon]*N0^(-_b[epsilon])*(1-_b[alpha1])/_b[alpha2]-_b[epsilon])
+
+**# Bookmark #1
 
 gmm (Y - {alpha1=4}*X - {alpha2=-3}*X^({epsilon=0.1}+1)),  instruments(X X2 X3) iterate(2000) nolog
 
@@ -67,3 +80,5 @@ esttab X_X2 X_X2_X3 X_X2_X3_X4 X_X2_X3_XlnX using gmm_models.tex, se stats(J J_d
     title("GMM Regression Table") ///
     mtitle("N_1 N_2" "N_1 N_2 N_3" "N_1 N_2 N_3 N_4" "N_1 N_2 N_3 NlnN") ///
     replace
+	
+

@@ -10,6 +10,8 @@ dta=pd.DataFrame(italy_df['Cumulative_cases'].fillna(0))
 dta.insert(1, 'Cumulative_cases_lag_1', dta['Cumulative_cases'].shift(1).fillna(0))
 dta.insert(2, 'Cumulative_cases_lag_2', dta['Cumulative_cases'].shift(2).fillna(0))
 dta.insert(3, 'Cumulative_cases_lag_3', dta['Cumulative_cases'].shift(3).fillna(0))
+dta.insert(4, 'Cumulative_cases_lag_4', dta['Cumulative_cases'].shift(4).fillna(0))
+dta.insert(5, 'Cumulative_cases_lag_5', dta['Cumulative_cases'].shift(5).fillna(0))
 
 # Export the DataFrame to a Stata .dta file.
 dta.to_stata('../data/italy_data.dta', write_index=False)
