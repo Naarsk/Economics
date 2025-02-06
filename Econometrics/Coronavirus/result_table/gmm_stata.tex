@@ -1,9 +1,9 @@
-\begin{table}[htbp]\centering
+\begin{table}[h!]\centering
 \newcommand{\sym}[1]{\ifmmode^{#1}\else\(^{#1}\)\fi}
-\caption{GMM Regression Table}
+\caption{GMM results from Stata}
 \begin{tabular}{l*{4}{c}}
 \hline\hline
-Instruments           &\multicolumn{1}{c}{$N_1$ $N_2$}&\multicolumn{1}{c}{$N_1$ $N_2$ $N_3$}&\multicolumn{1}{c}{$N_1$ $N_2$ $N_3$ $N_4$}&\multicolumn{1}{c}{$N_1$ $N_2$ $N_3$ $N_1\ln N_1$}\\
+Model           &\multicolumn{1}{c}{S2}&\multicolumn{1}{c}{S3}&\multicolumn{1}{c}{S4}&\multicolumn{1}{c}{Sln}\\
 \hline
 $\alpha_1$           &       4.280         &       7.049         &       7.457         &       7.503         \\
                     &     (6.681)         &         (.)         &         (.)         &         (.)         \\
@@ -20,5 +20,5 @@ rank                &           3         &           2         &           2   
 \hline\hline
 \multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
 \multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
-\end{tabular}\label{tab:gmm_table}
+\end{tabular}\label{tab:gmm_stata_table}
 \end{table}

@@ -10,6 +10,7 @@
 \usepackage{upgreek}
 \usepackage{graphicx}
 \usepackage{subcaption}
+\usepackage{hyperref}
 \setlength{\parindent}{0pt}
 
 
@@ -49,20 +50,20 @@
 
     \subsection{Bernoulli equation model}
 
-    Recently, I found that:
+    However, the solution of the SIR model yields a symmetric curve, therefore a more appropriate model that can deliver the right-hand skewness of the contagion curve is:
     \begin{equation}
-        N_{t+1} = \alpha_1 N_t + \alpha_2 N_{t}^{1 + \varepsilon}
+        N_{t+1} = \alpha_1 N_t + \alpha_2 N_{t}^{1 + \varepsilon},
         \label{eq:equation0}
     \end{equation}
+    with $\varepsilon \in (0,1)$
 
-    With $\varepsilon \in (0,1)$ would work much better to reproduce the right-hand skewness of the contagion curve.
-
-    This equation too has a close form solution, being a Bernoulli differential equation:
+    Using Bernoulli transformation:
     $$V = N^{-\varepsilon}, \qquad \frac{\dot V}{V} = -r \varepsilon \frac{\dot N}{N}, \quad \Rightarrow \quad \dot V = -r\varepsilon V + \frac{r\varepsilon}{K}. $$
+
     Which has close form solution:
     $$ V(t) = K^{-1} + \left(V_0-K^{-1}\right)e^{-r\varepsilon t} \quad \Rightarrow \quad N(t)=\frac{1}{\left(K^{-1} + \left(N_0^{-\varepsilon}-K^{-1}\right)e^{-r\varepsilon t}\right)^\varepsilon}\,.$$
 
-    The maximum of its derivative is determined by solving:
+    The peak of the new cases is determined by solving:
     $$ \ddot N = -\frac{V^{-\frac{1+\varepsilon}{\varepsilon}}}{\varepsilon} \left(\ddot V -\frac{1+\varepsilon}{\varepsilon} \frac{\dot V ^2}{V}\right) \quad \to \quad t^* = \frac{1}{\varepsilon r}\ln \left(\varepsilon K N_0^{-\varepsilon}-\varepsilon\right) $$
 
     Where:
@@ -70,22 +71,11 @@
 
     In terms of finite differences:
     $$ V_{t+1} = \beta_0 + \beta_1 V_t,$$
+
     where:
     $$\beta_0 = -\alpha_2\varepsilon = \frac{r \varepsilon}{K}, \quad \beta_1=\varepsilon(1-\alpha_1) = - r\varepsilon.$$
 
-    \subsection{Taylor expansion for small $\varepsilon$}
-    Assuming $\varepsilon \simeq 0$, we can expand $N_{t}^{\,1+\varepsilon}$ as:
-    \begin{equation}
-        N_{t}^{\,1+\varepsilon} \simeq N_{t} \left( 1 + \varepsilon \ln N_{t} + \frac{\varepsilon^2 (\ln N_{t})^2}{2} + \frac{\varepsilon^3 (\ln N_{t})^3}{6} \right).
-    \end{equation}
-
-    So:
-        \begin{equation}
-        N_{t+1} = (\alpha_1 + \alpha_2) N_{t} + \varepsilon \alpha_2 N_{t}\ln N_{t} + \varepsilon^2 \alpha_2 N_{t} \frac{ (\ln N_{t})^2}{2} + \varepsilon^3 \alpha_2 N_{t} \frac{(\ln N_{t})^3}{6}.
-        \end{equation}
     \newpage
-
-    which can be useful for Ramsey testing
 
     \section{Estimation}\label{sec:estimation}
     \input{Estimation}

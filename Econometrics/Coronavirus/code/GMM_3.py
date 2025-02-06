@@ -1,5 +1,30 @@
 import numpy as np
+from scipy.stats import chi2
+
 from Econometrics.Coronavirus.code.read_data import dta
+import json
+
+
+
+def model_setup(data, params):
+    # Unpack parameters
+    alpha_1, alpha_2, epsilon = params
+    # Check that all rows have the same length
+    if not all(len(row) == len(data[0]) for row in data):
+        raise ValueError("All rows in data must have the same length.")
+    N_t = data[0]
+    N_t_1 = data[1]    # Use the first instrument as the regressor in the structural equation.
+    instruments = data[2:]  # This can be of arbitrary number (K instruments)
+
+    U_t = error_equation(N_t, N_t_1, alpha_1, alpha_2, epsilon)
+    return U_t, instruments
+
+
+def error_equation(N_t, N_t_1, alpha_1, alpha_2, epsilon):
+    # U_t = N_t - alpha_1 * N_t_1 - alpha_2 * N_t_1 ** (1 + epsilon)
+    U_t = N_t - (alpha_1 + alpha_2) * N_t_1 - alpha_2 * epsilon * N_t_1 * np.log(N_t_1) + alpha_2*epsilon**2*N_t_1*(np.log(N_t_1))**2/2
+
+    return U_t
 
 
 # --- Functions for the moment conditions, their variance, and Jacobian ---
@@ -31,25 +56,11 @@ def mean_func(params, data):
             m[0] = average(U_t)
             m[i] = average( (instrument_i) * U_t )  for i = 1,...,K.
     """
-    # Unpack parameters
-    alpha_1, alpha_2, epsilon = params
-
-    # Check that all rows have the same length
-    if not all(len(row) == len(data[0]) for row in data):
-        raise ValueError("All rows in data must have the same length.")
-
-    N_t = data[0]
-    instruments = data[1:]  # This can be of arbitrary number (K instruments)
-
-    # Use the first instrument as the regressor in the structural equation.
-    # (If you wish to use a different column, change data index accordingly.)
-    regressor = instruments[0]
-    U_t = N_t - alpha_1 * regressor - alpha_2 * regressor ** (1 + epsilon)
+    U_t, instruments = model_setup(data, params)
 
     # Build the moment vector
-    moments = []
-    # Moment condition on constant
-    moments.append(np.average(U_t))
+    moments = [np.average(U_t)]     # Moment condition on constant
+
     # Moment conditions for each instrument
     for inst in instruments:
         moments.append(np.average(inst * U_t))
@@ -66,15 +77,7 @@ def mean_var(params, data):
     Returns:
         V : Variance-covariance matrix (numpy array) of shape ((K+1) x (K+1))
     """
-    alpha_1, alpha_2, epsilon = params
-
-    if not all(len(row) == len(data[0]) for row in data):
-        raise ValueError("All rows in data must have the same length.")
-
-    N_t = data[0]
-    instruments = data[1:]
-    regressor = instruments[0]
-    U_t = N_t - alpha_1 * regressor - alpha_2 * regressor ** (1 + epsilon)
+    U_t, instruments = model_setup(data, params)
 
     # Compute moment conditions for each observation
     # First moment: constant moment = U_t
@@ -111,14 +114,18 @@ def mean_jac(params, data):
     if not all(len(row) == len(data[0]) for row in data):
         raise ValueError("All rows in data must have the same length.")
 
-    N_t = data[0]
-    instruments = data[1:]
-    regressor = instruments[0]
+    instruments = data[2:]
+    regressor = data[1]
 
     # Derivatives of U_t = N_t - alpha_1*regressor - alpha_2*regressor^(1+epsilon)
     dU_dalpha1 = -regressor
-    dU_dalpha2 = -regressor ** (1 + epsilon)
-    dU_depsilon = -alpha_2 * regressor ** (1 + epsilon) * np.log(regressor)
+    # dU_dalpha2 = -regressor ** (1 + epsilon)
+    # dU_depsilon = -alpha_2 * regressor ** epsilon * epsilon
+
+    dU_dalpha2 = -regressor * (1 + epsilon * np.log(regressor) - (epsilon * np.log(regressor))**2/2)
+    dU_depsilon = -alpha_2 * regressor * np.log(regressor) - alpha_2 * epsilon  * regressor * np.log(regressor)**2
+
+
 
     # Jacobian for the constant moment condition m0 = average(U_t)
     jacobian_rows = []
@@ -140,7 +147,6 @@ def mean_jac(params, data):
 
     return np.vstack(jacobian_rows)  # Shape: ((number of moments) x 3)
 
-
 # --- Load and prepare the data ---
 # For example, here we take three columns:
 #   'Cumulative_cases' (as N_t),
@@ -154,29 +160,31 @@ def mean_jac(params, data):
 #   data[1] becomes first instrument, etc.
 
 # Adjust the list of columns below to include as many instruments as you want.
-columns_to_use = ['Cumulative_cases', 'Cumulative_cases_lag_1', 'Cumulative_cases_lag_2','Cumulative_cases_lag_3','Cumulative_cases_lag_4','Cumulative_cases_lag_5']
+# columns_to_use = ['Cumulative_cases', 'Cumulative_cases_lag_1', 'Cumulative_cases_lag_1_Hermite2', 'Cumulative_cases_lag_1_XlogX']
+columns_to_use = ['Cumulative_cases',  'Cumulative_cases_lag_1', 'Cumulative_moving_average', 'New_cases_lag_1', 'Average_temperature', 'Retail_and_recreation', 'Transit_stations']
+
 filtered_data = dta.loc[dta['Cumulative_cases_lag_1'] > 0, columns_to_use]
 data = np.asarray(filtered_data).T
 
-# --- Initial parameter values ---
-theta = np.array([3.5, -1.8, 0.025])
-
-# Initial evaluations of moments, Jacobian, and variance
-m = mean_func(theta, data)
-J = mean_jac(theta, data)
-V = mean_var(theta, data)
-S = np.linalg.inv(V)  # Weighting matrix
-
 # --- Grids for parameters ---
-alpha_1_grid = np.linspace(3, 4, 67)
-alpha_2_grid = np.linspace(-1.5, -2, 67)
-epsilon_grid = np.linspace(0.02, 0.03, 67)
+# alpha_1_grid = np.linspace(3, 4, 37)
+# alpha_2_grid = np.linspace(-1.5, -2, 37)
+# epsilon_grid = np.linspace(0.02, 0.03, 37)
+
+alpha_1_grid = np.linspace(4.5, 4.9, 107)
+alpha_2_grid = np.linspace(-2.5, -3, 97)
+epsilon_grid = np.linspace(0.03, 0.05, 97)
 
 # --- GMM Iteration ---
 delta_min = 1e-3
 count = 0
 delta = 1
 min_delta = 100
+
+# --- Initial parameter values ---
+theta = np.array([3.5, -1.8, 0.025])
+V = mean_var(theta, data)
+S = np.linalg.inv(V)  # Weighting matrix
 
 while delta > delta_min:
     min_target = 1e20
@@ -209,8 +217,48 @@ while delta > delta_min:
     theta = min_theta.copy()
 
     # For safety, break after a fixed number of iterations
-    if count > 4:
+    if count > 7:
         break
     count += 1
 
+J = mean_jac(theta, data)
+m = mean_func(theta, data)
+Avar = np.linalg.inv(J.T @ S @ J)
+N=len_data = len(data[0])
+se = np.sqrt(np.diagonal(Avar)/N)
+
+if len(columns_to_use) > 3:
+    over_id = len(columns_to_use) - 3
+    j_stat = N* m.T @ S @ m
+else:
+    over_id = 0
+    j_stat = None
+
+# create a dictionary with the model name and the results
+results = {
+    'N5*': {
+        'regressors' : columns_to_use,
+        'alpha1': theta[0],
+        'alpha2': theta[1],
+        'epsilon': theta[2],
+        'se_alpha1': se[0],
+        'se_alpha2': se[1],
+        'se_epsilon': se[2],
+        'sample size': N,
+        'J-stat': j_stat,
+        'Overid': over_id
+    }
+}
+
+# open the file in write mode and write the dictionary to it
+with open('results.json', 'a') as f:
+    json.dump(results, f, indent=4)
+
+probability = 0.95
+quantile = chi2.ppf(probability, over_id)
+
 print("\nFinal parameter estimates:", theta)
+print("\nFinal parameter se:", se)
+print("\nFinal J-statistic:", j_stat)
+print(f"The chi-squared quantile for probability {probability} and df {over_id} is {quantile}")
+

@@ -1,66 +1,169 @@
-    \subsection{Preliminary Regression}
+\subsection{Preliminary Regression}
     Let's regress the following model with OLS:
     \begin{equation}
-        V_{t+1} = \beta_0 + \beta_1 V_t
+        V_{t+1} = \beta_0 + \beta_1 V_t + U_t,
     \end{equation}
-    where $V_t=N_t^{-\varepsilon}$, for different values of $\varepsilon$.
+    where $V_t=N_t^{-\varepsilon}$, for given values of $\varepsilon$.
+    I tried with the following values: $\varepsilon \in \{1, 0.1, 0.01, 0.001, 0.0001\}$.
+    The OLS regression yielded the following results:
+
+    \input{result_table/combined_regressions}
+
+    Overall, the assumption of a linear relationship between $V_t$ and $V_{t-1}$ seems to hold, as long as $\varepsilon$ is small enough.
+
 
     \begin{figure}[h!]
         \centering
         \begin{subfigure}[b]{0.3\textwidth}
-            \includegraphics[width=.8\linewidth]{plots/epsilon_1}
+            \includegraphics[width=.9\linewidth]{plots/epsilon_1}
             \caption{$\varepsilon = 1$}
         \end{subfigure} \quad
         \begin{subfigure}[b]{0.3\textwidth}
-            \includegraphics[width=.8\linewidth]{plots/epsilon_0.1}
+            \includegraphics[width=.9\linewidth]{plots/epsilon_0.1}
             \caption{$\varepsilon = 0.1$}
         \end{subfigure} \quad
         \begin{subfigure}[b]{0.3\textwidth}
-            \includegraphics[width=.8\linewidth]{plots/epsilon_0.01}
+            \includegraphics[width=.9\linewidth]{plots/epsilon_0.01}
             \caption{$\varepsilon = 0.01$}
         \end{subfigure}\\
         \begin{subfigure}[b]{0.3\textwidth}
-            \includegraphics[width=.8\linewidth]{plots/epsilon_0.001}
+            \includegraphics[width=.9\linewidth]{plots/epsilon_0.001}
             \caption{$\varepsilon = 0.001$}
         \end{subfigure} \quad
         \begin{subfigure}[b]{0.3\textwidth}
-            \includegraphics[width=.8\linewidth]{plots/epsilon_0.0001}
+            \includegraphics[width=.9\linewidth]{plots/epsilon_0.0001}
             \caption{$\varepsilon = 0.0001$}
         \end{subfigure}
-        \caption{Regression Plot}
+        \caption{Regression Plot $V_t$ over $V_{t-1}$}
+        \label{fig:vt_vs_vt1}
     \end{figure}
 
-    \input{result_table/combined_regressions}
+\newpage
 
 
-    \subsection{GMM estimation with Stata}
+    \subsection{Ramsey Test}
+
+    Assuming $\varepsilon \simeq 0$, we can expand $N_{t}^{\,1+\varepsilon}$ as:
+    \begin{equation}
+        N_{t}^{\,1+\varepsilon} \simeq N_{t} \left( 1 + \varepsilon \ln N_{t} + \frac{\varepsilon^2 (\ln N_{t})^2}{2} + \frac{\varepsilon^3 (\ln N_{t})^3}{6} \right).
+    \end{equation}
+
+    So:
+        \begin{equation}
+        N_{t+1} = (\alpha_1 + \alpha_2) N_{t} + \varepsilon \alpha_2 N_{t}\ln N_{t} + \varepsilon^2 \alpha_2 N_{t} \frac{ (\ln N_{t})^2}{2} + \varepsilon^3 \alpha_2 N_{t} \frac{(\ln N_{t})^3}{6}.
+        \end{equation}
+
+    So by regressing on the nonlinear terms:
+
+    \input{result_table/ramsey_test}
+
+    I can then reasonably assume there is some nonlinearity at play in the relationship between $N_{t-1}$ and $N_t$.
+    \begin{figure}[h!]
+            \centering
+            \includegraphics[width=0.6\linewidth]{plots/regression_comparison_1}\quad
+            \includegraphics[width=0.2\linewidth]{plots/regression_comparison_2}
+            \caption{$N_t$ vs $N_{t-1}$ comparison between OLS and G2 model}
+            \label{fig:plot_gmm_ols_comp}
+        \end{figure}
+
+
+\subsection{GMM estimation with Stata}
 
     Let's consider the model:
     \begin{equation}
-        N_{t} = \alpha_1 N_{t-1} + \alpha_2 N_{t-1}^{1 + \varepsilon} + U_t\label{eq:equation1}
+        N_{t} = \alpha_1 N_{t-1} + \alpha_2 N_{t-1}^{1 + \varepsilon} + U_t
+        \label{eq:equation1}
     \end{equation}
 
-    We assume that $U_t$ is mean independent of all the $N_s$ for $s\leq t-1$. For 3 parameters, at least 3 instruments are needed:
+    I assume that $U_t$ is mean independent of all the $N_s$ for $s\leq t-1$.
+    For 3 parameters, at least 3 instruments are needed.
+    The following set of instruments were tried:
+    \begin{table}[h!]
+        \centering
+        \begin{tabular}{l c}
+            Model & Instruments \\ \hline
+            S3 & $N_{t-1}, N_{t-2}, N_{t-3}$ \\
+            S4 &  $N_{t-1}, N_{t-2}, N_{t-3}, N_{t-4}$ \\
+            Sln &  $N_{t-1}, N_{t-2}, N_{t-3}, N_{t-1} \ln N_{t-1}$
+        \end{tabular}
+        \label{tab:models_stat}
+    \end{table}
 
+    The results are as follows:
     \input{result_table/gmm_stata}
 
     All the model failed to converge in Stata (tried with different criteria, but without luck).
-
-    \begin{figure}
+    \begin{figure}[h!]
         \centering
-        \includegraphics{plots/gmm_stata}
+        \includegraphics[width=0.8\linewidth]{plots/gmm_stata}
+        \caption{Comparison between real data and the predicted new cases using the parameters from Stata.}
+        \label{fig:plot_gmm_stata}
     \end{figure}
 
-    \subsection{GMM estimation with grid search}
+\newpage
 
-    I therefore implemented the (iterative) GMM in python, with the minimization done by grid search on the parameters:
+\subsection{GMM estimation with grid search}
+
+    I therefore implemented the GMM in python, with the minimization done by grid search on the parameters.
+    The following set of instruments were tried:
+
+    \begin{table}[h!]
+        \centering
+        \begin{tabular}{l c}
+            Model & Instruments \\ \hline
+            G3 & $N_{t-1}, N_{t-2}, N_{t-3}$ \\
+            G4 & $N_{t-1}, N_{t-2}, N_{t-3}, N_{t-4}$ \\
+            G5 & $N_{t-1}, N_{t-2}, N_{t-3}, N_{t-4}, N_{t-5}$
+        \end{tabular}
+        \label{tab:models_grid_search}
+    \end{table}
+
+    The results are as follows:
+    \input{result_table/gmm_grid_search}
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.8\linewidth]{plots/gmm_grid_search}
+        \caption{Comparison between real data and the predicted new cases using the parameters found with the grid search minimization.}
+        \label{fig:plot_gmm_grid_search}
+    \end{figure}
+
+    \newpage
+    \subsection{Specification Test}
+    I tested the specifications of model G4 and the validity of instruments $N_{t-4}, N_{t-5}$:
+    \begin{itemize}
+        \item Hansen test for G4 model specification:
+            \begin{equation}
+                \hat J_3 = 14.58 > 5.99 =Q_{\chi^2_2}(0.95)
+            \end{equation}
+            The test rejects the hypothesis of valid specifications, suggesting the model is not well-defined.
+        \item EHS test for exogeneity of $N_{t-4}, N_{t-5}$:
+            \begin{equation}
+                \hat J_5 - \hat J_3 = 1.68 < 5.99 =Q_{\chi^2_2}(0.95)
+            \end{equation}
+            The test does not reject the validity of instruments $N_{t-4}, N_{t-5}$.
+    \end{itemize}
+    There are possibly some issues (i.e.\ collinearity of the instruments that hinder the over-identification degrees).
+
+    \section{Final model}
+    To solve the issue of possible collinearity, I introduced the following instruments:
+    \begin{itemize}
+        \item Daily temperature data (temperature 2m above ground, in Celsius)
+        \item Daily mobility data (percent change from baseline of occupation of retail and recreation and transit stations)
+    \end{itemize}
+
+    Moreover, to avoid unexpected
+
+    The results are as follows:
+    \input{result_table/gmm_final}
+
+    \section{Data Sources}
+    \begin{itemize}
+        \item Covid infection data is available on the Covid section of the WHO website \url{https://data.who.int/dashboards/covid19/}
+        \item Temperature data is available on the EU Copernicus Climate Data Store website \url{https://cds.climate.copernicus.eu/}
+        \item Mobility data is available on the Google Covid19 Mobility Report website \url{https://www.google.com/covid19/mobility/}
+    \end{itemize}
 
 
-    \subsection{Ramsay Test}
 
 
-
-
-% \dot V(t) = -r\varepsilon\, \left(V_0-K^{-1}\right)e^{-r\varepsilon t}
-
-For P-0 consider the stationary distribution as $t \to \infty $ and estimate t* as an average with that distribution

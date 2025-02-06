@@ -1,42 +1,8 @@
-import numpy as np
+import json
 
-# For example, suppose you have estimated GMM results for four instrument sets.
-# The keys are instrument set labels and the values are dictionaries of results.
-# (Replace these values with your actual estimates.)
-results = {
-    'N1 N2': {
-        'alpha1': 4.280,
-        'alpha2': -2.528,
-        'epsilon': 0.0210,
-        'se_alpha1': 6.681,
-        'se_alpha2': 6.514,
-        'se_epsilon': 0.0436
-    },
-    'N1 N2 N3': {
-        'alpha1': 3.27272727,
-        'alpha2': -4.981,  # You can add significance stars as needed
-        'epsilon': 0.0157,
-        'se_alpha1': None,  # None means no standard error available (will print as ".")
-        'se_alpha2': 0.0550,
-        'se_epsilon': 0.000896
-    },
-    'N1 N2 N3 N4': {
-        'alpha1': 7.457,
-        'alpha2': -5.466,
-        'epsilon': 0.0135,
-        'se_alpha1': None,
-        'se_alpha2': 0.0453,
-        'se_epsilon': 0.000672
-    },
-    'N1 N2 N3 N1lnN1': {
-        'alpha1': 7.503,
-        'alpha2': -5.474,
-        'epsilon': 0.0140,
-        'se_alpha1': None,
-        'se_alpha2': 0.0493,
-        'se_epsilon': 0.000730
-    }
-}
+# Load the results from the JSON file
+with open('results.json', 'r') as f:
+    results = json.load(f)
 
 # Print the final parameter estimates for each instrument set:
 for inst_set, params in results.items():
@@ -48,7 +14,7 @@ for inst_set, params in results.items():
 
 # Now, build a LaTeX table string.
 # We assume that the columns appear in the following fixed order:
-instrument_order = ['N1 N2', 'N1 N2 N3', 'N1 N2 N3 N4', 'N1 N2 N3 N1lnN1']
+instrument_order = ['N2', 'N3', 'N4', 'N5']
 
 # Header of the table (note the use of raw string for backslashes):
 latex_table = r"""\begin{table}[htbp]\centering

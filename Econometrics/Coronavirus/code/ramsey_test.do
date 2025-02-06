@@ -24,9 +24,11 @@ gen hat_Y_ln_hat_Y2 = hat_Y * (ln_hat_Y)^2  // hat_Y * (ln(hat_Y))^2
 gen hat_Y_ln_hat_Y3 = hat_Y * (ln_hat_Y)^3  // hat_Y * (ln(hat_Y))^3
 
 * Step 3: Regress Y on X and the higher-order terms of the fitted values
-regress Y X hat_Y_ln_hat_Y hat_Y_ln_hat_Y2 hat_Y_ln_hat_Y3
+regress Y X hat_Y_ln_hat_Y hat_Y_ln_hat_Y2 hat_Y_ln_hat_Y3 
 
 * Step 4: Perform the Ramsey RESET test
 testparm hat_Y_ln_hat_Y hat_Y_ln_hat_Y2 hat_Y_ln_hat_Y3
 
-
+esttab using ramsey_test.tex, label ///
+    title("Ramsey Test") ///
+    replace
