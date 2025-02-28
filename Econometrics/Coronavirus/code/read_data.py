@@ -44,28 +44,15 @@ italy_df = merged_df.drop(columns=['time', 'date'])
 
 
 dta = pd.DataFrame(italy_df['Cumulative_cases'].fillna(0))
-dta.insert(1, 'Cumulative_cases_lag_1', dta['Cumulative_cases'].shift(1).fillna(0))
-dta.insert(2, 'Cumulative_cases_lag_2', dta['Cumulative_cases'].shift(2).fillna(0))
-dta.insert(3, 'Cumulative_cases_lag_3', dta['Cumulative_cases'].shift(3).fillna(0))
-dta.insert(4, 'Cumulative_cases_lag_4', dta['Cumulative_cases'].shift(4).fillna(0))
-dta.insert(5, 'Cumulative_cases_lag_5', dta['Cumulative_cases'].shift(5).fillna(0))
-dta.insert(6, 'Cumulative_cases_lag_10', dta['Cumulative_cases'].shift(10).fillna(0))
-dta.insert(7, 'Cumulative_cases_lag_20', dta['Cumulative_cases'].shift(20).fillna(0))
-dta.insert(8, 'Cumulative_cases_lag_1_logX', np.log(dta['Cumulative_cases'].shift(1).fillna(0) + 10 ** (-6)))
-dta.insert(9, 'Cumulative_cases_lag_1_XlogX',
-           dta['Cumulative_cases'].shift(1).fillna(0) * np.log(dta['Cumulative_cases'].shift(1).fillna(0) + 10 ** (-6)))
-dta.insert(10, 'Cumulative_cases_lag_1_Hermite2', dta['Cumulative_cases'].shift(1).fillna(0) ** 2 - np.average(
-    dta['Cumulative_cases'].shift(1).fillna(0) ** 2))
-dta.insert(11, 'Cumulative_cases_lag_1_Hermite3', dta['Cumulative_cases'].shift(1).fillna(0) ** 3 - 3 * np.average(
-    dta['Cumulative_cases'].shift(1).fillna(0) ** 2))
-dta.insert(12, 'Average_temperature',italy_df['Temperatura_Media'] )
-dta.insert(13, 'Retail_and_recreation',italy_df['retail_and_recreation_percent_change_from_baseline'] )
-dta.insert(14, 'Transit_stations',italy_df['transit_stations_percent_change_from_baseline'] )
-dta.insert(15, 'Cumulative_cases_lag_10_XlogX',
-           dta['Cumulative_cases'].shift(10).fillna(0) * np.log(dta['Cumulative_cases'].shift(10).fillna(0) + 10 ** (-6)))
-dta.insert(15, 'Cumulative_moving_average', italy_df['Cumulative_cases'].shift(1).fillna(0).expanding().mean())
-dta.insert(16, 'Cumulative_moving_sum', italy_df['Cumulative_cases'].shift(1).fillna(0).expanding().mean())
-dta.insert(17, 'New_cases_lag_1', italy_df['New_cases'].shift(1).fillna(0))
+dta.insert(0,'Date_reported', italy_df['Date_reported'] )
+dta.insert(2, 'Average_temperature',italy_df['Temperatura_Media'] )
+dta.insert(3, 'Retail_and_recreation',italy_df['retail_and_recreation_percent_change_from_baseline'] )
+dta.insert(4, 'Transit_stations',italy_df['transit_stations_percent_change_from_baseline'] )
+dta.insert(5, 'Cumulative_moving_average', italy_df['Cumulative_cases'].shift(1).fillna(0).expanding().mean())
+dta.insert(6, 'Parks',italy_df['parks_percent_change_from_baseline'] )
+dta.insert(7,'New_cases', italy_df['New_cases'] )
+dta = dta[dta['New_cases'] > 0]
+dta.reset_index(drop=True, inplace=True)
 
 
 # Export the DataFrame to a Stata .dta file.

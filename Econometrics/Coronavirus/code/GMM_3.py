@@ -4,8 +4,6 @@ from scipy.stats import chi2
 from Econometrics.Coronavirus.code.read_data import dta
 import json
 
-
-
 def model_setup(data, params):
     # Unpack parameters
     alpha_1, alpha_2, epsilon = params
@@ -19,13 +17,11 @@ def model_setup(data, params):
     U_t = error_equation(N_t, N_t_1, alpha_1, alpha_2, epsilon)
     return U_t, instruments
 
-
 def error_equation(N_t, N_t_1, alpha_1, alpha_2, epsilon):
-    # U_t = N_t - alpha_1 * N_t_1 - alpha_2 * N_t_1 ** (1 + epsilon)
-    U_t = N_t - (alpha_1 + alpha_2) * N_t_1 - alpha_2 * epsilon * N_t_1 * np.log(N_t_1) + alpha_2*epsilon**2*N_t_1*(np.log(N_t_1))**2/2
+    U_t = N_t - alpha_1 * N_t_1 - alpha_2 * N_t_1 ** (1 + epsilon)
+    # U_t = N_t - (alpha_1 + alpha_2) * N_t_1 - alpha_2 * epsilon * N_t_1 * np.log(N_t_1) + alpha_2*epsilon**2*N_t_1*(np.log(N_t_1))**2/2
 
     return U_t
-
 
 # --- Functions for the moment conditions, their variance, and Jacobian ---
 # The convention is that the input "data" is a 2D array (or matrix)
@@ -95,7 +91,6 @@ def mean_var(params, data):
             V[i, j] = np.average(moment_array[i] * moment_array[j])
     return V
 
-
 def mean_jac(params, data):
     """
     Computes the Jacobian matrix (derivatives of moment conditions with respect to parameters).
@@ -119,13 +114,10 @@ def mean_jac(params, data):
 
     # Derivatives of U_t = N_t - alpha_1*regressor - alpha_2*regressor^(1+epsilon)
     dU_dalpha1 = -regressor
-    # dU_dalpha2 = -regressor ** (1 + epsilon)
-    # dU_depsilon = -alpha_2 * regressor ** epsilon * epsilon
-
-    dU_dalpha2 = -regressor * (1 + epsilon * np.log(regressor) - (epsilon * np.log(regressor))**2/2)
-    dU_depsilon = -alpha_2 * regressor * np.log(regressor) - alpha_2 * epsilon  * regressor * np.log(regressor)**2
-
-
+    dU_dalpha2 = -regressor ** (1 + epsilon)
+    # dU_depsilon = -alpha_2 * (1+ epsilon) * regressor ** epsilon
+    # dU_dalpha2 = -regressor * (1 + epsilon * np.log(regressor) - (epsilon * np.log(regressor))**2/2)
+    dU_depsilon = -alpha_2 * regressor * (1+epsilon*np.log(regressor))
 
     # Jacobian for the constant moment condition m0 = average(U_t)
     jacobian_rows = []
@@ -161,9 +153,10 @@ def mean_jac(params, data):
 
 # Adjust the list of columns below to include as many instruments as you want.
 # columns_to_use = ['Cumulative_cases', 'Cumulative_cases_lag_1', 'Cumulative_cases_lag_1_Hermite2', 'Cumulative_cases_lag_1_XlogX']
-columns_to_use = ['Cumulative_cases',  'Cumulative_cases_lag_1', 'Cumulative_moving_average', 'New_cases_lag_1', 'Average_temperature', 'Retail_and_recreation', 'Transit_stations']
 
+columns_to_use = ['Cumulative_cases',  'Cumulative_cases_lag_1', 'Average_temperature', 'Retail_and_recreation', 'Transit_stations', 'Parks', 'Cumulative_moving_average' ]
 filtered_data = dta.loc[dta['Cumulative_cases_lag_1'] > 0, columns_to_use]
+print(filtered_data)
 data = np.asarray(filtered_data).T
 
 # --- Grids for parameters ---
@@ -171,9 +164,9 @@ data = np.asarray(filtered_data).T
 # alpha_2_grid = np.linspace(-1.5, -2, 37)
 # epsilon_grid = np.linspace(0.02, 0.03, 37)
 
-alpha_1_grid = np.linspace(4.5, 4.9, 107)
-alpha_2_grid = np.linspace(-2.5, -3, 97)
-epsilon_grid = np.linspace(0.03, 0.05, 97)
+alpha_1_grid = np.linspace(3.5, 4, 107)
+alpha_2_grid = np.linspace(-2, -2.4, 97)
+epsilon_grid = np.linspace(0.02, 0.025, 97)
 
 # --- GMM Iteration ---
 delta_min = 1e-3
@@ -227,8 +220,10 @@ Avar = np.linalg.inv(J.T @ S @ J)
 N=len_data = len(data[0])
 se = np.sqrt(np.diagonal(Avar)/N)
 
+print('Var = ',Avar)
+
 if len(columns_to_use) > 3:
-    over_id = len(columns_to_use) - 3
+    over_id = len(columns_to_use) - 5
     j_stat = N* m.T @ S @ m
 else:
     over_id = 0
@@ -261,4 +256,3 @@ print("\nFinal parameter estimates:", theta)
 print("\nFinal parameter se:", se)
 print("\nFinal J-statistic:", j_stat)
 print(f"The chi-squared quantile for probability {probability} and df {over_id} is {quantile}")
-

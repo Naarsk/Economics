@@ -145,17 +145,18 @@
     \end{itemize}
     There are possibly some issues (i.e.\ collinearity of the instruments that hinder the over-identification degrees).
 
-    \section{Final model}
+    \subsection{IV model}
     To solve the issue of possible collinearity, I introduced the following instruments:
     \begin{itemize}
         \item Daily temperature data (temperature 2m above ground, in Celsius)
         \item Daily mobility data (percent change from baseline of occupation of retail and recreation and transit stations)
     \end{itemize}
 
-    Moreover, to avoid unexpected
-
     The results are as follows:
-    \input{result_table/gmm_final}
+
+    \section{Approximated model}
+
+
 
     \section{Data Sources}
     \begin{itemize}

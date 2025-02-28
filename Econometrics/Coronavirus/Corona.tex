@@ -9,9 +9,11 @@
 \usepackage{amsmath}
 \usepackage{upgreek}
 \usepackage{graphicx}
-\usepackage{subcaption}
+\usepackage{wrapfig}
 \usepackage{hyperref}
+\usepackage{tikzexternal}
 \setlength{\parindent}{0pt}
+
 
 
 
@@ -28,58 +30,98 @@
         \caption{New infections per day in Italy}
     \end{figure}
 
-    \section{Model}
+\pagebreak
 
-    \subsection{Standard SIR model}
-    My first try was with the following differential equation for the total infected population:
-
-    $$\frac{dN}{dt} = r N \left(1-\frac{N}{K}\right), \quad N(0)=N_0$$
-
-    Which admits the following solution:
-
-    $$N(t) = \frac{K}{1+ \left(\frac{K-N_0}{N_0}\right) e^{-rt}}$$
-
-    That has a flex (i.e. the max of the new infections curve) in:
-    $$ t^* = \frac{1}{r}\ln \left(\frac{K-N_0}{N_0}\right)$$
-
-    To use a linear regression, the differential equation can be discretized into:
-    $$ N_{t+1} = \alpha_1 N_t + \alpha_2 N_{t}^2$$
-
-    So the parameter can be found using:
-    $$ r = \alpha_1-1, \quad K= \frac{1-\alpha_1}{\alpha_2}$$
-
-    \subsection{Bernoulli equation model}
-
-    However, the solution of the SIR model yields a symmetric curve, therefore a more appropriate model that can deliver the right-hand skewness of the contagion curve is:
+    \section{Model \& Estimation}
+    The model is as follows:
     \begin{equation}
-        N_{t+1} = \alpha_1 N_t + \alpha_2 N_{t}^{1 + \varepsilon},
-        \label{eq:equation0}
+        N_{t} = \gamma_1 N_{t-1} + \gamma_2 N_{t-1}  \ln N_{t-1} + U_t,
+        \label{eq:model_eq}
     \end{equation}
-    with $\varepsilon \in (0,1)$
 
-    Using Bernoulli transformation:
-    $$V = N^{-\varepsilon}, \qquad \frac{\dot V}{V} = -r \varepsilon \frac{\dot N}{N}, \quad \Rightarrow \quad \dot V = -r\varepsilon V + \frac{r\varepsilon}{K}. $$
+    where $N_t$ is the total infected population at time $t$, and $U_t$ is the error term.
 
-    Which has close form solution:
-    $$ V(t) = K^{-1} + \left(V_0-K^{-1}\right)e^{-r\varepsilon t} \quad \Rightarrow \quad N(t)=\frac{1}{\left(K^{-1} + \left(N_0^{-\varepsilon}-K^{-1}\right)e^{-r\varepsilon t}\right)^\varepsilon}\,.$$
+    \iffalse
+    \begin{figure}[h!]
+    \begin{center}
+        \includegraphics[width=\linewidth]{plots/num_int}
+        \caption{The result of the numerical integration correctly reproduces the right-skewness of the contagion curve}
+        \label{fig:num_int}
+    \end{center}
+    \end{figure}
+    \fi
 
-    The peak of the new cases is determined by solving:
-    $$ \ddot N = -\frac{V^{-\frac{1+\varepsilon}{\varepsilon}}}{\varepsilon} \left(\ddot V -\frac{1+\varepsilon}{\varepsilon} \frac{\dot V ^2}{V}\right) \quad \to \quad t^* = \frac{1}{\varepsilon r}\ln \left(\varepsilon K N_0^{-\varepsilon}-\varepsilon\right) $$
+    The model has been estimated through GMM, using different combinations of the following instruments:
+    \begin{itemize}
+        \item $N_{t-1}$
+        \item $N_{t-1}  \ln N_{t-1}$
+        \item Daily average temperature in Italy $W_1$
+        \item Daily average mobility in Italy, in particular the percent change from baseline of occupation of:
+        \begin{itemize}
+            \item Retail and recreation facilities $W_2$
+            \item Transit stations $W_3$
+        \end{itemize}
+    \end{itemize}
 
-    Where:
-    $$ \dot V = -r\varepsilon\left(V_0-K^{-1}\right)e^{-r\varepsilon t}, \qquad \ddot V = (r\varepsilon)^2 \left(V_0-K^{-1}\right)e^{-r\varepsilon t}. $$
+    In particular:
+    \begin{table}[h!]
+        \centering
+        \begin{tabular}{l|c}
+            Model & Instruments \\ \hline
+            1 & $N_{t-1}$ \, $W_1$ \\
+            2 & $N_{t-1}$ \, $W_1$ \\
+            3 & $N_{t-1}$ \, $N_{t-1}  \ln N_{t-1}$ \, $W_1$\, $W_2$\, $W_3$ \\
+            4 & $W_1$\, $W_2$\, $W_3$  \\
+        \end{tabular}
+    \end{table}
 
-    In terms of finite differences:
-    $$ V_{t+1} = \beta_0 + \beta_1 V_t,$$
+    The results are as follows:
+    \begin{table}[h!]
+        \centering
+        \input{result_table/gmm_result}
+        \caption{GMM results: standard errors are in parentheses and \sym{*}\(p<0.10\), \sym{**}\(p<0.05\), \sym{***}\(p<0.01\)}
+    \end{table}
 
-    where:
-    $$\beta_0 = -\alpha_2\varepsilon = \frac{r \varepsilon}{K}, \quad \beta_1=\varepsilon(1-\alpha_1) = - r\varepsilon.$$
+    From Hansen J-test of model 4 and EHS test of model 3 and 4 we can see that $N_{t-1}$ is endogenous with respect to $U_t$, and thus only model 4 is well-defined.
 
-    \newpage
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.6\linewidth]{plots/regression_comparison_1}\quad
+        \includegraphics[width=0.2\linewidth]{plots/regression_comparison_2}
+        \caption{$N_t$ vs $N_{t-1}$ comparison between OLS and Model 4}
+        \label{fig:plot_gmm_ols_comp}
+    \end{figure}
 
-    \section{Estimation}\label{sec:estimation}
-    \input{Estimation}
+    \section{Explicit Solution}
+    In continuous time, the model equation~\eqref{eq:model_eq} admits the following close form solution (i.e.\ total cases):
+    \begin{equation}
+        N(t)=\exp\Biggl(\frac{K e^{\gamma_2t}-\gamma_1+1}{\gamma_2}\Biggr), \qquad K=\gamma_1+\gamma_2\ln N_0,
+    \end{equation}
+    And derivative (i.e.\ new cases):
+    \begin{equation}
+        \dot N(t) =K\,e^{\gamma_2t}\,N(t).
+    \end{equation}
 
+    $K$ can therefore be estimated, in this case, I used grid search to find:
+    \begin{equation}
+        \hat K = \arg\min _{K} \left \Vert  N_t - \hat N_K(t) \right \Vert, \qquad \hat K = 0.5175
+    \end{equation}
 
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.6\linewidth]{plots/total_with_data}\\
+        \includegraphics[width=0.6\linewidth]{plots/new_with_data}
+        \caption{Comparison between the regressed equations and the real values}
+        \label{fig:results}
+    \end{figure}
 
+\pagebreak
+
+    \appendix
+    \section{Data Sources}
+    \begin{itemize}
+        \item Covid infection data is available on the Covid section of the WHO website \url{https://data.who.int/dashboards/covid19/}
+        \item Temperature data is available on the EU Copernicus Climate Data Store website \url{https://cds.climate.copernicus.eu/}
+        \item Mobility data is available on the Google Covid19 Mobility Report website \url{https://www.google.com/covid19/mobility/}
+    \end{itemize}
 \end{document}

@@ -1,0 +1,85 @@
+%! Author = leocr
+%! Date = 04/01/2025
+
+% Preamble
+\documentclass[12pt]{article}
+
+% Packages
+\usepackage[top=1in, bottom=1.2in, left=1in, right=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{upgreek}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\setlength{\parindent}{0pt}
+
+
+
+% Document
+\begin{document}
+    \section{Introduction}
+    The aim of this work is to estimate the parameters of the SIR model.
+    In particular, I will focus on the first wave of contagion of the Coronavirus pandemic in Italy.
+
+    \begin{figure}[h!]
+        \label{fig:covid_italy}
+        \centering
+        \includegraphics[width=.8\linewidth]{plots/real_data}
+        \caption{New infections per day in Italy}
+    \end{figure}
+
+    \section{Model}
+
+    \subsection{Standard SIR model}
+    My first try was with the following differential equation for the total infected population:
+
+    $$\frac{dN}{dt} = r N \left(1-\frac{N}{K}\right), \quad N(0)=N_0$$
+
+    Which admits the following solution:
+
+    $$N(t) = \frac{K}{1+ \left(\frac{K-N_0}{N_0}\right) e^{-rt}}$$
+
+    That has a flex (i.e. the max of the new infections curve) in:
+    $$ t^* = \frac{1}{r}\ln \left(\frac{K-N_0}{N_0}\right)$$
+
+    To use a linear regression, the differential equation can be discretized into:
+    $$ N_{t+1} = \alpha_1 N_t + \alpha_2 N_{t}^2$$
+
+    So the parameter can be found using:
+    $$ r = \alpha_1-1, \quad K= \frac{1-\alpha_1}{\alpha_2}$$
+
+    \subsection{Bernoulli equation model}
+
+    However, the solution of the SIR model yields a symmetric curve, therefore a more appropriate model that can deliver the right-hand skewness of the contagion curve is:
+    \begin{equation}
+        N_{t+1} = \alpha_1 N_t + \alpha_2 N_{t}^{1 + \varepsilon},
+        \label{eq:equation0}
+    \end{equation}
+    with $\varepsilon \in (0,1)$
+
+    Using Bernoulli transformation:
+    $$V = N^{-\varepsilon}, \qquad \frac{\dot V}{V} = -r \varepsilon \frac{\dot N}{N}, \quad \Rightarrow \quad \dot V = -r\varepsilon V + \frac{r\varepsilon}{K}. $$
+
+    Which has close form solution:
+    $$ V(t) = K^{-1} + \left(V_0-K^{-1}\right)e^{-r\varepsilon t} \quad \Rightarrow \quad N(t)=\frac{1}{\left(K^{-1} + \left(N_0^{-\varepsilon}-K^{-1}\right)e^{-r\varepsilon t}\right)^\varepsilon}\,.$$
+
+    The peak of the new cases is determined by solving:
+    $$ \ddot N = -\frac{V^{-\frac{1+\varepsilon}{\varepsilon}}}{\varepsilon} \left(\ddot V -\frac{1+\varepsilon}{\varepsilon} \frac{\dot V ^2}{V}\right) \quad \to \quad t^* = \frac{1}{\varepsilon r}\ln \left(\varepsilon K N_0^{-\varepsilon}-\varepsilon\right) $$
+
+    Where:
+    $$ \dot V = -r\varepsilon\left(V_0-K^{-1}\right)e^{-r\varepsilon t}, \qquad \ddot V = (r\varepsilon)^2 \left(V_0-K^{-1}\right)e^{-r\varepsilon t}. $$
+
+    In terms of finite differences:
+    $$ V_{t+1} = \beta_0 + \beta_1 V_t,$$
+
+    where:
+    $$\beta_0 = -\alpha_2\varepsilon = \frac{r \varepsilon}{K}, \quad \beta_1=\varepsilon(1-\alpha_1) = - r\varepsilon.$$
+
+    \newpage
+
+    \section{Estimation}\label{sec:estimation}
+    \input{Estimation_old}
+
+
+
+\end{document}
