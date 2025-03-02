@@ -246,7 +246,7 @@ results = {
 }
 
 # open the file in write mode and write the dictionary to it
-with open('results.json', 'a') as f:
+with open('../result_table/results_2.json', 'a') as f:
     json.dump(results, f, indent=4)
 
 probability = 0.95

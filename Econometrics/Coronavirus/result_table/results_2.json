@@ -1,0 +1,855 @@
+{
+    "N2": {
+        "alpha1": 3.409090909090909,
+        "alpha2": -1.7575757575757576,
+        "epsilon": 0.025454545454545452,
+        "se_alpha1": 4.148539415669428,
+        "se_alpha2": 3.9967468977598632,
+        "se_epsilon": 0.044567602540514506,
+        "sample size": 151,
+        "J-stat": null,
+        "Overid": 0
+    },
+    "N3": {
+        "alpha1": 3.2727272727272725,
+        "alpha2": -1.6363636363636362,
+        "epsilon": 0.026515151515151512,
+        "se_alpha1": 3.919470995093903,
+        "se_alpha2": 3.764872503375035,
+        "se_epsilon": 0.046515470383944026,
+        "sample size": 151,
+        "J-stat": 0.09276165560719063,
+        "Overid": 1
+    },
+    "N4": {
+        "alpha1": 3.5454545454545454,
+        "alpha2": -1.9242424242424243,
+        "epsilon": 0.022575757575757575,
+        "se_alpha1": 5.547822104332938,
+        "se_alpha2": 5.38130361859633,
+        "se_epsilon": 0.04979922546800499,
+        "sample size": 151,
+        "J-stat": 0.09655081389637332,
+        "Overid": 2
+    },
+    "N5": {
+        "alpha1": 3.5454545454545454,
+        "alpha2": -1.9242424242424243,
+        "epsilon": 0.022575757575757575,
+        "se_alpha1": 5.547275313226174,
+        "se_alpha2": 5.380816017249111,
+        "se_epsilon": 0.049795995477053795,
+        "sample size": 151,
+        "J-stat": 0.09777515186655555,
+        "Overid": 3
+    }
+}{
+    "N5": {
+        "alpha1": 3.5454545454545454,
+        "alpha2": -1.9242424242424243,
+        "epsilon": 0.022575757575757575,
+        "se_alpha1": 5.547275313226174,
+        "se_alpha2": 5.380816017249111,
+        "se_epsilon": 0.049795995477053795,
+        "sample size": 151,
+        "J-stat": 14.764047931835776,
+        "Overid": 3
+    }
+}{
+    "N5*": {
+        "alpha1": 3.9696969696969697,
+        "alpha2": -1.9242424242424243,
+        "epsilon": 0.035,
+        "se_alpha1": NaN,
+        "se_alpha2": NaN,
+        "se_epsilon": NaN,
+        "sample size": 151,
+        "J-stat": 19.70024015693591,
+        "Overid": 2
+    }
+}{
+    "N5*": {
+        "alpha1": 3.378787878787879,
+        "alpha2": -1.75,
+        "epsilon": 0.024772727272727273,
+        "se_alpha1": 5.1241667643088835,
+        "se_alpha2": 4.943071865077449,
+        "se_epsilon": 0.05411538867524868,
+        "sample size": 151,
+        "J-stat": 15.486929551462026,
+        "Overid": 2
+    }
+}{
+    "N5*": {
+        "alpha1": 3.212121212121212,
+        "alpha2": -1.6136363636363638,
+        "epsilon": 0.025454545454545455,
+        "se_alpha1": 4.737165899953544,
+        "se_alpha2": 4.554952764264784,
+        "se_epsilon": 0.05498122907113984,
+        "sample size": 151,
+        "J-stat": 18.457790077465148,
+        "Overid": 1
+    }
+}{
+    "N5*": {
+        "alpha1": 3.378787878787879,
+        "alpha2": -1.75,
+        "epsilon": 0.024772727272727273,
+        "se_alpha1": 3.8921686215044935,
+        "se_alpha2": 3.75793821306174,
+        "se_epsilon": 0.04126060711637508,
+        "sample size": 151,
+        "J-stat": 12.847332681251542,
+        "Overid": 1
+    }
+}{
+    "N5*": {
+        "alpha1": 3.3181818181818183,
+        "alpha2": -1.7196969696969697,
+        "epsilon": 0.024090909090909093,
+        "se_alpha1": 5.6717261773934196,
+        "se_alpha2": 5.477734786108134,
+        "se_epsilon": 0.05959241612176754,
+        "sample size": 151,
+        "J-stat": 20.744620544405628,
+        "Overid": 2
+    }
+}{
+    "N5*": {
+        "alpha1": 3.3181818181818183,
+        "alpha2": -1.7196969696969697,
+        "epsilon": 0.024090909090909093,
+        "se_alpha1": 4.390198802352846,
+        "se_alpha2": 4.242611708081568,
+        "se_epsilon": 0.04625001726739612,
+        "sample size": 151,
+        "J-stat": 16.77477969853102,
+        "Overid": 1
+    }
+}{
+    "N5*": {
+        "alpha1": 3.3815789473684212,
+        "alpha2": -1.75,
+        "epsilon": 0.024868421052631578,
+        "se_alpha1": 4.552743990598406,
+        "se_alpha2": 4.392454503497567,
+        "se_epsilon": 0.04829443169584755,
+        "sample size": 151,
+        "J-stat": 13.633011576267904,
+        "Overid": 1
+    }
+}{
+    "N5*": {
+        "alpha1": 3.1842105263157894,
+        "alpha2": -1.5789473684210527,
+        "epsilon": 0.02618421052631579,
+        "se_alpha1": 0.0644030946526253,
+        "se_alpha2": 0.046517160270592064,
+        "se_epsilon": 1102.4157828562384,
+        "sample size": 151,
+        "J-stat": 14.062684871865493,
+        "Overid": 1
+    }
+}{
+    "N5*": {
+        "alpha1": 3.5789473684210527,
+        "alpha2": -1.9736842105263157,
+        "epsilon": 0.02157894736842105,
+        "se_alpha1": 0.07428032101720732,
+        "se_alpha2": 0.05687982681005163,
+        "se_epsilon": 333.7415126916023,
+        "sample size": 151,
+        "J-stat": 16.073206703867157,
+        "Overid": 1
+    }
+}{
+    "N5*": {
+        "alpha1": 3.5921052631578947,
+        "alpha2": -1.993421052631579,
+        "epsilon": 0.021184210526315788,
+        "se_alpha1": 0.07120525882870278,
+        "se_alpha2": 0.054690450370977375,
+        "se_epsilon": 1223.2227788958544,
+        "sample size": 151,
+        "J-stat": 18.41044995995189,
+        "Overid": 1
+    }
+}{
+    "N5*": {
+        "alpha1": 3.5921052631578947,
+        "alpha2": -1.993421052631579,
+        "epsilon": 0.021184210526315788,
+        "se_alpha1": 0.05674431994597157,
+        "se_alpha2": 0.04367478888517486,
+        "se_epsilon": 156.46908568382239,
+        "sample size": 151,
+        "J-stat": 23.911806671748707,
+        "Overid": 9
+    }
+}{
+    "N5*": {
+        "alpha1": 3.5,
+        "alpha2": -1.8,
+        "epsilon": 0.025,
+        "se_alpha1": NaN,
+        "se_alpha2": NaN,
+        "se_epsilon": NaN,
+        "sample size": 151,
+        "J-stat": NaN,
+        "Overid": 1
+    }
+}{
+    "N5*": {
+        "alpha1": 3.526315789473684,
+        "alpha2": -1.875,
+        "epsilon": 0.024078947368421054,
+        "se_alpha1": 0.0777952848454208,
+        "se_alpha2": 0.057823053555191156,
+        "se_epsilon": 322.413242092135,
+        "sample size": 136,
+        "J-stat": 11.662951440071986,
+        "Overid": 1
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_cases_lag_5",
+            "Average_temperature"
+        ],
+        "alpha1": 3.526315789473684,
+        "alpha2": -1.875,
+        "epsilon": 0.024078947368421054,
+        "se_alpha1": 0.08111804773137091,
+        "se_alpha2": 0.06022107218521468,
+        "se_epsilon": 927.9722091922785,
+        "sample size": 136,
+        "J-stat": 12.95647465098918,
+        "Overid": 1
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_cases_lag_5",
+            "Average_temperature"
+        ],
+        "alpha1": 2.5,
+        "alpha2": -0.9210526315789473,
+        "epsilon": 0.039473684210526314,
+        "se_alpha1": 0.0513086133528631,
+        "se_alpha2": 0.031545033415137196,
+        "se_epsilon": 1162.8919947784725,
+        "sample size": 136,
+        "J-stat": 59.59215108270976,
+        "Overid": 1
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_cases_lag_5",
+            "Average_temperature"
+        ],
+        "alpha1": 2.526315789473684,
+        "alpha2": -0.9210526315789473,
+        "epsilon": 0.04078947368421053,
+        "se_alpha1": 0.05006054977662254,
+        "se_alpha2": 0.03020571787219028,
+        "se_epsilon": 1034.0679988174436,
+        "sample size": 136,
+        "J-stat": 15.295369223704716,
+        "Overid": 1
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_cases_lag_5",
+            "Average_temperature",
+            "Retail_and_recreation"
+        ],
+        "alpha1": 2.9210526315789473,
+        "alpha2": -1.3421052631578947,
+        "epsilon": 0.02894736842105263,
+        "se_alpha1": 0.059073289043239684,
+        "se_alpha2": 0.04138663523803019,
+        "se_epsilon": 944.1267121424778,
+        "sample size": 136,
+        "J-stat": 15.034137512714814,
+        "Overid": 2
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Average_temperature",
+            "Retail_and_recreation"
+        ],
+        "alpha1": 2.520833333333333,
+        "alpha2": -0.9375,
+        "epsilon": 0.0390625,
+        "se_alpha1": 0.04388021380992313,
+        "se_alpha2": 0.02712140036856238,
+        "se_epsilon": 843.1181715883816,
+        "sample size": 136,
+        "J-stat": 19.04857547921245,
+        "Overid": 1
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_cases_lag_1_XlogX",
+            "Cumulative_cases_lag_2",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations"
+        ],
+        "alpha1": 3.5416666666666665,
+        "alpha2": -1.953125,
+        "epsilon": 0.02125,
+        "se_alpha1": 0.06827414602483399,
+        "se_alpha2": 0.05253729621523216,
+        "se_epsilon": 741.3766752733183,
+        "sample size": 136,
+        "J-stat": 16.15960005758569,
+        "Overid": 4
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_cases_lag_1_XlogX",
+            "Cumulative_cases_lag_1_Hermite2",
+            "Cumulative_cases_lag_2",
+            "Cumulative_cases_lag_5",
+            "Cumulative_cases_lag_10",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations"
+        ],
+        "alpha1": 3.3854166666666665,
+        "alpha2": -1.7864583333333333,
+        "epsilon": 0.023333333333333334,
+        "se_alpha1": 0.05609334600264388,
+        "se_alpha2": 0.042031547859806936,
+        "se_epsilon": 535.9474732492389,
+        "sample size": 136,
+        "J-stat": 20.669034445250727,
+        "Overid": 7
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_cases_lag_1_XlogX",
+            "Cumulative_cases_lag_1_Hermite2",
+            "Cumulative_cases_lag_2",
+            "Cumulative_cases_lag_5",
+            "Cumulative_cases_lag_10",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations"
+        ],
+        "alpha1": 3.611111111111111,
+        "alpha2": -2.0,
+        "epsilon": 0.03,
+        "se_alpha1": 2.561305889422091,
+        "se_alpha2": 2.307856350106938,
+        "se_epsilon": 0.013115144932266565,
+        "sample size": 136,
+        "J-stat": 87.56439859652396,
+        "Overid": 7
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_cases_lag_1_XlogX",
+            "Cumulative_cases_lag_1_Hermite2",
+            "Cumulative_cases_lag_2",
+            "Cumulative_cases_lag_5",
+            "Cumulative_cases_lag_10",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations"
+        ],
+        "alpha1": 3.9565217391304346,
+        "alpha2": -2.0760869565217392,
+        "epsilon": 0.0491304347826087,
+        "se_alpha1": 1.0115838774278951,
+        "se_alpha2": 0.8204800346869284,
+        "se_epsilon": 0.003801981399606395,
+        "sample size": 136,
+        "J-stat": 63.236296022403465,
+        "Overid": 7
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_cases_lag_1_XlogX",
+            "Cumulative_cases_lag_1_Hermite2",
+            "Cumulative_cases_lag_2",
+            "Cumulative_cases_lag_5",
+            "Cumulative_cases_lag_10",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations"
+        ],
+        "alpha1": 3.9895833333333335,
+        "alpha2": -2.203125,
+        "epsilon": 0.0375,
+        "se_alpha1": 1.3485005259823681,
+        "se_alpha2": 1.1662319444122844,
+        "se_epsilon": 0.005859697386625787,
+        "sample size": 136,
+        "J-stat": 35.69834633154855,
+        "Overid": 7
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases_lag_1",
+            "Cumulative_cases_lag_1_XlogX",
+            "Cumulative_cases_lag_2",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations"
+        ],
+        "alpha1": 4.1781250000000005,
+        "alpha2": -2.328125,
+        "epsilon": 0.03875,
+        "se_alpha1": 1.3556588604185216,
+        "se_alpha2": 1.1608031106501393,
+        "se_epsilon": 0.0053689777891569946,
+        "sample size": 136,
+        "J-stat": 22.27047253285136,
+        "Overid": 4
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases_lag_5",
+            "Cumulative_cases_lag_2_XlogX",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations"
+        ],
+        "alpha1": 4.1781250000000005,
+        "alpha2": -2.328125,
+        "epsilon": 0.03875,
+        "se_alpha1": 1.4014285744809654,
+        "se_alpha2": 1.1974560714459785,
+        "se_epsilon": 0.005475511790077756,
+        "sample size": 136,
+        "J-stat": 21.055954518620794,
+        "Overid": 4
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_cases_lag_10",
+            "Cumulative_cases_lag_10_XlogX",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations"
+        ],
+        "alpha1": 4.1781250000000005,
+        "alpha2": -2.328125,
+        "epsilon": 0.03875,
+        "se_alpha1": 1.2837734136342263,
+        "se_alpha2": 1.1006293001422638,
+        "se_epsilon": 0.00512996184302303,
+        "sample size": 136,
+        "J-stat": 22.074037678954397,
+        "Overid": 4
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_moving_average",
+            "New_cases_lag_1",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations"
+        ],
+        "alpha1": 4.390625,
+        "alpha2": -2.4791666666666665,
+        "epsilon": 0.03916666666666667,
+        "se_alpha1": 1.1336558376819397,
+        "se_alpha2": 0.9699112926154371,
+        "se_epsilon": 0.004239429587837177,
+        "sample size": 136,
+        "J-stat": 13.045329403246932,
+        "Overid": 4
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_moving_average",
+            "New_cases_lag_1",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations"
+        ],
+        "alpha1": 4.390625,
+        "alpha2": -2.4791666666666665,
+        "epsilon": 0.03916666666666667,
+        "se_alpha1": 1.1336558376819397,
+        "se_alpha2": 0.9699112926154371,
+        "se_epsilon": 0.004239429587837177,
+        "sample size": 136,
+        "J-stat": 13.045329403246932,
+        "Overid": 4
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_moving_average",
+            "New_cases_lag_1",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations"
+        ],
+        "alpha1": 4.588541666666666,
+        "alpha2": -2.6041666666666665,
+        "epsilon": 0.04083333333333333,
+        "se_alpha1": 0.9953086562714675,
+        "se_alpha2": 0.8440031870403066,
+        "se_epsilon": 0.003464465231293168,
+        "sample size": 136,
+        "J-stat": 7.628275527830879,
+        "Overid": 4
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_moving_average",
+            "New_cases_lag_1",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations"
+        ],
+        "alpha1": 4.697916666666667,
+        "alpha2": -2.7604166666666665,
+        "epsilon": 0.035,
+        "se_alpha1": 1.172370009300698,
+        "se_alpha2": 1.026978205121706,
+        "se_epsilon": 0.004159714508876824,
+        "sample size": 136,
+        "J-stat": 6.945319097648807,
+        "Overid": 4
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_moving_average",
+            "New_cases_lag_1",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations"
+        ],
+        "alpha1": 4.7,
+        "alpha2": -2.7135416666666665,
+        "epsilon": 0.03854166666666667,
+        "se_alpha1": 1.0337707118252073,
+        "se_alpha2": 0.8880980759918132,
+        "se_epsilon": 0.0035785543702950965,
+        "sample size": 136,
+        "J-stat": 7.116661930098578,
+        "Overid": 4
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_moving_average",
+            "New_cases_lag_1",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations"
+        ],
+        "alpha1": 4.703773584905661,
+        "alpha2": -2.703125,
+        "epsilon": 0.03958333333333333,
+        "se_alpha1": 1.004498210340466,
+        "se_alpha2": 0.8580290697280682,
+        "se_epsilon": 0.003441097484658699,
+        "sample size": 136,
+        "J-stat": 7.102676282488458,
+        "Overid": 4
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_moving_average",
+            "New_cases_lag_1",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations"
+        ],
+        "alpha1": 4.632075471698113,
+        "alpha2": -2.5,
+        "epsilon": 0.030208333333333334,
+        "se_alpha1": 0.22569316904092288,
+        "se_alpha2": 0.15525777411906466,
+        "se_epsilon": 39.3290565198261,
+        "sample size": 136,
+        "J-stat": 63.278562033073,
+        "Overid": 4
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_moving_average",
+            "New_cases_lag_1",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations"
+        ],
+        "alpha1": 3.6226415094339623,
+        "alpha2": -2.0,
+        "epsilon": 0.021875,
+        "se_alpha1": 0.06936539423623743,
+        "se_alpha2": 0.05296545040138814,
+        "se_epsilon": 12.998661437260127,
+        "sample size": 136,
+        "J-stat": 13.512120284052203,
+        "Overid": 4
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_moving_average",
+            "New_cases_lag_1",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations"
+        ],
+        "alpha1": 3.490566037735849,
+        "alpha2": -1.875,
+        "epsilon": 0.02291666666666667,
+        "se_alpha1": 0.06719306943814905,
+        "se_alpha2": 0.05065516327019278,
+        "se_epsilon": 14.02994137788656,
+        "sample size": 136,
+        "J-stat": 12.40566985194475,
+        "Overid": 2
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_moving_average",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations"
+        ],
+        "alpha1": 3.9433962264150946,
+        "alpha2": -2.2916666666666665,
+        "epsilon": 0.020208333333333335,
+        "se_alpha1": 0.08379901545074037,
+        "se_alpha2": 0.06531663608069986,
+        "se_epsilon": 11.32895502533573,
+        "sample size": 136,
+        "J-stat": 9.449864226880969,
+        "Overid": 1
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Cumulative_moving_sum",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations"
+        ],
+        "alpha1": 3.9433962264150946,
+        "alpha2": -2.2916666666666665,
+        "epsilon": 0.020208333333333335,
+        "se_alpha1": 0.08379901545074037,
+        "se_alpha2": 0.06531663608069986,
+        "se_epsilon": 11.32895502533573,
+        "sample size": 136,
+        "J-stat": 9.449864226880969,
+        "Overid": 1
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations",
+            "Cumulative_cases_lag_1"
+        ],
+        "alpha1": 3.783018867924528,
+        "alpha2": -2.145833333333333,
+        "epsilon": 0.020989583333333332,
+        "se_alpha1": 0.0798222613630394,
+        "se_alpha2": 0.06164550830480882,
+        "se_epsilon": 14.24095202159294,
+        "sample size": 136,
+        "J-stat": 16.019032023715127,
+        "Overid": 1
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations",
+            "Cumulative_cases_lag_1"
+        ],
+        "alpha1": 3.783018867924528,
+        "alpha2": -2.145833333333333,
+        "epsilon": 0.020989583333333332,
+        "se_alpha1": 0.0798371732076494,
+        "se_alpha2": 0.0616573264247843,
+        "se_epsilon": 14.330668082510103,
+        "sample size": 136,
+        "J-stat": 16.019032023715127,
+        "Overid": 1
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations",
+            "Parks"
+        ],
+        "alpha1": 3.8207547169811322,
+        "alpha2": -2.1875,
+        "epsilon": 0.020520833333333335,
+        "se_alpha1": 0.08279365250830605,
+        "se_alpha2": 0.06423767262533005,
+        "se_epsilon": 11.88800617832977,
+        "sample size": 136,
+        "J-stat": 3.9305179783686754,
+        "Overid": 1
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Average_temperature",
+            "Cumulative_cases_lag_1",
+            "Retail_and_recreation",
+            "Transit_stations",
+            "Parks"
+        ],
+        "alpha1": 3.768867924528302,
+        "alpha2": -2.158333333333333,
+        "epsilon": 0.020104166666666666,
+        "se_alpha1": 0.07773000111865014,
+        "se_alpha2": 0.06064673857200522,
+        "se_epsilon": 11.824783251428093,
+        "sample size": 136,
+        "J-stat": 15.070817051536796,
+        "Overid": 2
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations",
+            "Parks"
+        ],
+        "alpha1": 3.8726415094339623,
+        "alpha2": -2.2291666666666665,
+        "epsilon": 0.02046875,
+        "se_alpha1": 0.08214955832819418,
+        "se_alpha2": 0.0637784992596432,
+        "se_epsilon": 11.493668511616056,
+        "sample size": 136,
+        "J-stat": 4.045121522365588,
+        "Overid": 1
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations",
+            "Parks",
+            "Cumulative_moving_average"
+        ],
+        "alpha1": 3.849056603773585,
+        "alpha2": -2.216666666666667,
+        "epsilon": 0.020260416666666666,
+        "se_alpha1": 0.08032199844397164,
+        "se_alpha2": 0.06254845673282879,
+        "se_epsilon": 10.466559270485389,
+        "sample size": 136,
+        "J-stat": 12.349918440875783,
+        "Overid": 2
+    }
+}{
+    "N5*": {
+        "regressors": [
+            "Cumulative_cases",
+            "Cumulative_cases_lag_1",
+            "Average_temperature",
+            "Retail_and_recreation",
+            "Transit_stations",
+            "Parks",
+            "Cumulative_moving_average",
+            "Cumulative_moving_sum"
+        ],
+        "alpha1": 3.599056603773585,
+        "alpha2": -2.0166666666666666,
+        "epsilon": 0.02046875,
+        "se_alpha1": 0.06630586813429457,
+        "se_alpha2": 0.05144899042667416,
+        "se_epsilon": 13.104567514658612,
+        "sample size": 136,
+        "J-stat": 19.220592831972183,
+        "Overid": 3
+    }
+}

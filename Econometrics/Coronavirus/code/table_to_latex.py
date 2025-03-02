@@ -1,7 +1,7 @@
 import json
 
 # Load the results from the JSON file
-with open('results.json', 'r') as f:
+with open('../result_table/results_2.json', 'r') as f:
     results = json.load(f)
 
 # Print the final parameter estimates for each instrument set:
