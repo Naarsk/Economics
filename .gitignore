@@ -1,1 +1,13 @@
 /.venv/
+/Finance/Risk Management/yfinance.cache
+/Finance/.idea/Finance.iml
+/auxil/result_table/combined_regressions.aux
+/auxil/Corona.out
+/Econometrics/Coronavirus/data/data.grib.5b7b6.idx
+/auxil/Estimation.log
+/auxil/Estimation_old.log
+/auxil/gmm_models.log
+/Finance/.idea/misc.xml
+/Finance/.idea/modules.xml
+/Finance/.idea/inspectionProfiles/profiles_settings.xml
+/Finance/.idea/inspectionProfiles/Project_Default.xml
