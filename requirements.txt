@@ -12,3 +12,4 @@ build
 twine
 notebook
 jupyter
+requests_cache
