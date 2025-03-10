@@ -3,14 +3,14 @@ import matplotlib.pyplot as plt
 from scipy.stats import norm
 
 # Set seed for replication
-np.random.seed(12345678)
+np.random.seed(123456)
 
 # Number of observations
-n = 100
+sample_size = 10000
 
 # Generate the data
-X = np.random.normal(0, 1, n)
-U = np.random.normal(0, 1, n)
+X = np.random.normal(0, 1, sample_size)
+U = np.random.normal(0, 1, sample_size)
 Y = X**2 + U
 
 # Generate the x-values at which pdf_X(x) and E(Y|X=x) are to be estimated
@@ -23,27 +23,44 @@ def gaussian_kernel(u):
 def uniform_kernel(u):
     return 0.5 * np.where((u >= -1) & (u <= 1), 1, 0)
 
-# Function for estimating pdf_X(x) and E(Y|X=x)
-def kernel_smoother(y_data, x_data, x_values, n, h, kernel):
+
+# Define a function for estimating the probability density function (pdf) of X and the conditional expectation of Y given X
+def kernel_smoother(y_data, x_data, x_values, bandwidth, kernel):
+    n = len(x_data)
+
+    # Compute the matrix of differences between each x_data point and each x_values point
     d_matrix = np.outer(x_data, x_values) - np.outer(x_data, np.ones_like(x_values))
-    k_matrix = kernel(d_matrix / h)
-    den = np.sum(k_matrix, axis=0) / (n * h)
-    num = np.sum(k_matrix * y_data[:, None], axis=0) / (n * h)
+
+    # Apply the kernel function to the matrix of differences, scaled by the bandwidth h
+    k_matrix = kernel(d_matrix / bandwidth)
+
+    # Compute the denominator of the kernel smoother estimate, which is the sum of the kernel weights divided by the product of the sample size and bandwidth
+    den = np.sum(k_matrix, axis=0) / (n * bandwidth)
+
+    # Compute the numerator of the kernel smoother estimate, which is the sum of the product of the kernel weights and the y_data values, divided by the product of the sample size and bandwidth
+    num = np.sum(k_matrix * y_data[:, None], axis=0) / (n * bandwidth)
+
+    # Create a dictionary to store the estimated pdf and conditional expectation
     est = {'f_hat': den, 'mu_hat': num / den}
+
+    # Return the dictionary of estimated values
     return est
 
 # Function for estimating the LOO estimator of mu_hat
-def mu_hat_loo(y_data, x_data, N, h, kernel):
+def mu_hat_loo(y_data, x_data, bandwidth, kernel):
+    n = len(x_data)
+
     d_matrix = np.outer(x_data, x_data) - np.outer(x_data, np.ones_like(x_data))
-    k_matrix = kernel(d_matrix / h)
+    k_matrix = kernel(d_matrix / bandwidth)
     np.fill_diagonal(k_matrix, 0)
-    num = np.sum(k_matrix * y_data[:, None], axis=0) / ((N - 1) * h)
-    den = np.sum(k_matrix, axis=0) / ((N - 1) * h)
+    num = np.sum(k_matrix * y_data[:, None], axis=0) / ((n - 1) * bandwidth)    # equivalent to R sweep going down (axis=1)
+    den = np.sum(k_matrix, axis=0) / ((n - 1) * bandwidth)
     return num / den
 
 # Cross-validation function for Nadaraya-Watson estimator of E(Y|X)
-def cv_mu_hat(y_data, x_data, N, h, kernel):
-    mu_hat_loo_values = mu_hat_loo(y_data, x_data, N, h, kernel)
+def cv_mu_hat(y_data, x_data, bandwidth, kernel):
+
+    mu_hat_loo_values = mu_hat_loo(y_data, x_data, bandwidth, kernel)
     ase_loo = np.mean((y_data - mu_hat_loo_values) ** 2)
     return ase_loo
 
@@ -56,19 +73,19 @@ CV_values_uniform = np.zeros_like(bw_grid)
 
 # Loop over bandwidths and compute CV values
 for i, h in enumerate(bw_grid):
-    CV_values_gaussian[i] = cv_mu_hat(Y, X, n, h, gaussian_kernel)
-    CV_values_uniform[i] = cv_mu_hat(Y, X, n, h, uniform_kernel)
+    CV_values_gaussian[i] = cv_mu_hat(Y, X, h, gaussian_kernel)
+    CV_values_uniform[i] = cv_mu_hat(Y, X, h, uniform_kernel)
 
 # Find cross-validated bandwidths
 cv_bw_gaussian = bw_grid[np.argmin(CV_values_gaussian)]
 cv_bw_uniform = bw_grid[np.argmin(CV_values_uniform)]
 
 # Obtain f_hat and mu_hat
-f_hat_mu_hat_gaussian = kernel_smoother(Y, X, x_grid, n, cv_bw_gaussian, gaussian_kernel)
+f_hat_mu_hat_gaussian = kernel_smoother(Y, X, x_grid, cv_bw_gaussian, gaussian_kernel)
 f_hat_gaussian = f_hat_mu_hat_gaussian['f_hat']
 mu_hat_gaussian = f_hat_mu_hat_gaussian['mu_hat']
 
-f_hat_mu_hat_uniform = kernel_smoother(Y, X, x_grid, n, cv_bw_uniform, uniform_kernel)
+f_hat_mu_hat_uniform = kernel_smoother(Y, X, x_grid, cv_bw_uniform, uniform_kernel)
 f_hat_uniform = f_hat_mu_hat_uniform['f_hat']
 mu_hat_uniform = f_hat_mu_hat_uniform['mu_hat']
 

@@ -4,9 +4,9 @@
 
 rm(list = ls()) # Clear workspace.
 ptm <- proc.time() # Start clock.
-set.seed(12345678) # Set seed for replication.
+set.seed(100) # Set seed for replication. 12345678
 
-n <- 100 # Number of observations.
+n <- 10000 # Number of observations.
 
 # Generate the data.
 X <- rnorm(n, mean = 0, sd = 1)
@@ -92,7 +92,7 @@ report.n <- bquote(n == .(n))
 report.runtime <- bquote(Time(sec) == .(runningtime))
 
 # Plot fhat and muhat to a pdf file.
-pdf(file = "den+reg-5+LOO-graphs.pdf") # Open PDF file for writing.
+pdf(file = "den+reg-5+LOO-graphs_R.pdf") # Open PDF file for writing.
 
 par(oma = c(0, 0, 3, 0)) # Set margins: bottom=left=right=0, top=3 for main title.
 par(mfrow = c(2, 2)) # 2 x 2 plots.
@@ -117,7 +117,7 @@ mtext(do.call(expression, top.plot.title), outer = TRUE, line = 1:-1) # Main tit
 dev.off() # Close file.
 
 # Plot cross-validation functions to a pdf file.
-pdf(file = "den+reg-5+LOO-cv.pdf")
+pdf(file = "den+reg-5+LOO-cv_R.pdf")
 
 par(oma = c(0, 0, 2, 0)) # Set margins: bottom=left=right=0, top=2 for main title.
 par(mfrow = c(1, 2)) # 1 x 2 plots.
