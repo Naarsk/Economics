@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 from scipy.stats import norm
 
 # Set seed for replication
-np.random.seed(123456)
+np.random.seed(12345678)
 
 # Number of observations
-sample_size = 10000
+sample_size = 500
 
 # Generate the data
 X = np.random.normal(0, 1, sample_size)
@@ -29,7 +29,7 @@ def kernel_smoother(y_data, x_data, x_values, bandwidth, kernel):
     n = len(x_data)
 
     # Compute the matrix of differences between each x_data point and each x_values point
-    d_matrix = np.outer(x_data, x_values) - np.outer(x_data, np.ones_like(x_values))
+    d_matrix = np.outer(np.ones_like(x_data), x_values) - np.outer(x_data, np.ones_like(x_values))
 
     # Apply the kernel function to the matrix of differences, scaled by the bandwidth h
     k_matrix = kernel(d_matrix / bandwidth)
@@ -50,7 +50,7 @@ def kernel_smoother(y_data, x_data, x_values, bandwidth, kernel):
 def mu_hat_loo(y_data, x_data, bandwidth, kernel):
     n = len(x_data)
 
-    d_matrix = np.outer(x_data, x_data) - np.outer(x_data, np.ones_like(x_data))
+    d_matrix = np.outer(np.ones_like(x_data), x_data) - np.outer(x_data, np.ones_like(x_data))
     k_matrix = kernel(d_matrix / bandwidth)
     np.fill_diagonal(k_matrix, 0)
     num = np.sum(k_matrix * y_data[:, None], axis=0) / ((n - 1) * bandwidth)    # equivalent to R sweep going down (axis=1)
@@ -65,7 +65,7 @@ def cv_mu_hat(y_data, x_data, bandwidth, kernel):
     return ase_loo
 
 # Grid of bandwidths
-bw_grid = np.arange(0.1, 1, 0.01)
+bw_grid = np.arange(0.01, 1, 0.001)
 
 # Initialize arrays to store CV values
 CV_values_gaussian = np.zeros_like(bw_grid)
@@ -79,6 +79,8 @@ for i, h in enumerate(bw_grid):
 # Find cross-validated bandwidths
 cv_bw_gaussian = bw_grid[np.argmin(CV_values_gaussian)]
 cv_bw_uniform = bw_grid[np.argmin(CV_values_uniform)]
+
+print("optimal bw: \ngaussian:",cv_bw_gaussian,"\nuniform:",cv_bw_uniform)
 
 # Obtain f_hat and mu_hat
 f_hat_mu_hat_gaussian = kernel_smoother(Y, X, x_grid, cv_bw_gaussian, gaussian_kernel)

@@ -4,9 +4,9 @@
 
 rm(list = ls()) # Clear workspace.
 ptm <- proc.time() # Start clock.
-set.seed(100) # Set seed for replication. 12345678
+set.seed(12345678) # Set seed for replication. 12345678
 
-n <- 10000 # Number of observations.
+n <- 500 # Number of observations.
 
 # Generate the data.
 X <- rnorm(n, mean = 0, sd = 1)
