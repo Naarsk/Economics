@@ -1,6 +1,6 @@
 numpy~=2.1.3
 pandas~=2.2.3
-scipy~=1.14.1
+scipy
 pydantic
 matplotlib~=3.9.3
 statsmodels~=0.14.4
@@ -13,3 +13,5 @@ twine
 notebook
 jupyter
 requests_cache
+arch
+scikit-learn
