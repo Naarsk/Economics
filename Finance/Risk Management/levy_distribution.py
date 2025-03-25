@@ -48,7 +48,7 @@ alpha = 1.212
 lam = 0.02
 beta = -0.09
 
-plot = True
+plot = False
 if plot:
     # Range of x for which we want the PDF:
     x_values = np.linspace(-10, 20, 1000)
@@ -56,7 +56,7 @@ if plot:
     # Compute the PDF for each x:
     pdf_values_real = [pdf_from_cf(x, mu, c, alpha, lam, beta) for x in x_values]
     print("--- %s seconds for 1000 evaluations" % (time.time() - start_time))
-
+    # It takes 12.5 seconds for 1000 evaluations
     pdf_gaussian = stats.norm.pdf(x_values, loc=mu, scale=c)
     # Plot the resulting PDF:
     plt.figure(figsize=(7, 5))
@@ -129,17 +129,20 @@ if fitting:
     plt.plot(x_values,y_values)
     plt.show()
 
-histo_fitting = False
+histo_fitting = True
 if histo_fitting:
+    n_points = 7
+    n_bins =30
+    print("estimated time %s minutes" % (int(n_points**5*n_bins/1000*12.5/60)))
     data = np.random.normal(0, 1, 1000)
-    x_values, bins, _ = plt.hist(data, bins = 30, density=True)
+    x_values, bins, _ = plt.hist(data, bins = n_bins, density=True)
     y_values = np.array(bins[1:]-bins[:-1])
 
-    mu_grid = np.linspace(-0.1,0.1,37)
-    c_grid = np.linspace(0.9,1.1,37)
-    alpha_grid = np.linspace(1.2,1.4,37)
-    lam_grid = np.linspace(0.01,0.03,37)
-    beta_grid = np.linspace(-0.1,-0.05,37)
+    mu_grid = np.linspace(-0.1,0.1,n_points)
+    c_grid = np.linspace(0.9,1.1,n_points)
+    alpha_grid = np.linspace(1.2,1.4,n_points)
+    lam_grid = np.linspace(0.01,0.03,n_points)
+    beta_grid = np.linspace(-0.1,-0.05,n_points)
 
     min_error=np.inf
     optimal_params = np.ones(5)
