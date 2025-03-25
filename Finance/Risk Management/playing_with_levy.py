@@ -2,41 +2,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy import stats
 from scipy.integrate import romb
+from scipy.interpolate import interp1d
 from scipy.optimize import minimize
 from itertools import product
-from dump_load_distribution import dump_data
 import time
 
 
-##############################################################################
-# 1) Define your characteristic function psi(t).
-##############################################################################
-def psi_tld(k, mu, c, alpha, lam, beta):
-    term1 = -1j * mu * k
-    term2 = c**alpha * ((lam**alpha - (k**2 + lam**2)**(alpha/2)) / np.cos(np.pi * alpha / 2)) * np.cos(alpha * np.arctan(np.abs(k) / lam))
-    term3 = (1 + 1j * np.sign(k) * beta * np.tan(alpha * np.arctan(np.abs(k) /lam)))
-    return term1 - term2 * term3
 
-##############################################################################
-# 2) Define the PDF via inverse Fourier transform (real part).
-##############################################################################
-
-def _pdf_from_cf(x, mu, c, alpha, lam, beta, k_max=50.0, ln_2_k_points=15, x_lim=250):
-
-    if np.abs(x) > x_lim*c:
-        result = 0
-    else:
-        def integrand_real(k):
-            return np.exp(-1j * k * x - psi_tld(k, mu, c, alpha, lam, beta)).real
-
-        k_grid, dk = np.linspace(-k_max, k_max, 2**ln_2_k_points+1,retstep=True)
-
-        # We take the real part of the integral:
-        result = romb(integrand_real(k_grid), dx= float(dk))/ (2 * np.pi)
-
-    return result
-
-pdf_from_cf = np.vectorize(_pdf_from_cf)
 
 ##############################################################################
 # 3) Example usage: compute and plot the PDF over a range of x values.
@@ -74,7 +46,7 @@ save = False
 if save:
     x_values = np.linspace(-15,15,10000)
     y = [pdf_from_cf(x, mu=0, c=1, alpha=.7, lam=0.02, beta=-0.9, k_max=50) for x in x_values]
-    dump_data(x_values, y, 'skewed_truncated_levy')
+    dump_distribution(x_values, y, 'skewed_truncated_levy')
 
 moments = False
 if moments:
@@ -88,6 +60,52 @@ if moments:
     print("Normalization: " , norm)
     print("Mean: ", mean)
     print("2nd Moment: ", second_moment)
+
+make_dist = True
+if make_dist:
+    class TruncatedLevy(stats.rv_continuous):
+        def __init__(self, alpha, lam, beta, x_max = 50,*args, **kwargs):
+            super().__init__(*args, **kwargs)
+            self.alpha = alpha
+            self.lam = lam
+            self.beta = beta
+            self.x_max = x_max
+
+            r_values = np.logspace(10**(-4), np.log(self.x_max), 50)
+            l_values = -r_values
+
+            self.pdf_values = pdf_from_cf(self.x_values, mu=0.0, c=1.0, alpha=self.alpha, lam=self.lam, beta=self.beta, k_max=50,x_lim=self.x_max)
+
+            self.pdf_interpolator = interp1d(
+                self.x_values,
+                self.pdf_values,
+                bounds_error=False,
+                fill_value=0.0,  # PDF=0 outside the range
+                kind='linear'
+            )
+
+            # Optionally, pre-compute CDF by cumulative integration
+            # to implement _cdf() or _ppf(). For demonstration, we skip that.
+
+        def _pdf(self, x):
+            """
+            Return the PDF at points x by interpolation.
+            """
+            return self.pdf_interpolator(x)
+    start_time = time.time()
+    # Now create an instance of the distribution.
+    truncated_levy = TruncatedLevy(momtype=0, a=-250, b=250, name="Skewed Truncated Levy", alpha=1.2, lam=0.02, beta=-0.9)
+    # Now stats.make_distribution will work because truncated_levy now has _shape_info set.
+    x_values = np.linspace(-10, 20, 1000)
+    # Compute the PDF for each x:
+    pdf_values = truncated_levy.pdf(x_values)
+    cdf_values = truncated_levy.cdf(x_values)
+    print("--- %s seconds for 1000 evaluations" % (time.time() - start_time))
+    # It takes 12.5 seconds for 1000 evaluations
+    plt.figure(figsize=(7, 5))
+    plt.plot(x_values, pdf_values, label='Truncated Lévy')
+    plt.plot(x_values, cdf_values, label='Truncated Lévy')
+    plt.show()
 
 fitting = False
 if fitting:
@@ -129,7 +147,7 @@ if fitting:
     plt.plot(x_values,y_values)
     plt.show()
 
-histo_fitting = True
+histo_fitting = False
 if histo_fitting:
     n_points = 7
     n_bins =30

@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.stats import gaussian_kde
-
+from numerical_distributions.scipy_distribution import dump_distribution
 
 # Alternatively, you can load all sheets at once
 dfs = pd.read_excel('EU_Data.xlsx', sheet_name=None)
@@ -41,4 +41,4 @@ save = True
 if save:
     x = np.linspace(-15,15,10000)
     y = kde(x)
-    dump_data(x, y, 'kde_stoxx50e')
+    dump_distribution(x, y, 'kde_stoxx50e')
