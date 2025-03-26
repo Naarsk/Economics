@@ -12,7 +12,7 @@ def dump_distribution(x_vals, pdf_vals, cdf_vals=None, filename="my_distribution
     else:
         np.savez(filename+".npz", x_vals=x_vals, pdf_vals=pdf_vals)
     cwd = os.getcwd()
-    print("saved to:", cwd+filename+".npz")
+    print("saved to:", cwd+"/"+filename+".npz")
     return
 
 

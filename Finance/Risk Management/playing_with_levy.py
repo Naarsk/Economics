@@ -1,14 +1,11 @@
+import time
+from itertools import product
+
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy import stats
-from scipy.integrate import romb
 from scipy.interpolate import interp1d
 from scipy.optimize import minimize
-from itertools import product
-import time
-
-
-
 
 ##############################################################################
 # 3) Example usage: compute and plot the PDF over a range of x values.
