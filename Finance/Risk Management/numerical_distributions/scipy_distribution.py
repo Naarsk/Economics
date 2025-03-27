@@ -15,7 +15,6 @@ def dump_distribution(x_vals, pdf_vals, cdf_vals=None, filename="my_distribution
     print("saved to:", cwd+"/"+filename+".npz")
     return
 
-
 class CustomDistribution(rv_continuous):
     def __init__(self, data_file, *args, **kwargs):
         """
@@ -23,13 +22,12 @@ class CustomDistribution(rv_continuous):
         """
         super().__init__(*args, **kwargs)
 
-        # Load the numerical PDF from disk
+        # Load the numerical PDF from disk, ensuring they are floats
         data = np.load(data_file)
-        self.x_vals = data["x_vals"]
-        self.pdf_vals = data["pdf_vals"]
+        self.x_vals = np.asarray(data["x_vals"], dtype=float)
+        self.pdf_vals = np.asarray(data["pdf_vals"], dtype=float)
 
         # Build an interpolator for the PDF
-        # kind='linear' or 'cubic' depending on how smooth your PDF is
         self.pdf_interpolator = interp1d(
             self.x_vals,
             self.pdf_vals,
@@ -38,30 +36,44 @@ class CustomDistribution(rv_continuous):
             kind='linear'
         )
 
+        # Compute the CDF if not provided
         if 'cdf_vals' in data:
-            self.cdf_vals =  data["cdf_vals"]
+            self.cdf_vals = np.asarray(data["cdf_vals"], dtype=float)
         else:
-            self.cdf_vals = np.concat([np.array([self.pdf_vals[0]]), np.array([simpson(self.pdf_vals[:i], self.x_vals[:i]) for i in range(1,len(self.x_vals))])])
+            # Compute CDF via Simpson's rule over the PDF values
+            cdf_partial = [simpson(self.pdf_vals[:i], self.x_vals[:i]) for i in range(1, len(self.x_vals))]
+            # Prepend 0.0 (CDF at the lower bound is 0)
+            self.cdf_vals = np.concatenate(([0.0], cdf_partial))
+            # Normalize to ensure the CDF ends at 1
+            self.cdf_vals /= self.cdf_vals[-1]
 
+        # Build an interpolator for the CDF
         self.cdf_interpolator = interp1d(
             self.x_vals,
             self.cdf_vals,
             bounds_error=False,
-            fill_value=(0.0,1.0),
+            fill_value=(0.0, 1.0),  # Ensures proper boundary values for CDF
             kind='linear'
         )
+
+        # Set the support boundaries as floats for the built-in inversion routines
+        self.a = float(self.x_vals[0])
+        self.b = float(self.x_vals[-1])
 
     def _pdf(self, x, *args):
         """
         Return the PDF at points x by interpolation.
         """
+        # Ensure x is a float array to avoid casting issues
+        x = np.asarray(x, dtype=float)
         return self.pdf_interpolator(x)
 
     def _cdf(self, x, *args):
         """
         Return the CDF at points x by interpolation.
         """
+        # Ensure x is a float array
+        x = np.asarray(x, dtype=float)
         return self.cdf_interpolator(x)
-
 
 

@@ -2,6 +2,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from scipy.integrate import romb
 from scipy.optimize import minimize
+from scipy.stats import gaussian_kde
 
 from scipy_distribution import dump_distribution, CustomDistribution
 from itertools import product
@@ -56,7 +57,7 @@ def dump_levy(loc, scale, alpha, lam, beta, filename='truncated_levy', x_min=-15
 ##############################################################################
 
 def load_levy(filename):
-    return CustomDistribution(data_file=filename, momtype=0, name="Truncated Skewed Lévy", badvalue=0)
+    return CustomDistribution(data_file=filename, momtype=0, name="Truncated Skewed Lévy")
 
 
 ##############################################################################
@@ -100,8 +101,87 @@ def log_likelihood(params, data, k_max=50.0, ln_2_k_points=15):
 
     return -np.sum(np.log(likelihoods))  # Negative log-likelihood for minimization
 
-def fit_levy(data, initial_guess, k_max=50.0, ln_2_k_points=15):
+def scipy_fit_levy(data, initial_guess, k_max=50.0, ln_2_k_points=15):
     """Fits the distribution parameters using MLE."""
     result = minimize(log_likelihood, args=(data, k_max, ln_2_k_points), x0=initial_guess,
                       method='Nelder-Mead')  # Optimization algorithm
     return result
+
+def gs_fit_levy(data, alpha_grid, lam_grid, beta_grid, k_max=50.0, ln_2_k_points=15):
+
+    max_loglikelihood = -np.inf
+
+    optimal_params = np.ones(3)
+
+    for alpha, lam, beta in product(alpha_grid, lam_grid, beta_grid):
+
+        likelihoods = pdf_from_cf(data, 0, 1, alpha, lam, beta, k_max=k_max, ln_2_k_points=ln_2_k_points)
+
+        if np.any(likelihoods <= 0):
+            return 0
+
+        total_log_likelihood = np.sum(np.log(likelihoods))
+
+        if total_log_likelihood > max_loglikelihood:
+            max_loglikelihood = log_likelihood
+
+            optimal_params = np.array([alpha, lam, beta])
+
+    return optimal_params
+
+
+def symmetric_logspace(n, x_max, base=10):
+    # Generate log-spaced values in positive domain
+    positive = np.logspace(np.log10(x_max / base), np.log10(x_max), num=n, base=base)
+
+    # Mirror to negative side and include zero
+    return np.concatenate([-positive[::-1], [0], positive])
+
+
+def kde_fit_levy(data, alpha_grid, lam_grid, beta_grid, n =100, x_max=15, k_max=50.0, ln_2_k_points=15):
+    kde = gaussian_kde(data)
+
+    x_values = symmetric_logspace(n, x_max)
+    y_values = kde(x_values)
+
+    min_error=np.inf
+
+    optimal_params = np.ones(3)
+
+    for alpha, lam, beta in product(alpha_grid,lam_grid,beta_grid):
+
+        error_values = pdf_from_cf(x_values,0,1,alpha,lam,beta,k_max=k_max,ln_2_k_points=ln_2_k_points)-y_values
+
+        total_squared_error = np.sum(error_values**2)
+
+        if total_squared_error < min_error:
+
+            min_error = total_squared_error
+
+            optimal_params = np.array([alpha, lam, beta])
+
+    return optimal_params
+
+def kde_fit_levy_2(data, mu_grid, c_grid, alpha_grid, lam_grid, beta_grid, n =100, x_max=15, k_max=50.0, ln_2_k_points=15):
+    kde = gaussian_kde(data)
+
+    x_values = symmetric_logspace(n, x_max)
+    y_values = kde(x_values)
+
+    min_error=np.inf
+
+    optimal_params = np.ones(5)
+
+    for mu,c ,alpha, lam, beta in product(mu_grid, c_grid,alpha_grid,lam_grid,beta_grid):
+
+        error_values = pdf_from_cf(x_values,mu,c,alpha,lam,beta,k_max=k_max,ln_2_k_points=ln_2_k_points)-y_values
+
+        total_squared_error = np.sum(error_values**2)
+
+        if total_squared_error < min_error:
+
+            min_error = total_squared_error
+
+            optimal_params = np.array([mu,c,alpha, lam, beta])
+
+    return optimal_params
