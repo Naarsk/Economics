@@ -185,3 +185,17 @@ def kde_fit_levy_2(data, mu_grid, c_grid, alpha_grid, lam_grid, beta_grid, n =10
             optimal_params = np.array([mu,c,alpha, lam, beta])
 
     return optimal_params
+
+def dump_scaled_levy(loc, scale, alpha, lam, beta, days, filename='scaled_truncated_levy', x_min=-15, x_max =15, x_points=10000, k_max=50.0, ln_2_k_points=15):
+
+    N_alpha = days ** (1 / alpha)
+
+    x_values = np.linspace(x_min,x_max,x_points)
+
+    pdf_values = pdf_from_cf(x_values/N_alpha,loc, scale, alpha, lam * N_alpha, beta,k_max=k_max, ln_2_k_points=ln_2_k_points)/ N_alpha
+
+    filename = filename + '_' + str(np.round(loc,2)) + '_' +  str(np.round(scale,2)) + '_' +   str(np.round(alpha,2)) + '_' +   str(np.round(lam,2)) + '_' +   str(np.round(beta,2))
+
+    dump_distribution(x_vals=x_values,pdf_vals=pdf_values,filename=filename)
+
+    return filename
