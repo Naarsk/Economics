@@ -1,0 +1,62 @@
+%! Author = Leonardo Cruciani
+%! Date = 29/03/2025
+
+% Preamble
+\documentclass[12pt]{article}
+
+% Packages
+\usepackage[top=1in, bottom=1.2in, left=1in, right=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{upgreek}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage{tikzexternal}
+\setlength{\parindent}{0pt}
+
+\author{Leonardo Cruciani}
+\title{Forecasting VaR using Garch and KDE}
+% Document
+\begin{document}
+    \section{Introduction}
+    \section{Methodology}
+    \subsection{Data}
+        The dataset contains the closing prices of some popular indices (S\&P500, FTSE, Eurostoxx50 and Euronext100) from 2006 to 2024.
+        The dataset is split in two, with the first 11 years being used for training and the last 7 years for testing.
+        From the dataset the log returns are computed, and aggregated for 5, 10 and 20 days.
+
+    \subsection{Garch}
+        Since its inception, various Garch models have been used in the field of finance.
+        In the paper \cite{thorsten} an augmented Garch model that nests all the most commonly used (e.g. Garch(1,1), GJR-Garch, Aparch, etc) is proposed.
+        In this work I will resort to a simpler Power Garch model with leverage effect to model the volatility $\sigma_t$:
+        \begin{equation}
+            \sigma_t^\kappa = \omega
+            + \alpha \left|\epsilon_{t-1}\right|^\kappa
+            + \beta \sigma_{t-1}^\kappa
+            + \gamma \left|\epsilon_{t-1}\right|^\kappa I_{[\epsilon_{t-1}<0]}
+        \end{equation}
+        Where $\epsilon_t \sim D(0,1)$ are independent shocks distributed according to a \textit{standardized distribution} $D(0,1)$. In the paper \cite{thorsten} a
+        Truncated Skewed Levy distribution, is used for the shocks, but I instead will use the kernel density estimated distribution. More about this in the next section.\\
+        The parameters to be estimated are: $\alpha$, which models the sensitivity of the volatility to the shock, $\beta$, which models the persistence of the volatility, $\gamma$, which models the leverage effect, the exponent $\kappa$ (typically $\simeq 2$) and the so called (when $\kappa=2$) long term variance $\omega$.\\
+        To model the return $r_t$ I used the following model:
+        \begin{equation}
+                r_t = \mu + \sigma_t \epsilon_t,
+        \end{equation}
+        Where the mean $\mu$ can be safely assumed to be constant for short term returns.
+        The parameters are calibrated on historical data and the model is then used to forecast the next day variance as returns become available.
+    \subsection{Kernel Density Estimation}
+        The closing prices in the dataset are standardized following the formula:
+        \begin{equation}
+            z_t = \frac{r_t - \mu}{\sigma_t}
+        \end{equation}
+        and a kernel density estimator is used to estimate the probability distribution of the standardized returns.
+        I tested two different ways to determine the bandwith parameter of the estimator:
+        \begin{itemize}
+            \item by Scott’s rule of thumb
+            \item by picking the value that minimizes the discrepancy between $\alpha$, and the percentage of violations on the training set of the $\alpha$\% Value at Risk calulated form the KDE-estimated distribution.
+        \end{itemize}
+
+    \subsection{Value at Risk Violations}
+        On the testing set, the $\alpha$\% Value at Risk is calulated by multiplying the $\alpha$-percentile of the shock distribution with the estimated volatility (using the model calibrated on the training set).
+        The estimated VaR is then compared with the actual returns, and a violation is flagged if the return is below the (negative) VaR.
+\end{document}
