@@ -12,20 +12,36 @@
 \usepackage{wrapfig}
 \usepackage{hyperref}
 \usepackage{tikzexternal}
+\usepackage{amsfonts}
 \setlength{\parindent}{0pt}
+\newcommand{\atan}{\,\text{atan}}
+\newcommand{\sgn}{\,\text{sgn}}
+\newcommand{\pdf}{\,\text{pdf}}
 
 \author{Leonardo Cruciani}
 \title{Forecasting VaR using Garch and KDE}
 % Document
 \begin{document}
+    \maketitle
     \section{Introduction}
-    \section{Methodology}
-    \subsection{Data}
+        This work aims to describe the usage of Kernel Density Estimation methods in the context of Value at Risk (VaR) forecasting.
+        It mainly consists of 2 parts:
+        \begin{itemize}
+            \item In section \ref{sec:replication}, I use KDE to help solve a numerically intensive problem in the replication of paper \cite{thorsten}.
+            In particular, the paper uses a Truncated Skewed Lèvy (TSL) distribution to model the standardized returns (where the volatilities are estimated via GARCH),
+            making the forecasted VaR proportional to Truncated Skewed Lèvy percentiles.
+            Because the TSL distribution is defined in terms of its characteristic function (does not have a close form solution) and depends on several parameters, making the estimation of the parameters difficult, the KDE is then used to obtain a faster estimate.
+            \item In section \ref{sec:direct}, I get rid of the TSL distribution hypothesis and instead use directly the kernel density estimated distribution to calculate the percentiles for VaR forecasting.
+        \end{itemize}
+        As the Garch volatility estimation is common to both parts, I start by describing it in section \ref{sec:garch}.
+        I conclude by comparing the results of the two methods in section \ref{sec:comparison}.
+
+    \section{Data}
         The dataset contains the closing prices of some popular indices (S\&P500, FTSE, Eurostoxx50 and Euronext100) from 2006 to 2024.
         The dataset is split in two, with the first 11 years being used for training and the last 7 years for testing.
         From the dataset the log returns are computed, and aggregated for 5, 10 and 20 days.
 
-    \subsection{Garch}
+    \section{Garch} \label{sec:garch}
         Since its inception, various Garch models have been used in the field of finance.
         In the paper \cite{thorsten} an augmented Garch model that nests all the most commonly used (e.g. Garch(1,1), GJR-Garch, Aparch, etc) is proposed.
         In this work I will resort to a simpler Power Garch model with leverage effect to model the volatility $\sigma_t$:
@@ -35,27 +51,90 @@
             + \beta \sigma_{t-1}^\kappa
             + \gamma \left|\epsilon_{t-1}\right|^\kappa I_{[\epsilon_{t-1}<0]}
         \end{equation}
-        Where $\epsilon_t \sim D(0,1)$ are independent shocks distributed according to a \textit{standardized distribution} $D(0,1)$. In the paper \cite{thorsten} a
-        Truncated Skewed Levy distribution, is used for the shocks, but I instead will use the kernel density estimated distribution. More about this in the next section.\\
-        The parameters to be estimated are: $\alpha$, which models the sensitivity of the volatility to the shock, $\beta$, which models the persistence of the volatility, $\gamma$, which models the leverage effect, the exponent $\kappa$ (typically $\simeq 2$) and the so called (when $\kappa=2$) long term variance $\omega$.\\
+        Where $\epsilon_t \sim D(0,1)$ are independent shocks distributed according to a \textit{standardized distribution} $D(0,1)$.
+        In the paper \cite{thorsten} and in section \ref{sec:replication} this $D(0,1)$ distribution is the TSL calibrated on historical data, while in section \ref{sec:direct} the KDE distribution is used.
+        The parameters to be estimated are: $\alpha$, which models the sensitivity of the volatility to the shock; $\beta$, which models the persistence of the volatility; $\gamma$, which models the leverage effect; the exponent $\kappa$ (typically $\simeq 2$) and the so called (when $\kappa=2$) long term variance $\omega$.\\
         To model the return $r_t$ I used the following model:
         \begin{equation}
                 r_t = \mu + \sigma_t \epsilon_t,
         \end{equation}
-        Where the mean $\mu$ can be safely assumed to be constant for short term returns.
-        The parameters are calibrated on historical data and the model is then used to forecast the next day variance as returns become available.
-    \subsection{Kernel Density Estimation}
-        The closing prices in the dataset are standardized following the formula:
-        \begin{equation}
-            z_t = \frac{r_t - \mu}{\sigma_t}
-        \end{equation}
-        and a kernel density estimator is used to estimate the probability distribution of the standardized returns.
-        I tested two different ways to determine the bandwith parameter of the estimator:
-        \begin{itemize}
-            \item by Scott’s rule of thumb
-            \item by picking the value that minimizes the discrepancy between $\alpha$, and the percentage of violations on the training set of the $\alpha$\% Value at Risk calulated form the KDE-estimated distribution.
-        \end{itemize}
+        Where the mean $\mu$ can be safely assumed to be constant for medium to short term returns.
+        The parameters of the Garch are calibrated on historical data and the model is then used to forecast the next period variance as returns become available.
 
+
+    \subsection{Paper Replication} \label{sec:replication}
+    \subsubsection{Truncated Skewed Levy}
+    The $TSL(\mu, c, \alpha, \lambda, \beta)$ is defined through its characteristic function $\varphi_{TSL}(k) = \exp\big(-\psi(k; \mu, c, \alpha, \lambda, \beta)\big)$ where:
+    \begin{equation}
+        \begin{aligned}
+            \psi(k; \mu, c, \alpha, \lambda, \beta) &= ik\mu \,+\\
+                                                & + c^{\alpha}\left[\frac{\lambda^2-(k^2+\lambda^2)^{\alpha/2}}{\cos(\pi \alpha/2)}\cos\left(\alpha \atan \left(\frac{|k|}{\lambda}\right)\right)\right] \times \\
+                                                & \times \left[ 1+ i \sgn(k) \beta \tan \left(\alpha\left(\frac{|k|}{\lambda}\right)\right) \right]
+        \end{aligned}
+    \end{equation}
+    for all $k \in \mathbb{R}$.
+    The parameters have the following meaning (see figure \ref{fig:parameters}):
+    \begin{itemize}
+        \item $\mu$ is the location parameter.
+        \item $c >0$ is the scale parameter.
+        \item $\alpha \in (0,2] \setminus\{1\} $ is the characteristic exponent, which defines the overall shape of the PDF, and especially the fatness of the tails. To give an intuition, the closer $\alpha$ is to $2$, the closer the $TSL$ approximates a Gaussian.
+        \item $\lambda > 0$ is the cutoff parameter, which is responsible for making the moments of the TSL well-defined.
+        \item $\beta \in [-1, 1]$ is the skewness parameter: the PDF of the TSL is skewed to the right for negative $\beta$ and to the left for positive $\beta$.
+    \end{itemize}
+    The PDF of the distribution can be obtained by fourier transforming the characteristic function:
+    \begin{equation}
+        \pdf_{TSL}(x; \mu, c, \alpha, \lambda, \beta) =  \frac{1}{2\pi}\int_{\mathbb R} \exp\big(-ikx-\psi(k; \mu, c, \alpha, \lambda, \beta)\big)\,dk\label{eq:pdf}
+    \end{equation}
+    \begin{figure}[h!]
+        \label{fig:parameters}
+        \centering
+        \includegraphics[width=0.9 \linewidth]{parameters}
+        \caption{TSL PDF. Baseline parameters: $\mu=0, \,c=1,\, \alpha = 0.7, \, \lambda = 0.2,\, \beta =-0.2$}
+    \end{figure}
+    The fundamental property of this distribution which makes it well suited for the task of estimating longer horizon variances is its convolution property.
+    In particular the PDF satisfies:
+   \begin{equation}
+        \pdf^N_{TSL}(x; \lambda) = N^{-1/\alpha} \pdf_{TSL}\left(  N^{-1/\alpha} x,  N^{1/\alpha}\lambda\right)\label{eq:scaling}
+   \end{equation}
+    Therefore, by fitting the TLS distribution parameters on daily returns and appropriately scaling the PDF, we can approximate the distribution of larger horizon returns.
+
+    \begin{figure}[h!]
+        \centering
+        \includegraphics[width=0.6 \linewidth]{char_func}
+        \caption{The characteristic function of the TSL. Parameters: $\mu=2, \,c=5,\, \alpha = 0.7, \, \lambda = 2,\, \beta =-0.8$}
+        \label{fig:char_func}
+    \end{figure}
+
+    \subsubsection{Fitting the TSL}
+    To obtain the PDF, the characteristic function (see figure \ref{fig:char_func}) must be numerically Fourier-transformed.
+    Following the paper approach, we use Romberg integration for $k \in [-15, 15]$ using $2^{12}+1$ steps.
+    This calculation is computationally expensive: for a given set of the five parameters, evaluating the PDF for 1000 $x$ points takes around 5 seconds.
+    As the dataset contains around 7000 observations, the calculation of the loglikelihood for a given parameter set takes around 35 seconds, or in other words,
+    even a simple grid search over the parameters $\alpha, \lambda, \beta$ (as we are fitting on standardized returns, we can assume $\mu=0, c=1$) with a $7\times 7\times 7$ grid would take around 3.5 hours to complete.
+    Therefore, I resorted to a faster, but less accurate approach:
+    \begin{enumerate}
+        \item I compute the KDE PDF of the standardized returns.
+        \item I evaluate the KDE PDF in a symmetric, log-spaced grid (denser around $0$) of $201$ points for $x\in [-15,15]$.
+        \item I perform a grid search to find the set of parameters $\alpha, \lambda, \beta$ that minimizes the mean squared error
+            between the KDE PDE and the TSL PDF calculated with the given set of parameters on the points in the log-spaced grid,
+            effectively reducing the number of required calls to the TSL PDF to $201$.
+    \end{enumerate}
+
+ \subsection{Kernel Density Estimation}
+    The closing prices in the dataset are standardized following the formula:
+    \begin{equation}
+        z_t = \frac{r_t - \hat \mu}{\hat \sigma_t}
+    \end{equation}
+    where $\hat \mu$ and $\hat \sigma$ are obtained from the Garch.
+    A kernel density estimator is then used to estimate the probability distribution of the standardized returns.
+    I tested two different ways to determine the bandwith parameter of the estimator:
+    \begin{itemize}
+        \item by Scott’s rule of thumb
+        \item by picking the value that minimizes the discrepancy between $\alpha$, and the percentage of violations on the training set of the $\alpha$\% Value at Risk calulated form the KDE-estimated distribution.
+    \end{itemize}
+
+
+    \section{Direct Method} \label{sec:direct}
     \subsection{Value at Risk Violations}
         On the testing set, the $\alpha$\% Value at Risk is calulated by multiplying the $\alpha$-percentile of the shock distribution with the estimated volatility (using the model calibrated on the training set).
         The estimated VaR is then compared with the actual returns, and a violation is flagged if the return is below the (negative) VaR.

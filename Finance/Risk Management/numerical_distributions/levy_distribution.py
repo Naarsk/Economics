@@ -130,7 +130,7 @@ def gs_fit_levy(data, alpha_grid, lam_grid, beta_grid, k_max=50.0, ln_2_k_points
     return optimal_params
 
 
-def symmetric_logspace(n, x_max, base=10):
+def symmetric_logspace(n, x_max, base=2):
     # Generate log-spaced values in positive domain
     positive = np.logspace(np.log10(x_max / base), np.log10(x_max), num=n, base=base)
 
