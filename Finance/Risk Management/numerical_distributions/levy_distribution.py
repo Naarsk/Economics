@@ -158,7 +158,7 @@ def kde_fit_levy(data, alpha_grid, lam_grid, beta_grid, n =100, x_max=15, k_max=
 
             min_error = total_squared_error
 
-            optimal_params = np.array([alpha, lam, beta])
+            optimal_params = np.array([alpha, lam, beta, min_error])
 
     return optimal_params
 
