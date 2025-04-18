@@ -1,0 +1,235 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{christoffersen2003elements}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b47c3bafdfadc74b766e8aae014e66fd}{%
+           family={Christoffersen},
+           familyi={C\bibinitperiod},
+           given={Peter\bibnamedelima F},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{b47c3bafdfadc74b766e8aae014e66fd}
+      \strng{fullhash}{b47c3bafdfadc74b766e8aae014e66fd}
+      \strng{fullhashraw}{b47c3bafdfadc74b766e8aae014e66fd}
+      \strng{bibnamehash}{b47c3bafdfadc74b766e8aae014e66fd}
+      \strng{authorbibnamehash}{b47c3bafdfadc74b766e8aae014e66fd}
+      \strng{authornamehash}{b47c3bafdfadc74b766e8aae014e66fd}
+      \strng{authorfullhash}{b47c3bafdfadc74b766e8aae014e66fd}
+      \strng{authorfullhashraw}{b47c3bafdfadc74b766e8aae014e66fd}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Elements of financial risk management}
+      \field{year}{2003}
+    \endentry
+    \entry{david2003order}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=dc6a503d9fadb9cfba763a71d8072981}{%
+           family={David},
+           familyi={D\bibinitperiod},
+           given={Herbert\bibnamedelima A},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d29f101593c8513fc4c8a01b65f72da1}{%
+           family={Nagaraja},
+           familyi={N\bibinitperiod},
+           given={H\bibnamedelima N},
+           giveni={H\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{2c662c100295a468fa15ccf176313e3a}
+      \strng{fullhash}{2c662c100295a468fa15ccf176313e3a}
+      \strng{fullhashraw}{2c662c100295a468fa15ccf176313e3a}
+      \strng{bibnamehash}{2c662c100295a468fa15ccf176313e3a}
+      \strng{authorbibnamehash}{2c662c100295a468fa15ccf176313e3a}
+      \strng{authornamehash}{2c662c100295a468fa15ccf176313e3a}
+      \strng{authorfullhash}{2c662c100295a468fa15ccf176313e3a}
+      \strng{authorfullhashraw}{2c662c100295a468fa15ccf176313e3a}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd}
+      \field{title}{Order Statistics}
+      \field{year}{2003}
+    \endentry
+    \entry{jorion2006value}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=827d9db7ac1ca654fb3e30d86d662929}{%
+           family={Jorion},
+           familyi={J\bibinitperiod},
+           given={Philippe},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{827d9db7ac1ca654fb3e30d86d662929}
+      \strng{fullhash}{827d9db7ac1ca654fb3e30d86d662929}
+      \strng{fullhashraw}{827d9db7ac1ca654fb3e30d86d662929}
+      \strng{bibnamehash}{827d9db7ac1ca654fb3e30d86d662929}
+      \strng{authorbibnamehash}{827d9db7ac1ca654fb3e30d86d662929}
+      \strng{authornamehash}{827d9db7ac1ca654fb3e30d86d662929}
+      \strng{authorfullhash}{827d9db7ac1ca654fb3e30d86d662929}
+      \strng{authorfullhashraw}{827d9db7ac1ca654fb3e30d86d662929}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd}
+      \field{title}{Value at risk: The new benchmark for managing financial risk}
+      \field{year}{2006}
+    \endentry
+    \entry{thorsten}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2637505912c8e81aa681cb15bee8c245}{%
+           family={Lehnert},
+           familyi={L\bibinitperiod},
+           given={Thorsten},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=029e8f3d21019580ed4b6c37c0f329f6}{%
+           family={Wolff},
+           familyi={W\bibinitperiod},
+           given={Christian\bibnamedelima C.P.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{35c05fb61e5c5a7937f24583166d509d}
+      \strng{fullhash}{35c05fb61e5c5a7937f24583166d509d}
+      \strng{fullhashraw}{35c05fb61e5c5a7937f24583166d509d}
+      \strng{bibnamehash}{35c05fb61e5c5a7937f24583166d509d}
+      \strng{authorbibnamehash}{35c05fb61e5c5a7937f24583166d509d}
+      \strng{authornamehash}{35c05fb61e5c5a7937f24583166d509d}
+      \strng{authorfullhash}{35c05fb61e5c5a7937f24583166d509d}
+      \strng{authorfullhashraw}{35c05fb61e5c5a7937f24583166d509d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1544-6123}
+      \field{journaltitle}{Finance Research Letters}
+      \field{note}{Limburg Institute of Financial Economics, Maastricht University and Centre for Economic Policy Research}
+      \field{number}{4}
+      \field{title}{Scale-consistent Value-at-Risk}
+      \field{volume}{1}
+      \field{year}{2004}
+      \field{pages}{205\bibrangedash 219}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.frl.2004.03.002
+      \endverb
+    \endentry
+    \entry{pagan1990alternative}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ae80ad69df241940e939af1475ddf41e}{%
+           family={Pagan},
+           familyi={P\bibinitperiod},
+           given={Adrian\bibnamedelima R},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec6e72e3d637469d24f38384a7a78ed4}{%
+           family={Schwert},
+           familyi={S\bibinitperiod},
+           given={G\bibnamedelima William},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{66aa3df02f6f5afa783e718bad7cee12}
+      \strng{fullhash}{66aa3df02f6f5afa783e718bad7cee12}
+      \strng{fullhashraw}{66aa3df02f6f5afa783e718bad7cee12}
+      \strng{bibnamehash}{66aa3df02f6f5afa783e718bad7cee12}
+      \strng{authorbibnamehash}{66aa3df02f6f5afa783e718bad7cee12}
+      \strng{authornamehash}{66aa3df02f6f5afa783e718bad7cee12}
+      \strng{authorfullhash}{66aa3df02f6f5afa783e718bad7cee12}
+      \strng{authorfullhashraw}{66aa3df02f6f5afa783e718bad7cee12}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of econometrics}
+      \field{number}{1-2}
+      \field{title}{Alternative models for conditional stock volatility}
+      \field{volume}{45}
+      \field{year}{1990}
+      \field{pages}{267\bibrangedash 290}
+      \range{pages}{24}
+    \endentry
+    \entry{silverman1986density}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ba8bfb9a987a0a24a6602904cb89fe04}{%
+           family={Silverman},
+           familyi={S\bibinitperiod},
+           given={B.\bibnamedelimi W.},
+           giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Chapman}%
+        {Hall/CRC}%
+      }
+      \strng{namehash}{ba8bfb9a987a0a24a6602904cb89fe04}
+      \strng{fullhash}{ba8bfb9a987a0a24a6602904cb89fe04}
+      \strng{fullhashraw}{ba8bfb9a987a0a24a6602904cb89fe04}
+      \strng{bibnamehash}{ba8bfb9a987a0a24a6602904cb89fe04}
+      \strng{authorbibnamehash}{ba8bfb9a987a0a24a6602904cb89fe04}
+      \strng{authornamehash}{ba8bfb9a987a0a24a6602904cb89fe04}
+      \strng{authorfullhash}{ba8bfb9a987a0a24a6602904cb89fe04}
+      \strng{authorfullhashraw}{ba8bfb9a987a0a24a6602904cb89fe04}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Density estimation for statistics and data analysis}
+      \field{year}{1986}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
