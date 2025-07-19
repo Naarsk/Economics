@@ -1,0 +1,110 @@
+The approach taken by the authors for both the baseline and the industry-level study may be considered naive and outdated: as previously treated units are included in the subsequent control groups, the resulting estimate for the $\alpha_1$`s and $\beta_1$`s is a weighted average of the treatment effects for each group, with weights that may even be negative, and thus potentially biased.
+To address this issue, I adopt a modern diff-in-diff technique proposed by~\textcite{callaway}, implemented in Stata in the \texttt{csdid} package.
+It offers two primary advantages:
+\begin{enumerate}
+\item Enhanced Control Group Selection: It provides flexibility in choosing control groups.
+Specifically, it allows to utilize \textit{not-yet treated units} as controls in addition to \textit{never-treated} units (as this dataset lacks never treated groups).
+\item Covariate Incorporation: it accommodates the inclusion of covariates, thereby ensuring that the parallel conditions assumption holds conditionally on these covariates, and implicitly handling the fixed effects.
+\end{enumerate}
+In particular, I focus on evaluating the average treatment effect (ATT) by treatment group, reported in~\ref{tab:group}.
+Moreover, I reproduce, in figure~\ref{fig:dynamic_att} the dynamics in the $(-5,10)$ year window around the enforcement year.
+
+\subsection{Treatment Effect by Group}\label{subsec:staggered-treatment-estimate}
+Table~\ref{tab:group} and its graphical representation in figure~\ref{fig:group_att} reproduce the average treatment effect for different groups, using the industry-level dataset.
+A similar analysis has been performed on the country level dataset, and in both cases, the treatment effect are found to be not statistically relevant.
+
+\begin{figure}[h!]
+    \centering
+
+    \begin{subfigure}[b]{0.40\textwidth}
+        \includegraphics[width=\linewidth]{images/group_lcit2_wt2}
+        \caption{Citation Weight}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.40\textwidth}
+        \includegraphics[width=\linewidth]{images/group_lgeneral}
+        \caption{General Innovation}
+    \end{subfigure}
+
+    \vspace{0.4cm}
+
+    \begin{subfigure}[b]{0.40\textwidth}
+        \includegraphics[width=\linewidth]{images/group_lno_patent_entities}
+        \caption{Patent Entities}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\linewidth]{images/group_lorig}
+        \caption{Originality}
+    \end{subfigure}
+
+    \vspace{0.4cm}
+
+    \begin{subfigure}[b]{0.40\textwidth}
+        \includegraphics[width=\linewidth]{images/group_lpatent_count}
+        \caption{Patent Count}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.40\textwidth}
+        \includegraphics[width=\linewidth]{images/group_lpatent_count_top10p}
+        \caption{Top 10\% Patents}
+    \end{subfigure}
+
+    \caption{ATT Estimates by Group Across Innovation Measures}
+    \label{fig:group_att}
+\end{figure}
+
+\begin{landscape}
+    \include{tables/group}
+\end{landscape}
+
+
+\subsection{Dynamics}\label{subsec:dynamics}
+As reported in the following figure~\ref{fig:dynamic_att} and table~\ref{tab:dynamic_att}, also in the event aggregation of the $ATT(g,t)$ functions the effects are mostly statistically insignificant.
+
+\begin{figure}[h!]
+    \centering
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\linewidth]{images/dynamic_att_lcit2_wt2}
+        \caption{Citation Weight}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\linewidth]{images/dynamic_att_lgeneral}
+        \caption{General Innovation}
+    \end{subfigure}
+
+    \vspace{0.5cm}
+
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\linewidth]{images/dynamic_att_lno_patent_entities}
+        \caption{Patent Entities}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\linewidth]{images/dynamic_att_lorig}
+        \caption{Originality}
+    \end{subfigure}
+
+    \vspace{0.5cm}
+
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\linewidth]{images/dynamic_att_lpatent_count}
+        \caption{Patent Count}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.45\textwidth}
+        \includegraphics[width=\linewidth]{images/dynamic_att_lpatent_count_top10p}
+        \caption{Top 10\% Patents}
+    \end{subfigure}
+
+    \caption{Dynamic ATT Estimates Across Innovation Measures}
+    \label{fig:dynamic_att}
+\end{figure}
+
+\begin{landscape}
+    \include{tables/dynamic}
+\end{landscape}
+
+
+\newpage

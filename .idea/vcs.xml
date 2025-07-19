@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Finance/Empirical_Finance/ps_4" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Finance/PE_dividend_strip" vcs="Git" />
   </component>
 </project>

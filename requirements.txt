@@ -18,3 +18,8 @@ scikit-learn
 requests
 ipython
 rpy2
+pyreadr
+xarray
+QuantLib
+pathlib
+PyMuPDF

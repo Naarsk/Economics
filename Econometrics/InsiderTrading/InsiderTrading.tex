@@ -1,0 +1,69 @@
+%! suppress = EscapeUnderscore
+%! Author = Leonardo Cruciani
+%! Date = 29/03/2025
+
+% Preamble
+\documentclass[12pt]{article}
+
+% Packages
+\usepackage[top=1in, bottom=1.2in, left=1in, right=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{upgreek}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{amsfonts}
+\usepackage{hyperref}
+\usepackage{longtable} % for 'longtable' environment
+\usepackage{pdflscape} % for 'landscape' environment
+
+\usepackage[backend=biber, style=authoryear]{biblatex}
+\addbibresource{bibliography.bib}
+
+\newcommand{\sym}[1]{\ifmmode^{#1}\else\(^{#1}\)\fi}
+
+
+\author{Leonardo Cruciani}
+\title{Replication of \\ Insider Trading and Innovation \\ by \textit{R. Levine et al.}}
+% Document
+\begin{document}
+    \maketitle
+    \section{Introduction}
+    \label{sec:introduction}
+    The paper examines whether legal systems that restrict insider trading,
+    (i.e.\ trading by corporate officials or major shareholders on material nonpublic information)
+    influence the invention of new technologies, as measured by patent intensity, scope, impact, generality, and originality.
+    The ratio behind this study builds on~\textcite{fishman}, which shows that insider trading allows corporate insiders to exploit other investors,
+    thus discouraging investment, and therefore, innovation.
+    Moreover, innovative activities are particularly subject to the lack of trust, because generally more difficult to assess than more mainstream activities~\parencite{holmstrom}.
+    \subsection{Dataset}\label{subsec:dataset}
+    For a set of countries, the year when each country first enacts (i.e.\ passes) insider trading laws and enforces (i.e.\ when the firs violator is prosecuted) such laws is obtained from~\textcite{bhattacharya}.
+    According to~\textcite{bhattacharya}, enforcement is more relevant than just enactment.
+    The measures for innovations are 6 patent-based indicators, using industry-level data for each country, ranging between year 1976 and 2006, obtained from the European Patent Office's Worldwide Patent Statistical Database (PATSTAT).
+    This dataset consists of 83200 industry-country-year observations.
+    The indicators are:
+    \begin{itemize}
+        \item Patent Count: number of patents 
+        \item Citation Weight: number of forward citations to patent filed 
+        \item Top 10\% Patents: number of patents that become part of the top 10\% citation in their technology class 
+        \item Patent Entities: number of patenting entities 
+        \item General Innovation: degree of citations of the patents from other technology classes patents 
+        \item Originality: degree of which the patents cite patents in other technology classes 
+    \end{itemize}
+
+    \section{Methodology}\label{sec:methodology}
+    \input{methodology}
+
+    \pagebreak
+
+    \section{Extension}\label{sec:extension}
+    \input{extension}
+
+    \pagebreak
+
+    \section{Conclusion}\label{sec:conclusion}
+    The results of the paper do not seem to hold when confronted with more advanced DiD techniques, and the \texttt{csdid}-estimated ATT are mostly not statistically significant, both when aggregated by group and in the overall average.
+    Therefore, we can conclude that enforcing insider trading laws alone is unlikely to have the large effect claimed by the authors, and other confounding effects may be at play.
+
+    \printbibliography
+\end{document}
