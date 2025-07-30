@@ -1,0 +1,17 @@
+<think>
+Okay, I need to help the user by summarizing an investment report with a specific focus. Let me break down what they're asking for.
+
+First, the task is to act as a financial analyst and summarize the provided investment report. The key elements to highlight are: the fund's name, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+I should make sure I extract each piece of information without adding any extra details. Let me look at an example they gave. It seems like the summary starts with the fund name followed by the date. Then it mentions the outlook on distributions as a percentage.
+
+Wait, in their example, under "outlook," it's split into two parts: the nature (e.g., increasing or decreasing) and the magnitude (the percentage). So I should structure my summary similarly to include both aspects of the distribution outlook along with its size.
+
+I need to ensure that each part is clear and concise. Maybe I'll start by mentioning the fund, then the date, followed by whether distributions are expected to increase or decrease and by how much in percentage terms. 
+
+Let me think about any possible edge cases. What if the outlook isn't explicitly stated? Then perhaps I can mention that it's neutral unless specified. Also, ensuring that the magnitude is always a percentage.
+
+I should keep the language straightforward since they're asking for summarization without interpretation beyond the facts provided.
+</think>
+
+The investment report highlights the performance and outlook of a particular fund as of [Report Date]. The fund is expected to distribute capital in upcoming periods with an anticipated increase or decrease, expressed as a percentage. The magnitude of this distribution shift is detailed, providing insight into potential changes in capital allocation.

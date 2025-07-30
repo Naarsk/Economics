@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Plan Assets",
+    "date": "20240331",
+    "outlook": "increase",
+    "magnitude": 7.40,
+    "confidence": 0.92,
+    "explanation": "Higher discount rates typically lead to increased employer funding in defined benefit plans due to expected future payouts."
+  }
+}

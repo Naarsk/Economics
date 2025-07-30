@@ -1,0 +1,25 @@
+<think>
+Okay, I need to help the user by summarizing a provided investment report for ALECTA. The query specifically asks me to focus on the name of the fund, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+First, I should locate the relevant information from the given text. Looking through the report, I see that the investment report is titled "ALECTA Investment Report" with a date range of January to June 2023. That's straightforward—so the date part is covered.
+
+Next, I need to find out what fund or funds are being discussed. The report mentions several funds under management by ALECTA, including the pension supplement, defined benefit insurance (ITP 2), and defined contribution insurance (ITP 1). Additionally, there's a separate equity fund focused on renewable energy investments. So, I should note all these funds as they're part of the investment strategy.
+
+The user is interested in the outlook on capital distributions. The report discusses how ALECTA manages capital distribution based on market conditions and policyholder needs. It mentions that the company prudently manages its investments to ensure stability while aiming for growth. Therefore, the outlook is positive but cautious, adjusting distributions as needed to balance returns with risk.
+
+Now, regarding the magnitude in percentage terms—looking through the report, I don't see explicit percentages provided about capital distribution. Instead, there are mentions of technical provisions and solvency margins, which relate more to the company's capital structure than actual distribution percentages. So, it seems that no specific numerical percentages for distributions were given.
+
+Putting this all together, I should present a summary that includes each fund with their respective strategies and ALECTA's approach to capital distribution without exact percentage figures but highlighting the cautious yet growth-focused strategy.
+</think>
+
+The investment report summarizes ALECTA’s portfolio performance and management strategies as of January–June 2023. The funds managed include:
+
+1. **Pension Supplement**: Allocated to insured parties in addition to guaranteed defined benefit pensions, with annual adjustments based on actuarial guidelines.
+
+2. **Defined Benefit Insurance (ITP 2)**: Pension amounts are fixed in advance, determined by predefined percentages or amounts.
+
+3. **Defined Contribution Insurance (ITP 1)**: Premium sizes are set in advance, with the policyholder’s contribution linked to their contributions.
+
+4. **Equity Fund**: Focuses on renewable energy investments, managed for growth and stability.
+
+ALECTA manages capital distributions cautiously, aligning with market conditions and policyholder needs while maintaining a focus on long-term growth. Specific percentage figures for capital distribution are not provided in the report.

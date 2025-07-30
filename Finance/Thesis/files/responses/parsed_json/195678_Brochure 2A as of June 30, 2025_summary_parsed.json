@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "TDBL Fund",
+    "date": "202310",
+    "outlook": "increase",
+    "magnitude": 7,
+    "confidence": 0.95,
+    "explanation": "Capital distributions expected to grow with rate exceeding 7%"
+  }
+}

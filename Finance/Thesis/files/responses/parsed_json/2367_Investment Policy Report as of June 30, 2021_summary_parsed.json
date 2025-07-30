@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Insufficient Information",
+    "date": "Insufficient Information",
+    "outlook": "No Change",
+    "magnitude": 0,
+    "confidence": 0,
+    "explanation": "Insufficient information provided to construct a summary."
+  }
+}

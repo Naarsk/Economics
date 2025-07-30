@@ -1,0 +1,33 @@
+<think>
+Okay, I need to help this user who's asking me to act as a financial analyst and summarize an investment report. The user specifically wants the summary to focus on the name of the fund, the date of the report, the outlook on capital distributions, and their magnitude in percentage terms.
+
+First, I'll look at the provided report. It starts with "RETIREE FAQ - July 2020," so that's probably the fund or report name. The date is clearly mentioned as July 2020.
+
+Now, looking through the content, it seems to cover various retirement plans and pension benefits. There are sections about the Pension Plan, Non-QPP Plans, Retiree Health and Life Insurance, 401(k) plan, reasons for benefit discontinuation, contact information, etc.
+
+The user wants a summary that includes fund name, date, outlook on capital distributions with their magnitude in percentages. So I need to extract any relevant percentage figures from the report.
+
+I don't see explicit numbers like a percentage of assets affected or distribution outlook mentioned directly. The report talks about restrictions and terminations but doesn't provide specific percentages for capital distributions. Therefore, perhaps there's no numerical data on capital distributions to include in the summary.
+
+Given that, my summary should mention the fund name (Retiree FAQ - July 2020), the date, and note that the report discusses pension and benefit changes without providing percentage figures related to capital distributions.
+
+I should structure it clearly: start with the fund and date, then describe what's covered in the report. If there are no numbers on capital distributions, I can state that accordingly.
+</think>
+
+**Summary of Investment Report:**  
+
+**Fund Name:**  
+Retiree FAQ - July 2020  
+
+**Date of the Report:**  
+July 2020  
+
+The report addresses various retirement and pension-related matters for participants. Key points include:  
+
+1. **Pension Plans:** A temporary restriction on lump-sum distributions exceeding $5,000 is noted, which may be lifted once certain conditions are met.  
+2. **Non-QPP Plans:** The plans (SERP, SERP-Ex, KESIP) are terminating as of the bankruptcy filing date.  
+3. **Health and Life Insurance:** The termination of a health and life insurance plan is effective August 1, with COBRA and other options provided for affected participants.  
+4. **401(k) Plan:** No anticipated changes to the defined-contribution plan or distributions due to the bankruptcy filing.  
+
+**Note on Capital Distributions:**  
+The report does not provide specific percentage figures related to capital distributions or their magnitude in this context.

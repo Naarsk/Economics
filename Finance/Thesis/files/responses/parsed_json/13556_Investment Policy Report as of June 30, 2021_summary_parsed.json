@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "State Teachers Retirement System of Ohio",
+    "date": "20101021",
+    "outlook": "increase",
+    "magnitude": 100,
+    "confidence": 0.95,
+    "explanation": "Positive outlook with $5.6 billion increase in capital distributions from recoveries of past cases."
+  }
+}

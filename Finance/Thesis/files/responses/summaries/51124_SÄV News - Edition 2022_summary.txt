@@ -1,0 +1,37 @@
+<think>
+Alright, I need to help the user by summarizing a provided investment report. Let me start by reading through the query carefully.
+
+The user has given me an investment report from the SÄV (Sächsische Ärzteversorgung) and wants a summary focusing on the fund's name, date of the report, outlook on capital distributions, and its magnitude in percentage terms.
+
+First, I should locate where each of these elements is mentioned. The fund's name isn't explicitly stated but from context, it seems they're referring to the SÄV itself as the investment fund. The date is clearly given as "Stand 31.12.2021," so that will be part of the summary.
+
+Looking at the capital distributions, I see a section titled "Kapitalanlagestruktur" which translates to the structure of capital investments. It mentions the composition percentages: Rentendirektbestand (48.3%), Wertpapierfonds (19.6%), Alternative Investments (7.2%), and Immobilien (15%). Additionally, it includes the net yield at 3.26%. So these are key points about how the capital is distributed.
+
+Next, I need to focus on the magnitude in percentage terms. The report states a growth of +5.9% in the investment volume as of December 31, 2021. This indicates the significant increase in the fund's capital value from the previous year.
+
+I should structure the summary by first stating the fund and date, then move on to the capital distribution details, highlighting each category with their respective percentages. Finally, I'll mention the investment volume growth as a key magnitude point.
+
+I need to ensure that the summary is concise but covers all required elements without being too lengthy. Also, since the user provided an example response, I can model my structure after that for clarity and coherence.
+
+Putting it all together, the summary should start with the fund name and date, followed by the capital distribution percentages, each clearly labeled. Then, highlight the investment volume growth to emphasize its importance as a percentage increase.
+
+I think that covers everything the user is asking for. Now I can draft the response accordingly.
+</think>
+
+The investment report from the SÄV (Sächsische Ärzteversorgung) focuses on the fund's capital distribution and its magnitude in percentage terms. Here’s the summary:
+
+### Fund Name: 
+- **SÄV (Sächsische Ärzteversorgung)**  
+
+### Date of the Report:
+- **Stand 31.12.2021**
+
+### Outlook on Capital Distributions:
+The capital is distributed as follows:  
+- **Rentendirektbestand**: 48.3%  
+- **Wertpapierfonds**: 19.6%  
+- **Alternative Investments**: 7.2%  
+- **Immobilien**: 15%  
+
+### Magnitude in Percentage Terms:
+The fund achieved a capital distribution of +5.9% as of December 31, 2021, indicating a significant increase in the investment value.

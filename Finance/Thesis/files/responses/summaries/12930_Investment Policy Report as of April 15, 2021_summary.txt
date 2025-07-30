@@ -1,0 +1,68 @@
+<think>
+Okay, I need to summarize the investment report based on the user's query. The main points they want are the fund name, the date of the report, the outlook on capital distributions, and their magnitude in percentage terms.
+
+Looking at the provided text, it starts with a section titled "X. LONG-TERM ANNUALIZED RETURN AND VOLATILITY EXPECTATIONS – Meketa Investment Group 2021 Annual Asset Study." So that's where the specific data is. 
+
+I see several tables here. The first table lists various asset classes with their expected annualized returns and volatilities. For example, Cash Equivalents have a return of 1.1% and volatility of 1.0%. Then there are other categories like TIPS, High Yield Bonds, etc., each with their own returns and standard deviations.
+
+The second table is labeled "LE 2" but it's not clear what that stands for—it might be a typo or an incomplete title. It probably contains similar data to the first table but perhaps focused on another aspect of the investment strategy.
+
+Next, there are sections on Real Assets, Hedge Funds, and Infrastructure. Each category lists different types with their respective returns and volatilities. For instance, Hedge Funds have a long-short strategy returning 3.8% with low volatility compared to more volatile strategies like Global Macro or Tactical Asset Allocation.
+
+The user is interested in retirement planning, so they might be looking for information that can help them prepare for future capital distributions from these funds. They want the magnitude of these returns as percentages—so I should extract specific figures where possible.
+
+I notice that all the tables start with "2021 Annual Asset Study," which likely refers to when each table's data was updated or based on expectations for 2021. This gives a clear timeframe, so including "2021" in the report is important.
+
+Putting it together, I should structure the summary by first mentioning Meketa Investment Group and the fact that this is their 2021 Annual Report. Then, list each asset category with its expected return percentage without mentioning volatility since the user didn't specify focusing on that part. 
+
+I need to make sure the information flows logically, starting from Equities down to Hedge Funds and Infrastructure, providing a clear overview of each investment's potential returns.
+
+Also, the user might not have provided all parts of the report in their query, so I should note that if they want more details or specific sections, further information is needed. But for now, focusing on the outlined points should suffice.
+
+I think this approach covers everything the user asked for: fund name, date (2021), and expected returns with their percentages.
+</think>
+
+The report provided is a **2021 Annual Asset Study** from Meketa Investment Group, detailing long-term annualized return and volatility expectations across various asset classes. Here's a concise summary focusing on the key elements requested:
+
+### Key Elements:
+1. **Fund Name**: The report belongs to Meketa Investment Group.
+2. **Date of Report**: This is based on data from 2021.
+3. **Outlook on Capital Distributions**: The report provides expected returns for different asset categories, with a focus on capital distribution expectations.
+4. **Magnitude in Percentage Terms**: The table below outlines the annualized return percentages for various investment types:
+
+---
+
+### Summary Table of Annualized Returns (2021 Expectations):
+
+| Asset Class                | Annualized Return (%) |
+|----------------------------|-----------------------|
+| Cash Equivalents            | 1.1                   |
+| Short-term Investment Grade Bonds | 1.3                  |
+| Investment Grade Bonds      | 1.8                   |
+| Investment Grade Corporate Bonds | 2.3              |
+| Long-term Government Bonds | 2.5                  |
+| Long-term STRIPS          | 3.3                  |
+| TIPS                       | 1.8                  |
+| High Yield Bonds           | 4.2                  |
+| Bank Loans                  | 4.0                  |
+| Foreign Bonds               | 1.7                  |
+| Emerging Market Bonds (major; unhedged) | 3.7              |
+| Emerging Market Bonds (local; unhedged) | 3.9              |
+| Direct Lending             | 6.7                  |
+| Mezzanine Debt             | 6.9                  |
+| Distressed Debt            | 7.0                  |
+| Public US Equity          | 6.8                  |
+| Public Developed Market Equity | 7.1      |
+| Public Emerging Market Equity | 8.1         |
+| Public Frontier Market Equity | 8.9           |
+| Public Global Equity       | 7.1                  |
+| Private Equity Composite   | 9.1                  |
+| Buyouts                     | 9.0                  |
+| Venture Capital             | 9.6                  |
+| Real Assets                |               |
+| REITs                      |                       |
+| Infrastructure              |               |
+
+---
+
+This report highlights the expected long-term returns for various investment types as of 2021, providing insights into potential capital distribution and growth opportunities.

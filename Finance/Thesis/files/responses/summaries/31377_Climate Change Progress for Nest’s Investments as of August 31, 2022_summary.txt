@@ -1,0 +1,25 @@
+<think>
+Alright, I need to help the user by summarizing a specific section of an investment report. The query is asking me to focus on the "Climate change progress for Nest’s investments 2021/22" report and specifically extract information about the fund's name, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+First, I'll look through the provided text. The user mentioned that there are several pages (p165400 138493 8/2022), so I should probably note down the page numbers or just focus on what's relevant to them.
+
+The key sections to pay attention to would be where the fund's name is mentioned. In this case, "Nest Corporation" is the fund name. The date of the report is clearly stated as 8/2022, which I assume translates to August 2022.
+
+Next, looking for information about capital distributions and their outlook. I see mentions like "annualised investment returns over several years help demonstrate longer-term performance," but that's more about performance than distribution. Then there are sections on the Net Zero Asset Managers Initiative with assets under management at $37 trillion as of May 2021.
+
+I also notice references to Underweighting and Overweighting in climate-aligned investments, where renewable energy companies get more weight compared to fossil fuels. This suggests a strategic tilt towards sustainable investments but doesn't directly provide the capital distribution outlook or its magnitude percentage-wise.
+
+Wait, maybe I should check if there's any specific data on capital distributions provided. The report mentions that assets under management have increased, and focuses on their strategy of net-zero targets, but not exact figures on how much capital is distributed where.
+
+Since no explicit percentage figure for capital distribution is provided in the text, perhaps this part isn't available or requires more detailed analysis beyond what's given here. Therefore, I can summarize that the report outlines a strategic approach to investments but doesn't provide specific numbers on capital distribution percentages.
+
+Putting it all together, the summary should include the fund name, date of report, and mention the general strategy without exact figures for capital distribution.
+</think>
+
+The investment report focuses on **Nest Corporation**'s strategy for aligning investments with climate change goals. The report was published on 8/2022 (August 2022). Key aspects include:
+
+1. **Capital Distribution Outlook**: While the report emphasizes strategic tilts, such as underweighting fossil fuel companies and overweighting renewable energy firms to address climate risks, it does not provide specific percentage figures for capital distribution or its magnitude.
+
+2. **Magnitude of Capital Alignment**: The document mentions that 87 investment managers with US $37 trillion in assets under management have signed on to the Net Zero Asset Managers Initiative (NZAMI), aiming to achieve net-zero greenhouse gas emissions by 2050. This indicates a significant portion of capital is being reallocated towards sustainability.
+
+In summary, the report outlines Nest's climate-aligned investment strategy but does not provide specific details on the magnitude or outlook for capital distribution percentages.

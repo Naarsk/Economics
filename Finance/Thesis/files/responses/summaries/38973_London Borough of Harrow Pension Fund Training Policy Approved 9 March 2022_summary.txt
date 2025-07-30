@@ -1,0 +1,30 @@
+<think>
+Okay, I need to help the user by summarizing a provided investment report. The user specifically wants me to focus on three main points: the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, I should identify the fund's name from the text. Looking through the document, it mentions "LB Harrow Pension Fund" as the administering authority. So that's the fund's name.
+
+Next, I need to find out when this report was issued. The section labeled "Reporting" states that the report is presented annually and was presented on an unspecified annual basis. However, in section 28, it mentions that the policy was approved by the LB Harrow Pension Fund Committee on 9 March 2022. So I should check if this report corresponds to a specific year.
+
+The document doesn't explicitly state the date of the report beyond the approval date in 2022, but since it's an annual report, it's likely from that year or shortly after.
+
+Now, focusing on the outlook for capital distributions. In section "3 Key Risks," point 25 mentions that poor attendance and lack of engagement at training events can affect decision-making, monitoring, and capital distribution. But looking elsewhere in the document, under section 19, it says there will be updates taking account of knowledge gaps and changes in legislation.
+
+Wait, maybe I should look for specific information on capital distributions. In section "Investment Performance and Risk Management," which is part of the training plan, point 20 mentions that training will also support key decisions required for capital distribution. However, the exact percentage isn't provided here.
+
+In section 17, there's no mention of capital distribution. Section 3 doesn't provide numbers either. I need to check other sections where capital distribution might be discussed. 
+
+Looking back at section 26, it talks about individual and collective training needs being assessed and delivered but again doesn't specify capital distributions.
+
+Wait, maybe the user is referring to a different part of the report that isn't provided here. Since the text I have only goes up to point 30, which discusses reporting but without specific numbers on capital distribution percentages.
+
+Given that, perhaps there's no explicit data on capital distribution percentages in this summary. If that's the case, maybe I should note that while there is a mention of training supporting decisions on capital distribution, exact figures aren't provided here.
+
+So to summarize: the fund is LB Harrow Pension Fund, approved on March 9, 2022, and there's no explicit percentage given for capital distributions in this report. The user might need to refer to the actual annual report for that specific data.
+</think>
+
+The investment report pertains to the **LB Harrow Pension Fund**, with the report being presented on an unspecified date but likely annually. It does not explicitly provide a percentage figure related to capital distributions, though it mentions training supporting decisions on capital distribution matters.
+
+**Summary Key Points:**
+- **Fund Name:** LB Harrow Pension Fund
+- **Report Date:** Not explicitly stated; possibly from 2022.
+- **Capital Distribution Outlook:** Mentioned in the context of training supporting key decisions but no specific percentage provided.

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "<Fund Name>",
+    "date": "2024-03-31",
+    "outlook": "stable",
+    "magnitude": 6,
+    "confidence": 0.8,
+    "explanation": "Anticipated capital distributions of $1.25 billion represent approximately 6% of net asset value as of March 31, 2024."
+  }
+}

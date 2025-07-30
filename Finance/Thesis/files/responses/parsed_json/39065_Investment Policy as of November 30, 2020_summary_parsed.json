@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "U NC F",
+    "date": "201908",
+    "outlook": "stable",
+    "magnitude": 0.03,
+    "confidence": 0.95,
+    "explanation": "Capital distributions are capped at no more than investment gains plus inflation, capped at 3% annually."
+  }
+}

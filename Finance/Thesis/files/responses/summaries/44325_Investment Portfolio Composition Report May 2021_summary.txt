@@ -1,0 +1,33 @@
+<think>
+Alright, I need to help the user by summarizing a specific section of an investment report. The user has provided a chunk of text that includes details about several funds like FII (Fundo de Investimento Imobiliário), FIEx (Fundo de Investimento Exterior), and others.
+
+First, let me understand what exactly the user is asking for. They want a summary focusing on:
+1. The name of the fund
+2. The date of the report
+3. The outlook on capital distributions
+4. Its magnitude in percentage terms
+
+Looking at the provided text, I see there are multiple funds mentioned with their respective percentages and outlooks. My task is to extract this information accurately.
+
+I notice that each fund has a "Name," followed by details like the date (May 2021), performance outlook for capital distribution (" crescente" which translates to increasing or growing), and the percentage allocation out of total investments.
+
+I need to structure the summary in bullet points, each highlighting one fund with its name, date, direction of capital distribution, and the percentage. This will make it clear and concise.
+
+Wait, I should double-check if there are any other funds beyond FII and FIEx that have similar information. Scanning through, it seems only these two are mentioned, so they can be included in the summary.
+
+Also, ensuring that all necessary details are covered without including extraneous information like the glossary or contact details which aren't relevant to the user's query.
+
+Now, putting it all together, I'll draft a bullet-pointed summary for each fund with their respective details.
+</think>
+
+**Summary of Investment Report:**
+
+1. **Fundo de Investimento Imobiliário (FII):**
+   - **Date:** Notícias do Relatório de Investimentos – Maio 2021
+   - **Outlook on Capital Distributions:** Crescente
+   - **Magnitude in Percentage Terms:** 45,9% da的投资 total
+
+2. **Fundo de Investimento Exterior (FIEx):**
+   - **Date:** Notícias do Relatório de Investimentos – Maio 2021
+   - **Outlook on Capital Distributions:** Crescente
+   - **Magnitude in Percentage Terms:** 63,9% da的投资 total

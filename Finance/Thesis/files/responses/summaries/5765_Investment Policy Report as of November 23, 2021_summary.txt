@@ -1,0 +1,15 @@
+<think>
+Okay, I need to help the user by summarizing a provided investment report. The user specifically wants me to focus on three main points: the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, I'll look through the report to identify where the fund's name is mentioned. It says "NILGOSC" multiple times, so that's clear. Next, I need to find out when this particular report was released. Scanning further, I see it refers to the July 2023 investment performance review, so the date is July 2023.
+
+Now, for the capital distribution outlook. The report mentions a "moderate positive outlook." It also specifies that the distribution amounts are 1% of the total investment in each of the next three years (2024, 2025, and 2026). Each year's distribution is calculated based on the fund's performance.
+
+I should present this information clearly, making sure to include all the required details without any additional fluff. I'll structure it so that each point is easily identifiable, using bold for emphasis as per the user's instruction.
+</think>
+
+**NILGOSC Local Government Pension Scheme (Northern Ireland) July 2023 Investment Performance Review**
+
+- **Fund Name:** NILGOSC Local Government Pension Scheme (Northern Ireland)  
+- **Date of Report:** July 2023  
+- **Capital Distribution Outlook:** Moderate positive outlook, with distribution amounts of 1% of total investment in each of the next three years (2024, 2025, and 2026). These distributions are based on the fund's performance.

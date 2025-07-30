@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "immobilien-investitionsprofil-deutschland",
+    "date": "2018-01-01",
+    "outlook": "stable",
+    "magnitude": 0.075,
+    "confidence": 0.8,
+    "explanation": "The fund is expected to generate stable income with moderate growth through property sales and letting, with an annual capital distribution rate of approximately 7.5%."
+  }
+}

@@ -1,0 +1,21 @@
+<think>
+Okay, I need to help the user by summarizing a specific part of this investment report. The user wants me to focus on the fund's name, the date of the report, and the outlook on capital distributions along with their magnitude percentages.
+
+First, I'll read through the provided text carefully to identify where these elements are mentioned. Looking at the beginning, it mentions "The Forum Finance Group S.A." as the fund operator but doesn't provide a specific fund name. Then, in the section titled "INVESTMENT PERPECTIVES 2023," under "ASSET ALLOCATION GRID – EURO – July 2023," there's a table that breaks down asset allocation percentages.
+
+I notice that in this grid, the percentage allocated to equities is 50.01%. The report doesn't specify which fund corresponds to each category but mentions an FFG strategic portfolio and MSCI AWCI breakdown as of June 30, 2023. However, without a specific fund name mentioned elsewhere in the text, it's challenging to pinpoint exactly which fund is being referred to.
+
+Given that the user wants the fund's name, date, and distribution outlook with percentages, but only partial information is provided (like allocation percentages without knowing which fund they belong to), I might need to state that the specific fund isn't clearly mentioned in the provided text. Alternatively, if we assume "FFG strategic portfolio" refers to a particular fund, then perhaps that's sufficient.
+
+Wait, looking back at the user’s instructions: “The Forum Finance Group S.A. (FFG) is authorised by FINMA as asset manager and registered with the SEC as investment adviser.” It doesn’t specify which specific fund they're referring to since FFG operates multiple funds under different names or strategies.
+
+So, perhaps the correct approach is to mention that while the allocation percentages are provided for equities at 50%, it's unclear without knowing the exact fund name. Alternatively, if "FFG strategic portfolio" is considered a single fund, then we can proceed with that assumption.
+
+I think the best way here is to state the date as July 2023 and outline the equity allocation percentage of 50% but note that the specific fund isn't clearly identified in the provided text.
+</think>
+
+The document provided does not specify the name of a particular fund, though it mentions "FFG strategic portfolio" and an MSCI AWCI breakdown. The report is from July 2023.
+
+Regarding capital distribution, equities are allocated approximately 50% of the portfolio according to the asset allocation grid. However, without specifying which fund this refers to exactly, it's unclear whether this percentage pertains to a particular fund or the FFG strategic portfolio as a whole.
+
+If "FFG strategic portfolio" is considered one fund, then its equity allocation would be 50%. Otherwise, if multiple funds are managed by FFG, more information would be needed to specify which fund's capital distribution is being referred to.

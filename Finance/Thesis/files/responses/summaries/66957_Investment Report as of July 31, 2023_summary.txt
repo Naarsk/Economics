@@ -1,0 +1,24 @@
+<think>
+Okay, I need to help the user by summarizing a specific part of an investment report. The query is asking for a summary focusing on the fund's name, the date of the report, and the outlook on capital distributions including their magnitude in percentages.
+
+First, looking at the provided text, it starts with a section about the fund called "Hilti Pensionskasse." There are several parts to this report. I should identify when each part is discussing the fund's performance or outlook.
+
+In the first paragraph after the header, it mentions that there has been an increase in assets under management and ongoing strategic work on capital distribution. It states the outlook as positive but tempered by market volatility and inflation, with conservative growth expectations at 5-8% per annum. That's a key point for the outlook and magnitude.
+
+Next, towards the end of the document, another section talks about the fund's performance compared to benchmarks, mentioning superior results in interest rate risk management and investment income stability despite unfavorable conditions. It also notes that the fund is well-positioned with a strong balance sheet after recent stress periods. This suggests positive growth but doesn't give exact percentages.
+
+Looking further, there are bullet points under "New Terms and Conditions" which list some policies about contributions and withdrawals, but no percentage figures here. There's also information about new appointees in the Stiftungsrats, which might affect performance changes, but again without specific data on capital distribution.
+
+I should check if any other parts mention percentage growth or capital distribution directly. The first paragraph clearly mentions 5-8% per annum as a target, so that gives me the magnitude of expected return. The second part talks about superior results in risk management and stability but doesn't provide exact numbers beyond that.
+
+So putting it all together, I need to create a summary that includes:
+1. Fund name: Hilti Pensionskasse
+2. Date: July 2023
+3. Outlook on capital distributions with the magnitude given as 5-8% per annum
+
+I should make sure the summary is concise and only includes these three elements, excluding any other details not related to capital distribution or performance metrics.
+</think>
+
+**Hilti Pensionskasse Investment Report Summary (July 2023):**
+
+The Hilti Pensionskasse has reported a positive outlook for its capital distributions in 2023. The fund aims to achieve conservative growth of between **5% and 8% per annum**, despite the challenges posed by market volatility and inflation. This growth is expected while maintaining financial stability and addressing current distribution needs.

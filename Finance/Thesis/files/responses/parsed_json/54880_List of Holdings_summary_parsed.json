@@ -1,0 +1,58 @@
+{
+  "results": {
+    "name": "Permira Credit Solutions II Senior (Feeder) L.P.",
+    "date": "2024-03",
+    "outlook": "moderate",
+    "magnitude": 15,
+    "confidence": 0.8,
+    "explanation": "Moderate growth expected."
+  },
+  "results": {
+    "name": "Oaktree Ports America Fund, L.P.",
+    "date": "2024-03",
+    "outlook": "positive",
+    "magnitude": 10,
+    "confidence": 0.7,
+    "explanation": "Positive growth expected."
+  },
+  "results": {
+    "name": "Permira Credit Solutions III Senior GBP, L.P.",
+    "date": "2024-03",
+    "outlook": "strong",
+    "magnitude": 20,
+    "confidence": 0.9,
+    "explanation": "Strong growth expected."
+  },
+  "results": {
+    "name": "PineBridge PEP IV US Buyout",
+    "date": "2024-03",
+    "outlook": "positive",
+    "magnitude": 16,
+    "confidence": 0.85,
+    "explanation": "Positive growth expected."
+  },
+  "results": {
+    "name": "PineBridge PEP IV Secondary",
+    "date": "N/A",
+    "outlook": "N/A",
+    "magnitude": 3,
+    "confidence": "N/A",
+    "explanation": "N/A"
+  },
+  "results": {
+    "name": "PineBridge PEP V Asia",
+    "date": "2024-03",
+    "outlook": "moderate",
+    "magnitude": 9,
+    "confidence": 0.75,
+    "explanation": "Moderate growth expected."
+  },
+  "results": {
+    "name": "PPP Equity P2P Fund, L.P.",
+    "date": "N/A",
+    "outlook": "N/A",
+    "magnitude": "N/A",
+    "confidence": "N/A",
+    "explanation": "No data provided."
+  }
+}

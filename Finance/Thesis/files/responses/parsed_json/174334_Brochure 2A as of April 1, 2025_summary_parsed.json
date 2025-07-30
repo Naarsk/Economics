@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "FWP Investment Fund",
+    "date": "20231010",
+    "outlook": "increase",
+    "magnitude": 5,
+    "confidence": 0.8,
+    "explanation": "Fund is expected to increase with capital distributions capped at 5%."
+  }
+}

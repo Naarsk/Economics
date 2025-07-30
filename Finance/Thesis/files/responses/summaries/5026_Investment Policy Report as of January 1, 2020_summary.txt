@@ -1,0 +1,25 @@
+<think>
+Alright, I need to help this user who's asking me to summarize a specific part of an investment report. The query is about remembering their task: summarizing the provided investment report focusing on the fund name, date, and outlook on capital distributions with percentages.
+
+First, looking at the user's message, they've included a chunk of text which seems to be parts of an investment policy statement from a Sheriff's Office Retirement Plan. I need to extract relevant information from this text.
+
+I'll start by scanning through the provided content for sections that mention fund names. The first line mentions "Fund Name County Sheriff's Office Retirement Plan." That's straightforward.
+
+Next, the date is crucial. The policy was amended on November 6, 2019, and effective January 1, 2020. So I should note both dates clearly.
+
+Now, looking for the outlook on capital distributions. Scanning further down, under the section "Proxy Voting," there's a part that talks about distributing proxies to managers. It mentions the distribution of proxies to managers based on investment performance and compliance with long-term economic interests. But more importantly, in the Watch List Actions subsection, it states that managers placed on the watch list will be restricted from receiving additional monies until a due diligence review is completed.
+
+However, this doesn't directly address capital distributions but rather restrictions on additional funds. Moving further down to the Proxy Voting section again, I see mentions of distributing proxies quarterly or annually as agreed with each manager, and that managers must vote in accordance with the Plan's economic interests.
+
+Wait, perhaps I missed something else. Let me go back through the sections. There's a part under Watch List Criteria where it talks about not being on the watch list if there are operational changes affecting performance. But again, no direct mention of capital distributions.
+
+It seems that the main points here don't explicitly outline an outlook on capital distribution percentages but rather policies regarding proxy voting and restrictions when managers are placed on the watch list. Therefore, for capital distribution details, the provided text doesn't offer specific figures or future plans beyond the proxy voting structure.
+
+So, putting it all together, I can summarize that the fund name is the Sheriff's Office Retirement Plan, the report was amended on November 6, 2019, effective January 1, 2020, and the main points revolve around proxy voting policies rather than capital distribution percentages. If there are no specific figures provided, I should state that the capital distribution details aren't explicitly mentioned in this section.
+
+I need to make sure my summary is concise and only includes what's required: fund name, report date ( amendment date and effective date), and any relevant outlook on distributions, which in this case isn't detailed but mentions proxy voting policies.
+</think>
+
+The provided investment report pertains to the **County Sheriff's Office Retirement Plan**. The most recent version of the Investment Policy Statement was amended on **November 6, 2019**, with effective dates starting on **January 1, 2020**.
+
+The document outlines several key policies and actions related to investment management, including proxy voting practices for distributing proxies to managers based on performance. However, there is no specific mention of an outlook on capital distributions or their magnitude in percentage terms within the provided excerpt. The focus appears to be on operational and compliance-related provisions rather than future capital distribution plans.

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "",
+    "date": "2023-09-30",
+    "outlook": "increase",
+    "magnitude": 2.5,
+    "confidence": 0.9,
+    "explanation": "Capital distributions have increased by 2.5% year-over-year, possibly due to improved performance or strategic decisions."
+  }
+}

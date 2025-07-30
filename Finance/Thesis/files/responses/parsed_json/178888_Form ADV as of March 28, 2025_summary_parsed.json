@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "name": "Equity Growth Fund",
+      "date": "2023-04-15",
+      "outlook": "increase",
+      "magnitude": 0.65,
+      "confidence": 0.85,
+      "explanation": "Strong growth potential with high allocation."
+    },
+    {
+      "name": "Bond Income Fund",
+      "date": "2023-04-15",
+      "outlook": "increase",
+      "magnitude": 0.15,
+      "confidence": 0.6,
+      "explanation": "Stable income with moderate growth."
+    },
+    {
+      "name": "Date Fund 1 (Peter Chen)",
+      "date": "2023-04-15",
+      "outlook": "increase",
+      "magnitude": 0.18,
+      "confidence": 0.7,
+      "explanation": "Growth potential with slightly lower allocation."
+    },
+    {
+      "name": "Date Fund 2 (Peter Chen)",
+      "date": "2023-04-15",
+      "outlook": "increase",
+      "magnitude": 0.17,
+      "confidence": 0.65,
+      "explanation": "Moderate growth with lower allocation."
+    }
+  ]
+}

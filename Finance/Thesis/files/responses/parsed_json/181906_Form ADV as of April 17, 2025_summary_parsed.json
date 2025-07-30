@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "MM Fund",
+    "date": "20250417",
+    "outlook": "positive",
+    "magnitude": 2,
+    "confidence": 0.8,
+    "explanation": "Dividend yields increased by 2% with mixed capital gains at 5% due to market volatility."
+  }
+}

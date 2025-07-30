@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Derbyshire Pension Fund",
+    "date": "202103",
+    "outlook": "stable",
+    "magnitude": 85,
+    "confidence": 0.85,
+    "explanation": "The fund has a conservative strategy with a large allocation to bonds, indicating strong stability potential."
+  }
+}

@@ -1,0 +1,15 @@
+<think>
+Okay, so I need to help summarize an investment report based on what the user has asked. The user provided some text that seems like parts of an ADV filing, specifically mentioning SHIANE WHEELER's registration and licensing officer role at advisers 145323.
+
+But wait, the task is to summarize a fund report focusing on the fund name, report date, capital distribution outlook, and its percentage. The user mentioned "the provided investment report," but looking back, it only includes parts of the ADV execution pages and registration info, not any fund-specific report.
+
+Hmm, this might be a bit confusing. Maybe there's a mix-up here. The user is asking for a summary based on specific sections, but those don't include a fund report. They provided information about CRD numbers, execution pages, and registration details instead of actual fund performance data.
+
+So, without any fund-specific data in the provided text, I can't generate a proper summary as requested. It's possible there might be missing information or perhaps they were referring to different sections that weren't included here.
+
+In such cases, it's best to inform the user that the provided material doesn't contain the necessary details for their request. Maybe they have other files or data that could help with the summary. Alternatively, if this is all they have, it might be impossible to fulfill their current query accurately.
+</think>
+
+The provided text does not include a fund report but rather parts of an ADV (Advisory Opinion on Investment Funds) execution page and registration details. To summarize a fund report focusing on the fund name, date of the report, outlook on capital distributions, and its magnitude in percentage terms, you would need specific fund performance data or investment report details that are not included in the provided text.
+
+If you have additional fund-specific information, such as the fund's name, performance data, or any recent reports, please provide them for a proper summary. Otherwise, it appears that there is no sufficient information to fulfill your request based on the current input.

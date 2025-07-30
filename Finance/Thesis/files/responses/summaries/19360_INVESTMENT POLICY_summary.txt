@@ -1,0 +1,13 @@
+<think>
+Okay, so I need to help the user summarize a provided investment report. The user specifically wants me to focus on three main points: the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude as percentages.
+
+First, I'll look at the information given in the report. It mentions that the Foundation is named "Communities of Coastal Georgia Foundation." The report was generated on a specific date, but I don't see an explicit date mentioned here; it might be part of the system's data which isn't provided. So maybe I should note that the exact date isn't specified in this text.
+
+Next, regarding capital distributions, the report discusses spending policies. It mentions a ceiling of 5% and that the spending policy is determined by the board at their annual meeting in December. The average asset value is calculated on September 30 each year for a rolling twelve-quarter period. This smoothing effect helps with budgeting and avoids issues with market volatility. However, there's no specific outlook or percentage provided beyond the 5% ceiling.
+
+I also notice that the report doesn't provide any additional details about capital distributions beyond the spending policy. There are no numbers given on how much they expect to distribute or any deviations from the 5% target. 
+
+So putting it all together, I can summarize that while the exact date isn't provided and there's no specific distribution percentage mentioned, the foundation has a spending ceiling of 5% with annual reviews to adjust as needed.
+</think>
+
+The investment report for "Communities of Coastal Georgia Foundation" indicates that capital distributions are subject to a spending policy with a ceiling of five percent (5%). The exact date of the report is not provided in this text. The smoothing mechanism ensures consistent spending levels by averaging over time, and annual board meetings determine any potential adjustments to the 5% target. No specific outlook or distribution percentage beyond the 5% ceiling is detailed.

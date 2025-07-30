@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "<fund name>",
+    "date": null,
+    "outlook": "increase",
+    "magnitude": 24,
+    "confidence": 0.95,
+    "explanation": "Predictable monthly distributions with an annualized return of 24% indicate positive investment potential."
+  }
+}

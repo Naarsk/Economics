@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "[Your Fund Name]",
+    "date": "2025-03-15",
+    "outlook": "increase",
+    "magnitude": 0.0036,
+    "confidence": 0.90,
+    "explanation": "Fund expected to grow with $1M distribution in 2025, representing ~0.36% of net assets."
+  }
+}

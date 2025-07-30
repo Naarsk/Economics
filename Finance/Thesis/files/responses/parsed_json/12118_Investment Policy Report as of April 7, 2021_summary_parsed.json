@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "New York State Common Retirement Fund (NYSCRF)",
+    "date": "20210407",
+    "outlook": "stable",
+    "magnitude": 5,
+    "confidence": 0.6,
+    "explanation": "General investment policy updates without specific capital distribution details."
+  }
+}

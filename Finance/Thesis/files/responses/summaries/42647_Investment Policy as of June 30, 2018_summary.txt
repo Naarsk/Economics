@@ -1,0 +1,15 @@
+<think>
+Okay, so I have this query from a user who wants me to act as a financial analyst. They provided an investment report and want a summary focusing on the fund's name, the report date, outlook on capital distributions, and their magnitude in percentages.
+
+First, I need to parse the given data accurately. The example response they provided breaks it down into four parts: fund name, report date, distribution outlook, and percentage impact. So my task is similar—extract those key pieces of information from whatever investment report they provide.
+
+I should make sure that when summarizing, I highlight the fund's performance regarding capital distributions. Is there an expected increase or decrease? What's the estimated percentage change? Also, considering it's a financial summary, using clear and concise language will be important to convey the necessary information without getting bogged down in too much detail.
+
+I need to ensure that my response is structured properly—maybe starting with the fund name followed by the date. Then clearly state whether capital distributions are expected to go up or down, and by how much percentage-wise. I should also mention if there's any additional context that might be relevant, like the factors influencing these predictions.
+
+It's crucial to double-check all numerical data for accuracy. Sometimes reports can have typos or misinterpretations, so a quick verification would help maintain reliability in my summary.
+
+Finally, wrapping it up by emphasizing why this information is valuable—helping investors make informed decisions based on expected cash flows and returns.
+</think>
+
+Certainly! Please provide the investment report you'd like me to summarize.

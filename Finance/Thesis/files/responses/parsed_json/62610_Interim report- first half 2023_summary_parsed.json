@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Danish Bank's investment fund",
+    "date": "20240200",
+    "outlook": "increase",
+    "magnitude": 17.5,
+    "confidence": 0.85,
+    "explanation": "Capital distributions are expected to increase due to positive market performance and potential capital gains."
+  }
+}

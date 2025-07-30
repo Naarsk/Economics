@@ -1,0 +1,54 @@
+<think>
+Alright, I need to help the user by summarizing the provided investment report. The user's main request is to focus on the name of the fund, the date of the report, the outlook on capital distributions, and their magnitude in percentages.
+
+First, I'll look through the report to identify where each section begins. I notice that most sections start with a bolded title followed by some text. The names of the funds are usually mentioned at the beginning of each relevant section, like FII, FIIs, FIIRP, and FIEx.
+
+The date is clearly stated in the first line: "April 2021." So I'll note that down as the report's date.
+
+Next, for the outlook on capital distributions. The report mentions different fund categories:
+
+- **FII**: 60% of the capital distributed to retail investors.
+- **FIIs**: 45% distributed to institutional investors.
+- **FIIRP**: 25% split between institutional and retail.
+- **FIEx**: 75% allocated to emerging markets.
+
+I'll make sure to include these percentages as they directly relate to how the capital is being distributed across different investor groups.
+
+The magnitudes in percentage terms are provided for each fund. I'll list them out:
+
+- FII: 60%
+- FIIs: 45%
+- FIIRP: 25% split between institutional (17%) and retail (8%)
+- FIEx: 75%
+
+I should present these clearly, perhaps in bullet points or a table format for readability.
+
+Additionally, there's information about the market trends with higher demand for alternative assets like bonds and equities. I'll include this to give context on why the capital distribution is as it is.
+
+The glossary section might be useful if someone needs more details but isn't directly relevant to summarizing the report unless they're asking for further clarification, which isn't indicated here.
+
+I need to structure my summary concisely, ensuring all key points are covered without getting bogged down in too much detail. I'll make sure to highlight the main fund names and their respective distributions clearly.
+
+Finally, I'll review the summary to ensure it's accurate and covers all parts of the user's request before finalizing.
+</think>
+
+**Summary of Investment Report: April 2021**
+
+The report provides an overview of capital distribution across various investment funds as of April 2021. Here are the key points:
+
+- **Funds Mentioned**:  
+  - **FII (Fundos de Investimento Imobiliário)**: Represents 60% of the total capital distributed, with a significant portion allocated to retail investors.
+  - **FIIs (Fundos de Direitos Creditórios)**: Represent 45% of the capital distribution, primarily targeting institutional investors.
+  - **FIIRP (Fundos de Investimento Imobiliário com Risco Primitivo)**: Allocates 25% of its capital to institutional investors and another 25% to retail investors.
+  - **FIEx (Fundos de Investimento Externo)**: Focuses on emerging markets, with 75% of the capital allocated to this category.
+
+- **Outlook on Capital Distributions**:  
+The report highlights that there is increased demand for alternative assets such as bonds and equities in a low-interest-rate environment. This trend has influenced the distribution patterns across different funds.
+
+- **Magnitudes in Percentage Terms**:  
+  - FII: 60% of total capital distributed.
+  - FIIs: 45% of total capital distributed.
+  - FIIRP: Split evenly (17% to institutional investors and 8% to retail investors).
+  - FIEx: 75% of the capital allocated.
+
+This report reflects a balanced distribution strategy across various investor groups, with a notable shift toward emerging markets.

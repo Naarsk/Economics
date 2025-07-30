@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": null,
+    "date": null,
+    "outlook": "",
+    "magnitude": "",
+    "confidence": 0.5,
+    "explanation": "No specific fund name or report date was provided in the document."
+  }
+}

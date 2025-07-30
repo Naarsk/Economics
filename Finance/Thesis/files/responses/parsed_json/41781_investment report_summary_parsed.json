@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "ABC Fund",
+    "date": "20231026",
+    "outlook": "increase",
+    "magnitude": 8.5,
+    "confidence": 0.92,
+    "explanation": "The fund is expected to see capital distribution increase by approximately 8.5%."
+  }
+}

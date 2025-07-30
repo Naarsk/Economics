@@ -1,0 +1,13 @@
+<think>
+Okay, so I need to help the user by summarizing a specific part of an investment report. The user has given me some text from a UBS GFO Report for 2021 and wants me to focus on three main points: the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, I'll read through the provided text carefully. The report starts by mentioning various aspects like family offices, sources used, and some warnings about not acting based solely on the document's content. Then it transitions into discussing a specific fund: "Fund A." It provides details about when the report was issued—April 2021—and mentions that the outlook is based on current assumptions.
+
+Looking for the name of the fund, I see multiple instances where "Fund A" is referred to, so that's straightforward. The date mentioned is April 5, 2021, as per the text: "The report was issued on April 5, 2021." 
+
+Now, regarding capital distributions, the report states that "capital distributions in upcoming months are expected to remain moderate at around 3% of AUM." Here, "AUM" stands for Assets Under Management. So I need to make sure this percentage is accurately captured.
+
+I should structure the summary to include each point clearly: name, date, and outlook with the magnitude. I'll present them in a concise manner without adding extra information that's not required.
+</think>
+
+The investment report focuses on **Fund A**, which was issued on April 5, 2021. The outlook indicates that capital distributions are expected to remain moderate at approximately **3% of Assets Under Management (AUM)** in the upcoming months.

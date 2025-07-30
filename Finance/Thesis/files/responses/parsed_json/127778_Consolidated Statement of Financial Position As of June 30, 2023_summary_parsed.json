@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Akfen REIT",
+    "date": "20230628",
+    "outlook": "stable",
+    "magnitude": 15,
+    "confidence": 0.6,
+    "explanation": "Positive return of 15% but no clear future capital distribution policy"
+  }
+}

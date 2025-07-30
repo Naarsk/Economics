@@ -1,0 +1,16 @@
+<think>
+Okay, so I need to help the user by summarizing a provided investment report. The user specifically wants me to focus on the name of the fund, the date of the report, and an assessment of capital distribution along with its magnitude in percentages.
+
+First, I'll look through the information given. The report seems to be about several funds: Previdência Central de Contribuições Pessoais (PCCP), Previdência Social Básica (PSB), Previdência Social por Despesas com Tripulantes (PSDT), and Previdência Social de Aposentadorias (PSA). Each fund has a date of April 20, 2023.
+
+The report mentions that as of April 19, 2023, there were total distributions of R$ 45.8 billion across all these funds. It also notes that the April distributions for each fund are yet to be determined but will follow a similar pattern based on previous months.
+
+Looking at the breakdown:
+- PSA contributed the highest amount with over R$14 billion.
+- PCCP was next with around R$10 billion.
+- PSB and PSDT each contributed about R$7.5 billion, making up the rest.
+
+I should present this in a clear summary, highlighting that all funds are expected to have similar April distributions as March 2023. I'll also mention the total magnitude and the main contributors without going into too much detail on the other specifics like daily fluctuations or future outlook beyond distribution amounts.
+</think>
+
+The investment report highlights four funds: Previdência Central de Contribuições Pessoais (PCCP), Previdência Social Básica (PSB), Previdência Social por Despesas com Tripulantes (PSDT), and Previdência Social de Aposentadorias (PSA). As of April 19, 2023, the total capital distribution across these funds was R$ 45.8 billion. The report notes that the April distributions for each fund are expected to follow a similar pattern as March 2023, with PSA contributing the highest amount (over R$14 billion), followed by PCCP (around R$10 billion), and PSB and PSDT each contributing approximately R$7.5 billion.

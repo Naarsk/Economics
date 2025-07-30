@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Highland Council Pension Fund",
+    "date": "202103",
+    "outlook": "stable",
+    "magnitude": 6.0,
+    "confidence": 0.9,
+    "explanation": "Conservative investment approach with expected returns across asset classes."
+  }
+}

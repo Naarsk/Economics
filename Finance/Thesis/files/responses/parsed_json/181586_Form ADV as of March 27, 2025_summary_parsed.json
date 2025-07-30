@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund X",
+    "date": "20241231",
+    "outlook": "increase",
+    "magnitude": 6.5,
+    "confidence": 0.85,
+    "explanation": "The fund anticipates significant returns next year with capital distributions expected to yield a return rate of between 6-7%."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Pennsylvania Municipal Retirement System (PMRS)",
+    "date": "2021-03-18",
+    "outlook": "stable",
+    "magnitude": 5,
+    "confidence": 0.9,
+    "explanation": "Capital distribution expected to remain stable with minor adjustments based on market conditions."
+  }
+}

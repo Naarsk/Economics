@@ -1,0 +1,20 @@
+<think>
+Alright, so I need to figure out how to summarize the provided investment report. The user has given me a detailed report about an investment fund named "ERIN KERR INVESTMENT FUND" with the ISIN number XXXX123456 and the CRD number 106109. 
+
+First, I should identify the key pieces of information requested: the name of the fund, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+Looking at the provided text, I see that the report was generated on March 31, 2025. The fund's name is "ERIN KERR INVESTMENT FUND." The CRD number is 106109, which is a common identifier for investment advisers in Canada.
+
+Regarding the outlook on capital distributions, the text mentions that the projected net return from capital distributions is $384 million. It also states that this distribution will represent approximately 25% of the total fund's assets under management as of December 31, 2024.
+
+I should make sure to present these points clearly and concisely in my summary. I need to structure it so that each key piece of information is easily identifiable and follows a logical flow from the report.
+</think>
+
+The investment report provides the following key details about ERIN KERR INVESTMENT FUND:
+
+- **Fund Name**: ERIN KERR INVESTMENT FUND
+- **Report Date**: March 31, 2025
+- **Capital Distribution Outlook**: The projected net return from capital distributions is $384 million.
+- **Magnitude in Percentage Terms**: This distribution represents approximately 25% of the fund's assets under management as of December 31, 2024.
+
+This summary highlights the fund's structure and expected returns based on recent data.

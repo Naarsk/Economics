@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Nikkei 225",
+    "date": "20240329",
+    "outlook": "increase",
+    "magnitude": 7.99,
+    "confidence": 0.85,
+    "explanation": "The Nikkei 225 has shown a positive year-to-date performance with an upward full-year forecast."
+  }
+}

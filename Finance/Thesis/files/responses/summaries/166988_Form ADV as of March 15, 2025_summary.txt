@@ -1,0 +1,15 @@
+<think>
+Okay, so I'm trying to help someone who needs a summary of an investment report. The user has provided three different execution pages for a non-resident investment adviser. Each page is related to different registrations: state registration, state-registered investment adviser, and a state-registered investment adviser execution page.
+
+Looking at the first part, it seems like each execution page starts with the same information about appointing legal officers and their successors in certain states. All of them have similar signatures and affirmations regarding the accuracy of the ADV, preservation of records, and authorization for regulatory access.
+
+The last part mentions that the name is Kirk N. Matteson, his CRD number is 304245, and there's a signature date on March 15, 2025. However, the actual content of the report isn't provided in these execution pages. 
+
+Since the user wants a summary focusing on the fund's name, the date of the report, and its outlook on capital distributions including their magnitude in percentage terms, but I don't see any specific information about the fund itself in the provided text.
+
+I think maybe there was an image or additional text that wasn't included here. Without more details about the fund's performance or distribution outlook, it's impossible to summarize those aspects accurately. Therefore, based solely on the given information, a proper summary can't be compiled.
+</think>
+
+Based on the provided context and execution pages, I regret to inform you that no specific information regarding the fund's name, date of report, or details about capital distributions is available. The execution pages focus on appointment of agents and regulatory compliance rather than fund-specific data.
+
+If there were additional text or images containing this information, please provide them for a detailed summary focusing on the aspects requested: fund name, report date, and distribution outlook with percentages.

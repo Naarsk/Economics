@@ -1,0 +1,28 @@
+<think>
+Okay, so I need to help the user by summarizing a portion of an investment report they've provided. The main focus is on the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude as a percentage.
+
+First, I'll read through the document carefully. It seems to be about portfolio management and distribution schedules for a specific fund. The fund names mentioned are RRUQ Distributeur Inc., RRUQ Réitourné Inc., and RRUQ Équitable Inc. These seem similar, perhaps different funds or investment types.
+
+Looking at the date of the report is straightforward; it's on November 20th, 2014. So that's an important detail to include.
+
+Next, I need to find information about capital distributions and their outlook. Scanning through the sections, under "RÉVISION" (Revision), there's a mention of the distribution schedule for RRUQ Distributeur Inc., which is monthly on the 20th day. The magnitude isn't explicitly stated here, but perhaps it refers to the frequency or timing rather than the amount.
+
+Then, in the "Guide de gestion de l’actif" (Actives Management Guide), section B talks about distribution schedules for different funds. RRUQ Réitourné Inc. has distributions on the 25th of each month, again monthly, which is a standard schedule and doesn't specify the amount.
+
+In section C, RRUQ Équitable Inc. mentions its distribution schedule but doesn't provide details like magnitude either. It just states that it's part of the investment mix for the portfolio.
+
+I should note if any of these funds are expected to have larger distributions or if there's an outlook on capital movements in terms of percentages. However, from what I see, none of the sections explicitly mention percentage magnitudes for distributions beyond the frequency and timing.
+
+So putting this together, the summary will include the fund names, the date of the report, and the distribution schedules without specific magnitude percentages since that information isn't provided elsewhere in the document.
+</think>
+
+**Summary:**
+
+- **Fund Name:** RRUQ Distributeur Inc., RRUQ Réitourné Inc., RRUQ Équitable Inc.  
+- **Date of Report:** November 20, 2014  
+- **Capital Distributions:**  
+  - **RRUQ Distributeur Inc.:** Monthly distributions on the 20th day.  
+  - **RRUQ Réitourné Inc.:** Monthly distributions on the 25th day.  
+  - **RRUQ Équitable Inc.:** Distribution schedule mentioned but no specific details provided regarding magnitude or percentage.  
+
+The report does not provide explicit information about the magnitude of capital distributions in terms of percentages for these funds, focusing instead on their distribution schedules and other portfolio management details.

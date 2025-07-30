@@ -1,0 +1,19 @@
+<think>
+Okay, so I'm trying to help this user who provided a bunch of financial data about some kind of retirement fund. They want me to summarize it with specific points: the name of the fund, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+First, I need to figure out what each part means. The report starts by mentioning a Florida Government Retirement Fund. That's straightforward—so that's the name of the fund they're talking about.
+
+Next, looking at the key details section, there are two dates: 10/31/2023 and 12/31/2022. I think one is the date of the report. Since 10/31 is earlier than December's, it's likely that the 2023 report is more recent, so maybe they're looking for both dates as context.
+
+The "Outlook on capital distributions" part mentions a projected 7.5% annual return and an average of $98 million per participant each year. So I should note that these are expected returns based on historical averages. Also, the distribution frequency is quarterly, which affects how often payouts happen but maybe not directly relevant here.
+
+The magnitude in percentage terms refers to the 36.57% contribution from employers and 20.98% from participants each year. These percentages show who's funding the plan—so I should mention that clearly.
+
+Putting it all together, I need to make sure the summary is concise but covers all points: name of the fund, both dates (with explanation on which one is the report date), projected capital distribution outlook including the percentage and average payout per participant, and their respective contributions from employers and employees.
+</think>
+
+The investment report pertains to a **Florida Government Retirement Fund**. The report was issued on **October 31, 2023**, based on data as of **December 31, 2022**.
+
+The outlook for capital distributions indicates an expected annual return of approximately **7.5%**. Each active participant is projected to receive an average of **$98 million per year**, with distributions made quarterly.
+
+In terms of magnitude, employers are expected to contribute **36.57%** of the total required funding, while participants will cover **20.98%** annually. These percentages reflect the primary sources of funding for the retirement plan based on historical assumptions and expected contributions.

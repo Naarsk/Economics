@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "XYZ Investment Fund",
+    "date": "20250402",
+    "outlook": "stable",
+    "magnitude": 0.3,
+    "confidence": 0.95,
+    "explanation": "Capital gains distribution aligns with current fund performance."
+  }
+}

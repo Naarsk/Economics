@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "SOMERVILLE",
+    "date": "2021-01-01",
+    "outlook": "increase",
+    "magnitude": 27.59,
+    "confidence": 0.85,
+    "explanation": "Significant growth with high confidence due to strong performance."
+  }
+}

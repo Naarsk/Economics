@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Florida Municipal Investment Trust",
+    "date": "2025-01-31",
+    "outlook": "stable",
+    "magnitude": 6,
+    "confidence": 0.85,
+    "explanation": "Fund has a stable and balanced allocation between intermediate-term and short-term municipal bonds."
+  }
+}

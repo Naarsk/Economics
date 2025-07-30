@@ -1,0 +1,17 @@
+<think>
+Alright, I need to help the user by summarizing a portion of an investment report. Let me start by reading through what they've provided.
+
+The query mentions that they want a summary focusing on three main points: the fund's name, the date of the report, and the outlook on capital distributions along with their magnitude in percentages. The user also included some details about the CRD number, non-resident investment advisor (NRI) status, and compliance pages.
+
+First, I should identify the key elements from the provided text. Looking at the first part, it mentions "Fund Name: PRIMEira 2025 Long-Term" with a date of February 17, 2025. That's straightforward; that gives me two pieces of information right there.
+
+Next, the user is interested in capital distributions and their magnitude. The report talks about increasing distributions by $45 million to a 3% increase from $1.6 billion to $1.645 billion. I need to make sure this percentage is clearly stated along with the actual dollar amounts for clarity.
+
+I also notice that the ADV numbers, like the CRD number (297268), are provided but they're more technical and probably not essential unless the user needs detailed compliance info. Since the query focuses on non-resident investment advisors' report, I might mention it briefly to show understanding but focus primarily on the financial aspects.
+
+Additionally, there's a section about non-resident investment advisors and their obligations regarding books and records. While this is important for compliance, since the user hasn't asked for that in detail, I can perhaps dismiss it unless they have further questions.
+
+Putting it all together, my summary should be concise yet informative, highlighting the fund name, date, capital distribution increase, and its percentage rise. This will fulfill the user's request effectively without including unnecessary details.
+</think>
+
+The report summarizes a non-resident investment advisor (NRI) investment fund named **PRIMEira 2025 Long-Term**, which was updated on February 17, 2025. The fund has declared capital distributions totaling $1.645 billion, representing a 3% increase from the previous year's $1.6 billion. This represents an increase of $45 million in total distributions compared to the same period last year.

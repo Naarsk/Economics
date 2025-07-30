@@ -1,0 +1,37 @@
+<think>
+Alright, so I'm looking at this user query where they want me to summarize a specific investment report. The main points they're interested in are the fund's name, the report date, the outlook on capital distribution, and its size in percentages.
+
+First, I need to extract the relevant information from the provided text. The report is about an investment fund called EMBRAER PREV, but looking closer, there's a part where it refers to "Fundo de Investimento Exterior" or FII, which seems to be their main fund of interest. 
+
+The date mentioned in the report is March 2021, so that's straightforward. Next, they want the outlook on capital distributions. Scanning through, I see sections labeled "Relatório de Composições da Carregaria de Investimentos," which translates to compositions of the investment portfolio. These sections detail how the fund is distributed across different investments.
+
+I need to summarize these distributions in terms of their percentage contributions. For example, BB MULT NORDEA FIEX makes up about 50%, Repo is another 49%, and then there are other allocations like Certificados de Recebíveis Imobiliários (CRI), Letras Financeiras Subordinadas (LFS), and various investment categories in real estate.
+
+Additionally, the report mentions that the total investments outside Brazil amount to R$10.17 million, which is 100% of the fund's exterior portfolio. This gives a clear picture of where all the capital is allocated.
+
+I should structure this summary to highlight each key section clearly: the fund name, date, the distribution outlook with percentages, and the magnitude in terms of R$ millions. I need to make sure it's concise and includes all necessary details without getting too bogged down in specifics.
+
+Also, considering the user might be an investor looking for a quick overview, clarity is key. They probably want to understand where their investments are going without diving into each detail. So, summarizing each major allocation with its percentage and R$ figure should suffice.
+</think>
+
+**Resumo do Relatório de Investimento – Março 2021**
+
+- **Fund Name**: Fundo de Investimento Exterior (FII)  
+- **Date of the Report**: Março de 2021  
+
+O relatório apresenta a composição atual do fundo, destacando as seguintes principais investições:  
+- **BB MULT NORDEA FIEX**: Compreendem around 50% do total de investimentos, com uma participação de 50,84%.  
+- **Repo**: Representa around 49% do total de investimentos, com uma participação de 49,15%.  
+- **Valores a Pagar/Receber (*)**: Formam um pequeno contributo de around 0,01%.  
+
+A carteira total do fundo de investimento no exterior (R$ 10.17 milhões) é distribuída conforme a tabela abaixo:  
+
+| TÍTULO                    | VALOR EM R$ MIL | PARTICIPAÇÃO (%) |  
+|----------------------------|-----------------|------------------|  
+| BB MULT NORDEA FIEX        | 5.170           | 50,84%           |  
+| Repo                       | 4.999           | 49,15%           |  
+| Valores a Pagar/Receber (*) | 1               | 0,01%            |  
+
+**Total da Carteira de Investimento no Exterior**: R$ 10.17 milhões (100,00%).  
+
+*Res palavras claras e resumidas.*

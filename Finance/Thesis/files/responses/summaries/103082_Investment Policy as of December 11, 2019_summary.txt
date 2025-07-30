@@ -1,0 +1,24 @@
+<think>
+Alright, I'm trying to help someone summarize a pretty dense investment report. Let me start by reading through it carefully. The report is about Mistras fond AB, which seems to be an investment fund managed by Handel & MK. 
+
+First, the name of the fund is clearly stated as "Mistras fond AB - Kauwekamässa" on page 2 and also appears in the strategic allocation section. I should include that.
+
+Next, looking at the dates provided: the fund was established in 2006 and has had several revisions, with the latest being a re-issue on September 18, 2019. So, my summary needs to mention both the original establishment year and the last update date for clarity.
+
+Now, the outlook on capital distribution is given in Bilaga 3. The strategic portfolio is divided into different asset classes: active bonds make up 40%, global equity with MSCI World All Countries DM Net Dividends Reinvested at 68%, and active stocks (SIX PRX) at 32%. Additionally, there's a mention of "other" investments worth 1.7%—probably including alternative investments like real estate funds or risk capital funds.
+
+In terms of the magnitude in percentage terms, the largest portion is clearly global equity at over 68%, followed by active bonds at 40%, then SIX PRX at 32%, and "other" at just under 2%. It's important to note that this distribution can change based on market conditions and the fund's strategy.
+
+I should also make sure not to include any unnecessary details, focusing solely on what's asked: name of the fund, date of the report (original and last update), and the capital distribution percentages. Keeping it concise but informative will be key.
+</think>
+
+The investment report pertains to **Mistras fond AB - Kauwekamässa**, established in 2006 with undergoes regular revisions. The latest update was made on September 18, 2019.
+
+The fund's strategic portfolio distribution is as follows (in percentage terms):
+
+- **Active bonds**: 40%  
+- **Global equity (MSCI World All Countries DM Net Dividends Reinvested)**: 68%  
+- **SIX PRX (Swedish small-cap index)**: 32%  
+- **Other investments**: 1.7%
+
+This distribution reflects a strong emphasis on global equity and active bonds, with significant allocations to alternative assets like real estate funds or risk capital funds as indicated by the "other" category.

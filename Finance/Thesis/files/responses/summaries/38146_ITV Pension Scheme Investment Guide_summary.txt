@@ -1,0 +1,33 @@
+<think>
+Alright, I need to help this user by summarizing an investment report they've provided. They want a focus on the name of the fund, the date of the report, and their outlook on capital distributions along with the magnitude in percentage terms.
+
+First, I should read through the report carefully to extract relevant information. The user mentioned that specific parts like the fund's name, date, and distribution outlook as percentages are important. So I'll look for headings or sections that mention these points.
+
+Looking at the provided text, I see several sections but no explicit mentioning of a particular fund name. Instead, it seems to discuss various investment options available under the ITV Pension Scheme. It talks about different funds like pre-packaged options (hands off), 15 investment funds (hands on), index tracker funds, etc.
+
+The report also mentions the distribution outlook for each year from 2024 to 2028, but it's not tied to a specific fund. Each of these sections provides percentages about expected returns based on capital growth. For example, in 2024, the majority of distributions are expected to be from index tracker funds at around 53%, followed by mixed selection and government bonds.
+
+I notice that each year has similar percentage allocations across different types of investments. The user wants a summary focusing on these aspects, so I'll structure it by date, listing the percentage distribution for each investment type as highlighted in the report.
+
+Since there's no specific fund name mentioned, perhaps the focus is more on the overall scheme rather than individual funds. Therefore, the summary should reflect the general distribution outlook across various funds and investments without pinning it to a single fund.
+
+I'll need to present this information clearly, making sure each year's data is broken down into its respective investment categories with their corresponding percentages. This will help the user understand how capital is expected to be distributed over the next few years.
+</think>
+
+The report provides an overview of potential capital distribution outlooks for various funds within the ITV Pension Scheme, with a focus on different investment options and their expected returns based on capital growth. Here's a summary focusing on the key elements requested:
+
+### Key Elements:
+1. **Fund Name**: While no specific fund name is highlighted in this section, the report discusses potential distributions across different investment types (e.g., hands off pre-packaged options, 15 investment funds, index tracker funds, etc.).
+2. **Date of Report**: September 2019.
+3. **Outlook on Capital Distributions**: The report outlines expected capital distribution percentages for various investment options over the next five years.
+
+### Summary:
+- **September 2019 Report**:
+  - The expected capital distribution outlook across different funds and investment types is as follows:
+    - **2024**: 53% from index tracker funds, 26% from mixed selection funds, 17% from property and infrastructure funds, 8% from money markets funds, and 6% from government bonds.
+    - **2025**: 51% from index tracker funds, 29% from mixed selection funds, 14% from property and infrastructure funds, 8% from money markets funds, and 8% from government bonds.
+    - **2026**: 51% from index tracker funds, 29% from mixed selection funds, 13% from property and infrastructure funds, 7% from money markets funds, and 9% from government bonds.
+    - **2027**: 48% from index tracker funds, 27% from mixed selection funds, 16% from property and infrastructure funds, 7% from money markets funds, and 7% from government bonds.
+    - **2028**: 53% from index tracker funds, 26% from mixed selection funds, 14% from property and infrastructure funds, 8% from money markets funds, and 7% from government bonds.
+
+These percentages reflect the expected distribution of capital across various investment types within the Scheme.

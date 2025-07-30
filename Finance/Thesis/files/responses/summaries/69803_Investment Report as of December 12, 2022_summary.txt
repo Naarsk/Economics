@@ -1,0 +1,19 @@
+<think>
+Okay, so I need to help someone summarize an investment report. The user has given me a chunk of text from a Responsible Investment Report 2022 by Bregal Investments. My task is to focus on summarizing it, specifically looking at the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, I should read through the provided text carefully to extract the necessary information. Let me scan for any mentions of a fund's name, the year 2022 since that's the report date, and sections related to capital distribution or returns.
+
+Looking at the content, I see "Bregal Investments  Responsible Investment Report 2022" which probably refers to their annual report. The introduction mentions their ESG approach and portfolio highlights, so the fund might be referred to in later sections.
+
+In section B, there are various offices listed with contact information but no specific fund name mentioned yet. Moving further down, in the "Our Funds & Portfolio Highlights" section (section 37), I see a mention of "Bregal Small Cap Fund" under the subheading "38 Our Funds & Portfolio Highlights." That's likely the fund we're focusing on.
+
+Next, looking for outlooks related to capital distributions. In section B, around page 38, there's a note that says "Due to market developments and macroeconomic factors... The expected capital distribution (including reinvestment of dividends) for the coming year is projected to be approximately 45%." That seems relevant.
+
+So putting it all together: fund name is Bregal Small Cap Fund, date is 2022, and the outlook on capital distribution is about 45%. I should present this clearly in a concise summary.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** Bregal Small Cap Fund
+- **Report Date:** 2022
+- **Capital Distribution Outlook:** The expected capital distribution for the coming year, including reinvestment of dividends, is projected to be approximately 45%.

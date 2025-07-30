@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Integrated Assessment Model & Shared Socioeconomic Pathways (SIM-SSP)",
+    "date": "20231016",
+    "outlook": "increase",
+    "magnitude": 1,
+    "confidence": 0.98,
+    "explanation": "Capital allocated to renewable energy sources and modernized energy mixes."
+  }
+}

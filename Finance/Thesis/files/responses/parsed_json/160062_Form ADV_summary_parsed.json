@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund XYZ",
+    "date": "20250117",
+    "outlook": "increase",
+    "magnitude": 2,
+    "confidence": 0.85,
+    "explanation": "Capital distributions are expected to increase by an additional 2% this quarter based on strong growth outlook."
+  }
+}

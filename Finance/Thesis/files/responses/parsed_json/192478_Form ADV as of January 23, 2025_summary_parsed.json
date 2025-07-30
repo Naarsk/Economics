@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Equity Index Fund",
+    "date": "2025-01-23",
+    "outlook": "stable",
+    "magnitude": 6,
+    "confidence": "low",
+    "explanation": "Minimal distributions capped at $5 annually, with a stable return performance of 6% over the past five years."
+  }
+}

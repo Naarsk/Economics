@@ -1,0 +1,33 @@
+<think>
+Okay, so I need to summarize this investment report for the FACTUM Balanced Fund. The user has given me a detailed report with various sections like market overview, stock indices, bond markets, commodities, currencies, and more. They want a summary focusing specifically on the name of the fund, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+First, I'll note that the report is from Factum AG Vermögensverwaltung and was published on March 10, 2025. The fund in question is FACTUM Funds - Balanced. 
+
+Looking at the market overview, it mentions that many stock indices are negative except for some emerging markets like MSCI Emerging Markets which has a positive YtD of +3.84%. 
+
+For capital distributions, it talks about the current allocation to crypto exposure being none, so they're considering it as an option but haven't included it yet.
+
+In terms of magnitude, several indices are down significantly: Dow Jones is at -5.65%, S&P 500 at -4.30%, and Nasdaq at -9.43%. Emerging markets have also declined by almost 8%. The MSCI Emerging Markets index has a positive return despite this.
+
+I need to make sure I only focus on the parts about capital distribution, magnitude, etc., without getting too detailed into other sections unless they directly relate. Since crypto exposure is zero and there's no allocation yet, that should be included as it might be a factor in their outlook.
+
+So putting it all together, I'll structure the summary to include the fund name, report date, current capital distribution (crypto exposure), and the percentage magnitude of the negative performance across various markets. 
+
+I need to keep it concise but cover all required points without including unnecessary details.
+</think>
+
+**Summary of FACTUM Funds - Balanced Report (March 10, 2025):**
+
+- **Fund Name:** FACTUM Funds - Balanced
+- **Report Date:** March 10, 2025
+- **Current Capital Distribution:**
+  - No exposure to cryptocurrencies.
+  
+- **Magnitude of Recent Performance:**
+  - Significant declines across key indices:
+    - Dow Jones: -5.65%
+    - S&P 500: -4.30%
+    - Nasdaq: -9.43%
+    - Emerging Markets (MSCI): -8.76%
+
+This report highlights the fund's focus on avoiding crypto while facing substantial negative returns across major markets, prompting consideration of future allocations to cryptocurrencies if needed.

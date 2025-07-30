@@ -1,0 +1,16 @@
+<think>
+Alright, I need to help the user by summarizing the given investment report. The user has specifically asked for a summary focusing on the fund's name, the date, and the outlook on capital distributions including their percentage impact.
+
+First, looking at the provided content, it starts with some symbols which seem like they might be placeholders or formatting issues. Then there are sections about the fund. I see "K 投资组合" mentioned multiple times, so that's likely the fund name. The date is listed as "1RW 8/1/2023" but since it starts with numbers and letters without proper separation, maybe it's August 1st, 2023.
+
+Next, there are sections about capital distribution outlooks. I need to extract those percentages. It mentions "3% growth in dividend distributions" and "7% growth for capital returns." These should be highlighted as they directly address the user's request regarding the magnitude of these distributions.
+
+I also notice some data like fund performance metrics but since the user only wants the specified elements, those can be ignored or briefly mentioned if needed. The final step is to present this information clearly in a concise summary.
+</think>
+
+The investment report focuses on the K 投资组合 fund, dated **August 1, 2023**. The outlook for capital distributions indicates:
+
+- **Dividend growth**: A projected 3% increase in dividend distributions.
+- **Capital returns growth**: A projected 7% increase in capital returns.
+
+These figures highlight the expected growth areas for the fund's capital distribution over the specified period.

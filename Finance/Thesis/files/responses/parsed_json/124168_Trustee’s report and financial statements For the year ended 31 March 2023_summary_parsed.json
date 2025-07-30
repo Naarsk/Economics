@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Tesco Pension Trustees Ltd.",
+    "date": "20230331",
+    "outlook": "increase",
+    "magnitude": 5,
+    "confidence": 0.85,
+    "explanation": "Positive outlook with an expected return of 5% based on historical performance and current market conditions."
+  }
+}

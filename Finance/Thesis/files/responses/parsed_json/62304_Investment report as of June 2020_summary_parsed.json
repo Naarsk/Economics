@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "University Fund",
+    "date": "2024-03-01",
+    "outlook": "stable",
+    "magnitude": 0,
+    "confidence": 0.95,
+    "explanation": "The fund's allocations are stable with minor adjustments due to disinvestments."
+  }
+}

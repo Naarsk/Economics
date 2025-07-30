@@ -1,0 +1,30 @@
+<think>
+Alright, so I need to help someone by summarizing an investment report. The user has given me a chunk of text that's likely part of an Altamir SCA investment report from June 2023. My task is to focus on the fund name, date, outlook on capital distributions, and their magnitude in percentage terms.
+
+First, I'll read through the provided text carefully. The main goal is to extract key information without getting bogged down by all the details about assets, strategies, or financial metrics that aren't directly related to the specific points the user wants: fund name, date of report, outlook on distributions, and their size in percentages.
+
+Looking at the text, I see references like "Altamir SCA" multiple times, so that's definitely important. The date mentioned is June 2023 because it says something about being prepared for meetings in September 2023 but refers to H1 2023 results on page 63.
+
+Now, the outlook on capital distributions isn't explicitly stated as a percentage of NAV or yield. Instead, the text mentions that Altamir continues to focus on quality investments and sustainability, which are good points about their strategy but not directly about distribution yields. I'll need to note this in the summary without overstepping.
+
+Since there's no specific number provided for capital distributions, I can mention that the distribution outlook isn't quantified but relates to their investment focus areas like ESG strategies. 
+
+I should also structure the summary clearly, starting with the fund name and date, then moving on to the strategy and distribution expectations without including unnecessary details.
+
+So putting it all together, the summary will include:
+- Fund Name: Altamir SCA
+- Date of Report: H1 2023 (June)
+- Investment Focus: Quality and sustainability strategies
+- Distribution Outlook: Relies on their investment decisions, not quantified percentage
+
+I need to make sure the summary is concise, clear, and hits all these points without adding any information that wasn't present.
+</think>
+
+**Summary of Altamir SCA Investment Report (June 2023)**
+
+- **Fund Name:** Altamir SCA
+- **Date of Report:** H1 2023 (June)
+- **Investment Focus:** The fund continues to prioritize quality investments and sustainability strategies, aligning with its ESG (Environmental, Social, Governance) approach.
+- **Distribution Outlook:** The report does not provide specific figures for capital distributions. However, the distribution strategy is expected to be aligned with the fund's investment focus on high-quality and sustainable assets.
+
+This summary highlights the key elements of Altamir SCA's June 2023 report, emphasizing its strategic direction and distribution considerations based on the provided text.

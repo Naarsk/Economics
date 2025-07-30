@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Clwyd Pension Fund",
+    "date": "20230607",
+    "outlook": "increase",
+    "magnitude": 60,
+    "confidence": 0.9,
+    "explanation": "The fund expects a medium-term capital distribution of approximately 60%, indicating a positive outlook."
+  }
+}

@@ -1,0 +1,24 @@
+<think>
+Alright, so I've been given this investment report to summarize. Let me read through it carefully.
+
+First line mentions a fund named "Fund X" and that the latest quarterly report was updated as of December 31st, 2024. Okay, so the name is straightforward: Fund X, last update date is Q4 2024.
+
+Next part talks about capital distributions for this quarter being $5 million. Wait, I should note whether it's dollars or some other currency, but since no specific mentioned, probably USD. So that's a significant distribution of 5 million.
+
+The outlook section says the fund expects to distribute another $15 million in the next three months and then $20 million by year-end. These are capital distributions, which I think refers to dividend payments or maybe other distributions like bonuses for unit holders. It also mentions that these amounts represent a 6-7% yield on investment capital.
+
+I need to focus my summary on the name of the fund, the date, and the outlook on capital distributions in percentage terms. So, putting it all together:
+
+Fund X was updated on December 31st, 2024. The report outlines upcoming capital distributions: $5 million this quarter, expecting another $15 million next three months and up to $20 million by year-end. These will yield a 6-7% return.
+
+Wait, does the $5 million represent the current distribution? So in Q4 they distributed $5M, and then Q3 would be part of the same report or a prior one? Since the latest is Q4, maybe this section is looking ahead to next quarters. I should clarify that it's about future distributions based on the report.
+
+So my summary should highlight that Fund X was updated on Dec 31, 2024, and outlines upcoming distributions of $5M now, with larger amounts in the next quarters at a 6-7% yield.
+</think>
+
+**Fund X Investment Report Summary**
+
+- **Fund Name:** Fund X
+- **Last Updated Date:** December 31, 2024
+
+The latest quarterly report highlights upcoming capital distributions. For this quarter (Q4), $5 million was distributed as capital payments. The fund anticipates further capital distributions of $15 million in the next three months and up to $20 million by year-end. These distributions are expected to yield a return rate of 6-7% on investment capital, reflecting significant returns for investors.

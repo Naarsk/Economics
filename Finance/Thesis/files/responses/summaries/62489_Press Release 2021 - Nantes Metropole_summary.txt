@@ -1,0 +1,36 @@
+<think>
+Alright, so I need to help this user who's a financial analyst. They want me to summarize an investment report focusing on the fund's name, date, outlook on capital distribution, and its magnitude in percentages.
+
+First, looking at the provided document, there are two pages. Page 1 talks about the OV4 fund launched by GO CAPITAL on December 9, 2021. The fund aims to reach a target of 50M€ over 10 years. It's focused on innovative companies in the Grand Ouest region, targeting various industries like health (excluding biotech), green tech, and digital sectors.
+
+Page 2 gives more context about GO CAPITAL, stating they've made around 130 investments, managing ~250M€, and are involved in deep tech. They focus on leaders in digital, health, and sustainable industries. The fund OV4 has already exceeded its previous funds' closing with a first close of over 20%, indicating strong investor interest.
+
+The user's task is to summarize focusing on four points: fund name, date, capital distribution outlook, and magnitude in percentages.
+
+I need to extract the key details from both pages:
+
+- Fund Name: OV4
+- Date: December 9, 2021
+- Target Capital Size: At least 50M€ with a 10-year horizon
+- Number of investments: 20 participations (tickets)
+- Investment amounts: 1 to 5 M€ per ticket
+- Investor types: banques, mutuelles, entrepreneurs privés, etc.
+- The fund's success: First closing over 40M€, exceeding the previous fund by more than 20%
+
+I should structure this into a concise summary, ensuring all required points are covered. Also, I need to present it clearly and in a professional tone since it's for financial analysis.
+
+Wait, does the first closing mention exceed 20%? Yes, on page 1, it says "un premier closing de 40 M€, which is already superior to the previous fund by more than 20%."
+
+So I should include that in the capital distribution outlook. It shows strong investor interest and good performance.
+
+I think that's all the necessary information. Now, putting it together into a summary focusing on each required point succinctly.
+</think>
+
+**Summary:**
+
+- **Fund Name:** OV4  
+- **Date of Report:** December 9, 2021  
+- **Outlook on Capital Distribution:** The fund is expected to generate capital distributions over its 10-year duration, with a closing value exceeding the previous fund's performance by more than 20%. This reflects strong investor interest and confidence in the fund's strategy.  
+- **Magnitude of Capital Distribution (in percentage terms):** The first closing reached €40M, representing an increase of over 20% compared to the preceding fund OV3.  
+
+This highlights the fund's promising trajectory and investor confidence in its growth potential within innovative sectors across the Grand Ouest region.

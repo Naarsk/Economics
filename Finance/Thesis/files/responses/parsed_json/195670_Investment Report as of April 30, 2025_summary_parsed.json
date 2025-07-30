@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Total Fund Composite",
+    "date": "20250430",
+    "outlook": "stable",
+    "magnitude": 0.3,
+    "confidence": 0.85,
+    "explanation": "Stable investment with moderate returns due to conservative fixed income composition."
+  }
+}

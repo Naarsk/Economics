@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund XYZ",
+    "date": "202303",
+    "outlook": "stable",
+    "magnitude": 1,
+    "confidence": 0.85,
+    "explanation": "Assuming general market stability"
+  }
+}

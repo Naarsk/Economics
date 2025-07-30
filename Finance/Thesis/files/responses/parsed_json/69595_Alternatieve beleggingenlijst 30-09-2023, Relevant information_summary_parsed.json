@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+      "name": "Pensionfonds PNO Media",
+      "date": "30-09-2023",
+      "outlook": "increase",
+      "magnitude": 1.5,
+      "confidence": 0.9,
+      "explanation": "Expected to distribute a 1.5% increase in capital for 2024."
+    },
+    {
+      "name": "VITRUVIAN INVESTMENT PARTNERSHIP IV",
+      "date": "30-09-2023",
+      "outlook": "increase",
+      "magnitude": 7,
+      "confidence": 0.85,
+      "explanation": "Anticipates approximately a 7% capital distribution."
+    },
+    {
+      "name": "TRITON FUND IV",
+      "date": "30-09-2023",
+      "outlook": "increase",
+      "magnitude": 5,
+      "confidence": 0.8,
+      "explanation": "Predicted to distribute approximately a 5% increase."
+    }
+  ]
+}

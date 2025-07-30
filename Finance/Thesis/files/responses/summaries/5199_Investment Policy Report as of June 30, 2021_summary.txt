@@ -1,0 +1,15 @@
+<think>
+Alright, so I need to help summarize a section from an investment report. The user has given me some text and specified that they want the summary to focus on three main points: the name of the fund, the date of the report, and the outlook on capital distributions, including its magnitude in percentage terms.
+
+Looking at the provided text, it's about Montana Board of Investments' policies related to infrastructure loans. The sections are numbered from 1 to 9, with each section detailing different aspects like project requirements, loan programs, participant approval processes, etc.
+
+The user is asking for a summary focusing on three specific areas: fund name, date, and capital distribution outlook. However, the text provided doesn't mention any specific fund names or dates. It seems more detailed about policies rather than current financial information or recent reports.
+
+Since there's no mention of funds named in the text, I can't provide that part. Similarly, without a report date mentioned, it's impossible to note when this particular report was issued. The focus is on policy structures rather than current investment figures.
+
+Therefore, my summary would have to state that while the document outlines various policies for infrastructure loans and participant approval, there isn't enough information provided to include fund names or specific dates of reports. This means I can only address the capital distribution part in a generic sense, perhaps noting how it's handled through these policies but without exact numbers.
+
+I should make sure my response clearly states the limitations based on the provided text so that the user understands what information is available and what isn't.
+</think>
+
+The document outlines policies for Montana Board of Investments' infrastructure loans and participant approval processes. However, it does not provide specific fund names or report dates. The capital distribution outlook is not detailed here but may be inferred through the outlined loan programs and policies.

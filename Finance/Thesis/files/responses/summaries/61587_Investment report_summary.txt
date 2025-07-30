@@ -1,0 +1,24 @@
+<think>
+Okay, so I need to help summarize this investment report. The user has provided a detailed report about an investment fund focusing on real estate, both in Singapore and the US. Let me try to break down what's important here.
+
+First, looking at the name of the fund: "Singapore Real Estate Portfolio." That makes sense given the report's content. It seems like it's managing assets across different regions, specifically Singapore and the United States.
+
+The date mentioned is November 2019, so this is an annual report or a summary update from that time. I should note that to give context about when this information was current.
+
+Next, the user wants me to focus on the fund's name, the date of the report, and the outlook on capital distributions in percentage terms. From what I see in the report, there are mentions of portfolio performance: a 7.4% increase in Singapore's GDV by 2H2021 compared to 1H2021. That's a solid growth figure.
+
+Then, looking further down, it talks about capital distributions ranging from 5-30% depending on the tenure and strategy chosen by investors. This is crucial because it tells potential investors what kind of returns they can expect based on their investment choices. The longer-term projects have higher distribution potential, which aligns with typical real estate strategies.
+
+I should structure this summary clearly, highlighting these key points: fund name, report date, portfolio performance highlights, and the capital distribution overview.
+</think>
+
+**Summary of Investment Report**
+
+**Fund Name:** Singapore Real Estate Portfolio  
+**Report Date:** November 2019  
+
+The report provides an overview of the portfolio's performance in Singapore and the United States. Key highlights include:  
+- **Portfolio Performance:** The Singapore portion showed a 7.4% increase in Gross Domestic Valuation (GDV) from 1H2021 to 2H2021, reflecting strong market growth.  
+- **Capital Distribution Outlook:** Potential capital distributions range between 5% and 30%, depending on the tenure of the projects selected by investors. Longer-term projects, such as those with freehold tenures or higher GLA (Gross Living Area), may offer higher distribution potential due to appreciation in value over time.
+
+This report is a valuable resource for investors interested in real estate assets managed by the fund, providing insights into both current performance and future returns.

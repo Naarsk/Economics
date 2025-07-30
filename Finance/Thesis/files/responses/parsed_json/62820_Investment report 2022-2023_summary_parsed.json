@@ -1,0 +1,13 @@
+Since no specific fund details are provided in the context, here is a JSON response reflecting this uncertainty:
+
+
+{
+  "results": {
+    "name": "",
+    "date": "",
+    "outlook": "stable",
+    "magnitude": 0,
+    "confidence": 0.5,
+    "explanation": "No specific fund details are provided."
+  }
+}

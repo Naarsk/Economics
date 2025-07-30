@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fundo de Investimento Imobiliário (FII)",
+    "date": "202107",
+    "outlook": "increase",
+    "magnitude": 43,
+    "confidence": 0.8,
+    "explanation": "Focus on residential properties with increased demand"
+  }
+}

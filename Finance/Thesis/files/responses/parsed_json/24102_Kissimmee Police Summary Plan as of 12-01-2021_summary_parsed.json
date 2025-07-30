@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Florida Government Retirement Fund",
+    "date": "20231031",
+    "outlook": "increase",
+    "magnitude": 36.57,
+    "confidence": 0.85,
+    "explanation": "Expected annual return of 7.5% with employers contributing the highest at 36.57%."
+  }
+}

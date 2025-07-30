@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Wealthcare",
+    "date": "20231231",
+    "outlook": "increase",
+    "magnitude": 20,
+    "confidence": 0.9,
+    "explanation": "Expecting a 20% increase in capital distributions due to strong market performance."
+  }
+}

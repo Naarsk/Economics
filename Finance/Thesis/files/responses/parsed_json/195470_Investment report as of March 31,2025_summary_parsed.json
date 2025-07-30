@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "B3",
+    "date": "2025-01-26",
+    "outlook": "increase",
+    "magnitude": 25,
+    "confidence": 80,
+    "explanation": "Partial capital distribution at around 25%"
+  }
+}

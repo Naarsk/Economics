@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "LASERS Investment Performance",
+    "date": "20250131",
+    "outlook": "stable",
+    "magnitude": 7.0,
+    "confidence": 0.95,
+    "explanation": "The fund shows a stable outlook with allocations favoring longer-term horizons and slight underweight in alternatives."
+  }
+}

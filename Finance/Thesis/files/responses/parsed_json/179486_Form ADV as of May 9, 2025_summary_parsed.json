@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund Name",
+    "date": "20240512",
+    "outlook": "stable",
+    "magnitude": 24,
+    "confidence": 0.95,
+    "explanation": "Capital distributions will focus on high-quality dividend-paying stocks, preferred shares, and income-producing REITs, contributing to a stable capital allocation of $37.5 billion."
+  }
+}

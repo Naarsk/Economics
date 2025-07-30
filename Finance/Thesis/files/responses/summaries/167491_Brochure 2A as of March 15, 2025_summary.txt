@@ -1,0 +1,21 @@
+<think>
+Okay, so I need to help summarize a section from an investment report. The user specifically asked about focusing on the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, I'll look through the provided content to see where these elements are mentioned. I notice that the report starts with some general information about Opinicus, including a fund called "Opinicus Global Opportunities Fund." The date is January 31, 2024.
+
+Next, there's a section labeled "Item 6: Investment Discretion" which discusses capital distributions to clients. It mentions that capital distributions will be made quarterly and outlines the expected amounts as a percentage of the fund's total value at year-end 2024.
+
+Looking closer, it says Opinicus expects to distribute approximately $51 million in cash dividends from U.S. equities accounts, which is about 36% of the fund’s net asset value (NAV). Additionally, non-cash distributions totaling around $89.5 million are anticipated, representing a little over half—approximately 47%—of the NAV.
+
+So putting this together, I'll structure the summary to include the fund name, report date, and both cash and non-cash distribution percentages with their respective amounts.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** Opinicus Global Opportunities Fund
+- **Report Date:** January 31, 2024
+- **Capital Distributions:**
+  - **Cash Dividends:** Approximately $51 million, representing about 36% of the fund’s NAV.
+  - **Non-Cash Distributions:** Around $89.5 million, accounting for approximately 47% of the NAV.
+
+This summary provides a clear and concise overview of the fund's capital distribution expectations based on the provided report.

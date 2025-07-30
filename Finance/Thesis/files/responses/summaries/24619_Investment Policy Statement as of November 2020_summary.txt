@@ -1,0 +1,22 @@
+<think>
+Okay, so I need to help the user by summarizing a provided investment report. The key points they want me to include are the fund's name, the date of the report, the outlook on capital distributions, and the magnitude in percentage terms.
+
+First, looking at the information given, the report is from Akron Community Foundation as of November 2020. The fund in question is the Akron Community Foundation's Equity Fund. It's an equity-focused fund with a focus on U.S. equities, particularly small- to mid-sized companies.
+
+The outlook section mentions that capital distributions will be made quarterly. That gives me the information about when and how often distributions happen without needing more details on the amounts themselves.
+
+Next, I need to find out if there's any mention of capital distribution magnitude in percentages. Scanning through the report, it seems like most of the content is about investment policies, restrictions, performance measurement, asset allocation, etc., but nothing explicitly states the percentage magnitude of distributions or the size of the fund relative to their capital.
+
+Given that context, I realize I can't provide a specific percentage for the distribution magnitude because the provided text doesn't include such details. Therefore, in my summary, I should mention that while quarterly distributions are planned, there's no available information on the exact percentages involved.
+
+So putting it all together: fund name is Akron Community Foundation's Equity Fund, date is November 2020, capital distributions will be quarterly, but their magnitude isn't specified.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** Akron Community Foundation's Equity Fund  
+- **Report Date:** November 2020  
+- **Capital Distributions Outlook:** The fund plans to distribute capital quarterly.  
+- **Magnitude Information:** Specific percentage details for distribution magnitudes are not provided in the report.
+
+The report highlights a focus on U.S. equities, particularly small- and mid-sized companies, with policies on diversification, portfolio allocation, manager evaluation, and risk management. However, it does not include specific information about the magnitude of quarterly capital distributions.

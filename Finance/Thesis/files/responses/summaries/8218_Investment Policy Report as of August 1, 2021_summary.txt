@@ -1,0 +1,19 @@
+<think>
+Alright, I need to help the user summarize a specific part of an investment report. Let me first understand what they're asking for.
+
+The query mentions three appendices: A, B, and C. However, looking at the provided content, there's no Appendix D as the user described. So maybe it's a mistake in their message. They want a summary focusing on the fund name, the report date, and the outlook on capital distributions, including the percentage.
+
+From the information given, I see that under Section 32, there are various funds listed with their respective dates and outlines of their investment strategies but no specific percentages or capital distribution details. Without Appendix D, it's impossible to get exact figures for capital distribution magnitudes.
+
+Therefore, my response should inform them that while they can outline the fund names and outlines, detailed percentage data isn't available without additional information.
+</think>
+
+The provided text does not include an explicit investment report (Appendix D) with specific data on capital distributions. However, based on the content:
+
+- **Fund Names**: Several funds are mentioned, such as "Systematic Long-Term GIC-like Fixed Income Fund," "Global Value Enhanced Real Estate Fund," and others.
+  
+- **Report Date**: The most recent report appears to be from October 31, 2024.
+
+- **Capital Distribution Outlook**: While the text describes investment strategies (e.g., fixed income, real estate, emerging markets), there is no explicit mention of capital distribution magnitudes or percentages in Appendix C. Without specific data from Appendix D, it is not possible to provide exact figures on how capital might be distributed among funds.
+
+If you have access to Appendix D or additional details, please share them for a more comprehensive summary!

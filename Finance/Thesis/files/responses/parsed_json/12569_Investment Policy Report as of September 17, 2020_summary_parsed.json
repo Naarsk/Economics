@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "PSPP Pooled",
+    "date": "20231231",
+    "outlook": "increase",
+    "magnitude": 0.67,
+    "confidence": 0.95,
+    "explanation": "The fund outperformed the S&P/TSX Composite Index by 67 basis points, indicating a positive performance."
+  }
+}

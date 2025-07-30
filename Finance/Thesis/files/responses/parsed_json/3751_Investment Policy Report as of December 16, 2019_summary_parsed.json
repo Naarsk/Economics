@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Pension Fund",
+    "date": "202310",
+    "outlook": "stable",
+    "magnitude": 45,
+    "confidence": 0.8,
+    "explanation": "The fund's stable strategy focuses on distributing returns through current and terminated employees' compensation, with a significant portion allocated to post-employment benefits."
+  }
+}

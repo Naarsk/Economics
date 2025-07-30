@@ -1,0 +1,13 @@
+<think>
+Okay, so I need to help this user by summarizing a part of an investment report. The user specifically mentioned focusing on three main points: the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, I'll scan through the provided content to find where these details are mentioned. Looking at page 1, it's titled "Investment Strategy Report," which likely includes the date but it's not explicitly stated here. Since that's missing, maybe the user expects me to note that information isn't available in this section.
+
+Next, for the fund name, I see references like "Shropshire County Pension Fund" and "Legal & General Investment Management." So, the primary fund being discussed is Shropshire County Pension Fund.
+
+Now, regarding capital distributions. Page 3 mentions a planned capital distribution of £125 million, with an expected yield of 4%. That fits perfectly as the outlook on capital distributions and their magnitude in percentage terms.
+
+Putting it all together, I'll structure my summary to include each point clearly without assuming dates since that info isn't present here. I need to make sure I only highlight what's directly provided and acknowledge where information is missing.
+</think>
+
+The investment report focuses on the **Shropshire County Pension Fund**, which does not explicitly provide the date of the report in this section. The fund has a planned capital distribution of **£125 million** with an expected yield of **4%**.

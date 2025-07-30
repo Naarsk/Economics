@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "LABF",
+    "date": "2002-12-17",
+    "outlook": "increase",
+    "magnitude": 9.5,
+    "confidence": 0.8,
+    "explanation": "Expected annualized total returns exceed 9% over the next three years."
+  }
+}

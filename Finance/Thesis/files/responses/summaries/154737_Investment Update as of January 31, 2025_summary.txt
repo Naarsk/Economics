@@ -1,0 +1,13 @@
+<think>
+Okay, I need to help the user by summarizing a given investment report. The user has specified that they want me to focus on the fund's name, the date of the report, and the outlook on capital distributions along with their magnitude in percentages.
+
+First, I'll look through the provided text to find where these elements are mentioned. The fund is WAM Active Limited (ASX: WAA). Looking for the date, I see it mentions "Report" without a specific date, which might be an issue since they want the date included. But if no date is available, perhaps that's part of the summary as well.
+
+Next, the outlook on capital distributions isn't explicitly stated here. Instead, the focus seems to be more on how the fund distributes its capital through dividends and reinvesting profits into investments. The text talks about a 130% dividend payout ratio in FY24, which is higher than the previous year's 97%. So, this suggests that WAA is increasing their capital distributions.
+
+I need to highlight these points: fund name (WAM Active Limited), the fact that it's an ASX listed fund, and the specific increase in the dividend payout ratio from 97% to 130%. Additionally, I should mention how this increase affects the holders' returns—either through higher dividends or reinvesting profits into more investments.
+
+Putting it all together, I'll structure the summary by including each of these elements clearly. Since the date wasn't provided in the text, I might note that as part of the limitations but still include the necessary information about capital distribution.
+</think>
+
+The investment report discusses **WAM Active Limited (ASX: WAA)**, a listed investment fund managed by Wilson Asset Management. The report highlights an increase in capital distributions for the Fund, with a dividend payout ratio of 130% in FY24, up from 97% in the previous fiscal year (FY23). This reflects an enhanced approach to returning value to shareholders through higher dividends and reinvesting profits into further investments.

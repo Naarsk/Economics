@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Sunrise Fund",
+    "date": "20250124",
+    "outlook": "increase",
+    "magnitude": 10,
+    "confidence": 0.95,
+    "explanation": "The fund has shown significant positive growth in recent periods."
+  }
+}

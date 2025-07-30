@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "GlobalEquitiesFund",
+    "date": "2021-01-01",
+    "outlook": "increase",
+    "magnitude": 9.30,
+    "confidence": 0.85,
+    "explanation": "Strong market performance and supportive policies drove a positive outlook for capital allocation."
+  }
+}

@@ -1,0 +1,29 @@
+<think>
+Okay, I need to figure out how to help the user. They provided an investment report and asked me to summarize it with specific details about the fund's name, the date of the report, the outlook on capital distributions, and their magnitude in percentage terms.
+
+First, I'll look through the provided text for mentions of funds or percentages. I see references like "Phoenix Gold Fund" mentioned multiple times but without a date. There are also parts about distributions being 5%, 3%, etc., which is helpful.
+
+Since there's no explicit date given in the report, I might have to note that as N/A. The user wants the magnitude of distributions, so I should list each fund with their respective distribution percentages from highest to lowest.
+
+I'll structure my summary by first stating the funds and then listing them with their distribution percentages. Even though dates aren't provided, it's better to include placeholders like [Insert Date] for clarity.
+
+Finally, I'll make sure to present this information clearly so the user can easily see which fund has the highest distribution and its percentage.
+</think>
+
+Here is a summary of the investment report:
+
+**Funds:**
+1. Phoenix Gold Fund
+2. Phoenix actively managed funds (not specified in detail)
+
+**Date:** N/A (specific date not provided in the text)
+
+**Capital Distribution Outlook:**
+
+The report indicates that capital distributions are expected to be distributed as follows, with their respective percentages:
+
+- 5% for one fund (Phoenix Gold Fund or another unspecified fund)
+- 3% for another fund
+- 2% for yet another fund
+
+These percentages indicate the proportion of capital being distributed from each fund.

@@ -1,0 +1,43 @@
+<think>
+Alright, I need to help the user by summarizing this investment report. Let me read through it carefully.
+
+First, I see that there's a lot of data about different funds and their performances. The main fund mentioned is probably Health Insurance Trust (OPEB) and the Town of Palm Beach Retirement System. 
+
+The report starts with some numbers but seems to be switching between funds without a clear introduction or summary at the beginning. Maybe it's not structured well.
+
+I should identify key points: names of funds, dates, capital distributions, their percentage allocations, and performance metrics. I notice terms like "capital distribution" which probably refers to how the funds are split among different assets.
+
+Looking further down, there's a section on health insurance trust performance from March 2025. It shows some returns over different periods. Similarly, the town of Palm Beach has their performance data as well.
+
+I need to extract the names of both funds clearly. Also, note that the report doesn't specify if these are standalone funds or part of a larger portfolio. The date is mentioned as March 31, 2025, which is when the report was generated.
+
+The user wants a summary focusing on fund names, report date, and capital distribution outlook with percentages. I should structure this information clearly without getting into too much detail about performance unless necessary.
+
+Wait, in the initial data provided, there's also a part about "Health Insurance Trust (OPEB) Performance" but it seems cut off or not complete. Similarly for the town of palm beach. So I might need to mention that some data is incomplete or needs clarification.
+
+I should make sure my summary includes both funds and their respective allocations between CDs, government bonds, and other assets. The user wants a focus on capital distributions in percentage terms, so I'll highlight those numbers.
+
+Also, the performance sections are optional but could provide context about how the funds are expected to perform based on historical data. It's important to mention that while it gives an outlook, actual returns can vary.
+
+I need to make sure the summary is concise and only includes the most relevant information without getting bogged down in too many details. The user probably wants a quick overview they can use for decision-making or understanding fund behavior.
+
+Wait, looking again, the first part of the report seems like an identifier with account numbers but doesn't directly relate to funds. Maybe that's another dataset and not necessary for this summary. I'll focus on the health insurance trust and town of palm beach as those are mentioned in performance sections.
+
+I should structure it by fund name, date, capital distribution percentages, and then briefly mention their historical returns if available. Since some data is cut off, perhaps it's best to note that detailed return information isn't fully provided here.
+
+Overall, I need to present a clear, concise summary with all the required elements: fund names, report dates, capital distributions in percentages, and an outlook based on past performance.
+</think>
+
+The investment report focuses on two funds:
+
+1. **Health Insurance Trust (OPEB)**:
+   - As of March 31, 2025, its market value is $43,472,183.
+   - The fund's capital distribution includes a mix of assets such as U.S. Treasuries, federal agencies, commercial paper, corporate notes/bonds, municipal notes/bonds, asset-backed securities, and money market funds.
+   - Approximately 5.4% is allocated to certificates of deposit (CDs), with the majority invested in money market funds (40.3%).
+
+2. **Town of Palm Beach Retirement System**:
+   - As of March 31, 2025, its market value is $297,719,176.
+   - The fund's capital distribution includes U.S. Treasuries, federal agencies, corporate notes/bonds, municipal notes/bonds, asset-backed securities, and CDs.
+   - CDs account for about 3.56%, while money market funds make up the largest portion (21.84%).
+
+The report provides historical performance metrics over different time periods but does not specify whether these represent past performance or expected future returns. The outlook suggests a moderate allocation to CDs, which are generally considered less volatile than other fixed-income instruments.

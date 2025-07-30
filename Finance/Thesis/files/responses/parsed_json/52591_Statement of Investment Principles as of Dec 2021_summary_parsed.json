@@ -1,0 +1,20 @@
+{
+  "results": [
+    {
+      "name": "XPS Pensions Consulting Limited",
+      "date": "20211031",
+      "outlook": "increase",
+      "magnitude": 75,
+      "confidence": 0.6,
+      "explanation": "Growth assets are expected to provide positive returns."
+    },
+    {
+      "name": "XPS Investment Limited",
+      "date": "20211031",
+      "outlook": "increase",
+      "magnitude": 75,
+      "confidence": 0.6,
+      "explanation": "Growth assets are expected to provide positive returns."
+    }
+  ]
+}

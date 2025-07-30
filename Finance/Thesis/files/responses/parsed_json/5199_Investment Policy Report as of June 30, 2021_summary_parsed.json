@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Infrastructure Loan Fund",
+    "date": "20231015",
+    "outlook": "increase",
+    "magnitude": 8,
+    "confidence": 0.75,
+    "explanation": "Assumed increase in available capital based on inferred policies."
+  }
+}

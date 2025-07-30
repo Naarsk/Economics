@@ -1,0 +1,26 @@
+<think>
+Okay, so I need to help summarize this investment report. The user has given me a lot of information about an investment fund called "Sunrise Fund." Let me break it down step by step.
+
+First, I notice that there are two sections: one for a resident investment adviser (MARIANE LEE) and another for a non-resident (probably based in the U.S. but without a Social Security number). Both have similar execution pages signed on 01/24/2025 with the same CRD number, 307956.
+
+Looking at the key points:
+
+- The fund's name is "Sunrise Fund."
+- It's an equity-focused fund targeting high-growth companies.
+- Performance: Up by 8.5% in the past year and up by 22% over three years.
+- Capital distributions planned for $10 million to $30 million at a time, depending on market conditions.
+- The report is as of January 24, 2025.
+
+So, I need to extract these points: fund name, date, capital distribution outlook (amounts and conditions), and the percentage growth. I should present this in a clear summary without too much detail but covering all necessary information.
+
+I also need to make sure that the user's requirements are met, focusing specifically on the aspects mentioned.
+</think>
+
+**Sunrise Fund Investment Report Summary:**
+
+- **Fund Name:** Sunrise Fund
+- **Report Date:** January 24, 2025
+- **Outlook on Capital Distributions:** The fund is planning to distribute capital in amounts ranging from $10 million to $30 million, contingent upon market conditions.
+- **Performance:** The fund has shown a growth of 8.5% in the past year and an impressive 22% increase over the past three years.
+
+This concise summary highlights the key details about the Sunrise Fund's current status and future plans based on the provided investment report.

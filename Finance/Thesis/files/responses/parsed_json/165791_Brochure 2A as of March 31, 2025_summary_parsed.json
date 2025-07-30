@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "<fund name>",
+    "date": "2024-12-31",
+    "outlook": "stable",
+    "magnitude": 5,
+    "confidence": 0.2,
+    "explanation": "Minimal exposure to public equities implies stable capital distribution."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "OCM",
+    "date": "2024-02-01",
+    "outlook": "stable",
+    "magnitude": 0,
+    "confidence": 0.2,
+    "explanation": "Insufficient data to determine the percentage of capital distributions."
+  }
+}

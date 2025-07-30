@@ -1,0 +1,19 @@
+<think>
+Okay, I need to help the user by summarizing a specific part of this investment report. The user wants me to focus on the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, I'll look through the provided content to find where these elements are mentioned. Scanning the text... Here's a paragraph that mentions "capital distributions." It says something like "the committee expects capital distributions will remain unchanged at an annual rate of 5%." 
+
+I should extract the fund name from this context. The report starts with "State of Nevada Deferred Compensation Program," so I'll note that as the fund name.
+
+Next, I need to find when this report was issued. There's a section where it says, "The Committee shall have overall responsibility..." and then at the end, "on behalf of the State of Nevada Deferred Compensation Program... effective on this date." Since there's no specific date provided in the text, I'll mention that the date isn't specified.
+
+Putting it all together: Fund Name is the State of Nevada Deferred Compensation Program. The report was issued without a specific date mentioned. Capital distributions are expected to remain unchanged at 5% annually.
+
+I need to make sure this information is clear and concise for the user's summary.
+</think>
+
+**State of Nevada Deferred Compensation Program Investment Policy Statement Summary:**
+
+- **Fund Name:** State of Nevada Deferred Compensation Program
+- **Date of Report:** Not specified in the provided text.
+- **Capital Distributions Outlook:** The committee expects capital distributions to remain unchanged at an annual rate of 5%.

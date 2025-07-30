@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "SPV pensioenfonds B01",
+    "date": null,
+    "outlook": "stable",
+    "magnitude": 1,
+    "confidence": 0.85,
+    "explanation": "Moderate risk with a stable outlook due to conservative investment strategy."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "InfiniteHorizonFund",
+    "date": "2023-10-31",
+    "outlook": "decrease",
+    "magnitude": 20,
+    "confidence": 0.85,
+    "explanation": "Significant capital outflow indicated by quarterly distribution reduction."
+  }
+}

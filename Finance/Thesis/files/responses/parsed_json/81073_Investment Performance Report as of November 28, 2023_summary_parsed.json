@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "SP Fund",
+    "date": "2023-11-01",
+    "outlook": "increase",
+    "magnitude": 15,
+    "confidence": 0.7,
+    "explanation": "Expected increase in capital distribution based on market developments."
+  }
+}

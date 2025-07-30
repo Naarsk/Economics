@@ -1,0 +1,24 @@
+<think>
+Okay, so I need to help the user summarize an investment report. The query is a bit technical with all these financial terms and dates. Let me try to break it down step by step.
+
+First, I'll read through the provided text carefully. It looks like it's from KPMG or Deloitte, two big firms in accounting and auditing. The report seems to be about an investment fund called RALLYE. The date is July 2023, so that's when this particular report was issued.
+
+The user wants me to focus on four main points: the name of the fund (which I think is RALLYE), the date, the outlook on capital distributions, and its magnitude in percentage terms. So I should extract those specific pieces of information from the text.
+
+Looking at the first paragraph, it mentions "rapport semestriel 2023" which translates to a semi-annual report for 2023. The fund is RALLYE, and the date provided is July 1st, 2023. That's clear enough.
+
+Next, they talk about capital distributions. It says "on t’invité à croire que les distributions du capital ne passeraont pas au-dessus de 5 % en valeur absolue." I need to make sure I understand this correctly. So the capital distributions are expected not to exceed 5% in absolute terms. That means, regardless of other factors, the maximum percentage is capped at 5%.
+
+I should structure my summary clearly. Start with the fund name and date, then mention the outlook on capital distributions and their magnitude. Using bullet points might help make it clear and easy to read.
+
+Wait, I also notice there's a part about KPMG and Deloitte as auditors. That’s probably not necessary for the user's summary since they didn't ask for that information. So I should stick to what's requested: fund name, date, capital distribution outlook, and magnitude.
+
+Putting it all together, my summary should be concise but cover all the required points without including unnecessary details. Let me make sure I'm using the correct terminology, like "capital distributions" and "absolute terms," as they're specific to financial reports.
+
+I think that's a solid approach. Now, I'll draft the response accordingly.
+</think>
+
+**Rapport Semestriel sur les Information Financières pour le Fonds de RALLYE**  
+- **Nom du Fond :** RALLYE  
+- **Date du Rapport :** 1 Août 2023 (version semestériale pour la période 2023)  
+- **Prévisions sur les Distributions de Capital :** On t'invité à croire que les distributions du capital ne passeraont pas au-dessus de 5 % en valeur absolue.

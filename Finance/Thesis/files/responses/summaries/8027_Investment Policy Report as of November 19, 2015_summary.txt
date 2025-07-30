@@ -1,0 +1,17 @@
+<think>
+Okay, so I need to help this user by summarizing an investment report. The user specifically mentioned focusing on four things: the fund's name, the date of the report, the outlook on capital distributions, and the magnitude in percentage terms.
+
+First, looking at the provided data, the fund is the Burlington Employees' Retirement System (BERS) Plan. I know from the content that it's a defined benefit pension plan. The most recent revision to the IPS was November 19, 2015, so that should be noted as the last update date.
+
+Next, the user wants the outlook on capital distributions and its magnitude. From the document, the investment policy uses an actuarial assumption of 8%, which is a key rate for determining returns. However, it doesn't specify whether this affects distribution rates directly. The IPS talks about performance measurement with managers having to outperform benchmarks net of fees, but again, not directly on distributions.
+
+So, I need to be careful here. Since the actuarial assumption is 8%, that's important for valuation and returns over time, but it doesn't directly translate into distribution amounts unless specified in policies. The user didn't mention anything about distribution rates changing based on this assumption.
+
+The performance measurement section talks about managers needing to outperform, which could imply higher returns, possibly leading to increased distributions if the fund performs well, but there's no direct percentage given for expected capital distribution increases or decreases.
+
+Putting it all together, I can summarize that while the actuarial assumption is 8%, the specific outlook on capital distributions isn't clearly stated in the provided excerpt. Therefore, without more data, it's not possible to give a precise percentage change in capital distributions.
+</think>
+
+The investment report pertains to **Burlington Employees' Retirement System (BERS)**, a defined benefit pension plan based in the City of Burlington, Vermont. The most recent update to the Investment Policy Statement (IPS) was made on **November 19, 2015**.
+
+However, there is no specific information provided about the outlook for capital distributions or its expected magnitude in percentage terms within this excerpt of the report.

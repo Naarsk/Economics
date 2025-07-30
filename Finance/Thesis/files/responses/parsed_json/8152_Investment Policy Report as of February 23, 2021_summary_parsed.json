@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund A",
+    "date": "20231005",
+    "outlook": "increase",
+    "magnitude": 5.2,
+    "confidence": 0.8,
+    "explanation": "Positive market conditions expected to boost capital distribution."
+  }
+}

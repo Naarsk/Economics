@@ -1,0 +1,15 @@
+<think>
+Alright, I need to help summarize a portion of an investment report. The user has provided specific sections from their report and wants me to focus on three main points: the name of the fund, the date of the report, and the outlook on capital distributions including their magnitude as percentages.
+
+First, I'll look through each section they've given. In the first part, under "Summarize," there's a mention of a $130B ETF with a 2% increase in assets by year-end 2025. So that gives me the fund name (the $130B ETF), the date (year-end 2025), and an outline of its outlook: growth driven by inflation, interest rates, and economic recovery.
+
+Next, there's a section labeled "Additional Information" which talks about capital distribution trends. It mentions that smaller companies receive a larger portion due to their equity distributions being a percentage of net income rather than profits retained. The table shows percentages from 2019 to 2023: in 2019, small cap companies made up 67% of capital distributions; it increased to 75% in 2020 and peaked at 84% in 2023.
+
+I need to make sure that when summarizing, I include the fund name clearly as "a $130B ETF," specify the date as year-end 2025, and detail both the general outlook on capital distribution trends from the table. It's important to present this information concisely but comprehensively.
+
+I should structure my summary starting with the fund details, then move on to the capital distribution trend explanation using the percentages provided. I'll make sure to highlight how smaller companies have seen a rise in their share of distributions over time.
+</think>
+
+**Summary:**
+
+The investment report discusses a $130B ETF (Equity Fund) that anticipates a 2% increase in its assets by year-end 2025, driven by expected growth from inflation and a strong economic recovery. The fund's capital distribution trends reveal that smaller companies have historically received a larger portion of distributions because equity distributions are typically a percentage of net income rather than retained profits. Over the past five years (2019–2023), this trend has shown an upward trajectory, with small cap companies contributing 67% in 2019, rising to 75% in 2020, and peaking at 84% in 2023. This indicates a growing preference for smaller companies within the fund's capital distribution strategy.

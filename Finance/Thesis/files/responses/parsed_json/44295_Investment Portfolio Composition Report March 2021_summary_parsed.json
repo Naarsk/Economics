@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fundo de Investimento Exterior (FII)",
+    "date": "202103",
+    "outlook": "stable",
+    "magnitude": "<0.02%",
+    "confidence": 0.7,
+    "explanation": "The fund's investments are balanced between two large components with minimal impact from small holdings."
+  }
+}

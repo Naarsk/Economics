@@ -1,0 +1,30 @@
+<think>
+Okay, I need to help the user by summarizing an investment report. The user is a financial analyst, so they're probably looking for concise information about the fund's performance and future projections.
+
+First, let me read through the provided report carefully. It starts with some introductory text from the CEO, then moves into details about the portfolio returns, asset allocation, risk analysis, committee members, and investment advisers.
+
+The user specifically asked to focus on four points: the fund name, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms. So I should extract those key pieces of information from each section.
+
+Looking at the first section, the report is for "The Catholic Foundation" as of December 31, 2024. The return was 11.55%. That gives me two points: fund name and date.
+
+Next, under the investment adviser's analysis, I need to find where capital distribution looks are discussed. It mentions that all managers outperformed their benchmarks in both fixed income and equities. But it doesn't specify the magnitude of distributions, so maybe that part isn't covered or requires more detail from elsewhere.
+
+The risk/return section talks about how the fund has performed similarly over five years, but again, no specific distribution percentages mentioned here either.
+
+Looking at the committee members, there's no information on capital distribution strategies. Similarly, the investment advisers' section doesn't provide details on capital allocation or distributions.
+
+Since the user wants to know about capital distributions and their magnitude, I might need to note that this information isn't provided in the given report. Alternatively, perhaps it was covered elsewhere but not included here. 
+
+Wait, looking back at the first section again, there's a mention of five- and ten-year annualized returns being 7.48% and 6.51%. Maybe those could be considered as magnitudes if they relate to future expectations? But that might be stretching it.
+
+I should structure my summary by highlighting the fund name, date, performance percentage, and then note that specific distribution details aren't available from this report.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** The Catholic Foundation  
+- **Date of Report:** December 31, 2024  
+
+The report highlights the performance of The Catholic Foundation's investment portfolio for the year ending December 31, 2024. The fund achieved a return of **11.55%** in 2024, reflecting strong performance across its asset classes and capital allocation strategies.
+
+Looking ahead, the outlook on capital distributions is not explicitly detailed in this report. However, based on historical performance and recent portfolio adjustments, it can be inferred that the fund continues to prioritize conservative yet growth-oriented investment approaches, aligning with its long-term strategic objectives. The magnitude of future capital distributions would depend on the fund's financial strategy and investor needs, which are typically determined by the investment committee and management team.

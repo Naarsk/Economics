@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "MainePERS",
+    "date": "2021-09-01",
+    "outlook": "decrease",
+    "magnitude": 3,
+    "confidence": 0.95,
+    "explanation": "The required rate of return decreased, reducing future income needs."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fictional Fund Name",
+    "date": "2024-06-30",
+    "outlook": null,
+    "magnitude": null,
+    "confidence": 0.5,
+    "explanation": "Insufficient data to determine the magnitude or outlook of capital distributions."
+  }
+}

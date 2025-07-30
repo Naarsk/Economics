@@ -1,0 +1,19 @@
+<think>
+Alright, I need to help the user by summarizing an investment report. The user has given me specific instructions: they want a summary focusing on the fund's name, the report date, outlook on capital distributions, and their magnitude as percentages.
+
+Looking at the data provided, it's about an Asga auf einen Blick fund as of 30.06.2024. The key points to extract are:
+
+- Fund name: Asga auf einen Blick
+- Report date: June 30, 2024
+- Performance details include YTD growth of 5.06%, a positive deckungsgrad (coverage), and contributions.
+
+I should structure the summary to highlight these elements clearly. The user might be looking for a concise overview suitable for investment analysis or presentations. They emphasized focusing on specific aspects, so I need to make sure each point is addressed succinctly without including all possible details.
+
+Perhaps they're an analyst trying to quickly grasp the fund's performance and key metrics related to capital distribution. I'll focus on translating the German terms accurately, like "Verzinsung" for interest rate, and ensure that percentages are clearly stated.
+</think>
+
+**Summary of Investment Report:**  
+- **Fund Name:** Asga auf einen Blick  
+- **Report Date:** 30.06.2024 (June 30, 2024)  
+- **Performance Overview:** The fund has shown a positive performance with a year-to-date growth of 5.06%. The deckungsgrad (coverage ratio) is at 118.00%, indicating favorable conditions for capital distributions.  
+- **Capital Distribution Outlook and Magnitude:** The report does not explicitly detail the outlook on capital distributions or their magnitude as percentages, but it implies a positive trend based on the performance metrics provided.

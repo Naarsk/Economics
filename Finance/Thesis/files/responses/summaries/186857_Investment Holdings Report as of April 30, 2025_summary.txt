@@ -1,0 +1,55 @@
+<think>
+Alright, so I have this query where someone wants a summary of an investment report focusing on four key points: the fund's name, the report's date, the outlook on capital distributions, and their magnitude in percentage terms. Let me try to break this down.
+
+First, I look at the data provided. The report seems to be about various funds like San Juan College, NM Tech, Western New Mexico University, and government funds. Each has a date of April 30, 2025. That's clear for the report dates part.
+
+Next, looking into each fund's specific information. San Juan College had some withdrawals in their Foundation Restricted Account and an Endowment Fund withdrawal. It also mentions tobacco settlement proceeds adding to their investment value. I need to note whether this indicates a positive or negative outlook on capital distributions. The increase from tobacco sales might suggest more income coming in, which could be good.
+
+NM Tech's report talks about a 1% decrease in total endowment market value due to market fluctuations. That sounds concerning because it shows a decline, but maybe they have strategies to mitigate this. I should highlight the negative outlook but also mention their diversification efforts and potential growth from capital appreciation.
+
+Western New Mexico University had an increase from tobacco sales, which could be beneficial again, suggesting more income through that source. This positive point is worth noting as it might offset any other negatives.
+
+The governmental funds section mentions a decrease in contributions to permanent funds due to a slower economy. That's not great because it shows reduced support from the government, which could impact these funds negatively. But there are also some positive points like tobacco settlement proceeds adding to their investments.
+
+I need to structure this summary clearly. I'll start with each fund's name and date, then discuss whether capital distributions are expected to go up or down in percentage terms. It's important to mention the magnitude of any changes, even if they're not favorable.
+
+Wait, but looking back at the user's example response, it seems they structured it differently. They included a summary for each fund, mentioning their performance and any significant events affecting them. I should follow that structure so the information is organized and easy to read.
+
+I also need to consider the user’s possible deeper needs. They might be an investor looking to assess where their money is going or someone managing investments who wants a quick overview of each fund's health. Understanding this helps in making sure the summary covers all necessary points concisely.
+
+So, putting it all together, I'll go through each fund one by one, extract relevant information about their capital distribution outlook and its magnitude in percentages if available. If there's no specific percentage given, I'll still note whether it increased or decreased due to market factors or other events.
+</think>
+
+The investment report provides a summary of the portfolio holdings and performance for various funds as of April 30, 2025. Below is a focused summary focusing on the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms:
+
+---
+
+### **San Juan College**  
+- **Date**: April 30, 2025  
+- **Outlook on Capital Distributions**: The fund reported withdrawals from its Foundation Restricted Account ($196,874) and its Endowment Fund ($5.0 million). However, the report highlights a $300,000 contribution to tobacco settlement proceeds, which may indicate an increase in capital distribution due to additional income from this source.  
+- **Magnitude**: The exact percentage impact of these withdrawals or contributions is not explicitly stated, but the tobacco settlement proceeds suggest a positive outlook for capital distribution.
+
+---
+
+### **NM Tech**  
+- **Date**: April 30, 2025  
+- **Outlook on Capital Distributions**: The fund's total endowment market value decreased by approximately 1% to $7.8 billion due to market fluctuations. This indicates a decline in capital distributions or reinvestment of funds.  
+- **Magnitude**: The decrease of around 1% reflects a negative outlook for capital distribution, as the endowment value has shrunk.
+
+---
+
+### **Western New Mexico University**  
+- **Date**: April 30, 2025  
+- **Outlook on Capital Distributions**: The fund reported an increase in tobacco sales proceeds ($47.8 million) and a $126.9 million contribution to its investment value from the same source. This suggests a positive outlook for capital distribution due to additional income from tobacco sales.  
+- **Magnitude**: The exact percentage impact is not provided, but the significant increase in tobacco sales indicates strong capital distribution activity.
+
+---
+
+### **Governmental Funds and Third Party Total**  
+- **Date**: April 30, 2025  
+- **Outlook on Capital Distributions**: Contributions to permanent funds decreased by $1 million due to a slower economy. Additionally, tobacco settlement proceeds of approximately $26.6 million were reported, which may indicate an increase in capital distribution from this source.  
+- **Magnitude**: The decrease in contributions reflects a negative outlook, but the increase from tobacco settlements suggests some positive activity.
+
+---
+
+This summary provides a concise overview of each fund's performance as of April 30, 2025, focusing on capital distribution trends and their potential magnitude.

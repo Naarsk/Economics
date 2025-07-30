@@ -1,0 +1,25 @@
+<think>
+Alright, I need to help this user by summarizing an investment report. Let me read through the query again. The user wants a summary focusing on four specific elements: the fund's name, the date of the report, the outlook on capital distributions, and their magnitude in percentage terms.
+
+First, looking at the provided information, the fund is named StanCERA. I see that there are two instances of it mentioned—Stanislaus County Employees’ Retirement Association Investment Policy Statement and StanCERA Asset Allocation Targets and Ranges. Since the user didn't specify which one to focus on, but both are part of the same context, maybe I can just use "StanC ERA" as a common name.
+
+Next, dates. The report mentions that it was revised multiple times between 2016 and 2020. However, there's no explicit date provided for this particular report summary. So, perhaps the user is referring to a recent report within the context of the information given. Since the last revision date listed is November 24, 2020, maybe that's the date we should use.
+
+For the outlook on capital distributions and their magnitude, I need to look at the investment policy statement. The allocation targets show where the fund is positioning its investments. For example, US Large Equity has a target of 60-73%, which suggests significant exposure. The sub-portfolios include various assets like equities, fixed income, private credit, etc.
+
+The outlook would involve how these allocations are expected to perform or distribute capital over time. Since the user wants this in percentage terms, I can note that certain asset classes have higher target allocations (like 60-73% for US Large Equity) and others like infrastructure at 12%. These percentages indicate where capital is directed.
+
+Putting it all together, I need to structure the summary to include the fund name, the date of the report's last update, and the key distributions with their respective magnitudes. I'll also mention that the allocations are weighted towards higher-performing asset classes as per policy.
+</think>
+
+The investment report pertains to the **StanCERA** fund, which is associated with the Stanislaus County Employees’ Retirement Association Investment Policy Statement. The most recent update to this policy was on November 24, 2020.
+
+### Key Summary:
+- **Fund Name**: StanCERA  
+- **Report Date**: November 24, 2020 (as of the last update).  
+- **Capital Distribution Outlook and Magnitude**:  
+  - The fund's asset allocation targets suggest a strong emphasis on U.S. Large Equity (60%-73%), which could indicate an expectation for growth or stable returns in this sector.  
+  - Other allocations, such as Non-US Equity (14%-26%) and Infrastructure (0%-12%), reflect diversification across global markets and infrastructure investments.  
+  - The fund maintains a balanced approach with exposure to fixed income instruments, private credit, and real estate, aiming for steady capital distribution over the long term.  
+
+This policy reflects a strategic allocation aimed at achieving growth and stability while maintaining a diversified investment portfolio.

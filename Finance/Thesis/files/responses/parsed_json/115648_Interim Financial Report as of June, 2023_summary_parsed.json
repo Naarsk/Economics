@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "RALLYE",
+    "date": "2023-08-01",
+    "outlook": "stable",
+    "magnitude": 5,
+    "confidence": 0.95,
+    "explanation": "Distributions du capital prévues ne depasseraont pas 5 %."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Retiree FAQ",
+    "date": "2020-07-31",
+    "outlook": "decrease",
+    "magnitude": 20,
+    "confidence": 0.85,
+    "explanation": "The termination of non-QPP plans and potential changes to pension distributions indicate a significant decrease in capital distributions."
+  }
+}

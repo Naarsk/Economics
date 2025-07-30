@@ -1,0 +1,20 @@
+<think>
+Alright, I need to help the user by summarizing a provided investment report. The key points they want me to focus on are the name of the fund, the date of the report, and their outlook on capital distributions along with its magnitude in percentage terms.
+
+First, looking at the report, I see that it's from Alecta pensionsförsäkring, dated October 26, 2023. That’s straightforward—just note down those details.
+
+Next, focusing on the part about capital distribution outlook and its size. The report mentions that "Trygghetväxer när den delas" which translates to "Stability grows when shared." This suggests a positive outlook on how capital is distributed among members. Then it states that 40% of the capital will be distributed within three years, another 35% within five years, and the remaining 25% over ten years. These percentages add up to 100%, so they cover the entire distribution period.
+
+I need to present this clearly, showing each time frame with its corresponding percentage. It’s important to mention that these are just estimates based on current trends, indicating that it's a projection and not guaranteed. Also, highlighting Alecta's commitment to balancing stability through shared capital makes sense, reinforcing their role as both a Forvaltare (funder) and a Försäkringsbolag (insurance company).
+
+Putting it all together, I should structure the summary with bullet points for clarity: name of the fund, date, outlook on distributions each year, total distribution percentages. Also, include Alecta's note about their role in maintaining stability.
+
+I need to make sure the language is clear and concise, avoiding any unnecessary jargon. Since the user provided a specific structure, I should follow that closely for consistency.
+</think>
+
+The investment report focuses on **Alecta pensionsförsäkring**, dated October 26, 2023. The report highlights the outlook on capital distributions, which is as follows:  
+- **40%** of the capital will be distributed within three years,  
+- **35%** within five years, and  
+- **25%** over ten years.  
+
+These percentages represent an estimate of how the capital will be distributed among members of the fund. Alecta pensionsförsäkring emphasizes its commitment to balancing stability through this distribution mechanism while maintaining a strong focus on member benefits.

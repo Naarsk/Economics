@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Schroders",
+    "date": "20221231",
+    "outlook": "negative",
+    "magnitude": -11.5,
+    "confidence": 0.6,
+    "explanation": "Underperformed significantly at -11.5% as the property market declined sharply during the quarter."
+  }
+}

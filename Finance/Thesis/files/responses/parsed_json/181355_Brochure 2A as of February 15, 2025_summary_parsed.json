@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fixed Income Fund",
+    "date": "20230714",
+    "outlook": "increase",
+    "magnitude": 6,
+    "confidence": 0.95,
+    "explanation": "Distribution increased with high confidence."
+  }
+}

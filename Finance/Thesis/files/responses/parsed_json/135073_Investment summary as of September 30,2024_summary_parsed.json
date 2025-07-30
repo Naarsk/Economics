@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "St.Galler Pensionskasse (Konsolidiert)",
+    "date": "2024-09-30",
+    "outlook": "stable",
+    "magnitude": 0.3,
+    "confidence": 0.95,
+    "explanation": "The fund slightly outperformed the benchmark with a 0.3% gain, maintaining a balanced asset allocation."
+  }
+}

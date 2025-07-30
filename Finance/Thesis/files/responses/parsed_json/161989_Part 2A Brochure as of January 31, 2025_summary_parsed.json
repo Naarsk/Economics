@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Four Corners Fund",
+    "date": "20230329",
+    "outlook": "increase",
+    "magnitude": 7,
+    "confidence": 0.95,
+    "explanation": "The fund's fixed-income securities are expected to provide an annual capital distribution increase of around 7%."
+  }
+}

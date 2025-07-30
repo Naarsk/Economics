@@ -1,0 +1,36 @@
+<think>
+Okay, so I need to help the user by summarizing this investment report they provided. The user has given me a chunk of text from an ADV Part 2A Brochure about HUB Investment Partners managing various funds. My task is to focus specifically on the funds' names, the date of their reports, their outlook on capital distributions, and the magnitude in percentage terms.
+
+First, I'll read through the provided report carefully. It seems to cover individual accounts and institutional accounts managed by HUB. There are several funds mentioned like TCG administered funds such as TCGP Fund III LP, TCGP Fund IV LP, and some separately managed funds with different classes (A, B, C). 
+
+I notice that each fund has a specific date listed for their report. For example, the TCG administered funds have reports from December 31, 2024, while others like TCGP Fund III LP and IV LP also have similar dates. The separately managed funds (SMF) have their own report dates as of March 31, 2025.
+
+Now, looking at the outlook on capital distributions: for the institutional funds administered by TCG, it says they are expecting regular quarterly distributions with a focus on paying out 75-80% of capital and managing expenses below 0.2%. For separately managed funds, there's a mention of performance-based allocations but no specific distribution percentage mentioned beyond that.
+
+The magnitude in terms of dollars isn't provided here; it mainly talks about percentages for the TCG administered funds regarding capital distributions. So I might need to note where such data is available or if it's not mentioned, just focus on what's given.
+
+I should structure this summary clearly, listing each fund with its name, report date, and the specific outlook information provided. Since some funds don't have detailed distribution percentages beyond their approach (like SMFs), I'll make sure to highlight that distinction.
+
+Also, I need to be concise but thorough, ensuring all relevant points are covered without adding unnecessary details. Making sure the user can easily grasp each fund's status and expected capital distribution strategy from this summary.
+</think>
+
+Here is a structured summary of the funds managed by HUB Investment Partners based on their investment report:
+
+### Funds Overview:
+1. **TCG administered funds**  
+   - **Report Date:** December 31, 2024  
+   - **Outlook on Capital Distributions:** Expected to distribute approximately 75-80% of capital proceeds quarterly. Expenses are expected to remain below 0.2%.
+
+2. **TCGP Fund III LP / IV LP**  
+   - **Report Date:** December 31, 2024  
+   - **Outlook on Capital Distributions:** Similar to TCG administered funds, with a focus on regular quarterly distributions and expense management.
+
+3. **Separately Managed Funds (SMF) SMF A/SBMF A/SMF B/SBMF B**  
+   - **Report Date:** March 31, 2025  
+   - **Outlook on Capital Distributions:** Performance-based allocations expected, but no specific distribution percentage details provided.
+
+### Key Points:
+- **TCG administered funds and TCGP LPs:** Focus on capital distributions (75-80% of capital) with expense management below 0.2%.
+- **SMFs:** Mentioned for performance-based allocations without detailed distribution magnitude.
+
+This summary highlights the fund structure, their report dates, and the primary outlook on capital distributions as outlined in the investment report.

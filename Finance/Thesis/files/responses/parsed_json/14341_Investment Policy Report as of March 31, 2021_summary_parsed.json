@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Wiltshire Pension Fund",
+    "date": "2021-06-15",
+    "outlook": "increase",
+    "magnitude": 0.089,
+    "confidence": 0.95,
+    "explanation": "The fund aims to achieve fee savings of £27.8 million by 2025, with operational costs expected to be stable after 2023."
+  }
+}

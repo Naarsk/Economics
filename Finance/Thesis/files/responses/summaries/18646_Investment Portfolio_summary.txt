@@ -1,0 +1,33 @@
+<think>
+Alright, so I need to help this user by summarizing an investment report. The user has given me a lot of data about different funds and their current statuses as of December 31, 2020. They also provided some key points they want the summary to focus on: the fund names, date of the report, outlook on capital distributions, and its magnitude in percentage terms.
+
+First, I should identify all the funds mentioned. Looking through the data, I see several funds with their respective values:
+
+- Federal Money Market Pool: 97,515,065
+- Short Term Cash Pool: 232,604,714
+
+These are the primary investment funds listed. The date of the report is December 31, 2020.
+
+Next, I need to consider the outlook on capital distributions. For the Federal Money Market Pool and Short Term Cash Pool, it seems like they're both set up for daily compounding. This means that any invested amounts will grow over time without needing additional contributions. The user didn't specify any immediate changes or risks associated with these funds, so I can assume stable performance unless informed otherwise.
+
+Regarding the magnitude in percentage terms, I should calculate what portion each fund represents of the total investments. The total investment is 245 million. 
+
+For the Federal Money Market Pool: 97,515,065 / 245,000,000 ≈ 39.8%
+
+For the Short Term Cash Pool: 232,604,714 / 245,000,000 ≈ 94.8%
+
+These percentages show a significant tilt towards the Short Term Cash Pool.
+
+I should also mention that both funds are considered safe investments due to their short durations and low risk profiles. The user didn't highlight any specific risks or changes in these fund types, so it's best to present them as stable options.
+
+Putting this all together, I can structure a summary that includes the fund names, date of the report, details on capital distribution outlook, and each fund's percentage contribution.
+</think>
+
+### Summary of Investment Report: As of December 31, 2020
+
+#### Funds Invested:
+- **Federal Money Market Pool**: Total investment of $97,515,065. This fund offers daily compounding interest on cash and cash equivalents. It represents approximately **39.8%** of the total investment.
+- **Short Term Cash Pool**: Total investment of $232,604,714. This fund also provides daily compounding interest and is a significant portion of the total investments, accounting for approximately **94.8%**.
+
+#### Capital Distribution Outlook:
+Both funds are designed for stable growth through compounding without requiring additional contributions. They are considered low-risk investments due to their short-term nature. There are no immediate changes or risks associated with these funds unless specified otherwise.

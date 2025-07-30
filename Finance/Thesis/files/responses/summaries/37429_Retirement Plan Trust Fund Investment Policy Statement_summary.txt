@@ -1,0 +1,46 @@
+<think>
+Alright, I need to help this user by summarizing a provided investment report. Let me first read through the query carefully. The user shared some text that seems to be an investment policy statement for a retirement plan trust fund called "k c," and it was last updated on September 16, 2015.
+
+The task is to summarize this report with a focus on the fund name ("kc"), the date of the report (which I can see is at the end: 09/16/15), and the outlook on capital distributions along with their magnitude in percentage terms. 
+
+First, I'll note that the fund's name is "k c," but since it's a retirement trust fund, maybe it's actually named differently. It starts with "KC," so perhaps the full name is "Kerrich Capital Trust Fund" or something similar. However, without more context, I can only work with what's provided.
+
+Looking through the text, there are several sections about different asset pools: equity segments like large blend, large value, etc., fixed income, debt in various markets, and real estate. Each has specific performance goals relative to certain indices. 
+
+I need to extract information about how capital is distributed across these assets. For example, each equity segment (Domestic Large Blend Equity) expects to outperform its peer group by a certain percentage. Similarly, Fixed-Income and Debt segments have their own benchmarks.
+
+The user wants the summary to include the fund name, date, and the magnitude of capital distribution percentages. So I should look for how much each asset class contributes in terms of expected performance or allocation percentages. 
+
+Looking at sections 8 through 11:
+- Domestic Large Blend Equity: S&P 500 Index, expected above average.
+- Domestic Large Value Equity: Russell 1000 Value Index, same expectations.
+- International Developed Markets Equity: MSCI ACWI Ex-U.S., also expecting above average.
+
+Each of these has specific percentage goals. For instance, section 8 mentions outperforming the S&P 500, which is a 31.5% weight in the benchmark. So maybe the expected contribution to capital distribution is around that percentage or higher.
+
+Fixed-Income (section 9) expects to outperform the Barclays U.S. Aggregate Bond Index, perhaps contributing a significant portion like 30%.
+
+Emerging Markets Debt (section 10) has a composite benchmark of two indices split 50/50, so maybe their expected contribution is around that.
+
+Real Estate (section 11) expects to outperform the Wilshire index and contribute about 5%.
+
+I should present these key allocations in a summary. Also, note that the date was last updated on September 16, 2015, but capital distributions can change over time, so maybe mention that this is as of then.
+
+So putting it all together: The fund kc has its investments distributed across various asset classes with specific expected performances. For example, domestic large blend equity expects to outperform the S&P 500 by a certain percentage, fixed-income by another, etc. Each section mentions the benchmark and expected performance magnitude.
+</think>
+
+The provided investment report pertains to a retirement trust fund referred to as "k c," last updated on **September 16, 2015**. The report outlines the fund's outlook on capital distributions across various asset classes, with specific expectations for each segment in terms of performance relative to benchmarks:
+
+- **Domestic Large Blend Equity**: Expected to outperform the S&P 500 Index.
+- **Domestic Large Value Equity**: Expected to outperform the Russell 1000 Value Index.
+- **Domestic Large Growth Equity**: Expected to outperform the Russell 1000 Growth Index.
+- **Domestic Mid Cap Equity**: Expected to outperform the S&P MidCap 400 Index.
+- **Domestic Small Cap Equity**: Expected to outperform the Russell 2000 Index.
+- **International Developed Markets Equity**: Expected to outperform the MSCI ACWI Ex-U.S. Index.
+- **Emerging Markets Equity**: Expected to outperform a composite of two indices (JP Morgan Emerging Markets Bond Index and JP Morgan Government Bond Index).
+- **Domestic Fixed-Income**: Expected to outperform the Barclays Capital U.S. Aggregate Bond Index.
+- **International Developed Markets Debt**: Expected to outperform the Barclays Global Aggregate Bond ex-U.S. Index.
+- **Emerging Markets Debt**: Expected to outperform a composite benchmark of two indices (JP Morgan Emerging Markets Bond Index and JP Morgan Government Bond Index).
+- **Real Estate**: Expected to outperform the Wilshire U.S. Real Estate Investment Trust Index.
+
+The report emphasizes that the fund aims to achieve above-average performance relative to specific peer groups and benchmarks for each asset class.

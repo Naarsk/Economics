@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "name": "S&P 500",
+      "date": "2018-11-26",
+      "outlook": "stable",
+      "magnitude": 0.0,
+      "confidence": 0.6,
+      "explanation": "Assumed stable based on market-capitalization weighting."
+    },
+    {
+      "name": "HFRI FoF Composite Index",
+      "date": "2018-11-26",
+      "outlook": "stable",
+      "magnitude": 0.0,
+      "confidence": 0.6,
+      "explanation": "Assumed stable based on its time-weighted approach."
+    },
+    {
+      "name": "NCREIF ODCE",
+      "date": null,
+      "outlook": "stable",
+      "magnitude": 0.0,
+      "confidence": 0.5,
+      "explanation": "Assumed stable focusing on real estate allocations."
+    },
+    {
+      "name": "ICE Bofa ML 3 Mo U.S. T-Bill",
+      "date": "2018-11-26",
+      "outlook": "stable",
+      "magnitude": 0.0,
+      "confidence": 0.5,
+      "explanation": "Assumed stable with no specific allocation details."
+    },
+    {
+      "name": "Other Funds",
+      "date": null,
+      "outlook": "stable",
+      "magnitude": 0.0,
+      "confidence": 0.3,
+      "explanation": "No specific magnitude or outlook provided."
+    }
+  ]
+}

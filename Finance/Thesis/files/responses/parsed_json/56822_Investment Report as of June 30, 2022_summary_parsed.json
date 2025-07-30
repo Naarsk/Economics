@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Hilti Pensions- und Investitionsfonds CH",
+    "date": "20240331",
+    "outlook": "stable",
+    "magnitude": 1,
+    "confidence": 0.9,
+    "explanation": "Fixed income provides stability against economic uncertainty."
+  }
+}

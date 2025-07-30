@@ -1,0 +1,43 @@
+<think>
+Alright, so I'm looking at this user query where they want me to summarize an investment report. The main points are about a portfolio consisting of both direct and indirect properties.
+
+First off, the report talks about Direct Property with various funds like Ashford Investor, Hearthstone Residential, Gresham House RESi, and Leisure Fund Unit Trust. Each fund has different lease terms, yields, and returns. The key here is that these funds are for shopping centers, residential properties, shared ownership houses, and leisure properties.
+
+Now, the Indirect Properties section lists more funds with different percentages of investment spread across shopping, residential, and leisure sectors again. The numbers show varying yields from 2.9% to 12.9%, which indicates that higher yielding funds are probably better investments for capital distribution.
+
+The user is asking me to focus on the fund names, report date, and capital distribution outlook in percentage terms. So I need to extract the most relevant information: when the report was issued (March 31, 2023), and then summarize each fund's characteristics with their respective yields and return magnitudes.
+
+I should make sure not to include too much detail but just enough to give a clear picture of where the capital is distributed. Also, noting that the highest yielding funds are concentrated in shopping and residential areas seems important for investors looking at returns.
+
+Putting it all together, I need to present this information concisely, highlighting each fund's name, its type (direct or indirect), yield percentage, and the magnitude of investment as a percentage of total. That should cover what the user is asking for.
+</think>
+
+The investment report summarizes a portfolio comprising both direct and indirect property investments across various funds. Here’s a concise breakdown:
+
+### **Date of Report**:  
+**31 March 2023**
+
+---
+
+### **Funds and Capital Distribution Overview**:  
+
+#### **Direct Properties (417,175,000 £):**
+- **Ashford Investor LP**: Shopping sector, with properties valued at £19,581,185. The fund has a yield of 21.2% and a rental return magnitude of 5.7%. The lease term is 30 years.
+- **Hearthstone Residential LP**: Residential sector, with properties valued at £19,999,989. The fund has a yield of 12.9% and a rental return magnitude of 5.8%. The lease term is 30 years.
+- **Gresham House RESi LP**: Shared ownership houses & flats, valued at £29,568,133. The fund has a yield of 0.0% and a rental return magnitude of 0.0%. The lease term is unspecified.
+- **Leisure Fund Unit Trust LP**: Leisure properties, valued at £16,597,195. The fund has a yield of 4.7% and a rental return magnitude of 6.3%. The lease term is unspecified.
+
+#### **Indirect Properties (513,699,464 £):**  
+- **Ashford Investor LP**: Shopping sector, with properties valued at £19,581,185. The fund has a yield of 21.2% and a rental return magnitude of 5.7%. The lease term is 30 years.
+- **Hearthstone Residential LP**: Residential sector, with properties valued at £19,999,989. The fund has a yield of 12.9% and a rental return magnitude of 5.8%. The lease term is 30 years.
+- **Gresham House RESi LP**: Shared ownership houses & flats, valued at £29,568,133. The fund has a yield of 0.0% and a rental return magnitude of 0.0%. The lease term is unspecified.
+- **Leisure Fund Unit Trust LP**: Leisure properties, valued at £16,597,195. The fund has a yield of 4.7% and a rental return magnitude of 6.3%. The lease term is unspecified.
+
+---
+
+### **Key Observations**:  
+- The majority of capital is concentrated in shopping and residential sectors, with yields ranging from 2.9% to 12.9%.  
+- Higher-yielding funds (e.g., Ashford Investor LP and Hearthstone Residential LP) dominate the portfolio.  
+- The report highlights a balanced distribution across direct and indirect properties, with a focus on property type returns and yields.  
+
+This overview provides insight into the capital distribution strategy and potential performance of the investment portfolio based on current fund allocations and characteristics.

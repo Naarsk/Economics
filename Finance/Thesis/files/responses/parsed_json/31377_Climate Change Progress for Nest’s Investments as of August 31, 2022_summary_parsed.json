@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Nest Corporation",
+    "date": "2022-08-01",
+    "outlook": "stable",
+    "magnitude": 50,
+    "confidence": 0.6,
+    "explanation": "The report highlights a strategic alignment but lacks specific details on capital distribution percentages."
+  }
+}

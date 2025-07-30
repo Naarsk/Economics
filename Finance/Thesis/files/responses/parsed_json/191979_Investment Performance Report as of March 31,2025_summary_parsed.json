@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Verus Global Opportunities Fund",
+    "date": "20241015", // Default to current date as of output generation
+    "outlook": "stable",
+    "magnitude": 0.01,
+    "confidence": 0.75,
+    "explanation": "Minimal capital distributions suggest stable or minimal impact on the fund's value."
+  }
+}

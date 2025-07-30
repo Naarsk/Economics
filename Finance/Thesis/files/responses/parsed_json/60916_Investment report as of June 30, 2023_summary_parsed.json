@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Example Investment Report",
+    "date": "20230531",
+    "outlook": "stable",
+    "magnitude": 5,
+    "confidence": 0.6,
+    "explanation": "Mixed market performance with varying asset class trends and currency risks."
+  }
+}

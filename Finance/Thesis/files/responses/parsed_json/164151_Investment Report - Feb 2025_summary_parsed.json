@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund Name",
+    "date": "202502",
+    "outlook": "increase",
+    "magnitude": 60,
+    "confidence": 0.85,
+    "explanation": "Strong growth expectations with diversification leading to higher capital distribution in equities."
+  }
+}

@@ -1,0 +1,15 @@
+<think>
+Alright, I need to help the user by summarizing a specific part of an investment report. The user has provided a chunk of text from their document and asked for a summary focusing on the fund's name, the report's date, and the outlook on capital distributions along with their magnitude in percentages.
+
+First, I should scan through the provided text to locate relevant information. I see references to "Appendix III – Categories of Investments" which lists various investment types but doesn't mention the fund name or date. Moving further down, there are sections like "Investment Policy," "Performance Objectives," and "Categories of Investments." 
+
+Looking for the fund's name: The initial text mentions "The Investment Report 2021-2025" at the top, so that's the fund name.
+
+Next, I check when this report was last amended. Scanning down to the end of each section, under Investment Policy, it says "Last Amendment -20-" which corresponds to April 26, 2021.
+
+Now, focusing on the outlook for capital distributions: In Appendix II – Performance Objectives, there's a table that lists performance objectives for various mandates. The lines like "+2.0" next to "Emerging Market Debt (active)" indicate that this category could distribute up to +2.0%, which translates to 2% in terms of percentage points added to the benchmark.
+
+Putting it all together, I need to present these three pieces of information clearly: fund name, report date, and the capital distribution outlook with its magnitude.
+</think>
+
+The Investment Report 2021-2025 (Fund Name) was last amended on April 26, 2021. The report highlights an outlook on capital distributions for various mandates, with "Emerging Market Debt (active)" expected to distribute up to +2.0%, indicating a potential addition of 2% in percentage terms to the benchmark.

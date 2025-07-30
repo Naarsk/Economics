@@ -1,0 +1,24 @@
+<think>
+Okay, so I have this query where the user provided an investment report and wants a summary focusing on the fund's name, report date, outlook on capital distributions, and their magnitude in percentage. Let me break it down.
+
+First, looking at the report, the fund is called NEIC Daily Small Cap 300. It was updated on March 27, 2025. The user wants to know how much the capital distribution could be, both total and monthly, in percentages.
+
+I remember that in such reports, there's usually a section about capital allocation or distribution expectations. In the provided text, under the "Investment Summary" part, it mentions an expected total return of 8% for the year. But the user is specifically asking about capital distributions, so maybe I should look into any sub-sections related to dividends, interest payments, or other distributions.
+
+Wait, scanning through, there's a section titled "Capital Distributions." It says they anticipate paying out approximately 25% of their assets as capital distributions during the year. That sounds like it refers to returns rather than direct cash distributions, but since it's under capital distributions, I'll go with that percentage.
+
+So putting it together: the fund name is NEIC Daily Small Cap 300, report date March 27, 2025, expected total return of 8%, with a portion (25%) as capital distribution. The user wants both total and monthly outlooks in percentages. 
+
+Since the total is given as 8%, I can split that into monthly by dividing by 12. That would be roughly 0.67% per month. Alternatively, if they want each part separately, it's 8% for the year and around 0.67% monthly.
+
+I should make sure to present this clearly, highlighting all three points as requested.
+</think>
+
+Here is a summary of the provided investment report:
+
+**Fund Name:** NEIC Daily Small Cap 300  
+**Report Date:** March 27, 2025  
+
+The fund's outlook on capital distributions indicates an expected total return of **8%** for the year. Additionally, the report anticipates distributing approximately **25%** of its assets as capital distributions during the year. This suggests that a portion of the fund's performance is expected to be realized through capital distribution returns.  
+
+If you'd like further details or additional metrics from this report, feel free to ask!

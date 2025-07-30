@@ -1,0 +1,13 @@
+<think>
+Alright, I need to help the user by summarizing a specific part of an investment report. The query is asking me to focus on three main points: the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, looking at the provided text, it's from LPPI's 2021/22 annual report on stewardship. The fund is referred to as the "Local Pensions Partnership Investments" or LPPI. The date of the report isn't explicitly stated here; I might need to check if it's mentioned elsewhere in the provided text.
+
+Next, the report discusses capital distributions. It mentions that LPPI will distribute approximately 10% of its capital gains to general partners from their profits over the past year. This distribution is a portion of their investment returns. 
+
+However, there's no specific date provided in this excerpt. The user might be expecting a date like March 2023 since they referenced the report being annual and perhaps the most recent one after the initial query.
+
+I should structure my summary to clearly state each point: fund name, date of report (assuming it based on context), capital distribution amount as a percentage, and mention that this is part of their investment strategy focusing on capital growth.
+</think>
+
+The investment report in question is from **Local Pensions Partnership Investments (LPPI)**, an investment firm. The report outlines the firm's **outlook on capital distributions**, which will be approximately **10%** of its capital gains distributed to general partners from profits earned over the past year. The exact date of this particular report isn't explicitly mentioned in the provided text; however, it appears to be part of LPPI's annual stewardship report for the 2021/22 fiscal year. This strategy reflects LPPI's focus on capital growth and its commitment to distributing returns to investors.

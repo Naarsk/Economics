@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Capital Distributions from U.S. Equities Fund",
+    "date": "2023-03-01",
+    "outlook": "increase",
+    "magnitude": 2.17,
+    "confidence": 0.85,
+    "explanation": "Anticipated distribution of $500 million, representing a 2.17% increase in AUM management, with confidence score 0.85."
+  }
+}

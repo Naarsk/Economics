@@ -1,0 +1,36 @@
+<think>
+Alright, I need to help this user who's a financial analyst. They want me to summarize an investment report focusing on four specific points: the fund's name, the report date, the outlook on capital distributions, and the magnitude of that outlook as a percentage.
+
+First, let me read through the provided example response they gave. It seems clear—they took each point from the report and presented it succinctly. The example included the fund name, the date, the distribution outlook direction (increase or decrease), and the percentage involved.
+
+Now, looking at their actual query, I notice they might be asking for a similar summary but perhaps in a different context since they didn't provide specific details this time. Wait, no, actually, in their first message, they said "provide a sample," which led me to generate an example. Now, maybe the user is providing a report and wants that same kind of structured summary.
+
+I should make sure I follow their instructions precisely: name of the fund, date of the report, outlook on capital distributions (increase or decrease), and the percentage. I need to extract those four pieces of information from whatever investment report they provide.
+
+I wonder if there are any edge cases—like if the report doesn't mention a direction for distributions. In that case, maybe just note it as "N/A" or something similar. Also, ensuring the percentage is clear and correctly formatted.
+
+Another thing to consider: sometimes reports might use terms like "upside potential" or "expected increase." I need to capture the essence of the outlook without assuming too much.
+
+I should keep each point concise and easy to read, probably using bullet points for clarity. Making sure that the summary is informative but not overly detailed.
+
+Wait, in their example, they included the fund name as a hyperlink with [Name], maybe indicating it's a clickable link elsewhere. I need to replicate that format if applicable.
+
+Also, checking for any specific terminology or jargon related to investment funds that might be important. Maybe terms like "appreciation potential" or "capital growth opportunities."
+
+I should also verify the date format; in their example, it was in a standard format. If the report uses a different date style, I need to adjust accordingly.
+
+In summary, my approach is:
+1. Extract the fund's name.
+2. Note the date of the report.
+3. Determine if capital distributions are expected to increase or decrease.
+4. Provide the percentage magnitude of that outlook.
+5. Present all this information clearly and concisely in bullet points as shown.
+
+I think that covers it. Now, I just need to apply this structure to whatever investment report is provided next.
+</think>
+
+Here’s a concise summary based on your instructions:
+
+- **Fund Name:** [Name]
+- **Report Date:** [Date]
+- **Capital Distributions Outlook:** [Increase/Decrease] in [Magnitude]%

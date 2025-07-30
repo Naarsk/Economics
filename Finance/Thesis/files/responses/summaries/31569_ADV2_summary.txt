@@ -1,0 +1,23 @@
+<think>
+Okay, I'm trying to figure out how to approach this query. The user has given me a chunk of an investment report from Artemis Wealth Advisors, LLC, which is managing the Orion Constellation II LP Fund. Their main task is to summarize the provided report, focusing specifically on three points: the name of the fund, the date of the report, and the outlook on capital distributions along with its magnitude in percentage terms.
+
+First, I need to go through the report carefully to extract relevant information. The report starts with a form ADV, which indicates it's an investment advisory register, so I know this is a formal document from a SEC-registered firm. The fund in question here is Orion Constellation II LP Fund, as mentioned multiple times.
+
+Next, looking for dates. The most recent date provided seems to be April 30, 2024, which would likely be the report's publication date since it's common for fund reports to be issued monthly or quarterly after a fiscal year end.
+
+Now, onto capital distributions. I'm scanning through the sections and come across Item 18 under Financial Information. Point (a) states that the firm doesn't solicit fees six months in advance. However, point (b) mentions that the firm's net investment income during the last taxable year was $345 million, which is significant because net investment income is often a key factor for calculating capital distributions.
+
+In Item 19, there's discussion about capital distribution policies but it seems to be more about the process rather than specific figures. Then I check later sections where fund performance and distributions are discussed. In Items 8-24, there's talk about the fund's performance over different periods: from Q3 2023 to Q1 2024 yields, annualized returns, trailing twelve-month returns, and the five-year period up to 2023.
+
+Looking through these, I don't see a specific percentage for capital distributions. However, in Item 18(2), it's stated that net investment income was $345 million, which could imply potential distribution amounts based on the fund's assets or policies. But without explicit figures, it might not be directly available here.
+
+Since the user specifically asked about magnitude in percentage terms for capital distributions, and there isn't a direct figure provided beyond net investment income, I have to conclude that no specific percentage is mentioned in this report.
+
+So putting it all together: the fund's name is Orion Constellation II LP Fund, the latest report date is April 30, 2024, and while there's no explicit capital distribution outlook or percentage provided, there is a mention of net investment income which might be relevant for future distributions.
+</think>
+
+**Summary of Investment Report:**
+
+1. **Fund Name:** Orion Constellation II LP Fund  
+2. **Report Date:** April 30, 2024 (The most recent report date mentioned in the document)  
+3. **Capital Distribution Outlook and Magnitude:** The fund's capital distribution policy is not explicitly detailed in this report. However, the firm reported a net investment income of $345 million during its last taxable year, which could influence future capital distributions. Specific percentage outlooks for capital distributions are not provided in this document.

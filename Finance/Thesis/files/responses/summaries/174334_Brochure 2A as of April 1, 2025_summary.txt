@@ -1,0 +1,25 @@
+<think>
+Okay, so I need to figure out how to help this user who's asking about an investment report. They've given me a chunk of text that seems like a detailed fund prospectus or a report from FWP, which sounds like an investment firm. The user wants a summary focusing on the name of the fund, the date of the report, and the outlook on capital distributions, including their magnitude in percentage terms.
+
+First, I need to parse through this text to extract relevant information. Let's read through each section carefully.
+
+Looking at item 1: It mentions FWP Investment Fund with a ticker symbol FWPHX. So that gives me the fund name right away.
+
+Next, the date of the report isn't explicitly stated in the provided text. Usually, such reports have a 'To' or 'Date' somewhere, but here it's missing. The user might expect me to note that as something important or perhaps mention that I can't extract the exact date from this data.
+
+Moving on to item 2: It talks about capital distributions and their magnitudes in percentage terms. Under (i), it says "Capital Distributions: Minimum $1,000, Maximum 5%." That gives me the outlook on capital distributions as well as the maximum magnitude at 5%. 
+
+I should structure this information clearly so that the user can quickly see the fund name, date, and distribution details. Maybe bullet points would help.
+
+Also, I noticed there's no direct mention of when the report was issued, so I'll have to indicate that it's not provided here or perhaps suggest that they check with FWP for the exact date if needed.
+
+Putting this together, my summary should be concise, highlighting each part as per the user's request without including unnecessary details. It needs to be clear and easy to read.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** FWP Investment Fund (Ticker Symbol: FWPHX)
+- **Date of Report:** Not explicitly provided in the text.
+- **Capital Distributions Outlook:** 
+  - Minimum capital distribution amount: $1,000
+  - Maximum capital distribution magnitude: 5%

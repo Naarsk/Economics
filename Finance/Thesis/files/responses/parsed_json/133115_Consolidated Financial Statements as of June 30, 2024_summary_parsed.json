@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Orange S.A.",
+    "date": "20240723",
+    "outlook": "stable",
+    "magnitude": null,
+    "confidence": 0.5,
+    "explanation": "Declared interim dividend and estimated distribution amount, but percentage magnitude remains uncertain."
+  }
+}

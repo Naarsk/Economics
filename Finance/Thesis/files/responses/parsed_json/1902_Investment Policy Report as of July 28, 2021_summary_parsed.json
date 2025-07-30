@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Pennsylvania State Employees' Retirement System (SERS)",
+    "date": "2021-04-30",
+    "outlook": "stable",
+    "magnitude": 22,
+    "confidence": 0.85,
+    "explanation": "Fixed income allocation is stable at 22% to ensure portfolio safety and align with liability cash flows."
+  }
+}

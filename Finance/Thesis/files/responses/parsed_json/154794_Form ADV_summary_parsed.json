@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Sample Investment Fund",
+    "date": "2025-02-01",
+    "outlook": "increasing",
+    "magnitude": 7,
+    "confidence": 0.95,
+    "explanation": "Tax-deferred distributions at a higher rate suggest accelerated returns."
+  }
+}

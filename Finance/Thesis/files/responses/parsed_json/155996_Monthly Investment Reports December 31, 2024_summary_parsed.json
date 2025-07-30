@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Health Insurance Trust (OPEB)",
+    "date": "20241231",
+    "outlook": "decrease",
+    "magnitude": 6.09,
+    "confidence": 0.75,
+    "explanation": "The fund has shown a slight decrease in the most recent quarter but has had strong growth over three years."
+  }
+}

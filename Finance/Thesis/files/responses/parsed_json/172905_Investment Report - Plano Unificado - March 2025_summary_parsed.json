@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "SPX Nimitz Estruturado",
+    "date": "2023-06-01",
+    "outlook": "increase",
+    "magnitude": 18,
+    "confidence": 0.9,
+    "explanation": "Slight increase in capital distribution compared to the total portfolio value."
+  }
+}

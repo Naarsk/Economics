@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Portfolio Investment",
+    "date": "2024-12-31",
+    "outlook": "increase",
+    "magnitude": 8.04,
+    "confidence": 0.92,
+    "explanation": "U.S. Equities dominates the portfolio with a five-year increase of 8.04%."
+  }
+}

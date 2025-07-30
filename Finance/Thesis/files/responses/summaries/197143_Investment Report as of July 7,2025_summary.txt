@@ -1,0 +1,33 @@
+<think>
+Okay, so I need to help someone who's asking me to summarize a specific part of an investment report. The user is interested in the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, I'll start by looking at the information provided. I see that the report has several sections: an introduction, market overview, stock indices, commodities, bond markets, currencies, and a note from Factum AG Vermögensverwaltung. The date of the report is 30 June 2025.
+
+Looking for the fund name, I notice it's mentioned as "Factum AG Vermögensverwaltung" in one section where they clarify that this is an independent asset management company and not associated with Factum Asset Management. So, the fund might be called something else or refer to a specific strategy within their offerings.
+
+Next, the market overview section provides various indices like SMI, SPI, MSCI Emerging Markets, and commodities such as gold and oil prices. In the bonds section, there are yields for US Treasury Bonds, Swiss bonds in CHF, German Bunds in EUR, etc. The currencies include rates for different pairs like EUR/CHF, USD/CHF, GBP/CHF.
+
+In the section on capital distributions, I see that it's presented as a table with columns: Name of the fund, Date of report (30 June 2025), and Magnitude in percentage terms. The funds mentioned are "Gold", "WTI oil", "US Treasury Bonds 10Y", "Swiss Eidgenossen 10Y", "German Bundesanleihen 10Y", "EUR/CHF", "USD/CHF", "GBP/CHF", and "JPY/USD". The percentages are provided for each, mostly negative or positive but in the case of currencies, some have large negative numbers.
+
+So putting it together, I need to extract just that table. The user wants the name of the fund, which seems to be individual funds under Factum AG. Each has a percentage distribution magnitude. So the summary would list each fund with its respective percentage from June 2025.
+
+I should make sure to include all the funds and their corresponding percentages as listed in the table.
+</think>
+
+**Summary of Investment Report:**
+
+- **Date of Report:** 30 June 2025  
+- **Funds and Capital Distributions:**  
+  | Fund Name                     | Magnitude (%)                |  
+  |-------------------------------|------------------------------|
+  | Gold                        | +25.86%                    |
+  | WTI Oil                      | -9.22%                     |
+  | US Treasury Bonds 10Y        | -0.34%                     |
+  | Swiss Eidgenossen 10Y (CHF) | -0.17%                     |
+  | German Bundesanleihen 10Y (EUR) | +0.24%               |
+  | EUR/CHF                      | -0.56%                     |
+  | USD/CHF                      | -12.60%                    |
+  | GBP/CHF                      | -4.08%                     |
+  | JPY/USD                     | -4.43%                     |
+
+This table outlines the capital distributions for various funds and currency pairs as of 30 June 2025, with their respective percentage magnitudes.

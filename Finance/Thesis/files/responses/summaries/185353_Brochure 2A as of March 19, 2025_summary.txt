@@ -1,0 +1,21 @@
+<think>
+Okay, so I have this query where the user has provided a detailed investment report from Kingsguard Capital. They want me to summarize it with specific points: the name of the fund, the date of the report, and an analysis on capital distributions—both outlook and magnitude in percentages.
+
+First, I need to extract the key details from the provided text. The main fund is Kingsguard Capital Fund, which seems to be a registered investment advisor based in the US. The report was generated on March 19, 2025, so that's straightforward.
+
+Looking at capital distributions, the report mentions "capital distributions" as a significant portion of total returns for investors this year. It notes a notable increase compared to prior years. Specifically, it says "capital distributions accounted for approximately 74% of total returns." That gives me the percentage needed.
+
+Additionally, there's a section about income distributions, which are considered a major part of capital gains but not all of them. The exact figure isn't mentioned here, so I might need to check if that information is elsewhere in the report or if it can be inferred from context. Since it's only covered up to 2024 as per the date on the document provided, perhaps income distributions are a significant factor but their percentage isn't explicitly stated here.
+
+I should also mention that capital distributions and income distributions are both part of the total returns, which is around 75%. However, without specific figures for income distributions alone, I can only provide information up to what's given. 
+
+So putting it all together, the summary needs to include the fund name, date, the major source of returns being capital distributions at 74%, and note that income distributions are a component but their exact percentage isn't provided here.
+</think>
+
+**Summary of Investment Report:**  
+
+- **Fund Name:** Kingsguard Capital Fund  
+- **Date of Report:** March 19, 2025  
+- **Capital Distributions Outlook:** Capital distributions accounted for approximately 74% of total returns for investors this year. These distributions represent a significant portion of the fund's performance and are expected to play a major role in investor returns.  
+
+The report highlights that capital distributions have been a notable component of the fund's performance, with income distributions also contributing to total returns but not as prominently as capital distributions.

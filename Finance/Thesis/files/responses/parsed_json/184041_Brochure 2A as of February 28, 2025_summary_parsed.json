@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Alpha Fund",
+    "date": "2024-01-31",
+    "outlook": "increase",
+    "magnitude": 0.15,
+    "confidence": 0.8,
+    "explanation": "Capital distributions are expected to continue quarterly, suggesting a positive trend in the fund's capital structure."
+  }
+}

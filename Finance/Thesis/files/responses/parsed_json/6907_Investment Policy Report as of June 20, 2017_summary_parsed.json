@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "name": "DCP US Small Cap Stock Fund",
+      "date": "20231231",
+      "outlook": "stable",
+      "magnitude": 1,
+      "confidence": 0.7,
+      "explanation": "Moderate confidence that allocations will remain stable."
+    },
+    {
+      "name": "DCP US Large Cap Value Fund",
+      "date": "20231231",
+      "outlook": "stable",
+      "magnitude": 1,
+      "confidence": 0.75,
+      "explanation": "Slightly higher confidence in stable allocations."
+    },
+    {
+      "name": "FDIC Deposit Savings Account Allocation Policy",
+      "date": "20231231",
+      "outlook": "increase",
+      "magnitude": 5,
+      "confidence": 0.6,
+      "explanation": "Moderate confidence of slight increase."
+    },
+    {
+      "name": "Self-Directed Brokerage Account",
+      "date": "20231231",
+      "outlook": "increase",
+      "magnitude": 2,
+      "confidence": 0.5,
+      "explanation": "Low confidence of a slight increase."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "results": {
+    "name": "PCCP",
+    "date": "2023-04-19",
+    "outlook": "stable",
+    "magnitude": 21.8,
+    "confidence": 0.75,
+    "explanation": "Contributed R$10 billion, slightly higher than March's contribution."
+  },
+  "results": {
+    "name": "PSB",
+    "date": "2023-04-19",
+    "outlook": "stable",
+    "magnitude": 16.4,
+    "confidence": 0.75,
+    "explanation": "Contributed R$7.5 billion, similar to March's contribution."
+  },
+  "results": {
+    "name": "PSDT",
+    "date": "2023-04-19",
+    "outlook": "slight decrease",
+    "magnitude": 16.4,
+    "confidence": 0.75,
+    "explanation": "Contributed R$7.5 billion, lower than PSA's contribution."
+  },
+  "results": {
+    "name": "PSA",
+    "date": "2023-04-19",
+    "outlook": "increase",
+    "magnitude": 30.6,
+    "confidence": 0.70,
+    "explanation": "Contributed over R$14 billion, highest among the funds."
+  }
+}

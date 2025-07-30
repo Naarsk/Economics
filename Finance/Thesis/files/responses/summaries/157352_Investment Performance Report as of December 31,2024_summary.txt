@@ -1,0 +1,30 @@
+<think>
+Okay, so I need to help the user by summarizing this investment report. The task is clear: focus on the fund's name, the report's date, the outlook on capital distributions, and their magnitude in percentages.
+
+First, I'll read through the provided text carefully. It starts with a CIO Investment Report from Larry Krummen as a CFA, presented to the MPERS Board Meeting on February 21, 2025. The main subject is NEPC's investment performance report for the fourth quarter of 2024.
+
+Looking at the key points: the net market value is $3.82 billion. Markets were mixed that quarter due to Fed rate cuts, but MPERS' alternatives helped offset losses in traditional assets, leading to a gain of 0.2% and a year-over-year return near 12%. The fund's long-term returns are top-notch compared to peers.
+
+The current positioning is highlighted, with some performance metrics: 1-year up 11.96%, vs benchmark 12.30%, so slight underperformance. But for 5, 10, and 20 years, they outperform by more significant margins—3.03%, 1.44%, and 0.84% respectively.
+
+Looking ahead, NEPC is increasing the expected return to 6.9% from 6.5%, citing rising bond yields and a positive political climate for fixed income. Portfolio positioning includes higher allocations to traditional fixed income due to bond yields, lower public equity positions because of valuations and inflation concerns, and a long-term real estate allocation with timber portfolio growth.
+
+The current leverage is at 6.6% of assets, up from previous levels, probably due to fixed income purchases in the long duration portfolio as government mortgage yields are high (over 6%).
+
+Putting this together for the summary: need to include fund name, report date, and then look into capital distribution outlooks with percentages.
+
+I should structure it so that each key point is addressed succinctly. The user wants a clear focus on these elements without unnecessary details.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** NEPC  
+- **Report Date:** February 21, 2025 (as presented to the MPERS Board Meeting)  
+
+The report highlights that NEPC's investment performance for the fourth quarter of 2024 shows mixed market conditions due to Federal Reserve rate cuts, but the fund's portfolio, particularly its alternatives, helped offset losses in traditional assets. The overall gain for the quarter was 0.2%, pushing the calendar year return to nearly 12% and setting a new all-time high fund balance of $3.82 billion.
+
+Long-term returns are currently among the strongest in the public fund peer universe, outperforming both actuarial hurdle and policy benchmarks across 5-, 10-, and 20-year horizons.
+
+Looking ahead, NEPC is increasing its expected return projection to 6.9%, up from 6.5% the previous year, driven by rising bond yields and optimism about a "business-friendly" political climate. The current portfolio positioning reflects higher allocations to traditional fixed income due to bond yield increases, lower public equity positions amid inflation concerns, and continued strong performance in real assets, particularly the timber portfolio.
+
+Capital distribution outlooks indicate increasing leverage (6.6% of assets) as MPERS considers fixed income purchases to simplify the portfolio while maintaining or exceeding actuarial returns with lower management fees.

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Previa 3 - Tres Bens",
+    "date": "20250313",
+    "outlook": "increase",
+    "magnitude": 2,
+    "confidence": 0.95,
+    "explanation": "The report indicates expected capital distributions totaling approximately 2% of assets, suggesting an increase in distribution frequency."
+  }
+}

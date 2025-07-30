@@ -1,0 +1,24 @@
+<think>
+Alright, so I need to help summarize a section of an investment report. The user has given me a specific query where they want to focus on the fund's name, the date of the report, and the outlook on capital distributions, including their percentage impact.
+
+First, looking at the provided content, it seems like there are two blocks about Fund XYZ. Each block starts with "Fund XYZ" followed by a date in MM/DD/YYYY format. The first block talks about capital distributions starting from March 2023 to December 2024 and the outlook for 2025. It mentions distributions of $68.7 billion, which is 19% of total returns, and an expected increase due to higher yields.
+
+The second block has a similar structure but starts later, talking about the first quarter of 2025 with distributions totaling $34.2 billion, representing 17%, lower than expected because of inflation. It also mentions ongoing performance challenges in equities.
+
+Now, my task is to extract the fund name (Fund XYZ), note the report dates for both sections, and outline the capital distribution outlook each time, including the magnitude in percentage terms.
+
+I should make sure that I correctly identify each date's context—whether it's the first part of 2025 or just starting Q1. Also, ensuring that I capture the expected vs. actual distributions accurately.
+
+I think the user wants a concise summary without too much jargon but enough detail to understand how capital distributions are shaping up for the fund. So, including both dates and their respective distribution details should cover what they need.
+
+Finally, I'll present this information clearly, making sure each section is labeled appropriately so it's easy to read.
+</think>
+
+**Fund XYZ Report Summary:**
+
+- ** Fund Name:** Fund XYZ
+- **Report Dates:**
+  - March 1, 2023 – December 31, 2024: Capital distributions totaling $68.7 billion were expected, representing 19% of total returns.
+  - Q1 2025 (First quarter): Capital distributions of $34.2 billion are anticipated, which is 17% of performance, slightly lower than expected due to inflationary pressures in equities.
+
+This summary highlights the fund's capital distribution outlook for both past and current quarters, emphasizing the importance of these figures in assessing the fund's financial health and future performance.

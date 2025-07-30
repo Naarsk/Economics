@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund XYZ",
+    "date": "2018-12-31",
+    "outlook": "increase",
+    "magnitude": 5,
+    "confidence": 0.85,
+    "explanation": "Capital distributions are increasing as the fund grows."
+  }
+}

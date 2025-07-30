@@ -1,0 +1,31 @@
+<think>
+Alright, so I need to help someone who's asking for a summary of an investment report. Let me look at what they've given.
+
+They've included a block of text that seems like part of an ADV filing, which is a type of registration statement for investment advisers. It mentions a fund called "TFS Small-Cap 20/30 Portfolio" with the ticker TFSAX. The date provided is March 31, 2025.
+
+The user specifically wants a summary focusing on the name of the fund, the report's date, and the outlook on capital distributions, including their magnitude in percentage terms.
+
+First, I'll identify the key points:
+
+- Fund Name: TFS Small-Cap 20/30 Portfolio (TFSAX)
+- Report Date: March 31, 2025
+- Outlook on Capital Distributions:
+  - Monthly distributions will be $4.75 per unit.
+  - Annual capital distributions are expected to be approximately 6% of the investment.
+  
+I need to make sure I present this information clearly and concisely. The user is likely an investor who wants a quick overview without going through the entire report, so highlighting these points will be most useful.
+
+I should structure the summary starting with the fund name and date, followed by the distribution details. Using bullet points might help for clarity. Also, I need to ensure that the percentage is clearly stated as 6% of the investment.
+
+Let me put this together in a way that's easy to read. Maybe start with the fund information, then move on to the distributions, breaking them down into monthly and annual figures.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** TFS Small-Cap 20/30 Portfolio (Ticker: TFSAX)
+- **Report Date:** March 31, 2025
+- **Outlook on Capital Distributions:**
+  - **Monthly Distributions:** $4.75 per unit.
+  - **Annual Distributions:** Approximately 6% of the investment.
+
+This summary highlights the fund's name, the date of the latest report, and the expected capital distribution outlook in both monthly and annual terms.

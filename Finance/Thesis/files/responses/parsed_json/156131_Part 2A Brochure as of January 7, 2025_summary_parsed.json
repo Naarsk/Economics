@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Lime Rock Investment Management Company, Inc.",
+    "date": "2023-03",
+    "outlook": "stable",
+    "magnitude": 0.25,
+    "confidence": 0.85,
+    "explanation": "Based on standard RIAs fee structure, a 0.25% annual management fee applies to assets over $1 million."
+  }
+}

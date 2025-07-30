@@ -1,0 +1,15 @@
+<think>
+Alright, so I need to help the user by summarizing this investment report. They mentioned that they want me to focus on the fund's name, the report date, and the outlook on capital distributions along with their magnitude in percentages.
+
+First, I'll read through the provided text carefully to identify these key points. The main fund seems to be AIMCo Private Equity, as it appears multiple times throughout the document.
+
+Looking for the date of the report, I see mentions like "looking forward into 2022" and details about performance in 2021. So, the report is likely from early 2022 or late 2021. Since the user didn't specify the exact date, maybe I can infer it as around January 2022.
+
+Next, the outlook on capital distributions. The text talks about consistently investing in top-performing funds and co-investments, expanding product platforms, and geographically. It also mentions thoughtful broadening of the portfolio.
+
+Regarding the magnitude, the user wants it in percentage terms. I don't see specific numbers for capital distribution percentages here, so perhaps this part isn't detailed enough. Maybe the report doesn't provide exact figures on how much is distributed versus kept as capital.
+
+Putting it all together, my summary needs to be concise but include these elements: fund name, date, and the outlined points about investment strategy without specific percentage data.
+</think>
+
+The report discusses AIMCo Private Equity, a private equity fund. The latest update was made around [Report Date], focusing on the fund's strategy for 2022. The outlook emphasizes consistent investments in top-performing funds and co-investments, with plans to broaden product platforms and expand geographically. While specific details about capital distribution percentages are not provided, the emphasis is on maintaining a balance between growth opportunities and prudent risk management.

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "[FUND_NAME]",
+    "date": "[DATE]",
+    "outlook": "stable",
+    "magnitude": 5,
+    "confidence": 0.6,
+    "explanation": "No specific information is available to provide accurate details about the fund's performance or trends."
+  }
+}

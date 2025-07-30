@@ -1,0 +1,23 @@
+<think>
+Okay, so I need to help summarize this investment report for the Park Employees’ & Retirement Board Employees’ Annuity and Benefit Fund. The user specifically wants me to focus on four main points: the name of the fund, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+First, looking at the provided text, I see that there are several addendums, but they don't contain all the necessary information. The only addendum related to the investment policy is Addendum C, which doesn't provide a date or any distribution details beyond what's already known from earlier sections.
+
+In the beginning of the report, under "Addendum A," I see that the fund was adopted by the Retirement Board on June 17, 2021. So that gives me the date as 2021. 
+
+Regarding capital distributions, in Addendum B, there's information about the defined benefit plan with a last assumed actuarial rate of return at 7.25%. The fund has assets totaling $36 billion as of December 31, 2020 (since the report is from 2021). 
+
+The magnitude of capital distributions isn't directly stated in the provided text. Usually, this information would be found in a distribution statement or within the investment policy itself. Since that's missing here, I have to mention that the specific details about capital distributions aren't available based on the current document.
+
+Putting it all together, I'll structure my summary starting with the fund name, then the date of the report, followed by the actuarial rate and the total assets, and finally note that capital distribution details are not provided.
+</think>
+
+**Summary of Investment Report for Park Employees’ & Retirement Board Employees’ Annuity and Benefit Fund**
+
+- **Fund Name:** Park Employees’ & Retirement Board Employees’ Annuity and Benefit Fund
+- **Date of Report:** 2021 (adopted by the Retirement Board on June 17, 2021)
+- **Actuarial Rate of Return:** 7.25%
+- **Total Assets:** $36 billion as of December 31, 2020
+- **Capital Distribution Details:** Information not available in the provided document.
+
+This summary highlights the fund's adoption date, actuarial assumptions, total assets, and notes that capital distribution specifics are unavailable.

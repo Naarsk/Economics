@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Mariner Institutional",
+    "date": "20240215",
+    "outlook": "increase",
+    "magnitude": 70, // Calculated as (200-50)/150 * 100 = ~70%
+    "confidence": 0.6,
+    "explanation": "Quarters distributions suggest positive growth with potential volatility."
+  }
+}

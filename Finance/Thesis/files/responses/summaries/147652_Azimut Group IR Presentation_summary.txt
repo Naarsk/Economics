@@ -1,0 +1,15 @@
+<think>
+Okay, so I need to help this user by summarizing an investment report. They specifically mentioned focusing on the fund's name, the report's date, and the outlook on capital distributions, including their magnitude in percentages.
+
+First, looking at the query, they provided a detailed report about Azimut's funds across various locations with their respective contact information. However, the main content of the report isn't given here—it seems to be just a list of investment managers with addresses and contact details instead of actual fund performance data.
+
+Hmm, that means I can't extract specific numbers like capital distributions or growth percentages because they're missing. The user might have expected me to pull out information from this text, but since it's just a directory, there's nothing actionable here.
+
+So, in my response, I should acknowledge that the provided text doesn't include any investment figures or fund performance data. Without those details, it's impossible to summarize anything about capital distributions or their magnitude. Maybe the user was under the impression that all funds' performance reports were included, but clearly, they only provided locations and contact info.
+
+I should make sure my response is clear and helpful, letting them know I can't extract the necessary information. Perhaps offer assistance once they provide more detailed data from the investment report.
+</think>
+
+The text you provided appears to be a directory or list of various investment funds and their respective locations and contacts, rather than an actual investment report containing fund performance data or capital distribution details. Without specific information about the fund's name, date of the report, or details on capital distributions, I cannot provide a summary focusing on those aspects.
+
+If you can provide more details or clarify that you are referring to an actual investment report with numerical data, I would be happy to help summarize it!

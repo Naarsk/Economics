@@ -1,0 +1,13 @@
+<think>
+Okay, so I need to help the user by summarizing a specific section of an investment report. The query is asking me to focus on two main things: the name of the fund and the details related to capital distributions—specifically their outlook and magnitude as percentages.
+
+First, looking at the provided text, I see that it's from the Nest Corporation's Responsible Investment Report for 2023. The section mentioned is about "Meeting the FRC’s Stewardship Code." This part discusses how Nest meets various principles set by the Financial Regulatory Commission (FRC) regarding stewardship.
+
+The user wants a summary focusing on two points: the name of the fund and capital distributions. However, I notice that in this particular report section, there's no direct mention of a specific fund name. The report talks about general investment beliefs, strategies, and processes rather than individual funds or their performance details like capital distribution percentages.
+
+Therefore, without more context or another section of the report where a specific fund is discussed, it's not possible to provide information on the fund's name or its capital distributions. It would be necessary to look into other parts of the report for such details.
+
+In conclusion, based solely on the provided text, I can't extract the required information about the fund's name and its capital distribution percentage.
+</think>
+
+The summary cannot be completed with the provided information because no specific fund is mentioned in this section. The text focuses on general investment principles and processes rather than individual funds or their performance details, such as capital distributions.

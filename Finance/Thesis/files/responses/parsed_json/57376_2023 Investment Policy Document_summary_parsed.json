@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "FISER",
+    "date": "20231229",
+    "outlook": "increase",
+    "magnitude": 12.5,
+    "confidence": 0.95,
+    "explanation": "Capital distribution shows a strong return to investors with an increase of 12.5%"
+  }
+}

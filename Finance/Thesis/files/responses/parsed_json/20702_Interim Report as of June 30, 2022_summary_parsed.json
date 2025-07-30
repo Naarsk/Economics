@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "K 投资组合",
+    "date": "20230801",
+    "outlook": "increase",
+    "magnitude": 7,
+    "confidence": 0.95,
+    "explanation": "Expected significant growth in capital returns and moderate growth in dividends."
+  }
+}

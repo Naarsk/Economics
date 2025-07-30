@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Pensionsspeicherung Siemens AG",
+    "date": "20231110",
+    "outlook": "increase",
+    "magnitude": 0.15,
+    "confidence": 0.95,
+    "explanation": "Fund anticipates annual capital distribution rate of up to 15%"
+  }
+}

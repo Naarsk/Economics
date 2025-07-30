@@ -1,0 +1,21 @@
+<think>
+Okay, so I need to help this user by summarizing a specific section of an investment report. The report is about Wiltshire Pension Fund's Investment Strategy Statement from 2021. The user specifically wants me to focus on three main points: the name of the fund, the date of the report, and the outlook on capital distributions including their magnitude in percentage terms.
+
+First, I'll note down the key details from the provided text. The fund is called Wiltshire Pension Fund, right? And the report's date is 2021, as indicated by "INVESTMENT STRATEGY STATEMENT WILTSHIRE PENSION FUND 2021."
+
+Next, looking for information on capital distributions or dividend payments. I remember reading that the fund is transitioning their portfolio from BPP to Brunel. There was mention of operational costs and fee savings. Specifically, the report states that they aim to achieve breakeven by 2023 with operational costs of £14m per year. 
+
+Regarding fee savings, it mentions a target of £27.8m (which is 8.9bp) by 2025. That seems like a key point about capital distribution or how the fund is managing its costs and investments.
+
+So putting this together: The fund's name is Wiltshire Pension Fund, the report was from 2021, and regarding capital distributions, they have targets for fee savings at £27.8m by 2025 and aiming to breakeven in operational costs by 2023.
+
+I should make sure I'm clear and concise, only focusing on what the user asked for without adding extra information. Also, since it's a summary, using bullet points or short sentences would make it easy to read.
+</think>
+
+**Summary of Wiltshire Pension Fund Investment Report (2021):**
+
+- **Fund Name:** Wiltshire Pension Fund  
+- **Report Date:** 2021  
+- **Capital Distribution Outlook:**  
+  - The fund aims to achieve fee savings of £27.8 million by 2025, representing approximately 8.9 basis points (bp).  
+  - Operational costs are targeted to be breakeven by 2023, with annual spending estimated at £14 million per year.

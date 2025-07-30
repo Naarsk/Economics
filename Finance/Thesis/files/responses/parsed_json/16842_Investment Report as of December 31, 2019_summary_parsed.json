@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "name": "Shrewsbury",
+      "date": "20231010",
+      "outlook": "positive",
+      "magnitude": 9.5,
+      "confidence": 0.6,
+      "explanation": "Annualized return of approximately 9.5%."
+    },
+    {
+      "name": "Springfield",
+      "date": "20231010",
+      "outlook": "positive",
+      "magnitude": 11.2,
+      "confidence": 0.6,
+      "explanation": "Annualized return of approximately 11.2%."
+    },
+    {
+      "name": "Westbridge",
+      "date": "20231010",
+      "outlook": "positive",
+      "magnitude": 10.8,
+      "confidence": 0.6,
+      "explanation": "Annualized return of approximately 10.8%."
+    },
+    {
+      "name": "Worcester Regional",
+      "date": "20231010",
+      "outlook": "positive",
+      "magnitude": 9.3,
+      "confidence": 0.6,
+      "explanation": "Annualized return of approximately 9.3%."
+    },
+    {
+      "name": "Westfield",
+      "date": "20231010",
+      "outlook": "decline",
+      "magnitude": -5.2,
+      "confidence": 0.4,
+      "explanation": "Projected annualized return of approximately -5.2%."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<think>
+Alright, I need to help the user summarize a specific part of an investment report. The user is asking for a summary focusing on the name of the fund, the date of the report, and the outlook on capital distributions, including their magnitude in percentage terms.
+
+First, I'll look at the information provided in the query. It seems to be structured with multiple sections, each starting from item 1 onwards. The user included several documents: a main investment report (Item 2), an investment summary (Item 3), and then Brochure Supplements with Additional Compensation, Disciplinary Information, etc.
+
+The task is to extract three specific pieces of information:
+1. Name of the fund
+2. Date of the report
+3. Outlook on capital distributions including their percentage
+
+Looking at Item 2 of the document titled "Investment Report," I see that it mentions "Joel Chouinard" as the investment manager, the date is January 15, 2025, and the title refers to a "Multi-Axis Value-Added Opportunities Fund." The outlook on capital distributions is described as modest but growing.
+
+However, in the main report (Item 2), it's actually titled "Investment Report - Joel Chouinard, CFA," which indicates that the fund named there might be different. But since the Brochure Supplements focus on Joel Chouinard's background and not a specific fund, perhaps the main report is about his firm, SharpEdge Financial.
+
+Wait, looking again at Item 2: "Joel Chouinard, CFA" is listed as the Investment Manager, with the investment report date January 15, 2025. The title of the document refers to a Multi-Axis Value-Added Opportunities Fund. So that's the fund name.
+
+Putting it together:
+Fund Name: Multi-Axis Value-Added Opportunities Fund
+Date: January 15, 2025
+Outlook on Capital Distributions: Modest but growing
+
+I should make sure I'm not conflating information from different sections. The Brochure Supplements don't mention funds directly; they're about Joel's background and other activities.
+
+So the summary would be concise, focusing only on those three points as per the user's request.
+</think>
+
+Here is a summary of the investment report based on your focus:
+
+**Fund Name:** Multi-Axis Value-Added Opportunities Fund  
+**Date of Report:** January 15, 2025  
+**Outlook on Capital Distributions:** Modest growth expected.

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "State of Nevada Deferred Compensation Program",
+    "date": "20231231",
+    "outlook": "stable",
+    "magnitude": 5,
+    "confidence": 0.9,
+    "explanation": "Capital distributions are expected to remain stable at an annual rate of 5%."
+  }
+}

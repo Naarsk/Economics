@@ -1,0 +1,25 @@
+<think>
+Okay, so I have this user query where they want me to act as a financial analyst and summarize an investment report. Let's break down what they're asking for.
+
+First, the task is to focus on four main points: the fund's name, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms. I need to make sure these elements are clearly highlighted.
+
+Looking at the provided data, the fund in question is the Intermediate Total Return Fund (ITRF), established in 1992. The report covers June 30, 2021, so that's a key point to mention for the date.
+
+Now, the user also wants an outlook on capital distributions and its magnitude as percentages. From the data, I see returns over different periods: 1-year, 3-year, 5-year, etc., but there's no direct information on capital distribution frequency or amounts. That's a bit tricky because without specific figures for distributions like dividends or interest payments, it's hard to quantify.
+
+The asset mix is provided in both total and individual pool summaries. For example, Pool 1 has more US equities compared to Pool 2, which is interesting. But again, this doesn't directly relate to capital distribution unless we infer based on portfolio performance.
+
+I should note that the ITRF has higher market risk and potential for capital appreciation than other funds. That's an important point about its nature but not exactly a capital distribution outlook.
+
+So, putting it all together, I can summarize that while there's no specific data on capital distributions from this report, the fund's structure suggests it may involve more variable returns with higher risk, which could imply certain types of capital movements indirectly. But without explicit numbers, it's challenging to give precise figures for capital distribution.
+
+I need to make sure my summary is clear and hits all four points without getting bogged down by data that isn't available. I'll focus on the fund name, report date, and acknowledge the absence of specific distribution details while highlighting its characteristics.
+</think>
+
+The Intermediate Total Return Fund (ITRF) was established in 1992 with the goal of providing an alternative investment option for discretionary current funds, offering higher market risk and potential for capital appreciation compared to other investment options.  
+
+As of June 30, 2021:  
+- The fund's total returns over various periods (1-year, 3-year, 5-year, 10-year) are provided but do not explicitly outline the outlook on capital distributions or their magnitude in percentage terms.  
+- The asset mix for both Pool 1 and Pool 2 includes US equities, private equity funds, fixed income, real estate, and other investments, with varying allocations to these asset classes.  
+
+While the fund's structure suggests it may involve higher risk and potential for capital appreciation, specific details on capital distribution frequency or amounts are not explicitly provided in the report.

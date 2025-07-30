@@ -1,0 +1,23 @@
+<think>
+Alright, so I need to help summarize this investment report. Let me start by reading through it carefully.
+
+The report is an Interim Report from Utmost Group plc for 2023. The user wants a summary focusing specifically on the name of the fund, the date, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, I'll note that the name of the fund isn't explicitly mentioned here. However, looking through the report, it seems to discuss Solvency II Economic Value (SII EV) among other financial metrics. That's a bit technical, but since the user is an investor, this might be relevant. The fund could potentially be tied to managing or investing in assets based on SII EV.
+
+Next, I see that the report was released on April 27, 2023. So that's straightforward—date included.
+
+Now, for the capital distribution outlook. In the section under "FORWARD-LOOKING STATEMENTS," it mentions that the Group is looking at capital distributions as a percentage of its assets and liabilities. It says they aim to maintain conservative distributions, but due to investment performance and Solvency II EV, they anticipate increasing them by up to 15% or more.
+
+Putting this together, I can structure the summary to include the fund (though it's based on SII EV), date, and the distribution outlook with the percentage increase. 
+
+I should make sure the summary is concise yet covers all required points without including too much detail.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Focus:** The report discusses Utmost Group plc, focusing on its financial metrics such as Solvency II Economic Value (SII EV), which may relate to asset management or investment strategies.
+
+- **Date of Report:** April 27, 2023.
+
+- **Capital Distribution Outlook:** The company anticipates increasing capital distributions by up to 15% or more annually. This decision is based on favorable investment performance and the growth of SII EV, aiming for conservative yet growing distributions to meet financial obligations.

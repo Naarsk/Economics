@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "WPP",
+    "date": "2023-05-25",
+    "outlook": "decrease",
+    "magnitude": 0.5,
+    "confidence": 0.8,
+    "explanation": "The fund is adapting to budgetary changes and may experience a decrease in capital distribution, with moderate confidence."
+  }
+}

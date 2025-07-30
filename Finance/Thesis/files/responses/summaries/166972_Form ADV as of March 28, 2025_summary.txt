@@ -1,0 +1,56 @@
+<think>
+Okay, so I need to help summarize this investment report. The user has provided some text that seems to be an annual report from a mutual fund or similar investment vehicle. Let me read through it carefully.
+
+First, looking at the beginning of the text: It mentions that the fund is called "Invesco Short Duration Floating Rate Bond Index Fund, Inc." with ISIN US1108397506 andCUSIP 74264A107. That's pretty specific, so I should include that as part of the summary.
+
+Next, it says the report was issued on December 31, 2023, by Invesco, a well-known investment firm. The fund has assets under management of $5 billion. That gives me the total assets figure to note.
+
+Now, looking at the fund's performance: It had a net asset value (NAV) increase from $20.48 per share on December 31, 2022, to $21.76 on December 31, 2023. That’s an increase of approximately $1.28 over the year.
+
+Then there's a section about capital distributions. The fund paid out $549 million in dividends and interest during 2023. Out of that, they paid $479 million to investors as distributions. So, nearly all of the total payments went to shareholders.
+
+Looking at where these distributions were made: 81% to domestic general partners (GPs) and 19% internationally. That's interesting because it shows a significant portion going outside the U.S., which might indicate an international strategy or presence in other markets.
+
+The fund also mentioned capital gains distributions of $253 million, all paid out as dividends for investors. That's another way the fund is distributing returns to its shareholders.
+
+Then there are projections for 2024: The average expected NAV increase is around 1.97%, and they expect total returns of about 6.8%. These percentages give an idea of the anticipated growth and performance in the coming year.
+
+Putting it all together, I need to summarize this information concisely, focusing on the fund name, date, capital distribution outlook (including amounts in percentage terms). 
+
+Wait, the user specifically asked for the name, the report's date, and the outlook on capital distributions with their magnitude in percentage terms. So maybe I should structure it as:
+
+- Fund Name
+- Report Date: December 31, 2023
+- Current NAV per share increased by about 6.17% (from $20.48 to $21.76)
+- Total assets under management: $5 billion in 2023
+- Capital distributions:
+  - Dividends and interest paid: $549M, of which $479M was distributed to investors (domestic GPs 81%, international 19%)
+  - Capital gains distribution: $253M as dividends
+
+Outlook for 2024:
+- NAV expected to increase by ~2.0%
+- Total returns expected at ~6.8%
+
+I should make sure to present these facts clearly and concisely, using percentages where applicable.
+</think>
+
+**Invesco Short Duration Floating Rate Bond Index Fund, Inc. Annual Report Summary**
+
+**Fund Name:** Invesco Short Duration Floating Rate Bond Index Fund, Inc.
+
+**Report Date:** December 31, 2023
+
+**Performance Overview:**
+- **Net Asset Value (NAV):** Increased from $20.48 per share in 2022 to $21.76 per share in 2023, representing a 6.17% increase.
+- **Total Assets:** $5 billion as of December 31, 2023.
+
+**Capital Distributions:**
+- Total distributions for the year:
+  - Dividends and interest paid: $549 million, with $479 million distributed to investors (81% domestic general partners, 19% international).
+  - Capital gains distribution: $253 million, all paid as dividends.
+
+**Outlook for 2024:**
+- Expected NAV increase: Approximately 2.0%.
+- Anticipated total returns: Around 6.8%.
+
+This summary encapsulates the fund's performance and distribution strategy for the year, along with its projected growth outlook for the next year.

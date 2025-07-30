@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Gresham House RESi LP",
+    "date": "2023-03-31",
+    "outlook": "decrease",
+    "magnitude": 0,
+    "confidence": 0.8,
+    "explanation": "Zero yield and no rental return, indicating potential underperformance."
+  }
+}

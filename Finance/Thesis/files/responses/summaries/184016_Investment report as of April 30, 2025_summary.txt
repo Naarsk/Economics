@@ -1,0 +1,13 @@
+<think>
+Okay, I need to help the user by summarizing the given investment report. The query is about being a financial analyst and focusing on four main points: the fund's name, the report's date, the outlook on capital distributions, and the magnitude in percentage terms.
+
+First, looking at the provided data, the fund's name isn't explicitly stated, but it seems to be "LASERS Investment Performance" based on the title. The report date is April 30, 2025.
+
+Next, I need to identify the outlook on capital distributions and its magnitude. Scanning through the sections, under Market Value, Total Equity shows a decrease of -1.7%, while Total Fixed Income is mixed at -0.7%. Alternatives have a positive 2.5% return. However, gross-of-fee returns are not directly mentioned in the equity or alternatives sections.
+
+The user wants to know about capital distributions' outlook and magnitude. Since there's no direct mention of capital distribution in the provided data, I might need to infer that the information isn't available or is not included in this report. Alternatively, if the fund typically reports on distributions, but it's missing here, perhaps due to formatting.
+
+Considering all this, I'll structure my summary by stating the fund name and date first, then address the lack of specific distribution data. It's important to be clear that while there's no direct information available on capital distribution outlook or magnitude based on the provided report.
+</think>
+
+The investment report focuses on "LASERS Investment Performance" as of April 30, 2025. The outlook on capital distributions and its magnitude in percentage terms is not explicitly mentioned or provided in the given data.

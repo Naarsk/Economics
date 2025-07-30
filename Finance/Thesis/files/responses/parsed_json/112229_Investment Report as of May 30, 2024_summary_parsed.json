@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "DiversifiedFund",
+    "date": "20240430",
+    "outlook": ["increase", "decrease", "increase", "decrease", "increase", "decrease"],
+    "magnitude": [3, -0.05, 0.1, 0.27, 8.09, 16.08],
+    "confidence": 0.75,
+    "explanation": "The portfolio balances growth in commodities and currencies with slight decreases in bonds and CHF, reflecting a stable strategy amid dynamic markets."
+  }
+}

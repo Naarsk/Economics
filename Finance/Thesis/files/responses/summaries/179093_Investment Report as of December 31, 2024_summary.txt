@@ -1,0 +1,26 @@
+<think>
+Okay, so I need to help the user summarize an investment report. Let me read through it carefully first. The user wants a summary focusing on four main points: the fund's name, the report's date, the outlook on capital distributions, and the magnitude of that distribution in percentage terms.
+
+Looking at the report, the fund is called Shared Risk Plan for Academic Employees of UNB, abbreviated as AESRP. The report was issued on December 31, 2024. 
+
+The investment performance section mentions a positive return of 6.60% for the first half of 2025. This resulted in $30.5 million in gains from investments plus contributions. After subtracting plan expenses and benefits like retiree distributions, the assets increased by approximately $29.7 million.
+
+Next, the report talks about four-year returns: one at 5.13% and another since Vestcor's management started in October 2015 at 6.14%, both outperforming benchmarks and above a target of 4.50%. 
+
+The asset mix section shows that Canadian bonds are the largest holding at 34%, with other allocations spread across equities, real estate, etc.
+
+For the market outlook, the report mentions potential impacts from U.S. elections affecting trade partners like Canada, leading to tariffs and possible consumer price increases. However, it also highlights trends like AI outperformance in tech sectors, which could be positive or lead to volatility for active managers.
+
+Putting this all together, I should structure a summary that includes each of these points clearly but concisely. The user might need this for a quick overview, so highlighting the key numbers and impacts without getting too detailed.
+</think>
+
+**Summary: Shared Risk Plan for Academic Employees of UNB (AESRP) Investment Manager’s Mid-Year Report**
+
+- **Fund Name**: AESRP  
+- **Report Date**: December 31, 2024  
+
+The fund achieved a positive investment return of **6.60%** for the first half of the 2025 fiscal year, resulting in approximately $30.5 million in gains from investments and contributions. After accounting for plan expenses and benefits, such as retiree distributions, the fair value of invested assets increased by roughly **$29.7 million**, reflecting a net increase since June 30, 2024.
+
+The portfolio's asset mix is well-diversified, with the largest allocation being **Canadian bonds (34%)**, followed by high yield bonds (8.9%), low volatility equity (21.3%), real estate and infrastructure (26.2%), small cap equities (2.1%), fixed income, equities, and real assets.
+
+Looking ahead, market outlooks indicate potential challenges from U.S. elections impacting trade partners like Canada, possibly leading to tariffs or increased consumer costs. However, broader trends such as AI stock outperformance in the tech sector may present opportunities for short-to-medium term value creation. Active managers will need to navigate these risks tactically and strategically.

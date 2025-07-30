@@ -1,0 +1,19 @@
+<think>
+Alright, let me try to figure this out. The user has provided a detailed investment report and wants a summary focusing on the fund's name, the report date, and the outlook on capital distributions, including their magnitude.
+
+First, I'll start by identifying where each of these elements is mentioned in the text. The fund's name isn't explicitly stated but from context, it's an HPRS Separate Accounts Fund. So that should be included as part of the summary.
+
+Next, looking for the date of the report. Scanning through the document, I see that it was approved and revised on December 16, 2021. That seems to be the most recent version, so that's the report date to include.
+
+Now, the outlook on capital distributions. The text mentions a focus on achieving stable capital distribution. It also specifies that distributions will continue as long as assets remain consistent with the investment plan and there are no significant changes in liabilities or investment goals. In terms of magnitude, it's stated that distributions will be at least 70% from liquidating marketable securities, which is a significant portion.
+
+I should make sure to convey all these points clearly without getting too bogged down in other details like fees, managers, or specific investments. The user only asked for the name, date, and distribution outlook with magnitude, so I'll structure the summary accordingly.
+</think>
+
+The investment report pertains to **HPRS Separate Accounts Fund** and was last revised on **December 16, 2021**. 
+
+### Key Points:
+- **Capital Distribution Outlook**: The fund has a focus on achieving stable capital distribution. Distributions will continue as long as assets remain consistent with the investment plan and there are no significant changes in liabilities or investment goals.
+- **Magnitude of Capital Distribution**: At least **70%** of distributions will be from liquidating marketable securities, indicating a preference for distributing proceeds from actively traded securities.
+
+The fund emphasizes stability and consistency in capital distribution while maintaining alignment with the overall investment strategy.

@@ -1,0 +1,12 @@
+{
+  "results": [
+    {
+      "name": "Xtrackers MSCI WORLD ETF",
+      "date": "2023-12-15",
+      "outlook": "increase",
+      "magnitude": 2.04,
+      "confidence": 0.85,
+      "explanation": "The increase suggests robust performance in the global ex-US market."
+    }
+  ]
+}

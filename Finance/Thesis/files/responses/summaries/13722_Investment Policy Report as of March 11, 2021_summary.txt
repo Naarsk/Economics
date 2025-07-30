@@ -1,0 +1,31 @@
+<think>
+Okay, so I need to help the user summarize a portion of an investment report they've shared. The user has given me a specific instruction to focus on three main points: the name of the fund, the date of the report, and their outlook on capital distributions along with its magnitude in percentage terms.
+
+Looking at the provided text, I can see that there are several exhibits mentioned like Exhibit A through Exhibit D. However, upon closer inspection, only Excerpt 1 seems to contain relevant information about a specific investment report titled "Investment Report of TCDRS Investment Policy adopted Dec.4,2014." This excerpt discusses the policy details related to capital distributions.
+
+The name of the fund isn't explicitly given in the text provided. It just refers to "the System," which might be an internal designation rather than a publically traded fund or ETF with a specific name.
+
+Next, I need to check when this report was adopted. The date mentioned is December 4, 2014 (Dec. 4, 2014), so that's clear for the date of the report.
+
+Regarding the outlook on capital distributions and their magnitude in percentage terms, Excerpt 1 mentions several percentages related to different fund types: Private Equity at 5%, Hedge Funds at 7%, Real Estate at 3%, and a Combined Total of 15%. It also refers to "Capital Distributions" but doesn't specify the exact outlook. Since it's part of an investment policy, it might outline the target allocation percentages for these asset classes.
+
+However, without more context from other exhibits or parts of the report (Exhibit B through D), I can only provide limited information based on what's present here. The user may be looking for a summary that includes these specific details, but since some data is missing in this excerpt, it might not cover all aspects they need.
+
+In summary, while I can extract the name as "TCDRS Investment Policy," the date as December 4, 2014, and mention the percentages for each fund type, a complete summary would require information from other parts of the report that aren't provided in the given text.
+</think>
+
+Based on the provided excerpt:
+
+- **Name of the Fund**: The document refers to "TCDRS Investment Policy," which may denote an internal policy rather than a specific fund name.
+
+- **Date of the Report**: The adopted date is December 4, 2014 (Dec. 4, 2014).
+
+- **Outlook on Capital Distributions**: The report mentions target allocations for different fund types:
+  - Private Equity: 5%
+  - Hedge Funds: 7%
+  - Real Estate: 3%
+  - Combined Total: 15%
+
+These percentages may outline the target allocation proportions for these asset classes within the investment strategy. However, without further context or details from other parts of the report (Exhibit B through D), a more comprehensive summary cannot be provided.
+
+The user may be seeking a summary that includes these specific details but is aware that some information might be limited due to the excerpt's scope.

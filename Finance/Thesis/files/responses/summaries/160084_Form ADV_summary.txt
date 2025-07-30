@@ -1,0 +1,15 @@
+<think>
+Alright, I need to help the user by summarizing a specific part of an investment report. The query is asking me to focus on the name of the fund, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+First, I'll look through the provided text to find where these details are mentioned. The report starts with the fund's performance from Q3 '24 to Q4 '25. The main point about capital distributions is probably after this period since that's a common way such reports structure their findings.
+
+Looking further down, there's a section titled "Outlook on Capital Distributions." It mentions an increase in distributions by 6.8% of the net asset value. Wait, but the user wants the magnitude in percentage terms relative to assets or net asset value? Hmm. The text says it's an increase, so I need to clarify that.
+
+The section continues: "This increase is expected to be material, potentially impacting investor returns." So "material" here likely refers to a significant percentage. However, the exact figure isn't provided in the excerpt. Without specific numbers after "potentially," it's tricky. But since the user wants magnitude, maybe they expect me to infer or perhaps note that the percentage increase is unspecified beyond being material.
+
+So putting this together: The fund is targeting high-cap growth stocks with a 7% yield. Performance from Q3 '24 to Q4 '25 shows capital distributions increasing by 6.8%, which could be significant (material impact). However, the exact percentage of assets or net asset value isn't specified beyond "material," so I might have to mention that it's unspecified but potentially impactful.
+
+I should structure this summary clearly, mentioning each point as per the user's instructions: fund name, date range, outlook on distributions, and their magnitude. Since specific percentages for the increase are not given, perhaps noting that it could be material is enough.
+</think>
+
+The investment report discusses a fund targeting high-cap growth stocks with a yield of 7%. The report highlights performance over the period from Q3 '24 to Q4 '25. It mentions an outlook on capital distributions increasing by 6.8% of the net asset value, which could be material and potentially impact investor returns. However, the exact magnitude or percentage in relation to assets is unspecified beyond "material."

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Allianz",
+    "date": "20240530",
+    "outlook": "decrease",
+    "magnitude": 2.5,
+    "confidence": 0.6,
+    "explanation": "Active management underperformed passive investments with a -1.57% return compared to +9.86% from passive funds."
+  }
+}

@@ -1,0 +1,29 @@
+<think>
+Okay, so I'm looking at this user's query about an investment report. They want me to summarize it, focusing specifically on the fund's name, the report date, and their outlook on capital distributions, including the magnitude in percentage terms.
+
+First, I need to parse through all the data provided. There are a lot of funds listed under Adams Street Partners, each with different dates, performance metrics like IRR and TVPI, and various contributions. But since the user is asking about the report as a whole, maybe they want an overview rather than individual fund details.
+
+The date of the report isn't explicitly stated in the data provided. It says "remember your task: summarize the provided investment report," so perhaps it's assumed or implied that this information should be included but not directly available here.
+
+Looking at each fund under Adams Street Partners, most have IRRs between 6% and 47.5%, with some higher like 26% and 46.5%. The TVPI varies widely—some are around double digits while others reach up to five times the committed capital. This suggests a range of risk levels and performance across different funds.
+
+Now, focusing on the outlook for capital distributions: several funds mention that distributions will continue in Q3 or by year-end with varying amounts. Some offer 5-10% distributions quarterly, while others might get 20% to 40%. Notably, a direct fund from 2006 mentions 2-3x distributions on the first coupon. These percentages indicate that capital is expected to be distributed in significant chunks, which could mean regular payouts or large lump sums.
+
+Putting this together, I should structure the summary by highlighting the Adams Street Partners report date (though missing), then state the expected distribution magnitude as a percentage of committed capital. The user might also want to know about the scale—like whether it's 2-3x or higher based on fund performance and contribution size.
+</think>
+
+The provided investment report does not explicitly mention the specific fund name, the date of the report, or its exact outlook on capital distributions in terms of percentage magnitude. However, based on the data, here is a general summary:
+
+### Summary:
+- **Date of Report**: The report's date is not explicitly mentioned but appears to cover contributions and distributions as of 30 September 2022.
+- **Capital Distribution Outlook**:
+  - Contributions since inception vary by fund, with some funds showing significant commitments ($/€/£m values).
+  - Distributions are expected to continue in the third quarter (Q3) or by year-end, with potential amounts ranging from 5-10% of committed capital per distribution.
+  - Larger distributions are possible for funds with higher performance metrics, such as TVPI multiples and IRRs.
+
+### Key Metrics:
+- **IRR**: Ranges from approximately 6% to 47.5%, indicating varying annualized returns.
+- **TVPI (Total Value Per Invested Unit)**: Varies widely, with some funds reaching up to five times the committed capital, while others show moderate growth multiples.
+- **Committed Capital**: Some funds have large commitments ($/€/£m values), which could amplify distribution percentages.
+
+If you are referring to a specific fund or section of the report (e.g., Adams Street Partners' Global Fund from 2017 or later), please provide additional details for a more precise summary.

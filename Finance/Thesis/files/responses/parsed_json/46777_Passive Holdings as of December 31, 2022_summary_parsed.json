@@ -1,0 +1,76 @@
+{
+  "results": [
+    {
+      "name": "Adam Street Partners Direct",
+      "date": "2006-01-01",
+      "outlook": "stable",
+      "magnitude": 15,
+      "confidence": 0.85,
+      "explanation": "Stable growth with focus on domestic markets and high-quality companies."
+    },
+    {
+      "name": "Lexington Fund",
+      "date": "2006-01-01",
+      "outlook": "growth",
+      "magnitude": 35,
+      "confidence": 0.85,
+      "explanation": "Growth-oriented strategy with potential for capital appreciation."
+    },
+    {
+      "name": "LGPSS Central PE Primary Partnership LP",
+      "date": "2018-01-01",
+      "outlook": "strong performance",
+      "magnitude": 45,
+      "confidence": 0.75,
+      "explanation": "Focus on infrastructure and renewable energy with large-scale investments."
+    },
+    {
+      "name": "Pantheon Access",
+      "date": "2016-01-01",
+      "outlook": "moderate growth",
+      "magnitude": 20,
+      "confidence": 0.75,
+      "explanation": "Balanced approach with significant investment in global equities and alternative assets."
+    },
+    {
+      "name": "Pantheon Global Asia Fund V",
+      "date": "2007-01-01",
+      "outlook": "strong growth",
+      "magnitude": 30,
+      "confidence": 0.85,
+      "explanation": "Large-scale investment in Asia-Pacific opportunities."
+    },
+    {
+      "name": "Pantheon Global Europe Fund IV",
+      "date": "2004-01-01",
+      "outlook": "moderate to strong growth",
+      "magnitude": 15,
+      "confidence": 0.75,
+      "explanation": "Significant investment in European-based companies and infrastructure."
+    },
+    {
+      "name": "Pantheon Global Europe VI",
+      "date": "2007-01-01",
+      "outlook": "stable performance",
+      "magnitude": 15,
+      "confidence": 0.85,
+      "explanation": "Moderate to large scale with emphasis on value-oriented investments."
+    },
+    {
+      "name": "Pantheon Global Macroeconomic Strategies LP",
+      "date": "N/A",
+      "outlook": "balanced growth",
+      "magnitude": 35,
+      "confidence": 0.85,
+      "explanation": "Significant investment across various asset classes with a focus on stability."
+    },
+    {
+      "name": "Pantheon Global REIT Fund",
+      "date": "2013-01-01",
+      "outlook": "growth potential",
+      "magnitude": 25,
+      "confidence": 0.85,
+      "explanation": "Large to medium scale with emphasis on real estate development projects."
+    }
+  ]
+}

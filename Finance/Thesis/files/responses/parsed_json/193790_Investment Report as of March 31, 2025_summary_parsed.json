@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fundo de Investimento de Renda Fixa Simples",
+    "date": "14/02/2023",
+    "outlook": "increase",
+    "magnitude": 0.93,
+    "confidence": 0.85,
+    "explanation": "Positive monthly return of approximately 0.93%."
+  }
+}

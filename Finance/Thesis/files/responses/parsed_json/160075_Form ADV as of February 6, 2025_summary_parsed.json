@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "<Fund Name>",
+    "date": "202403",
+    "outlook": "decrease",
+    "magnitude": null,
+    "confidence": 0.5,
+    "explanation": "The fund's value decreased from $6,397 million as of March 31, 2024, to an estimated $5,986 million by the end of December 2024."
+  }
+}

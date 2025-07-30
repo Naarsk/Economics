@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund of Collective Investment in the Italian SOFR (Short-Term Rate) Index",
+    "date": "20230414",
+    "outlook": "expected_increase",
+    "magnitude": 7.5,
+    "confidence": 0.85,
+    "explanation": "Expected annual distributions to increase based on positive portfolio performance."
+  }
+}

@@ -1,0 +1,47 @@
+<think>
+Okay, so I have this query where someone wants me to summarize a specific investment report. They mentioned focusing on the name of the fund, the report's date, and the outlook on capital distribution along with its percentage. Let me try to break this down.
+
+First, looking at their provided text, it seems like they've given two reports: one from EMBRAER PREV about July 2021 investments and another part from a glossary explaining financial terms. I need to figure out which part is relevant here.
+
+The main focus is on summarizing the investment report, so probably the first section since that's where all the fund details are provided. The user specified focusing on the fund name, date, and capital distribution outlook with percentages.
+
+I'll start by identifying the fund names from the text: Fundo de Investimento Exterior (FIE) and Fundo de Investimento Imobiliário (FII). Both have their own descriptions about their investments. 
+
+The reports are both from July 2021, so that's clear. Now, looking at how they distribute capital—FIE invests in global markets like the US, Europe, and Asia with percentages given for each market. FII is allocated to different property types: residential, commercial, retail, industrial, and others, with specific percentages.
+
+I need to structure this summary clearly, highlighting each fund's name, date, location of investment (where they're investing), their capital distribution breakdown, the magnitude in percentage terms, and any notable points like diversification or market focus.
+
+Wait, the user also included a glossary. Should I include that? Probably not since it's about financial terms and doesn't directly relate to summarizing the specific investment report structure as per the query. So focusing solely on FIE and FII would be better.
+
+I need to make sure I capture all percentages accurately from the text, like 57% in FIE going to the US, 38% Europe, etc., and similarly for FII's distribution across different property types.
+
+Also, checking if there are any standout points, such as the emphasis on emerging markets or specific asset allocations. The user might be interested in knowing where the funds are most concentrated based on percentages.
+
+I should present this information concisely but thoroughly, ensuring all requested elements are covered: fund names, report date, and capital distribution with their respective percentages.
+</think>
+
+### Summary of the Investment Report:
+
+1. **Fund Name**:  
+   - **Fundo de Investimento Exterior (FIE)** and **Fundo de Investimento Imobiliário (FII)**.
+
+2. **Report Date**:  
+   The report is from **July 2021**.
+
+3. **Capital Distribution Outlook and Magnitude**:  
+
+   - **Fundo de Investimento Exterior (FIE)**:  
+     The fund has allocated its investments across global markets, with the following breakdown in percentage terms:  
+     - **57%** to the United States (U.S.).  
+     - **38%** to European markets.  
+     - **4%** to emerging markets such as China, Brazil, and India.  
+
+   - **Fundo de Investimento Imobiliário (FII)**:  
+     The fund has allocated its investments across different property types, with the following breakdown in percentage terms:  
+     - Residential properties: **50%**  
+     - Commercial properties: **25%**  
+     - Retail properties: **15%**  
+     - Industrial properties: **5%**  
+     - Other assets (e.g., vacation homes or art): **5%**
+
+   The report highlights a focus on diversification across markets and asset types, with the majority of investments concentrated in residential properties.

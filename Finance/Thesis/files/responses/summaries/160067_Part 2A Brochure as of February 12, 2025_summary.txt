@@ -1,0 +1,11 @@
+<think>
+Okay, I need to help the user summarize a specific part of an investment report. The main points they want are the name of the fund, the date reported, and Kevin Clark's outlook on capital distributions along with their magnitude.
+
+First, from the text provided, I'll look for where the fund is named. It says "PLAN CONFIDENCE FUND," so that should be straightforward. Next, the date mentioned is in February 2025 under the Disclosure Brochure Supplement (DBS).
+
+Now, focusing on Kevin Clark's remarks about capital distributions. He mentions that the fund will continue to generate capital distributions to meet obligations and ensure returns. He also states that as of December 31, 2024, the value of outstanding capital distributions was $587 million out of total commitments of over $9 billion.
+
+I need to present this information clearly: fund name, date, Clark's statement on continued distribution efforts, the amount distributed so far in percentage terms relative to total commitments. That way, the user gets a concise summary focusing on their requirements.
+</think>
+
+The investment report discusses **PLAN CONFIDENCE FUND**, with Kevin T. Clark, RF™, stating that capital distributions will continue to be generated to meet obligations and ensure returns for clients. As of December 31, 2024, the value of outstanding capital distributions was $587 million, representing approximately 6.5% of total commitments of over $9 billion.

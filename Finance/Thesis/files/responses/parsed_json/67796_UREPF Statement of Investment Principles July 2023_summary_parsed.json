@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund XYZ",
+    "date": "20240331",
+    "outlook": "increase",
+    "magnitude": 0.75,
+    "confidence": 0.9,
+    "explanation": "The fund appears to focus on providing significant returns through structured distributions over time, tailored to both existing and new investors."
+  }
+}

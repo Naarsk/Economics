@@ -1,0 +1,20 @@
+<think>
+Okay, so I need to help the user by summarizing a provided investment report. The user mentioned that they want me to focus specifically on the fund's name, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, let me read through the information given carefully. The report starts with some general information about OPTrust's investment fund. It mentions things like the purpose of the fund, fee structure, investment objectives, and various other policies such as risk management, environmental, social, governance (ESG) considerations, delegation of voting rights, permitted borrowing, conflicts of interest, related party transactions, delegation/retention of voting rights, proxy voting, etc.
+
+Looking further down, I see that the report is from December 15, 2021. It mentions that the SIPP may need to be amended more frequently than annually due to material changes in asset allocation and strategy. That seems important because it indicates ongoing updates to the investment policy.
+
+Now, focusing on the key points related to capital distributions: The report doesn't explicitly mention the magnitude of capital distributions or their outlook. However, since the SIPP is mentioned as potentially needing frequent amendments, this might imply that the fund's distribution policies are being closely monitored and possibly adjusted regularly.
+
+To structure the summary effectively, I should include:
+1. The name of the fund.
+2. The date of the report.
+3. Any specific information about capital distributions or their outlook.
+
+Since explicit percentage figures for distributions aren't provided in the given text, perhaps it's not included here. However, if there were such details, they should be highlighted. 
+
+Given that, my summary would focus on the fund name, the date of the report, and note any related policy changes without specific distribution data.
+</think>
+
+The investment report pertains to OPTrust's investment fund as of December 15, 2021. While no specific details about capital distributions or their magnitude in percentage terms are provided, it is noted that the Self-Administered Investment Plan (SIPP) may require amendments more frequently than annually due to material changes in asset allocation and strategy. This suggests ongoing updates to the fund's distribution policies and structure.

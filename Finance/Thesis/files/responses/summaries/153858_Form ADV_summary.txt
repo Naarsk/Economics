@@ -1,0 +1,11 @@
+<think>
+Alright, so I need to help the user by summarizing an investment report. They mentioned focusing on the name of the fund, the date, the outlook on capital distributions, and their magnitude in percentage terms.
+
+Looking at the provided report, it's about a fund called "Innovation Fund" as of December 31, 2024. The key point is that they expect to distribute approximately 65% of the capital gains realized during the year.
+
+Wait, but I should make sure if there are other important details. Let me check again: the date given is December 31, 2024. The main focus is on the distribution outlook and its percentage magnitude. The report says they expect to distribute about 65% of capital gains. 
+
+I think that's all for this summary. I should present it clearly with the required elements.
+</think>
+
+The investment report pertains to the "Innovation Fund" as of December 31, 2024. The outlook indicates that approximately 65% of the capital gains realized during the year are expected to be distributed to investors.

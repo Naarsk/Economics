@@ -1,0 +1,15 @@
+<think>
+Okay, I need to help the user by summarizing the given investment report. Let me read through it carefully.
+
+The report starts with some German text about a fund named VVaG, which is part of Dresdener Pensionskasse. The date is May 16, 2023. It mentions that the fund focuses on long-term capital distribution and sustainability, aiming for environmental goals like renewable energy under SDG 7.
+
+Looking further down, the report talks about risk management strategies, diversification through various asset classes such as infrastructure, real estate, equities, and bonds. It emphasizes controlling exposure to certain sectors while maintaining a focus on secure and profitable investments.
+
+The user's task is to summarize this report focusing on the fund name, date, and the outlook on capital distribution in percentage terms. I should make sure to include these key points clearly and concisely.
+
+I need to structure the summary with the fund name first, then the date, followed by the main outlook on how capital will be distributed—probably mentioning renewable energy's role at a certain percentage like 12%. The risk management part is also important but perhaps can be noted as supporting the distribution strategy. 
+
+I should ensure the summary is brief and hits all required elements without including too much detail.
+</think>
+
+The investment report pertains to the fund **VVaG** under Dresdener Pensionskasse, dated May 16, 2023. The outlook highlights a focus on long-term capital distribution with an emphasis on sustainability, particularly in renewable energy, aligning with SDG 7 at approximately 12%. The strategy involves diversification across asset classes such as infrastructure, real estate, equities, and bonds to manage risk while maintaining secure and profitable investments.

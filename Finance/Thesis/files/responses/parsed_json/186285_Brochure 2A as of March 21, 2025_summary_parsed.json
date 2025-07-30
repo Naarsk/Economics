@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "ExampleFund",
+    "date": "20231005",
+    "outlook": "increase",
+    "magnitude": 15,
+    "confidence": 0.8,
+    "explanation": "Capital distributions are expected to grow by 15% over the next six months, contributing significantly to overall performance."
+  }
+}

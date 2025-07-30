@@ -1,0 +1,20 @@
+{
+  "results": {
+    "fii": {
+      "name": "Fundo de Investimento Imobiliário",
+      "date": "202105",
+      "outlook": "increase",
+      "magnitude": 45,
+      "confidence": 0.7,
+      "explanation": "Increasing capital distribution aligns with stable investment performance."
+    },
+    "fiex": {
+      "name": "Fundo de Investimento Exterior",
+      "date": "202105",
+      "outlook": "increase",
+      "magnitude": 63,
+      "confidence": 0.7,
+      "explanation": "Significant increase in capital distribution reflects high performance expectations."
+    }
+  }
+}

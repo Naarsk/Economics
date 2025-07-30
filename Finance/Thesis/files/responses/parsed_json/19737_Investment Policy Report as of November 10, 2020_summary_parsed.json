@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "XYZ Fund",
+    "date": "2023-10-31",
+    "outlook": "stable",
+    "magnitude": 5,
+    "confidence": 0.8,
+    "explanation": "Fixed income provides stability; equity offers moderate growth potential."
+  }
+}

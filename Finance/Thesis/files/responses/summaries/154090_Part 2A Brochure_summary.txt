@@ -1,0 +1,21 @@
+<think>
+Alright, I need to help this user by summarizing a section from an investment report. They specifically asked for details about Shoker Investment Counsel, Inc.'s fund, the date of the report, their outlook on capital distributions, and how significant that distribution is as a percentage.
+
+First, I'll scan through the provided report to find where these points are mentioned. The user's query mentions focusing on the name of the fund, so I should make sure to include "Shoker Investment Counsel, Inc." They also want information about the date, so I need to check if any dates stand out in this section.
+
+Looking at the content, I see that there isn't a specific date provided. The report talks about custody, investment discretion, financial information, etc., but no explicit date is given. Maybe it's part of a larger document where the date would be mentioned elsewhere, so for now, I'll note that the date isn't specified here.
+
+Next, the user wants an outlook on capital distributions and their magnitude as a percentage. Scanning further, there's a section about Item 16 Investment Discretion. It says Shoker Investment Counsel can manage accounts using discretionary authority to buy or sell securities without client consent. The special trading authorization allows them to trade within a specific account at Charles Schwab.
+
+In the same item, it mentions that clients can place restrictions on these trading authorities but doesn't provide any specific figures about capital distributions. So there's no direct information here about the magnitude of capital distributions as a percentage. It might be part of a larger report or not mentioned in this excerpt.
+
+Putting it all together, I can summarize that Shoker Investment Counsel, Inc.'s fund is focused on using their discretionary trading authority to manage client accounts without specific consent, but without knowing the date or any figures on capital distribution percentages, those details are missing from this section. 
+
+I should make sure my summary is clear and includes all requested elements where possible, while acknowledging where information isn't available.
+</think>
+
+The investment report provided focuses on Shoker Investment Counsel, Inc.'s fund, which emphasizes using discretionary authority to manage securities accounts for clients. The firm does not hold client funds or securities as custodian but retains the ability to transfer client money and positions between accounts with permissioned standing letters of authorization ("SLOA"). 
+
+The report does not explicitly mention a specific date for the investment report being summarized, nor does it provide details on capital distributions or their magnitude in percentage terms. However, it is noted that Shoker Investment Counsel, Inc. does not require prepayment of fees exceeding $1,200 per client and does not have any financial impairment that would prevent it from meeting contractual commitments.
+
+For a more detailed summary including specific dates, capital distribution outlooks, or percentages, additional information from the broader document where this section is excerpted should be reviewed.

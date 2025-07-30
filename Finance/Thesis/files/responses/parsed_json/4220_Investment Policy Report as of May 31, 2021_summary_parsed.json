@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Milwaukee County Employees’ Retirement System",
+    "date": "20230519",
+    "outlook": "increase",
+    "magnitude": 7,
+    "confidence": 0.95,
+    "explanation": "Capital distributions are expected to moderately increase by 7%"
+  }
+}

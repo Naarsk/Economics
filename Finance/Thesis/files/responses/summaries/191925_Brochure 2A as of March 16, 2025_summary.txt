@@ -1,0 +1,17 @@
+<think>
+Alright, I need to help the user by summarizing a specific part of an investment report. The query is about extracting information related to the name of the fund, the date of the report, and the outlook on capital distributions along with their percentage impact.
+
+First, I'll review the provided text. It's structured like a standard investment report from a firm, mentioning various sections but focusing here on the key points requested.
+
+Looking through the text, I notice several parts that talk about fund performance or potential capital distributions. The term "capital distributions" isn't explicitly mentioned, so I'll have to infer based on context clues. Phrases like "potential capital distributions" in the Performance-Based Fees section suggest this is relevant. 
+
+I see a line stating: "Not applicable." Following it is another statement that mentions "not applicable," but then there's a note about "Performance-Based Fees." The next lines talk about not having any matters to disclose, which might imply no performance-based fees or distributions.
+
+The user wants the percentage magnitude of these distributions. Since both instances mention "Not applicable," I can conclude that there are no upcoming capital distributions mentioned in this report, and thus their percentage impact is zero%.
+
+Now, compiling all this information: fund name isn't explicitly given since it's a generic report from PCM Investment Management, but if needed, the user might have to refer elsewhere. The date isn't provided either; perhaps I should note that no specific date is mentioned.
+
+Finally, the summary should be concise, focusing on the key elements: fund (PCM), no upcoming capital distributions as they're not applicable.
+</think>
+
+The investment report does not specify a particular fund but provides general information about the firm and its performance. It mentions **no upcoming capital distributions** or their percentage impact since both instances of "not applicable" are related to performance-based fees and no disclosure is mentioned for capital distributions.

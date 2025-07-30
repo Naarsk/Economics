@@ -1,0 +1,65 @@
+<think>
+Alright, so I need to help the user by summarizing a provided investment report. The user's query is pretty specific—they want me to focus on the fund's name, the date of the report, the outlook on capital distributions, and their magnitude in percentage terms.
+
+Looking at the data given, there are several funds mentioned: Florida Municipal Investment Trust Bond Funds (0-2 years), (1-3 years), (Intermediate), Health Insurance Trust, Town of Palm Beach Retirement System, and the Town of Palm Beach Certificate of Deposit Schedule. Each has market values, distributions over different periods, yields, etc.
+
+First, I need to identify which fund is being referred to in each section. The user didn't specify a particular fund, so maybe they want an overview or perhaps it's about multiple funds. Alternatively, the main focus could be on one of these funds given the report's structure.
+
+The date mentioned is January 31, 2025. That should definitely be included in the summary as the report's date.
+
+Outlook on capital distributions—looking through the data, each fund has different terms and yields. For example, the Florida Municipal Funds have varying maturities like 24 months and others with longer terms up to 18 months. The Health Insurance Trust has specific yield rates. The Town of Palm Beach has CDs with different maturities and yields.
+
+I need to capture how these distributions affect capital allocation. Shorter maturities might be seen as less liquid but possibly more stable, while longer maturities could offer higher returns but come with more risk or time lock.
+
+Magnitude-wise, each fund's market value is significant. For instance, the total core investments are around $221 million, which shows the scale of these funds. The CDs held in ServisFirst and EverBank sum up to a considerable amount as well.
+
+I should also note any target indices mentioned—like 1.89% for Health Insurance Trust and similar rates for others. This indicates benchmark performance, so it's good context.
+
+Putting this together, the summary needs to succinctly cover:
+- Fund names
+- Report date
+- Distribution outlook (maturity terms, yields)
+- Market value percentages or amounts
+
+I should structure the summary clearly, perhaps bullet-pointing each fund with their respective details. This way, the user can easily grasp the information without getting overwhelmed.
+
+Lastly, ensuring that all key points are covered: name, date, distributions, and magnitude. I need to make sure it's concise but comprehensive.
+</think>
+
+The report provides an overview of various funds and their performance as of January 31, 2025. Below is a summary focusing on the fund names, the date of the report, capital distribution outlook, and its magnitude in percentage terms:
+
+---
+
+### **Funds and Performance Overview (As of January 31, 2025)**
+
+#### **Florida Municipal Investment Trust Bond Funds**
+- **0-2 Years**: Market value $12,287,969 (~5.54% of total core investments). Yields range from 4.23% to higher yields.
+- **1-3 Years**: Market value $29,050,104 (~13.11% of total core investments). Yields are moderate, with one fund offering a yield of ~1.71%.
+
+#### **Health Insurance Trust**
+- Market value: $44,246,111 (~20.11% of total core investments).
+- Yields and performance align with target indices (~5.06% for 1-year returns).
+
+#### **Town of Palm Beach Retirement System**
+- Market value: $307,985,509 (~13.84% of total core investments).
+- Performance shows higher yields compared to target indices.
+
+#### **Certificates of Deposit (CDs)**
+- **ServisFirst CDs**: 
+  - $8 million for a 2-year maturity at ~5.29% yield.
+  - $5 million for a 2-year maturity at ~5.61% yield.
+  - Total: $13 million (~5.90% of total core investments).
+- **EverBank CDs**: 
+  - $10 million for a 2-year maturity at ~4.40% yield.
+  - Total: $10 million (~4.52% of total core investments).
+
+---
+
+### **Key Highlights**
+- The funds are structured with varying maturities, ranging from short-term (2 years) to intermediate terms.
+- The portfolio emphasizes liquidity through CDs and municipal investment trusts, ensuring stable capital distribution.
+- Market values indicate a balanced allocation across different fund types, with significant weightings in CDs for both ServisFirst and EverBank.
+
+---
+
+This summary provides an overview of the fund's composition, capital distribution outlook, and its magnitude in percentage terms as of January 31, 2025.

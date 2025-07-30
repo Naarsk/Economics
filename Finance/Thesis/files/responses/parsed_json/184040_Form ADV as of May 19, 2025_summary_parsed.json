@@ -1,0 +1,20 @@
+{
+  "results": [
+    {
+      "name": "Equity Growth Fund",
+      "date": "20250405",
+      "outlook": "increase",
+      "magnitude": 3,
+      "confidence": 0.95,
+      "explanation": "Expected moderate growth from equities focus."
+    },
+    {
+      "name": "Stable Growth Fund",
+      "date": "20250405",
+      "outlook": "increase",
+      "magnitude": 8,
+      "confidence": 0.95,
+      "explanation": "Anticipated solid growth with fixed income allocation."
+    }
+  ]
+}

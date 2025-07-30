@@ -1,0 +1,15 @@
+<think>
+Okay, so I have this query where someone is asking me to summarize an investment report. They’ve provided some text that looks like multiple execution pages for different types of investment advisers—non-resident and state-registered. Each has a similar structure but tailored to their specific registration requirements.
+
+First, I need to figure out what exactly they want. The user specifically mentioned focusing on the name of the fund, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms. But looking at the provided text, there’s no mention of a specific fund name or any percentages related to capital distributions.
+
+Wait, maybe I should check each section carefully. The first part is about appointment of agents for service of process—nothing here about funds or percentages. The second execution page talks about state registration and compliance but again doesn’t provide fund-specific data. The third seems similar, just detailing the process without any financial figures.
+
+So, it looks like there's no actual investment report content provided. The text is more about legal and procedural forms rather than financial data. Therefore, I can't extract any numbers or names from this.
+
+I should respond by informing them that they haven’t provided enough information—their query requires a specific fund report which isn’t present here. Maybe suggest they provide the actual investment report so I can help summarize it properly.
+</think>
+
+It appears you've provided multiple execution pages related to legal and procedural forms for investment advisers, rather than an actual investment report or financial data. To summarize the fund's performance, we would need specific details such as the fund name, date of the report, and any percentage figures related to capital distributions or performance metrics.
+
+If you can provide the actual investment report containing this information, I'd be happy to help summarize it based on your requirements!

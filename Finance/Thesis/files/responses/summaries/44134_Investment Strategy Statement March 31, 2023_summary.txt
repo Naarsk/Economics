@@ -1,0 +1,21 @@
+<think>
+Okay, so I need to help someone by summarizing a given investment report. The user has specified that they want me to focus on three main points: the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, let's look at the provided text. The fund is called "Wales Public Investment (WIP) Pension Fund" or referred to as WPP. The report was generated on May 25, 2023.
+
+Now, I need to find the part about capital distributions and their outlook. Scanning through the text, there's a section titled "7. The exercise of rights (including voting rights) attaching to investments." It mentions that the fund will review its investment policies in light of the upcoming budget allocation for local authorities this year.
+
+However, the specific information on capital distribution magnitude isn't directly provided here. There might be other parts about future distributions or budget considerations elsewhere, but from what's given, I don't see a percentage figure attached to the distribution outlook.
+
+Given that, my summary should note that while there's a review of investment policies related to capital distribution due to the local authorities' budget allocation, the exact magnitude isn't provided in this text. It might be mentioned elsewhere or depend on future decisions.
+
+So, putting it all together, I need to structure the summary clearly with the fund name, report date, and then address the capital distribution outlook without specific numbers since they aren't available here.
+</think>
+
+**Summary of Investment Report: Wales Public Investment (WIP) Pension Fund**
+
+- **Fund Name:** Wales Public Investment (WIP) Pension Fund (referred to as WPP)
+- **Report Date:** May 25, 2023
+- **Capital Distribution Outlook:** The fund will review its investment policies in response to the upcoming budget allocation for local authorities. However, specific details regarding the magnitude of capital distribution are not provided in this report.
+
+The fund's approach indicates a focus on adapting to future budgetary changes, but without explicit figures on distribution percentages or amounts. Further information may be available elsewhere or dependent on future decisions.

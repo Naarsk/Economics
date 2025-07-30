@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+      "name": "Investec plc preference shares (UK)",
+      "date": "20230517",
+      "outlook": "increase",
+      "magnitude": 401.90045,
+      "confidence": 0.85,
+      "explanation": "Dividend expected with slight increase."
+    },
+    {
+      "name": "Investec Limited (South Africa) preference shares (first set)",
+      "date": "20230517",
+      "outlook": "increase",
+      "magnitude": 401.90045,
+      "confidence": 0.85,
+      "explanation": "Dividend expected with slight increase."
+    },
+    {
+      "name": "Investec Limited (South Africa) preference shares (second set)",
+      "date": "20230517",
+      "outlook": "increase",
+      "magnitude": 401.90045,
+      "confidence": 0.85,
+      "explanation": "Dividend expected with slight increase."
+    }
+  ]
+}

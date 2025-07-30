@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "LB Harrow Pension Fund",
+    "date": "2023-12-31",
+    "outlook": "stable",
+    "magnitude": 0,
+    "confidence": 0.65,
+    "explanation": "Training supports capital distribution decisions, but no specific percentage was provided."
+  }
+}

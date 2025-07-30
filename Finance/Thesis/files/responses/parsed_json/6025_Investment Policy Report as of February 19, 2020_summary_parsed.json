@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "no_data_available",
+    "date": "202404",
+    "outlook": "stable",
+    "magnitude": 0,
+    "confidence": 0.5,
+    "explanation": "Insufficient data provided for the required fields."
+  }
+}

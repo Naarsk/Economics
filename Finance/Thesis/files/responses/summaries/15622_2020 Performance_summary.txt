@@ -1,0 +1,13 @@
+<think>
+Okay, so I need to help the user by summarizing a provided investment report. They specifically asked for the fund's name, the date of the report, and their outlook on capital distributions as a percentage.
+
+First, I'll look through the text to find where these details are mentioned. The fund in question is likely CPP Investments because that's mentioned multiple times towards the end. Checking the first sentence, it says "As March 31, 2020" which indicates the date of the report.
+
+Next, for capital distributions, I need to find any mention about payouts or distributions. Skimming through, I see a part where it talks about Canadian defined benefit pension plans receiving certain returns in categories like bonds and stocks. However, there's no direct information on what percentage is being distributed or has been paid out.
+
+Since the user specifically asked for their outlook on capital distributions as a percentage, but that detail isn't provided here, I can't include it. Therefore, my summary should mention the fund name, date of report, and note that while they haven't specified the distribution details, they're probably considering it based on historical trends.
+
+I'll structure the summary to be clear and concise, highlighting only the requested information without making assumptions about parts not provided.
+</think>
+
+The investment report pertains to **CPP Investments**, a professional investment management organization, as of March 31, 2020. The document does not explicitly detail the outlook on capital distributions or their magnitude in percentage terms. However, it indicates that the fund is committed to diversifying its global investments across public equities, private equities, real estate, infrastructure, and fixed income, aligning with the interests of contributors and beneficiaries of the Canada Pension Plan. For more specific information on capital distribution percentages, further details within the report or official publications may be required.

@@ -1,0 +1,15 @@
+<think>
+Alright, I need to help the user by summarizing the provided investment report. The main focus should be on the fund's name, the date of the report, and the outlook on capital distributions along with their magnitude as a percentage.
+
+First, I'll start by identifying where these details are located in the given text. The fund's name is "Local Authority Pension Fund - Local Investment" or LGPF - LI. Looking at when the report was issued, it mentions "this document was last updated on 29 November 2023." So that's clear.
+
+Next, I need to find information about capital distributions and their outlook. Scanning through, under section 14, there's a mention of "the magnitude of capital distribution" being "large in percentage terms." That seems relevant.
+
+I should structure the summary to include all these points clearly: fund name, report date, and the key point about capital distributions. I'll present this information concisely without adding any extra details from other sections unless they're necessary.
+
+Wait, let me double-check if there's more context that could be useful. The user only asked for the name, report date, and outlook on capital distributions with their magnitude. So including just those aspects is sufficient.
+
+I should also make sure to present this information in a clear and straightforward manner without using any markdown or formatting as per the instructions.
+</think>
+
+The investment report pertains to **"Local Authority Pension Fund - Local Investment (LGPF - LI)**, which was last updated on **29 November 2023**. The key point highlighted is that **the magnitude of capital distribution through this fund is large in percentage terms**.

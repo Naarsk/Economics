@@ -1,0 +1,28 @@
+{
+  "results": {
+    "SHREWSBURY": {
+      "name": "SHREWSBURY",
+      "date": "2018-01-01",
+      "outlook": "increase",
+      "magnitude": 92.4,
+      "confidence": 0.8,
+      "explanation": "High return indicates aggressive growth strategy."
+    },
+    "SOMERVILLE": {
+      "name": "SOMERVILLE",
+      "date": "2018-01-01",
+      "outlook": "increase",
+      "magnitude": 24.52,
+      "confidence": 0.8,
+      "explanation": "Significant growth achieved."
+    },
+    "WALTHAM": {
+      "name": "WALTHAM",
+      "date": "2018-01-01",
+      "outlook": "increase",
+      "magnitude": 19.32,
+      "confidence": 0.8,
+      "explanation": "Reflects a growth-oriented approach."
+    }
+  }
+}

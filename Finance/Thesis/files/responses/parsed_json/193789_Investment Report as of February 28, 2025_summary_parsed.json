@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "RPPS - Atlas",
+    "date": "20210630",
+    "outlook": "decrease",
+    "magnitude": -6.7,
+    "confidence": 0.92,
+    "explanation": "Performance indicates a decrease in investments with significant negative returns."
+  }
+}

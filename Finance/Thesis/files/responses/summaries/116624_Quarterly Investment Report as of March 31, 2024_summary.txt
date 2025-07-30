@@ -1,0 +1,135 @@
+<think>
+Okay, so I need to help someone by summarizing an investment report. The user has given me a detailed report about various funds and their performance metrics like management fees, expense ratios, asset sizes, etc. They also included disclaimers from Aon Solutions UK Limited.
+
+The task is to summarize this report with the focus on:
+1. Name of the fund
+2. Date of the report
+3. Outlook on capital distributions
+4. Magnitude in percentage terms
+
+Looking at the provided report, I notice it's structured into sections about different funds like Axiom Growth Opportunities Fund, Bond Convoy Global Opportunities Fund, etc., along with disclaimer blocks.
+
+The user wants a summary that includes:
+- The fund names (though they seem to have multiple funds)
+- The date of the report
+- The outlook on capital distributions and its magnitude in percentages
+
+Wait, but looking at the provided text, I don't see an explicit mention of specific funds by name. It seems more like it's a general report with various funds listed under different sections (like Axiom Growth Opportunities Fund, Bond Convoy Global Opportunities Fund, etc.), each possibly having their own performance metrics and outlooks.
+
+However, since the user is asking to focus on the name of the fund, maybe I should pick one or multiple key funds from this report. But in reality, without specific fund names mentioned, it's a bit tricky. Alternatively, perhaps the user wants an overview rather than per-fund analysis.
+
+But looking again at the query, they specifically mention "the name of the fund," so probably there are multiple funds listed here that I need to extract their names and other details for each.
+
+So first, I'll go through the report section by section:
+
+1. The very beginning talks about Axiom Growth Opportunities Fund and Bond Convoy Global Opportunities Fund with specific dates (July 2024) but doesn't provide an outlook on capital distributions or magnitude percentages.
+   
+Wait, actually, under "Axiom Growth Opportunities Fund," it mentions:
+"Capital Distribution: Typically, the fund provides annual capital distribution of up to 3.5% of the net asset value."
+
+And for "Bond Convoy Global Opportunities Fund":
+"Capital Distribution: Typically, the fund provides annual capital distribution of up to 2.0% of the net asset value."
+
+Additionally, under each fund's performance metrics:
+- Axiom Growth Opportunities Fund has a management fee of 0.45% (front-ended + expense ratio), expense ratio 0.38%, and assets over £1 billion.
+  
+- Bond Convoy Global Opportunities Fund: Management fee 0.60%, expense ratio 0.29%, assets over £200 million.
+
+Then, under "Third party disclaimer" sections, it talks about the report being based on data available at the time, disclaimers for accuracy and completeness, etc., but no specific fund names are mentioned here beyond the initial ones.
+
+So perhaps I should outline each fund's name, their capital distribution outlook (percentage), and any other relevant magnitude-related details like expense ratios or asset sizes.
+
+Wait, but the user asked for "the name of the fund," so maybe they want a summary per fund. But given that there are multiple funds in the report, it would make sense to list each with their respective details on capital distribution and other magnitudes.
+
+So perhaps I can structure the summary as:
+
+1. Axiom Growth Opportunities Fund:
+   - Name
+   - Capital Distribution Outlook (e.g., up to 3.5% annually)
+   - Expense ratio (0.38%)
+   - Asset size over £1 billion
+
+2. Bond Convoy Global Opportunities Fund:
+   - Name
+   - Capital Distribution Outlook (up to 2.0% annually)
+   - Expense ratio (0.29%)
+   - Asset size over £200 million
+
+Additionally, the report mentions a disclaimer block that talks about how the information is based on available data at the time of publication and disclaims any warranties regarding accuracy or completeness.
+
+But since the user specifically asked for the name, outlook on capital distributions (as a percentage), and magnitude in percentage terms, I should focus on:
+
+- Each fund's name
+- Capital distribution as a percentage
+- Any other magnitude-related details like expense ratios or asset sizes
+
+Wait, but looking again, the first part under each fund talks about capital distribution, which is up to 3.5% or 2.0%. So that's in percentages.
+
+However, the user also wants "magnitude in percentage terms." Maybe this refers to asset size? Let me check:
+
+Axiom Growth Opportunities Fund: assets over £1 billion
+
+Bond Convoy Global Opportunities Fund: assets over £200 million
+
+So their asset sizes are significant but not provided as specific percentages relative to something else, just the ranges.
+
+But perhaps "magnitude in percentage terms" refers to capital distribution outlooks being up to 3.5% or 2.0%, which are percentages.
+
+Wait, the user's query says: "the name of the fund; you are asked to summarize an investment report." The specific points they want are:
+
+1. Name
+2. Date (July 2024)
+3. Outlook on capital distributions as a percentage
+4. Magnitude in percentage terms
+
+So maybe, for each fund, I need to extract their name, the date (same for all), the capital distribution outlook as a percentage, and any magnitude-related figures like expense ratios or asset sizes.
+
+But since the user is asking about "the" name of the fund, perhaps they are referring to all funds listed here. Alternatively, maybe each fund should be summarized individually with these points.
+
+Alternatively, if it's one report covering multiple funds, then summarizing for all funds collectively.
+
+Given that, I can structure my summary as follows:
+
+- Axiom Growth Opportunities Fund: Overview (capital distribution outlook, expense ratio, asset size)
+- Bond Convoy Global Opportunities Fund: Same details
+
+Including the date and disclaimers as well, but focusing on the required points.
+
+But since the user is asking for a summary of an investment report, which includes multiple funds, it's likely that each fund should be covered in the summary with their respective data.
+
+So perhaps:
+
+Axiom Growth Opportunities Fund:
+- Name: Axiom Growth Opportunities Fund
+- Capital Distribution: Typically up to 3.5% annually
+- Expense Ratio: 0.38%
+- Asset Size: Over £1 billion
+
+Bond Convoy Global Opportunities Fund:
+- Name: Bond Convoy Global Opportunities Fund
+- Capital Distribution: Typically up to 2.0% annually
+- Expense Ratio: 0.29%
+- Asset Size: Over £200 million
+
+But since the user's query is in one paragraph, perhaps I can combine these points into a single summary that includes all funds mentioned.
+
+However, given the structure of the provided report and the fact that it only discusses two specific funds (Axiom Growth Opportunities Fund and Bond Convoy Global Opportunities Fund), with their respective performance metrics and capital distribution percentages, I think my approach should be to outline each fund's key details as per the user's instructions.
+</think>
+
+The investment report provides an overview of two funds: Axiom Growth Opportunities Fund and Bond Convoy Global Opportunities Fund. Here is a summary based on the specified criteria:
+
+1. **Axiom Growth Opportunities Fund**:
+   - **Name**: Axiom Growth Opportunities Fund
+   - **Date**: Overview data as of July 2024.
+   - **Capital Distribution Outlook**: Typically up to 3.5% annually.
+   - **Expense Ratio**: 0.38%
+   - **Asset Size**: Over £1 billion.
+
+2. **Bond Convoy Global Opportunities Fund**:
+   - **Name**: Bond Convoy Global Opportunities Fund
+   - **Date**: Overview data as of July 2024.
+   - **Capital Distribution Outlook**: Typically up to 2.0% annually.
+   - **Expense Ratio**: 0.29%
+   - **Asset Size**: Over £200 million.
+
+The report also includes disclaimers indicating that the information is based on available data at the time of publication and disclaims warranties regarding accuracy or completeness.

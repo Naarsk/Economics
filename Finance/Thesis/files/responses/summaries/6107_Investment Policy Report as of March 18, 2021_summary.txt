@@ -1,0 +1,22 @@
+<think>
+Alright, I just saw a user query where they shared an investment policy document from the University of California. The user wants me to summarize this report, focusing specifically on the names of funds, the date of the report, and the outlook on capital distributions, including their percentage impact.
+
+First, I need to read through the provided text carefully. It's a detailed policy document that outlines the responsibilities of various committees and individuals regarding the Retirement Savings Program (RSP). The key sections are the Investment Functions Summary, Policy Maintenances, Procedures and Related Documents, etc.
+
+However, upon closer inspection, it seems like this is all part of the investment policy framework rather than actual fund performance reports. There's no specific mention of fund names or any recent capital distribution data in the text provided. The documents talk about asset classes, fund options, managers, and evaluations but don't include current financial metrics.
+
+So, I realize that without additional information like a latest annual report, financial statements, or news articles specifically mentioning fund performance, it's impossible to extract the required details from this document alone. 
+
+I should inform the user that while they've provided an investment policy statement with a lot of framework and process details, there isn't enough specific data about current funds or capital distributions available in the text given. They might need to refer to official reports or press releases for that information.
+
+In my response, I'll make sure to acknowledge their effort in sharing the document but also point out the lack of relevant data here. That way, they know where to look next if they want more specific fund details.
+</think>
+
+The provided text appears to be a detailed investment policy document outlining the functions and responsibilities related to the University of California's Retirement Savings Program (RSP). However, it does not contain specific information about individual funds, capital distributions, or their magnitudes in percentage terms. 
+
+To summarize the required elements:
+1. **Fund Names**: Not explicitly mentioned in the provided text.
+2. **Date of the Report**: The document does not specify a date for the investment report being referred to.
+3. **Outlook on Capital Distributions and Their Magnitude**: There is no specific information about capital distributions or their percentage impact.
+
+The text focuses on policy frameworks, responsibilities, and procedures rather than current financial performance or fund-specific data. For detailed information on fund names, capital distribution outlooks, and their magnitudes in percentage terms, the user would need to refer to official reports, news articles, or financial statements directly related to the University of California's RSP.

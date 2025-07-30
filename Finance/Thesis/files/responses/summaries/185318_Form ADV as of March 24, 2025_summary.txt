@@ -1,0 +1,13 @@
+<think>
+Alright, so I'm looking at this user query about an investment report. The user has pasted some text that seems to be a series of forms related to investment advisers, including execution pages for different registrations. My task is to summarize the provided investment report, focusing specifically on the name of the fund, the date, and the outlook on capital distributions in percentage terms.
+
+Hmm, wait a second. The user included several blocks starting with "You must complete the following..." which look like legal forms, not actual investment reports. They're about setting up CRD registrations and service agreements for investment advisers. So maybe they're trying to trick me into thinking there's an actual investment report here when in reality, it's all fake.
+
+I need to be careful with that. The user might have intended these forms as context but didn't realize they're not part of a real report. My response needs to acknowledge their effort but clarify that the provided text isn't a genuine investment report. I should offer help if they provide actual data or more content, showing I'm still willing to assist within my capabilities.
+
+So in summarizing, since there's no real investment data here, I can point out what information is missing and suggest they provide accurate details for an effective summary.
+</think>
+
+The provided text appears to be a series of legal forms related to investment adviser registrations and service agreements rather than an actual investment report. It includes execution pages for state and federal registration, appointment of agents for service of process, and other compliance-related documents.
+
+Since the content does not contain specific information about a particular fund, its name, date of reporting, or outlook on capital distributions, I cannot provide a summary based on the details you requested (name of the fund, date of the report, and outlook on capital distributions in percentage terms). If you have access to actual investment report data, please provide it for analysis.

@@ -1,0 +1,16 @@
+<think>
+Alright, so I need to help the user by summarizing a provided investment report. The user specifically mentioned focusing on the fund's name, the report's date, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, I'll check the information given in the report. It starts with "INVESTMENT REPORT FOR" followed by February 29, 2024. That gives me the date right away: February 29, 2024.
+
+Next, looking at the fund's name. The report says it's for the "Research Foundation for the State University of New York." I can rephrase that to make it more concise, maybe as "State University of New York Research Foundation."
+
+Now, onto the outlook on capital distributions. The report mentions a modest increase in distributions expected for the second half of 2024 compared to the first half. It states an increase of approximately 1-3%. That's useful information about the magnitude.
+
+I should structure this summary clearly, making sure each point is highlighted: fund name, report date, and distribution outlook with its percentage change. I'll present these facts in a straightforward manner without adding extra details unless they're necessary.
+</think>
+
+**Investment Report Summary:**  
+- **Fund Name:** State University of New York Research Foundation  
+- **Report Date:** February 29, 2024  
+- **Outlook on Capital Distributions:** A modest increase is expected for the second half of 2024 compared to the first half, with an approximate increase of 1-3%.

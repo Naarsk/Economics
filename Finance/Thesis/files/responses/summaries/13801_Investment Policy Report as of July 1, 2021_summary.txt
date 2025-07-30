@@ -1,0 +1,18 @@
+<think>
+Alright, I need to help the user by summarizing a specific section of an investment report. The user's query is about focusing on the name of the fund, the date of the report, and the outlook on capital distributions along with their percentage.
+
+First, I look at the provided text. It seems to be part of an Investment Policy Statement (IPS) for TMRS, which might be a specific fund or investment program. The user wants me to extract information about when the report was issued, what they expect from capital distributions, and how significant those distributions are in terms of percentage.
+
+I start by identifying relevant details. The date mentioned is June 6, 2020, so that's the date of the report. Next, I look for sections discussing capital distributions or payouts. In the text, there's a part about the Capital Distribution Review (CDR) in December 2019, but it doesn't specify an exact percentage. However, another section talks about the distribution of dividends and capital gains to general partners in March 2020.
+
+I see that the report mentions distributing approximately 75% of total returns as income for distributions. That's a crucial point because it indicates the magnitude of the payout. I should note that this is based on a portion of the fund's performance, which shows how significant these distributions are.
+
+Putting it all together, I structure the summary to include the report date, the fact that a CDR was conducted, and the specific percentage of returns distributed as income. This provides clear and concise information meeting the user's requirements.
+</think>
+
+The Investment Policy Statement (IPS) for TMRS outlines key details about the fund or program, including capital distribution strategies. Below is a summary focusing on the name of the fund, the date of the report, and its outlook on capital distributions:
+
+- **Date of the Report**: June 6, 2020  
+- **Capital Distributions Outlook**: The report discusses the Capital Distribution Review (CDR) conducted in December 2019. It mentions that approximately 75% of total returns are distributed as income to general partners through dividends and capital gains distributions.  
+
+This indicates that a significant portion of the fund's performance is expected to be returned to investors in the form of capital distributions.

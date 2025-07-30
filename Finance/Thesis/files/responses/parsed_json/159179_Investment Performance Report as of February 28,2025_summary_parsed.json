@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "XYZ Investment Fund",
+    "date": "2025-02-28",
+    "outlook": "stable",
+    "magnitude": 24,
+    "confidence": 0.6,
+    "explanation": "The fund's allocations suggest a moderate rebalancing quarterly, with no clear trend in capital distribution."
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "results": [
+    {
+      "name": "Charles Schwab - International Equity",
+      "date": "2006-04-17",
+      "outlook": "increase",
+      "magnitude": 8,
+      "confidence": 0.5,
+      "explanation": "Moderate growth expectation for capital distributions."
+    },
+    {
+      "name": "American Funds EuroPacific Growth",
+      "date": "2012-02-23",
+      "outlook": "stable|increase",
+      "magnitude": null,
+      "confidence": 0.7,
+      "explanation": "Core fixed income growth expected with moderate capital distribution."
+    },
+    {
+      "name": "American Beacon International Fund (Small Cap Equities)",
+      "date": "1998-10-27",
+      "outlook": "core fixed income growth expected",
+      "magnitude": null,
+      "confidence": 0.6,
+      "explanation": "Core fixed income growth expected."
+    },
+    {
+      "name": "Vanguard Small Cap Index Fund",
+      "date": "2005-06-30",
+      "outlook": "core fixed income growth expected",
+      "magnitude": null,
+      "confidence": 0.8,
+      "explanation": "Core fixed income growth expected."
+    },
+    {
+      "name": "American Beacon Small Cap Fund",
+      "date": "2004-07-30",
+      "outlook": "core fixed income growth expected",
+      "magnitude": null,
+      "confidence": 0.9,
+      "explanation": "Core fixed income growth expected."
+    },
+    {
+      "name": "Fidelity Low Priced Stock Fund",
+      "date": "various years in the 1990s",
+      "outlook": "core fixed income growth expected",
+      "magnitude": null,
+      "confidence": 0.7,
+      "explanation": "Core fixed income growth expected."
+    },
+    {
+      "name": "Artisan Mid Cap Fund",
+      "date": "various years in the 1990s",
+      "outlook": "core fixed income growth expected",
+      "magnitude": null,
+      "confidence": 0.6,
+      "explanation": "Core fixed income growth expected."
+    },
+    {
+      "name": "Vanguard Mid Cap Index Fund",
+      "date": "various years in the 1990s",
+      "outlook": "core fixed income growth expected",
+      "magnitude": null,
+      "confidence": 0.8,
+      "explanation": "Core fixed income growth expected."
+    },
+    {
+      "name": "Fidelity Contrafund",
+      "date": "various years in the 1990s",
+      "outlook": "core fixed income growth expected",
+      "magnitude": null,
+      "confidence": 0.7,
+      "explanation": "Core fixed income growth expected."
+    },
+    {
+      "name": "Vanguard 500 Index Fund",
+      "date": "various years in the 1990s",
+      "outlook": "core fixed income growth expected",
+      "magnitude": null,
+      "confidence": 0.8,
+      "explanation": "Core fixed income growth expected."
+    },
+    {
+      "name": "Harbor Capital Appreciation Fund",
+      "date": "2019-06-30",
+      "outlook": "increase",
+      "magnitude": null,
+      "confidence": 0.6,
+      "explanation": "Core fixed income growth expected."
+    },
+    {
+      "name": "Dodge & Cox Stock Fund",
+      "date": "2019-06-30",
+      "outlook": "increase",
+      "magnitude": null,
+      "confidence": 0.7,
+      "explanation": "Core fixed income growth expected."
+    },
+    {
+      "name": "Neuberger Berman Socially Responsible Fund",
+      "date": "2019-06-30",
+      "outlook": "increase",
+      "magnitude": null,
+      "confidence": 0.8,
+      "explanation": "Core fixed income growth expected."
+    },
+    {
+      "name": "Met West Total Return Fund",
+      "date": "2019-06-30",
+      "outlook": "increase|stable",
+      "magnitude": null,
+      "confidence": 0.5,
+      "explanation": "Total return expected, including dividends and capital gains."
+    },
+    {
+      "name": "JPMorgan Strategic Income (Target Date Portfolios only)",
+      "date": "2019-06-30",
+      "outlook": "stable|increase",
+      "magnitude": null,
+      "confidence": 0.7,
+      "explanation": "Distributes income and capital gains."
+    },
+    {
+      "name": "Blackrock Strategic Income (Target Date Portfolios only)",
+      "date": "2019-06-30",
+      "outlook": "stable|increase",
+      "magnitude": null,
+      "confidence": 0.8,
+      "explanation": "Distributes income and capital gains."
+    },
+    {
+      "name": "PIMCO High Yield Fund",
+      "date": "2019-06-30",
+      "outlook": "increase|stable",
+      "magnitude": null,
+      "confidence": 0.6,
+      "explanation": "High yield bonds."
+    },
+    {
+      "name": "Mainstay Floating Rate High Income Fund (Target Date Portfolios only)",
+      "date": "2019-06-30",
+      "outlook": "stable|increase",
+      "magnitude": null,
+      "confidence": 0.7,
+      "explanation": "Floating rate notes."
+    },
+    {
+      "name": "Vanguard Federal Money Market Fund",
+      "date": "2016-06-01",
+      "outlook": "stable",
+      "magnitude": null,
+      "confidence": 0.9,
+      "explanation": "Money market funds are considered safe investments."
+    },
+    {
+      "name": "CRA Book Value Fund",
+      "date": "1969-06-30",
+      "outlook": "stable",
+      "magnitude": null,
+      "confidence": 0.8,
+      "explanation": "Fixed-income portfolio."
+    }
+}

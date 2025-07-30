@@ -1,0 +1,32 @@
+<think>
+Okay, I need to help the user summarize the provided investment reports. The main task is to focus on the name of the funds, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, looking at the first fund: FGP LONG TERM BOND FUND (Fund Code 1029). The performance objective is to outperform the FTSE Canada Long Term Overall Bond Index over five years. It mentions that as of a certain date, the benchmark allocation ranges between -20% to +20%. The fund allows for single issuer maximums based on their credit ratings, with AAA issuers having lower limits.
+
+The outlook section talks about capital distributions. It states that income is paid monthly in 1-3 day lag, while capital gains are not distributed at all during the year. This means the majority of returns come from dividends and interest, which will be paid out as monthly installments.
+
+Moving to the second fund: FGP LONG TERM OVERALL BOND FUND (Fund Code 1029). Its performance objective is similar but based on a different benchmark, the FTSE Canada Long Term Overall Bond Index. The investment guidelines are slightly different here; corporate issuers with BBB rating can't exceed +20% in total corporate issues and +15% for each single issuer.
+
+The outlook again focuses on distributions: income monthly with 1-3 day lag and no capital gains distribution during the year, similar to the first fund. The key takeaway is that returns are reliant on regular dividend payments rather than capital appreciation.
+
+Comparing both funds, they share a focus on fixed income strategies without distributing capital gains annually. The main differences lie in their benchmarks and specific credit rating limits for different issuers.
+</think>
+
+This analysis provides a summary of two investment funds based on the information provided in the investment reports. Both funds are focused on fixed-income securities, with a primary objective to outperform a specific benchmark over a five-year period.
+
+### Fund 1: **FGP LONG TERM OVERALL BOND FUND**  
+- **Date of Report**: January 31, 2014 (from the second report) and November 30, 2018 (from the first report).  
+- **Performance Objective**: To exceed returns relative to the FTSE Canada Long Term Overall Bond Index over five years.  
+- **Capital Distribution Outlook**:  
+  - **Income Distributions**: Distributed monthly on a periodic basis with a lag of 1-3 business days, representing net investment income and realized gains.  
+  - **Capital Gains**: No capital distributions are made during the year based on the provided reports.
+
+### Fund 2: **FGP LONG TERM BOND FUND**  
+- **Date of Report**: November 30, 2018 (from the first report).  
+- **Performance Objective**: To exceed returns relative to the FTSE Canada Long Term Bond Index over five years.  
+- **Capital Distribution Outlook**:  
+  - **Income Distributions**: Distributed monthly on a periodic basis with a lag of 1-3 business days, representing net investment income and realized gains.  
+  - **Capital Gains**: No capital distributions are made during the year based on the provided reports.
+
+### Key Observations:  
+Both funds prioritize fixed-income investments and do not distribute capital gains annually. The primary focus is on generating returns through periodic income distributions. The main differences between the two funds lie in their benchmark indices and specific guidelines for issuer credit ratings.

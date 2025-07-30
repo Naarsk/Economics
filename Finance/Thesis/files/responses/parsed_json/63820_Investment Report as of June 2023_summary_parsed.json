@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "name": "Permira Fund",
+      "date": "202306",
+      "outlook": "stable",
+      "magnitude": null,
+      "confidence": 0.8,
+      "explanation": "On track for 33% of mandate but no significant change in outlook."
+    },
+    {
+      "name": "Schroders Property Fund",
+      "date": "202306",
+      "outlook": "increase",
+      "magnitude": 0.3,
+      "confidence": 0.9,
+      "explanation": "Outperformed benchmark by 0.3%."
+    },
+    {
+      "name": "BlackRock Global Equity Fund",
+      "date": "202306",
+      "outlook": null,
+      "magnitude": null,
+      "confidence": 0.7,
+      "explanation": "Reorganizing equity mandate, no immediate performance change."
+    },
+    {
+      "name": "Market Outlook (July 2023)",
+      "date": "202306",
+      "outlook": "increase",
+      "magnitude": null,
+      "confidence": 0.5,
+      "explanation": "Expected equity market performance to improve due to reduced interest rate hikes."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "WALTHAM",
+    "date": "1/1/19",
+    "outlook": "increase",
+    "magnitude": 56.8,
+    "confidence": 0.9,
+    "explanation": "Significant increase in performance with historical data."
+  }
+}

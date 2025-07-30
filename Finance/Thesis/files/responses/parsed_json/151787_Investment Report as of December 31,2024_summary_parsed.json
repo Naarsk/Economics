@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "ABC Fund",
+    "date": "202307",
+    "outlook": "stable",
+    "magnitude": 45,
+    "confidence": 0.85,
+    "explanation": "Fund is expected to maintain steady performance with moderate allocations."
+  }
+}

@@ -1,0 +1,23 @@
+<think>
+Alright, I'm trying to help this user who provided an investment report and wants a summary focusing specifically on the fund's name, the date of the report, the outlook on capital distributions, and their magnitude in percentage terms. 
+
+First, I'll scan through the provided text to find where these details are mentioned. Let me read through each paragraph carefully.
+
+I see that towards the end, under "INVESTMENT DISCRETION," there's a part about capital distributions. It says: "The fund is focused on capital distribution and pays out approximately 2% of its assets annually in dividends." That seems relevant because it mentions both the focus area (capital distribution) and the magnitude as a percentage.
+
+Looking for the date, I notice at the top that it's an April report from DG Investment Fund. So the date would be April.
+
+The fund's name isn't explicitly stated here, but often such reports start with the fund name in the title or first paragraph. However, since this is part of the body, maybe I can infer it. But wait, actually, looking again, the user mentioned to focus on the fund, so perhaps the fund's name might be "DG Investment Fund" as a possibility.
+
+Wait, no—the user didn't provide the full report but only parts of it. Wait, the initial prompt was an extract from an investment report. The user included all of the provided content, which ends with DG Investment Fund's April report on capital distribution and dividends at 2% annually.
+
+But wait, in the user's question, they said "the fund is focused on capital distribution," so maybe I can infer that the fund's name isn't explicitly given here. However, the extract ends with "DG Investment Fund" under a section about investment discretion where it says "... DG does not require prepayment..." So perhaps the fund's name is part of the context.
+
+Wait, no—looking again: In the extract provided by the user, at the very end, there's no explicit mention of the fund's name except for "DG Investment Fund" in a later section. However, since the user wants to summarize focusing on the fund's name, perhaps I can take it as "DG Investment Fund."
+
+So putting it all together: The fund is DG Investment Fund, the report date is April, capital distribution focus with about 2% annual dividends.
+
+Wait, but let me make sure I'm not missing anything else. No, that seems to be the only mention of capital distribution and the percentage.
+</think>
+
+The investment report pertains to **DG Investment Fund**, which is scheduled to release its April report on capital distributions and dividend payments. The fund is focused on capital distribution and pays out approximately 2% of its assets annually in dividends.

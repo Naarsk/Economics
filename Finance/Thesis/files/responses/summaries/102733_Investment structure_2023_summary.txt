@@ -1,0 +1,41 @@
+<think>
+Okay, so I need to help this user who is a financial analyst. They want me to summarize an investment report focusing on specific points: the fund's name, the report's date, the outlook on capital distributions, and their magnitude in percentages.
+
+First, looking at the data provided, it seems like the fund's name isn't explicitly stated but might be inferred from the structure of the report. The report mentions various asset classes like obligations, equities, etc., but without a clear title or reference to the specific fund being discussed. I'll have to note that uncertainty.
+
+The date mentioned is December 31, 2023, since it's referenced as "Stichtag: 31.12.2023," which translates to the founding day of the report. That's clear.
+
+For the outlook on capital distributions and their magnitude in percentages, I see several sections with data labeled in brackets, such as "Max" and "Min." For example, under Aktien Schwellenländer, it shows "Max: 30.0" and "Min: 18.0," which might indicate the range of capital distribution for this asset class. However, I need to parse all these numbers correctly.
+
+Looking through each section:
+
+- **Obligationen CHF IG**: Max 25%, Min 0%
+- **Obligationen CHF Öffentliche**: Max 10%, Min -0.3%
+- ... and so on for each asset class up to insurance linked securities.
+
+I need to extract the maximum percentage distribution from each category, then sum them up. The total portfolio value is given as 2'181.0 million, but I think it's better presented in millions without the comma: 2,181 million CHF.
+
+Now, compiling this information into a coherent summary that includes the fund name (if possible), date, and the distribution outlook with percentages.
+</think>
+
+The investment report discusses an unspecified fund as of December 31, 2023. The fund's portfolio consists of various asset classes, each contributing different percentage ranges to the total capital allocation.
+
+Key points:
+- **Total Portfolio Value**: CHF 2,181 million
+- **Capital Distribution Overview** (Max and Min percentages for each asset class):
+  - Obligationen CHF IG: 0% to 25%
+  - Obligationen CHF Öffentliche: -0.3% to 10%
+  - Hypotheken: 6.0% to 7.5%
+  - Staatsanleihen FW IG: 6.0% to 8.0%
+  - Unternehmensanleihen FW IG: 4.0% to 6.0%
+  - Obligationen High Yields: 9.7% to 21.2%
+  - Aktien Schweiz: 14.4% to 315.0%
+  - Aktien Welt Industrieländer: 2.1% to 8.0%
+  - Aktien Welt Industrieländer SC: 1.9% to 6.0%
+  - Aktien Schwellenländer: 24.5% (fixed)
+  - Immobilien Schweiz: 7.7% to 13.2%
+  - Immobilien Ausland: 4.0% to 8.0%
+  - Private Equity: 0.3% (fixed)
+  - Insurance Linked Securities: Fixed at 9.5%
+
+The fund's capital distribution ranges widely, with the largest contributor being equities, particularly in Schwellenländer, and obligations having a broader range of contributions.

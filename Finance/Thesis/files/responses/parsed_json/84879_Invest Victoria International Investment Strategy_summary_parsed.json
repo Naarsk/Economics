@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "name": "Frankston Family Office 2019 Global Opportunities Fund",
+      "date": "N/A",
+      "outlook": "unknown",
+      "magnitude": null,
+      "confidence": "low",
+      "explanation": "Established in 2019 with no specific capital distribution info."
+    },
+    {
+      "name": "BlackRock Global Equities Fund",
+      "date": "N/A",
+      "outlook": "unknown",
+      "magnitude": null,
+      "confidence": "low",
+      "explanation": "Established in 2014 with no specific capital distribution info."
+    },
+    {
+      "name": "BlackRock Real Estate Fund",
+      "date": "N/A",
+      "outlook": "unknown",
+      "magnitude": null,
+      "confidence": "low",
+      "explanation": "Established in 2014 with no specific capital distribution info."
+    },
+    {
+      "name": "Franklin Global Opportunities Fund",
+      "date": "N/A",
+      "outlook": "positive",
+      "magnitude": 3,
+      "confidence": "high",
+      "explanation": "Annual distribution of 3% from proceeds supports growth with potential for higher returns."
+    }
+  ]
+}

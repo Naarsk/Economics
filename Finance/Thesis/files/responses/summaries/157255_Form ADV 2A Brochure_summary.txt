@@ -1,0 +1,60 @@
+<think>
+Alright, so I need to help this user who has provided an investment report and wants a summary focusing on the fund's name, the report's date, and the outlook on capital distributions including their magnitude in percentages. 
+
+First, let me read through the provided text carefully to extract relevant information. The report starts with SVRN as the investment adviser, mentioning an ETF and pooled funds managed by them. I'm assuming this is a section about their advisory services or investments.
+
+Looking further down, under Item 14, there's a mention of SVRN’s owner being part-owner in an ETF. That seems like a key point because it directly relates to the fund structure. The ETF creates potential conflicts of interest, but they have mitigated it by waiving management fees when holding the ETF.
+
+Now, I need to find the date of the report. Scanning through, there's a mention that the SVRN is under common ownership with entities acting as Managing Members of two pooled investment funds from January 2023 onwards. Wait, but then later in Item 15, it says they may be considered custodians due to control over the applicable Managing Member, and the report mentions "annually." So perhaps the annual review or report is for 2023.
+
+Looking at Item 14 again, there's a section about capital distributions. It says "We may recommend a custodian, but you will ultimately be responsible for selecting..." Hmm, maybe I'm not getting to the capital distribution part here. Let me keep scrolling.
+
+Wait, in the provided text under Item 14 and following, there's a mention of SVRN's owner being an owner in an ETF which affects their management fees when holding that ETF. But I don't see specific data on capital distributions or their magnitude yet.
+
+Wait, perhaps I'm missing something. Let me check again. In the text provided, under Item 14: Client Referrals and Other Compensation, it mentions potential conflicts of interest but doesn't provide data. Then in Item 15: Custody, again no mention. 
+
+In Item 16: Investment Discretion, nothing about capital distribution either.
+
+Wait, maybe I need to look elsewhere. Let me read the entire text again:
+
+- Starts with SVRN as the investment adviser.
+- They manage assets on a discretionary and non-discretionary basis.
+- They may recommend a custodian but they are responsible for selecting.
+- There's mention of ETFs and custody over funds not directly held by them.
+
+Looking further down, under Item 14 again: The ETF is mentioned, but no data. Then in Item 15: Custody details, still nothing.
+
+Wait, perhaps the capital distribution percentage isn't provided here? Because I'm looking for that specific information. Maybe it's part of another section not included in the user's text.
+
+Alternatively, maybe the user expects me to infer or make assumptions because the data is missing. But since they provided a detailed report up to certain points, but without the actual capital distribution percentages and date, perhaps their task cannot be fully completed based on the given text.
+
+Wait, looking back at the initial query: The user wants a summary focusing on fund name, report date, outlook on capital distributions with percentage magnitude. But in the provided text, there's no mention of specific capital distributions or dates beyond mentioning the ETF's structure and custody details.
+
+So perhaps I need to inform the user that based on the provided information, it's not possible to extract the required data because the necessary sections about capital distribution and date are missing from the report they shared.
+
+Alternatively, maybe I'm overcomplicating. Let me check again: Is there any part where capital distributions or their magnitude is mentioned?
+
+Looking through each item:
+
+- Item 14 talks about conflicts of interest but no numbers.
+- Item 15: Custody details, still nothing on distribution percentages.
+- Item 16: Discretionary authority, no data.
+- Item 17: No voting proxies mentioned.
+- Item 18: Financial condition, no constraints.
+
+Hmm. It seems the user's provided report doesn't include specific data about capital distributions or their dates. Therefore, I can't provide a summary as requested because that information isn't present in the given text.
+
+Alternatively, maybe there was an oversight, and the actual data is elsewhere not shown here. But based solely on what's provided, I have to conclude that it's missing.
+</think>
+
+Based on the provided investment report, specific details about capital distributions or their magnitude are not included. The information requested cannot be extracted from the given text.
+
+---
+
+**Summary:**
+
+1. **Fund Name:** SVRN (as an investment adviser managing pooled funds and ETFs).
+2. **Date of Report:** Not explicitly mentioned in the provided text.
+3. **Capital Distributions:** Specific data on capital distributions or their magnitude is missing from the report.
+
+Please provide additional sections or data if available to assist further.

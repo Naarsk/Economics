@@ -1,0 +1,15 @@
+<think>
+Okay, so I'm trying to help this user who's a financial analyst. They want me to summarize an investment report with a specific focus on three things: the fund's name, the date of the report, and the outlook on capital distributions as a percentage.
+
+First, I need to figure out exactly what they're looking for. The user mentioned that their task is to summarize the report, so I should make sure the summary includes all those points without adding extra information. They didn't specify which fund or report we're dealing with, so maybe this is part of a general process.
+
+I wonder if they have access to specific data or reports already. Without knowing the exact details, it's hard to provide an accurate summary, but I can structure my response in a way that requires them to fill in the blanks. That way, once they provide the necessary information like fund name, date, and distribution outlook, I can offer a precise summary.
+
+Also, since they're focusing on capital distributions' magnitude as a percentage, I should emphasize that part of the report. They might be interested in how significant these distributions are for their investment strategy, so highlighting the percentage will make it more actionable for them.
+
+I should also consider if there's any additional context needed. For example, whether the distribution is expected to increase or decrease capital, and what factors are influencing this outlook. Including that could give them a fuller picture of the fund's performance.
+
+In summary, my approach should be to request the specific details from the user so I can craft a concise and relevant summary focusing on their required aspects. This way, they get exactly what they need without any unnecessary information.
+</think>
+
+Certainly! Please provide me with the name of the fund, the date of the report, and the outlook on capital distributions as a percentage, and I will summarize the investment report accordingly.

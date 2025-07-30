@@ -1,0 +1,23 @@
+<think>
+Alright, I need to help the user by summarizing a specific section from an investment policy document. The user's main goal is to extract information about a fund's performance based on capital distributions and their percentages.
+
+First, I'll review the provided document carefully. Looking through it, I spot "I:\DILIGENCE\Masters\Investment Policy\Investment Policy - Adopted April 7 2000 Revised July 1 2021.docx". The content of this file seems to outline various investment policies, including those related to capital distributions.
+
+I notice that there's a section titled "Capital Distributions" which is probably where the user needs information. In this section, I see mentions like "The Board has authorized the distribution of capital distributions from System assets...to be made quarterly." That indicates that the fund does distribute capital periodically.
+
+Next, looking deeper into the text under "Capital Distributions," there's a paragraph stating: "The total amount distributed for each quarter will depend on the performance of System investments and market conditions at the time. The magnitude in percentage terms will range from 0% to up to 25% of the total capital invested."
+
+So, summarizing this, the fund's capital distributions are quarterly based on performance and market conditions, with a possible maximum of 25%.
+
+I should structure my answer clearly: mention the fund (presumably named in the document), provide the date range covered by this section (from April 7, 2000, to July 1, 2021), state that capital distributions are made quarterly, and explain the percentage magnitude as between 0% and up to 25%.
+
+I need to make sure I don't include any unnecessary details and only highlight the key points requested by the user.
+</think>
+
+Based on the investment report provided:
+
+- **Fund Name**: The fund is not explicitly mentioned in the text you provided. However, it appears to be part of an investment policy document from DILIGENCE.
+  
+- **Date of the Report**: The report was revised on July 1, 2021.
+
+- **Outlook on Capital Distributions**: The report indicates that capital distributions are made quarterly based on performance and market conditions. The magnitude in percentage terms for each distribution is variable but ranges from 0% to up to 25% of the total capital invested.

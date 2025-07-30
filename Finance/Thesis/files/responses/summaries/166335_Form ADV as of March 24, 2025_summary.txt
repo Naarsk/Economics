@@ -1,0 +1,15 @@
+<think>
+Okay, I need to help the user by summarizing a portion of an investment report. Let me look at what's given.
+
+First, there are three execution pages from different authorities: non-resident, state-registered, and State-registered again, each with similar signatures but slightly different dates and titles. The key details here seem consistent except for the dates, which have March 24, 2025, in two of them.
+
+The main focus is on a fund called "PETER PANDOLFO JR. Signature Fund." The report mentions that as of March 31, 2025, the total capital distributions for the year are $7,890, with an increase of 4% from the previous year's $7,600.
+
+I need to extract this information: fund name, date (March 31, 2025), and the details about capital distributions—both the total amount in dollars and the percentage growth compared to the prior year. 
+
+Wait, but I should make sure that "capital distributions" refer correctly here. Are these dividends or just regular payments? The term used is consistent across pages, so it's safe to include them as capital distributions.
+
+I'll structure the summary by first stating the fund name and date, then provide the total distributions in dollars, followed by the percentage increase from the previous year. I should present this clearly and concisely for the user.
+</think>
+
+The investment report pertains to a fund named **"PETER PANDOLFO JR. Signature Fund."** The report was generated on March 31, 2025. The outlook indicates that capital distributions for the year amount to $7,890, representing an increase of 4% compared to the previous year's $7,600.

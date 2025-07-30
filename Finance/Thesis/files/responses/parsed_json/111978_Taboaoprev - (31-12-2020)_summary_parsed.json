@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Capital Distribution Fund",
+    "date": "2023-12-31",
+    "outlook": "increase",
+    "magnitude": 100,
+    "confidence": 0.95,
+    "explanation": "The fund shows a consistent increase in capital distribution towards full capitalization."
+  }
+}

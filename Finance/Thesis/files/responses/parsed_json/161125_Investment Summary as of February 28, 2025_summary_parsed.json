@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "St.Galler Pensionskasse (konsolidiert)",
+    "date": "20250228",
+    "outlook": "stable",
+    "magnitude": 2.5,
+    "confidence": 0.85,
+    "explanation": "The fund is expected to maintain a stable capital distribution with moderate returns based on historical performance."
+  }
+}

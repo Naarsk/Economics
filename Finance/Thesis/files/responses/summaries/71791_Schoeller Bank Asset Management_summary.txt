@@ -1,0 +1,17 @@
+<think>
+Okay, I need to help the user by summarizing a specific part of an investment report. The query mentions they want me to focus on the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, I'll look through the provided text to find these elements. Scanning the document, I see sections like "Our locations," "GENERAL INFORMATION," and dates such as March 2023. The fund name isn't explicitly stated here, but the context mentions Schoellerbank AG managing assets and talks about investment approaches. 
+
+However, without a specific fund name highlighted in this section, it's challenging to provide an exact name. It might be part of another report or document not included here. 
+
+Next, looking for dates, I find "March 2023" which is relevant.
+
+Regarding capital distributions and their outlook with percentages, the text discusses products that may offer returns based on performance rather than fixed dividends. There's mention of possible (re)payments affecting purchasing power but no specific figures or percentage outlooks provided here.
+
+Therefore, without more detailed information about a particular fund from this report, I can only gather partial details: the report is from March 2023 and discusses potential returns based on investment performance without specific distribution percentages.
+</think>
+
+The provided text does not explicitly mention a specific fund name. It appears to be an introductory document about Schoellerbank AG's asset management services, product features, tax considerations, locations, and client information. There is no mention of capital distributions or their magnitude in percentage terms within the excerpt.
+
+If you are referring to a specific fund mentioned elsewhere (not shown in this text), please provide more details for further assistance.

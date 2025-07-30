@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Lehigh County Employees' Retirement Plan",
+    "date": "2020-12-31",
+    "outlook": "stable",
+    "magnitude": 7.8,
+    "confidence": 0.85,
+    "explanation": "Positive twelve-month return with potential for moderate growth balanced by historical volatility."
+  }
+}

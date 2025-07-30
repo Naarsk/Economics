@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Police and Fire Retirement Plan",
+    "date": "2023-01-01",
+    "outlook": "stable",
+    "magnitude": "null",
+    "confidence": 0.7,
+    "explanation": "Data from previous years isn't provided."
+  }
+}

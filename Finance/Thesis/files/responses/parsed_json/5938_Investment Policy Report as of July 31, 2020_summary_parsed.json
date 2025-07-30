@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Pension System (DPERS)",
+    "date": "20200731",
+    "outlook": "stable",
+    "magnitude": 0,
+    "confidence": 0.95,
+    "explanation": "Capital distributions are not material, indicating a stable investment position."
+  }
+}

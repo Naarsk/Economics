@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "SERS Retirement Fund",
+    "date": "2025-03-19",
+    "outlook": "increase",
+    "magnitude": 15,
+    "confidence": 0.65,
+    "explanation": "Distributions could increase based on market conditions."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "XYZ Fund",
+    "date": "20250212",
+    "outlook": "stable",
+    "magnitude": 0,
+    "confidence": 1.0,
+    "explanation": "Quarterly capital distributions are expected, but the magnitude is unspecified."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "k c",
+    "date": "2015-09-16",
+    "outlook": "increase",
+    "magnitude": 12,
+    "confidence": 0.85,
+    "explanation": "Expected to outperform the S&P 500 Index by an expected 12%"
+  }
+}

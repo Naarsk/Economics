@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Safra S&P Reais Pb FICFI MM",
+    "date": "20250703",
+    "outlook": "decrease",
+    "magnitude": 2,
+    "confidence": 0.9,
+    "explanation": "Low fees suggest minimal returns retained for investors, slightly decreasing distribution potential."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "unknown",
+    "date": "20230930",
+    "outlook": "increase",
+    "magnitude": 8,
+    "confidence": 0.95,
+    "explanation": "Fund value increased by 8% last quarter"
+  }
+}

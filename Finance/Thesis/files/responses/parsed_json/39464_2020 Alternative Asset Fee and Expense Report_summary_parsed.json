@@ -1,0 +1,37 @@
+To solve this problem, we need to create an array of JSON objects where each object represents a fund with its name, date, and capital distribution change. Each fund will have one of three possible types of capital distribution changes: an absolute value (e.g., "$75M"), a percentage increase or decrease (e.g., "4% increase" or "6% decrease"), or no change ("No change").
+
+### Approach
+1. **Define the Structure**: Each fund is represented as an object with three keys: `name`, `date`, and `capital_distribution_change`.
+2. **Data Types for Capital Distribution Change**:
+   - Absolute value (e.g., "$50M").
+   - Percentage increase or decrease (e.g., "4% increase" or "6% decrease").
+   - No change.
+3. **Create Example Data**: We will create three example funds with the specified structure to demonstrate how the JSON array would look.
+
+### Solution Code
+
+[
+  {
+    "name": "XYZ Fund",
+    "date": "20200520",
+    "capital_distribution_change": "$75M"
+  },
+  {
+    "name": "ABC Portfolio",
+    "date": "20230910",
+    "capital_distribution_change": "4% decrease"
+  },
+  {
+    "name": "DEF Index",
+    "date": "20221115",
+    "capital_distribution_change": "No change"
+  }
+]
+
+
+### Explanation
+- The first object represents a fund named "XYZ Fund" with a capital distribution change of "$75M" on May 20, 2020.
+- The second object is the "ABC Portfolio" which experienced a decrease of 4% as of September 10, 2023.
+- The third object is the "DEF Index" which had no change in its capital distribution as of November 15, 2022.
+
+This structure allows for easy extension to include more funds with varying types of capital distribution changes.

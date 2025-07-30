@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "FictitiousFund",
+    "date": "20230726",
+    "outlook": "stable",
+    "magnitude": 0,
+    "confidence": 0.65,
+    "explanation": "Report does not provide specific information on capital distributions for any fund."
+  }
+}

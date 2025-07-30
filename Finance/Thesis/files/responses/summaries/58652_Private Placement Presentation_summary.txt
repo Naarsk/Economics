@@ -1,0 +1,19 @@
+<think>
+Okay, so I'm trying to help someone who needs a summary of an investment report. The user has given me a bunch of text that seems like it's from an EX.TRA Private Equity Fund. They want me to summarize focusing on the fund name, date of the report, outlook on capital distributions, and its magnitude in percentage terms.
+
+First, I'll start by identifying the key pieces of information. The fund is called EX.TRA Management GmbH, right? And the date mentioned is February 2024. That's straightforward.
+
+Next, looking at the outlook on capital distributions. In the report, there are several mentions like "Fund Conditions at a Glance," which talks about the target fund size being up to €130 million and targeting middle-market companies in D, A, CH. Also, under "Major Pre-Requisites for a Successful Fund," it's highlighted that an experienced team with an active network can achieve high returns.
+
+Then, the management commitment is 2%, which I think refers to the management fee. But the user also asked about capital distributions. The text doesn't explicitly mention future distributions beyond the target size and the hurdle rate of 8% per annum on invested capital. So, maybe it's more about the structure rather than specific distribution plans.
+
+Wait, in the section titled "Fund Conditions at a Glance," there are bullet points that include investment period (4-6 years) and minimum LP commitment (€5 million). It also mentions management fee 2.4% pa. But I'm not sure if this is about distributions or just fees.
+
+The user specifically asked for the outlook on capital distribution, so perhaps focusing on how much capital will be raised and the percentage terms. The target fund size is up to €130 million with a minimum of €5 million commitment from LPs. They expect the first closing to be around €35 million. So maybe the projected distribution isn't detailed beyond that.
+
+Putting it all together, I should structure my summary to include each part: fund name, date, target capital size in percentage terms (if applicable), and the expected distribution outlook.
+</think>
+
+The EX.TRA Management GmbH Private Equity Fund was reported on February 2024. The fund has a target capital size of up to €130 million. It aims to invest in 8-12 growth-oriented and innovative middle-market companies across Germany, Austria, and Switzerland over a four to six-year period. The management fee is set at 2% per annum, with an additional participation in management fees if costs are lower than budgeted.
+
+The fund's outlook suggests it expects capital distributions through investments in these companies, with the first closing anticipated around €35 million. The hurdle rate for returns is 8% annually, and carried interest is structured as 80/20.

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "BNP Paribas Fortis SA/NV",
+    "date": "20230630",
+    "outlook": "increase",
+    "magnitude": 7,
+    "confidence": 0.95,
+    "explanation": "The variance section indicates an increase in capital distributions with a 7% growth."
+  }
+}

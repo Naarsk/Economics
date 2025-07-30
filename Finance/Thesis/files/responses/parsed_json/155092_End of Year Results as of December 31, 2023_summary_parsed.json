@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Aegon",
+    "date": "20231115",
+    "outlook": "increase",
+    "magnitude": 1,
+    "confidence": 0.9,
+    "explanation": "Aegon expects a 1% increase in capital distributions, reflecting growth in investment performance."
+  }
+}

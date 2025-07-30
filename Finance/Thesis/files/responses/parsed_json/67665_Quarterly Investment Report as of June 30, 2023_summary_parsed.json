@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "PRIMED US",
+    "date": "2023",
+    "outlook": "stable",
+    "magnitude": 10,
+    "confidence": 0.8,
+    "explanation": "Allocated 10% to support local initiatives as per the fund's investment strategy."
+  }
+}

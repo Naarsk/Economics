@@ -1,0 +1,15 @@
+<think>
+Alright, so I need to help the user by summarizing an investment report. The user has given a detailed report about the East Sussex Pension Fund's stewardship activities and outcomes. They want me to focus specifically on three main points: the fund's name, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, I should identify where these pieces of information are located in the provided text. The fund is clearly stated as the East Sussex Pension Fund, so that's easy to spot. The date mentioned is December 31, 2022, which is within the report but towards the end when discussing the outcomes.
+
+Next, looking for the section on capital distribution outlook and its percentage impact. I'll scan through the text to find any mentions of returns or capital distribution expectations. I see several parts where they talk about expected returns, including "an expected return of 8%." That's a key point because it directly addresses the capital distribution and its magnitude.
+
+I need to ensure that I'm extracting all relevant figures without adding my own interpretation beyond what's provided. The user wants just the summary facts, so I should keep it concise. 
+
+Putting it all together, I'll structure the answer by first stating the fund name, then the date, followed by the expected return and its percentage. It's important to present these clearly and directly as per the user's instructions.
+
+I should also make sure there are no typos or misreadings from the report. Double-checking each fact before finalizing is a good idea. Once I have all three elements correctly identified, I can format them in a clear and readable way for the user.
+</think>
+
+The investment report pertains to **East Sussex Pension Fund** as of December 31, 2022. The fund anticipates an expected return of **8%**, which is considered significant in terms of capital distribution magnitude.

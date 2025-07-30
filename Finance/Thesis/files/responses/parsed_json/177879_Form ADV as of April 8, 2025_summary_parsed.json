@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "$130B ETF (Equity Fund)",
+    "date": "2025-12-31",
+    "outlook": "increase",
+    "magnitude": 2,
+    "confidence": 0.9,
+    "explanation": "Expected 2% asset growth driven by inflation and economic recovery, with a shift towards smaller companies."
+  }
+}

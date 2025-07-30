@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "The London Borough of Tower Hamlets Pension Fund",
+    "date": "2013-01-01", // Assuming a date after December 2011 for the annual report period
+    "outlook": "stable",
+    "magnitude": 0.5,
+    "confidence": 0.7,
+    "explanation": "The report does not provide specific details on expected capital distribution returns, so an assumption of slight increase with moderate confidence is made."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Global Market Fund",
+    "date": "202403",
+    "outlook": "increase",
+    "magnitude": 3.5,
+    "confidence": 0.85,
+    "explanation": "Strong global equity performance driven by positive economic indicators."
+  }
+}

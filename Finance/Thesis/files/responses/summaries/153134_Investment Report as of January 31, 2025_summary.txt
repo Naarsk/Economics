@@ -1,0 +1,44 @@
+<think>
+Alright, I need to help this user by summarizing a financial investment report. The query is about focusing on the fund's name, the date of the report, and the outlook on capital distributions with their percentages.
+
+First, I'll read through the provided text carefully. It seems like the report is from Factum AG, an asset management company in Liechtenstein. The main focus areas are stock indices, bond markets, commodities, currencies, and cryptocurrencies.
+
+The user wants a summary that includes:
+1. Fund name: They mention "Market overview 31 December 2024," which I think refers to their fund's performance at the end of 2024.
+2. Date of the report: That would be January 13, 2025, as it was edited on that date.
+3. Outlook on capital distributions with percentages.
+
+Looking through the report, under the Market Overview section for December 31, 2024, I see stock indices like S&P 500 and Nikkei 225 showing percentage changes. For example, the S&P is down about 25% year-to-date but had a slight gain compared to last week.
+
+The bond market shows US Treasury bonds at 0.69%, which is slightly higher than last week's 0.38%. Gold and WTI oil also have their respective percentage changes. 
+
+In the currencies section, I notice that EUR/USD dropped by about 6.21% this week. JPY/USD was down by 10.28%.
+
+For cryptocurrencies like Bitcoin (XBT/USD), it decreased by 3.84%, but the user mentioned focusing on main markets and commodities, so maybe they don't need to include crypto details unless specified.
+
+Putting this together, I'll structure a summary that includes each asset class with their respective performance percentages.
+</think>
+
+**Summary of Investment Report (Factum AG Vermögensverwaltung):**
+
+- **Fund Name:** Market overview 31 December 2024  
+- **Report Date:** January 13, 2025  
+
+The report provides an overview of capital distributions for various financial instruments as of December 31, 2024. Below is a breakdown of the key asset classes and their respective performance percentages:  
+
+### Stock Indices:
+- **S&P 500:** -25.00% year-to-date (YtD), +0.28% week-on-week  
+- **Nikkei 225:** +21.27% YtD, +4.52% week-on-week  
+
+### Bond Markets:  
+- **US Treasury Bonds 10Y (USD):** 0.69%, up from -0.38% last week  
+
+### Commodities:  
+- **Gold (USD/fine ounce):** -27.22% YtD, +2.22% week-on-week  
+- **WTI oil (USD/barrel):** +0.10% YtD, +5.47% week-on-week  
+
+### Currencies:  
+- **EUR/USD:** -6.21% YtD, +3.00% week-on-week  
+- **JPY/USD:** -10.28% YtD, +something missing in the report  
+
+This summary highlights the performance of various asset classes as of December 31, 2024, based on the latest data available up to January 13, 2025.

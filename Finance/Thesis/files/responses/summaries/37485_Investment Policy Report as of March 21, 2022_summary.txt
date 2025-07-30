@@ -1,0 +1,17 @@
+<think>
+Alright, I need to help the user by summarizing a given investment report. The user specifically mentioned focusing on the fund's name, the report date, and the outlook on capital distributions along with their magnitude in percentages.
+
+First, looking at the provided text, I see that it's a detailed document from a pension fund called "Tayside Pension Fund." It was last reviewed on 210322. The main sections talk about asset allocation, active management, fees, and ESG considerations. However, there's no direct mention of capital distributions or their outlook with percentages.
+
+Hmm, the user wants information on capital distributions' outlook and magnitude. Since I don't have specific numbers here, maybe it's because that information isn't provided in this excerpt. The focus seems to be more on strategy and investment approaches rather than dividend payments or distributions.
+
+I should clarify for the user that while the fund is active in equities and property, there's no data given on how they distribute capital through dividends or capital gains. Therefore, without specific figures, I can't provide exact percentages or outlooks on distribution magnitude.
+
+Perhaps if the user has access to more detailed reports where this information is included, I can assist further once that data is available.
+</think>
+
+The document you provided appears to be a detailed investment report from the **Tayside Pension Fund**, last reviewed on 210322. However, it does not explicitly mention or provide specific information regarding capital distributions or their outlook in terms of magnitude (e.g., percentages). 
+
+The fund's strategy emphasizes active management, particularly in equities and property, with a focus on long-term growth and diversification. It also highlights the importance of minimizing fees and incorporating ESG considerations into its investment decisions.
+
+If you are seeking information about capital distributions or their outlook, I recommend referring to more detailed financial reports or annual statements from the fund, as this specific information may not be included in the provided excerpt.

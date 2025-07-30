@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Green Horizons Fund",
+    "date": "20240301",
+    "outlook": "increase",
+    "magnitude": 15,
+    "confidence": 0.95,
+    "explanation": "Capital distributions are expected to increase annually at a magnitude of 15%."
+  }
+}

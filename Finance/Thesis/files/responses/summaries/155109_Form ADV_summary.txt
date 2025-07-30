@@ -1,0 +1,19 @@
+<think>
+Okay, so I need to help the user by summarizing an investment report. The query provides three execution pages for different types of investment advisers—state-registered, non-resident, and state-registered again—but they all seem similar except maybe their registration context.
+
+The user's task is to summarize the provided investment report focusing on the name of the fund, the date, the outlook on capital distributions, and its magnitude in percentage terms. They've given an example response which I can use as a guide.
+
+First, I should identify each part: the fund name, date (February 21, 2025), any mention of capital distribution, and whether it's a specific percentage or magnitude like "moderate" size.
+
+Looking at the provided text, all execution pages are for Nathan Schwantes as an investment adviser with CCO, CRD 332143. They talk about appointing agents to receive service and state registration details but don't mention any funds or capital distributions directly.
+
+Wait, maybe I'm missing something. The user's example response mentions "The fund is expected to distribute $50 million in dividends next quarter, representing a moderate-sized payout." But the provided text doesn't specify a fund name or any dollar amounts related to dividends or payouts. Hmm.
+
+Perhaps the user intended that each execution page corresponds to different funds? Or maybe they need me to infer from their example response. Since none of the pages mention specific funds or percentages regarding distributions, I might have to respond that there's insufficient information provided.
+
+Alternatively, perhaps the user wants a template for summarizing such reports regardless of content specifics. So my response should structure it with placeholders where details are missing. But since they asked to summarize based on their inputs, which don't include fund info, I need to clarify or say it can't be done as is.
+
+I think the best approach is to inform them that while they provided three execution pages, there's no mention of a specific fund name, date beyond what was given, and nothing about capital distributions' magnitude. So summarization isn't possible without additional info.
+</think>
+
+The provided text does not contain sufficient information to summarize an investment report as requested. It appears to be multiple forms related to investment advisory registration and appointments for Nathan Schwantes, but there is no mention of a specific fund name or details about capital distributions (such as their magnitude in percentage terms). Therefore, I cannot provide the requested summary based on the provided content.

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "TREND PÓS-FIXADO FUNDO DE INVESTIMENTO EM COTAS DE FUNDOS DE INVESTIMENTO",
+    "date": "20200313",
+    "outlook": "decrease",
+    "magnitude": 2,
+    "confidence": 0.90,
+    "explanation": "The policy change may reduce the magnitude of funds available for RPPS distribution as contributions now come from FPS instead of direct state funding."
+  }
+}

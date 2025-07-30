@@ -1,0 +1,24 @@
+<think>
+Alright, I need to help the user by summarizing the given investment report. The user specified that the summary should focus on three main points: the fund's name, the report's date, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, looking at the report provided, I notice it starts with "Investment Performance Summary" but doesn't specify which fund. It mentions various pools like Domestic Equity TR, International Equity TR, Fixed Income Pools, etc., each with different performance metrics over time periods from YTD to 10 years. There's also information on investment mix options categorized into Aggressive, Moderately Aggressive, Moderate, Conservative, and Risk Averse, along with their respective allocations.
+
+The date of the report is mentioned as "As of 1/31/2025," so that's straightforward to extract. 
+
+For the fund name, the report doesn't explicitly state it but refers to a Community Foundation rebalancing strategy. It mentions options like the Aggressive Mix and Risk Averse, which are investment strategies offered by the foundation. Since multiple funds aren't named here, I'll have to infer that the primary fund is managed by Kern Community Foundation.
+
+The outlook on capital distributions isn't explicitly stated in the provided data. However, typically, such reports might hint at future expected returns based on historical performance or market conditions. The user didn't provide specific percentages for this year's distribution, so focusing on past performance as an indicator of future expectations makes sense here.
+
+Considering all this, I should structure the summary to include the fund name (Kern Community Foundation), the report date (1/31/2025), and discuss the historical performance metrics. Since there's no specific outlook mentioned, I can state that past performance may indicate future returns but note that it doesn't guarantee future results.
+
+I need to ensure the summary is concise, focusing only on the required points without including other details like contact information or pools, which aren't relevant for summarization.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** Kern Community Foundation (managed by multiple funds, including Domestic Equity TR and International Equity TR).
+- **Report Date:** January 31, 2025.
+
+The report provides historical performance metrics for various investment pools, such as the Domestic Equity Pool at 22%, Fixed Income Pools with allocations ranging from 10% to 42%, and the Money Market Pool at 3%. It also outlines different investment mixes (Aggressive, Moderately Aggressive, Moderate, Conservative, Risk Averse) with corresponding asset allocations. However, it does not provide specific outlooks for capital distributions or their magnitude in percentage terms as of the report date.
+
+Past performance may indicate potential future returns, but no guarantees are made regarding future results.

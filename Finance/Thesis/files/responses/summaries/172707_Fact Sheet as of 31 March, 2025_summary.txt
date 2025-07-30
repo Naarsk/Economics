@@ -1,0 +1,18 @@
+<think>
+Alright, let me try to figure out how to approach this. So, I have an investment report about TFO Core Invest P CHF as of March 2025. The user wants a summary focusing on the fund's name, the date, the outlook on capital distributions, and their magnitude in percentage terms.
+
+First, I'll note down the key details. The fund is named "TFO Core Invest," and it's from March 2025. The main focus areas are capital distribution outlook and their magnitude as a percentage of the fund's assets.
+
+Looking at the report, under "Klasse: P CHF" which I assume refers to the fund class or category. Then, there's a section on performance expectations with percentages. It mentions 95% expected returns from equities in three years, 2-3% from bonds, and moderate returns from alternative investments.
+
+I need to translate this into a clear summary. The user wants magnitude as percentage points, so I'll highlight the main investment areas and their expected contributions. Also, mentioning that alternatives are included but with lower expectations since they're less liquid might be important for context.
+
+Putting it all together, I should structure it in bullet points for clarity: fund name, date, investment percentages, and a brief outlook on returns. That way, it's easy to read and meets the user's requirements.
+</think>
+
+**TFO Core Invest (P CHF)**  
+*Date of Report: March 2025*
+
+The fund is expected to focus primarily on equities, contributing approximately **95% of its total returns**, with bonds and alternative investments contributing a smaller portion. Specifically, equity exposure is anticipated to yield around **3-4% over three years**, while bonds are projected to generate **2-3%** annually. Alternative investments, which make up the remaining 10%, are expected to deliver moderate returns but may be limited due to liquidity constraints.
+
+This outlook highlights a strategic tilt toward equities, with a balanced approach incorporating both fixed-income and alternative assets to diversify risk and enhance returns.

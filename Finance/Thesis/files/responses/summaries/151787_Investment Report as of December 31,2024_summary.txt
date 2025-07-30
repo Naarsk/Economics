@@ -1,0 +1,20 @@
+<think>
+Alright, let me try to figure out how to approach this user's query. So, they're asking me to act as a financial analyst and summarize an investment report. The specific instructions are to focus on four things: the fund's name, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+Hmm, first I need to understand what exactly the user is looking for. They provided a sample response which includes all these elements, but they probably have their own investment report in mind. The key here is to extract just those four pieces of information from whatever report they're working with.
+
+I wonder if they want this summary for a presentation or maybe a quick briefing. It seems like they need concise data without too much detail. They might be someone who's analyzing different funds and needs to prioritize based on distribution outlook and timing.
+
+Also, considering the user mentioned focusing on these specific areas, I should make sure that each of those points is clearly separated in the summary. Maybe using bullet points would help for clarity. It's important to include the percentage because it quantifies how significant the distributions are expected to be.
+
+I should also double-check if there are any other details they might find useful but didn't specify, like the fund type or region. However, since their instructions were specific, sticking to the four points is probably best unless there's more context provided elsewhere.
+
+In summary, my approach will be to extract the fund name and date first, then note the outlook on distributions along with its percentage impact. Keeping it straightforward and focused will make the information most useful for whatever purpose they're using this report for.
+</think>
+
+Here’s a concise summary based on your instructions:
+
+- **Fund Name**: [Insert Fund Name]
+- **Report Date**: [Insert Report Date]
+- **Capital Distributions Outlook**: [Insert outlook, e.g., "Expected to increase by X%"]
+- **Magnitude in Percentage Terms**: [Insert percentage, e.g., "X% of the fund’s assets"]

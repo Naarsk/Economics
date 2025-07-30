@@ -1,0 +1,16 @@
+<think>
+Alright, I'm trying to help this user who's a financial analyst. They need me to summarize an investment report with specific focuses: the fund's name, the report's date, the outlook on capital distributions, and its magnitude as a percentage.
+
+First, I should read through the provided information carefully. The report mentions several funds like iShares MSCI EAFE ETF Trust (EFCX), which has a focus on developed markets excluding the US with an emphasis on Europe. It reports on May 31st, 2024.
+
+The user wants me to highlight that capital distributions are expected to grow, but not by much—just under 1% in nominal terms and less than half of that real terms. So I need to make sure those numbers are included clearly.
+
+I should structure the summary to include all these points concisely. The fund's name is essential because it tells who is managing the investments. The date is necessary for context about when this outlook was given. Then, explaining the growth projections with both nominal and real terms gives a complete picture of the expected distribution increase.
+
+I must ensure that I'm not including any unnecessary details but only focusing on what the user asked for. Also, keeping the language clear and straightforward will help the financial analyst quickly grasp the key points without getting bogged down by extra information.
+</think>
+
+The investment report focuses on the following key elements:  
+- **Fund Name**: iShares MSCI EAFE ETF Trust (EFCX).  
+- **Report Date**: May 31, 2024.  
+- **Capital Distributions Outlook**: The capital distributions are expected to grow by approximately **under 1% in nominal terms** and **less than half of that amount in real terms**.

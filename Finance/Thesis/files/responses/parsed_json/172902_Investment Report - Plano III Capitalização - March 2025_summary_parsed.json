@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund A",
+    "date": "2023-12-31",
+    "outlook": "stable",
+    "magnitude": 57.89,
+    "confidence": 0.92,
+    "explanation": "Dominant allocation to fixed-income investments suggests stability."
+  }
+}

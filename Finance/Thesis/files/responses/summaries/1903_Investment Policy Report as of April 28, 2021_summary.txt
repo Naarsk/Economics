@@ -1,0 +1,17 @@
+<think>
+Okay, I need to help the user by summarizing the provided investment report. The user specifically asked for a summary focusing on the fund's name, the date of the report, and the outlook on capital distributions including their magnitude in percentages.
+
+First, looking at the information given, the fund is the Pennsylvania State Employees' Retirement System (SERS) Investment Office. The report doesn't specify a date other than 2021, so I'll note that as around late 2021 or early 2022.
+
+Next, the user wants to know about capital distributions and their outlook. From the provided text, it mentions that the policy target asset allocation is designed to manage investment management fees effectively. It emphasizes minimizing these fees by allocating more to liquid assets with low correlation to U.S. equities and less to illiquid assets. 
+
+The report also talks about maintaining a high allocation to liquid assets for better cash flow matching against liability payments. Additionally, it aims to increase the expected return rate closer to the actuarial rate of return to ensure sufficient funding.
+
+However, I don't see any specific information on the actual amounts or percentages related to capital distributions in 2021. The text is more about the strategy and objectives rather than actual distribution figures. So, without explicit data, it's not possible to provide exact percentages for capital distributions from that year.
+
+Therefore, the summary should highlight SERS's strategic approach but leave out any specific monetary figures since they aren't provided.
+</think>
+
+The Pennsylvania State Employees' Retirement System (SERS) Investment Office provides an investment strategy focused on managing capital distributions and fee structures. The report outlines a policy target asset allocation aimed at minimizing investment management fees by prioritizing liquid assets with low correlation to U.S. equity markets, while also reducing allocations to illiquid assets. Additionally, the strategy emphasizes maintaining high liquid assets for better alignment of portfolio cash flows with liability payments and increasing expected return rates closer to the actuarial rate of return.
+
+The report does not provide specific data on capital distribution amounts or percentages from 2021. Instead, it focuses on strategies to enhance transparency, control costs, and align returns with actuarial needs.

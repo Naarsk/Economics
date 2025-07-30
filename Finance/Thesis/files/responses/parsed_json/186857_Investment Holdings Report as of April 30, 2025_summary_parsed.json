@@ -1,0 +1,34 @@
+{
+  "results": {
+    "name": "San Juan College",
+    "date": "2025-04-30",
+    "outlook": "mixed",
+    "magnitude": null,
+    "confidence": 0.9,
+    "explanation": "The fund reported withdrawals but saw positive contributions from tobacco settlement proceeds, indicating a potential increase in capital distributions."
+  },
+  "results": {
+    "name": "NM Tech",
+    "date": "2025-04-30",
+    "outlook": "negative",
+    "magnitude": null,
+    "confidence": 0.5,
+    "explanation": "Market fluctuations caused a decrease in the endowment market value, suggesting a decline in capital distributions."
+  },
+  "results": {
+    "name": "Western New Mexico University",
+    "date": "2025-04-30",
+    "outlook": "positive",
+    "magnitude": null,
+    "confidence": 0.9,
+    "explanation": "Significant increases in tobacco sales proceeds and investment contributions indicate strong capital distribution activity."
+  },
+  "results": {
+    "name": "Governmental Funds and Third Party Total",
+    "date": "2025-04-30",
+    "outlook": "mixed",
+    "magnitude": null,
+    "confidence": 0.6,
+    "explanation": "Contributions to permanent funds decreased due to a slower economy, but tobacco settlement proceeds increased, suggesting some positive activity in capital distribution."
+  }
+}

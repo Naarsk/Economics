@@ -1,0 +1,21 @@
+<think>
+Okay, I need to help the user by summarizing a given investment report. They specifically want me to focus on three key points: the name of the fund, the date of the report, and the outlook on capital distributions including their magnitude in percentage terms.
+
+Looking at the provided text, it's an ADV Part 2A report for East Shore Investment Management ("ESIM"). The most relevant information is near the end where they discuss capital distributions. 
+
+First, I'll note that ESIM Distribution is the fund name. Then, checking the dates, the report was prepared on March 15, 2024.
+
+For capital distributions, the text says: "The Fund has a current yield of [specific number]%, and expects to distribute approximately [another specific number]% in the coming months." I need to extract those exact numbers. 
+
+Wait, actually looking closer, it doesn't provide specific percentages but mentions expectations based on market conditions and investment performance. So maybe there's no exact percentage given here. 
+
+Therefore, my summary should state that ESIM Distribution expects to distribute capital payments based on current yield and future performance without providing a fixed percentage.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** ESIM Distribution
+- **Report Date:** March 15, 2024
+- **Capital Distributions Outlook:** The Fund is expected to distribute capital payments based on its current yield and projected investment performance in the coming months. Specific percentage details are not provided in this report.
+
+This summary captures the key information requested: the fund name, report date, and the general outlook on capital distributions without specific percentage figures as they were not detailed in the provided text.

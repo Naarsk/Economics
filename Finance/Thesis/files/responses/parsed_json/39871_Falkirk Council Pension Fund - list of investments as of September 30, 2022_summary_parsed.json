@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "name": "Global Infrastructure Partners III-A/B, LP",
+      "date": "20231123",
+      "outlook": "increase",
+      "magnitude": 7.061331,
+      "confidence": 0.95,
+      "explanation": "Focuses on infrastructure investments with a positive outlook for growth in key sectors."
+    },
+    {
+      "name": "Harbert Power Fund V (AIV) LLC",
+      "date": "20231123",
+      "outlook": "increase",
+      "magnitude": 9.550725,
+      "confidence": 0.85,
+      "explanation": "Specializes in renewable energy projects; expected to align with sector growth strategies."
+    },
+    {
+      "name": "INNISFREE PFI SECONDARY FUND",
+      "date": "20231123",
+      "outlook": "stable",
+      "magnitude": 0.86964,
+      "confidence": 0.75,
+      "explanation": "Infrastructure-related secondary fund with limited details provided."
+    },
+    {
+      "name": "WILSHIRE US PRIVATE MARKETS VII LP",
+      "date": "20231123",
+      "outlook": "increase",
+      "magnitude": 25000000,
+      "confidence": 0.80,
+      "explanation": "Focuses on U.S. private markets with emphasis on renewable energy and clean technology growth."
+    }
+  ]
+}

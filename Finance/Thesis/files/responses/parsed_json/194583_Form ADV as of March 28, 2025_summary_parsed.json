@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund X",
+    "date": "20250328",
+    "outlook": "increase",
+    "magnitude": 3,
+    "confidence": 0.8,
+    "explanation": "Fund X is expected to see capital distributions increase moderately in Q1 2025 by approximately 3%, with potential risks such as interest rate hikes or market volatility."
+  }
+}

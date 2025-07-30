@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "name": "Aggressive Mix",
+      "date": "20241231",
+      "outlook": "increase",
+      "magnitude": 5.2,
+      "confidence": 0.8,
+      "explanation": "Focus on growth-oriented investments with expected moderate returns."
+    },
+    {
+      "name": "Moderately Aggressive Mix",
+      "date": "20241231",
+      "outlook": "increase",
+      "magnitude": 3.8,
+      "confidence": 0.75,
+      "explanation": "Balanced between growth and stability with slightly lower expected returns."
+    },
+    {
+      "name": "Moderate Mix",
+      "date": "20241231",
+      "outlook": "stable",
+      "magnitude": 2.6,
+      "confidence": 0.7,
+      "explanation": "Focus on stability with moderate growth expectations."
+    },
+    {
+      "name": "Conservative Mix",
+      "date": "20241231",
+      "outlook": "stable",
+      "magnitude": 1.8,
+      "confidence": 0.65,
+      "explanation": "Low-risk investments with minimal growth potential."
+    },
+    {
+      "name": "Risk Averse Mix",
+      "date": "20241231",
+      "outlook": "stable",
+      "magnitude": 1.2,
+      "confidence": 0.6,
+      "explanation": "Focus on preservation of capital with very low growth expectations."
+    }
+  ]
+}

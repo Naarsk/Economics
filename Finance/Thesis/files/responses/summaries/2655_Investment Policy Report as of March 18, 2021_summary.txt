@@ -1,0 +1,23 @@
+<think>
+Okay, I need to help the user by summarizing a provided investment report. The key points they're interested in are the fund's name, the report date, and the outlook on capital distributions including their magnitude in percentages.
+
+First, I'll start by identifying each section of the report that provides these details. The fund is named "Pennsylvania Municipal Retirement System," so that should be clear enough. Next, looking for where the report date is mentioned; it's listed as March 18, 2021.
+
+Now, focusing on the capital distribution part. I see sections outlining equity allocations: domestic at 35-45%, international at 20-25%, and Russell 3000 at 35-40%. For fixed income, it's investment grade from 10-15% and BofAML T-Bills at 9-10%.
+
+The report mentions that capital distributions are expected to be stable with moderate adjustments. It also notes that the current rate is 5.25%, which might influence the magnitude of cash allocations.
+
+Putting this all together, I'll structure the summary by mentioning each asset class's percentage ranges and then discuss the stability and expected magnitude of changes based on these guidelines.
+</think>
+
+The Pennsylvania Municipal Retirement System (PMRS) has adopted an Investment Policy Statement effective March 18, 2021. The report outlines the fund's capital distribution strategy, which is designed to maintain a balanced allocation across various asset classes while adhering to specific guidelines.
+
+Key details include:
+
+- **Capital Distribution**:
+  - **Equity**: Allocations are targeted between 55%-75% of the portfolio, with domestic equity expected at 35%-45%, international equity at 20%-25%, and Russell 3000 allocations in the range of 35%-40%.
+  - **Fixed Income**: The fixed income portion is set to be between 10%-25%, with a focus on investment grade securities (10%-15%) and U.S. Treasury bills (9-10%).
+  
+The report indicates that capital distributions are expected to remain relatively stable, with moderate adjustments anticipated based on market conditions and performance metrics against peer benchmarks.
+
+*Note: The current crediting rate for cash investments is 5.25%, which may influence the magnitude of cash allocations in the portfolio.*

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "DILIGENCE Investment Fund",
+    "date": "20210701",
+    "outlook": null,
+    "magnitude": 25,
+    "confidence": 0.8,
+    "explanation": "Capital distributions are made quarterly with variable magnitudes up to 25%."
+  }
+}

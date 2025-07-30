@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Retail Fund",
+    "date": "20250401",
+    "outlook": "increase",
+    "magnitude": 15,
+    "confidence": 0.85,
+    "explanation": "Strong demand in specific sectors with consistent sales performance."
+  }
+}

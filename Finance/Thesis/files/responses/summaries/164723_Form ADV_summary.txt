@@ -1,0 +1,21 @@
+<think>
+Okay, so I need to summarize this investment report based on what the user asked. They want me to focus on the fund's name, the report date, and the outlook on capital distributions with their percentage impact.
+
+First, looking at the provided text, it starts with some general information about an investment fund managed by Andrei Jigalin. The fund is categorized as a non-resident investment company (NIPC), which I remember means all its assets are held offshore. The current management company is TICAP, and they were formed in 2019 under the Investment Advisers Act.
+
+The most important part for the user seems to be the performance report from March 30, 2025. It mentions that the fund's capital distributions will depend on investment performance during the first quarter of 2025. The total capital distribution is expected to be around 10-15%, which isn't too high.
+
+So I need to extract these three pieces of information:
+
+1. Fund name: Non-Resident Investment Company (NIPC)
+2. Date of the report: March 30, 2025
+3. Capital distribution outlook and magnitude: Depends on performance; expected range is 10-15%
+
+Wait, but I should make sure that "capital distributions" refers to dividends or distributions made by the fund. In this context, it's about how much capital will be distributed, which aligns with their impact percentage.
+
+I also need to check if there's any additional info about why the distribution depends on performance, but since the user only asked for name, date, and magnitude, I can stick to that.
+
+So putting it all together in a clear summary.
+</think>
+
+The investment report focuses on a Non-Resident Investment Company (NIPC) managed by Andrei Jigalin. The fund was formed under the Investment Advisers Act in 2019 and is categorized as an offshore entity. The latest performance report, dated March 30, 2025, indicates that capital distributions will depend on the fund's investment performance during the first quarter of 2025. The expected magnitude of these distributions is anticipated to be between 10% and 15% of the fund's total capital.

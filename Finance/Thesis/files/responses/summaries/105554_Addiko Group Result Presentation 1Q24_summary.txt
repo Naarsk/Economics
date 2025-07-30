@@ -1,0 +1,29 @@
+<think>
+Okay, so I need to help the user by summarizing a specific part of an investment report. The query is about an investment report from Addiko Bank AG for a fund, and they want it focused on the name of the fund, the date, and an outlook on capital distributions along with their magnitude in percentage terms.
+
+First, I'll start by reading through the provided materials to identify key points. The materials mention that the report was prepared by Addiko Bank AG but don't specify a particular fund. There are mentions of various financial metrics like capital ratios (20.3% fully-loaded), non-focus segments contributing 57 million euros with a capital ratio of 18.35%, and focus areas contributing 456 million euros at 63 million euros.
+
+Looking for the date, it's mentioned as May 8, 2024. The user wants this in the summary, so I'll include that. Next, the outlook on capital distributions: the non-focus segments are expected to distribute around 57 million euros, which is about a quarter of the total capital distribution (203 million). This means they're contributing approximately 18% of the total.
+
+I should also note that focus areas contribute around half of the capital and about two-thirds in terms of income. The non-focus segments are undergoing a process to free up liquidity, which is crucial for funding growth elsewhere.
+
+So putting it all together: mention the fund name (though not explicitly given), date as May 8, 2024, the structure of capital distribution with percentages based on their contributions and income shares.
+</think>
+
+The investment report from Addiko Bank AG provides insights into its financial performance and capital distribution strategy. Here is a summarized version focusing on the key aspects requested:
+
+**Summary:**
+
+- **Date:** May 8, 2024
+- **Fund Name:** While the specific fund name isn't explicitly mentioned in the provided materials, the report refers to Addiko Bank AG's financial performance and capital distribution strategy.
+
+The report outlines that:
+1. **Capital Distributions:**
+   - The non-focus segments are expected to distribute approximately €57 million (203 million euro total), representing around 28% of the total capital.
+   - Focus areas, which represent about half of the capital, are projected to contribute around two-thirds in terms of income.
+
+2. **Outlook on Capital Distributions:**
+   - The non-focus segments will distribute approximately €57 million, which is a significant portion (about 18%) of the total capital distribution expected for the year.
+   - Focus areas will distribute approximately €456 million, accounting for about two-thirds of the income.
+
+This indicates that while focus areas are central to Addiko Bank AG's growth strategy and contribute more to both capital and income, non-focus segments play a crucial role in freeing up liquidity.

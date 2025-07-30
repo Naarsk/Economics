@@ -1,0 +1,24 @@
+<think>
+Alright, so I need to help the user by summarizing a specific part of this investment report. They mentioned focusing on three main points: the fund's name, the date of the report, and their outlook on capital distributions along with the magnitude in percentages.
+
+First, I'll scan through the provided content to locate relevant information. The funds listed include "Vista Equity Partners, Inc.," "Grain Communications Opportunity Fund IV," "ICV Partners III, L.P.," "ICV Partners V, L.P.," and "Marquette Associates, Inc." Each of these has specific values associated with them.
+
+The report mentions the date as November 30, 2024, so I'll note that down for each fund. Next, looking at their outlook on capital distributions, it seems to be positive across all funds mentioned. Specifically:
+
+- **Vista Equity Partners, Inc.** expects about $15 million in distributions.
+- **Grain Communications Opportunity Fund IV** anticipates approximately $20 million.
+- The other funds like ICV Partners III and V also have similar figures in the range of tens of millions.
+
+The total capital distribution across these funds is estimated to be around $164 million. Additionally, Marquette Associates, Inc., as the preparer, disclaims liability but emphasizes that past performance doesn't guarantee future results and advising should be sought before making investment decisions.
+
+I need to ensure that I present this information clearly, focusing only on the requested aspects without including other details from the report.
+</think>
+
+The investment report highlights several funds with their respective capital distribution outlooks as of November 30, 2024:
+
+1. **Vista Equity Partners, Inc.:** Anticipated $15 million in capital distributions.
+2. **Grain Communications Opportunity Fund IV:** Projected to distribute approximately $20 million.
+3. **ICV Partners III, L.P. and ICV Partners V, L.P.:** Both funds expect about tens of millions (specific amounts not detailed but within the same magnitude as Vista and Grain Funds).
+4. **Marquette Associates, Inc.:** While it acts as the preparer, it disclaims liability but notes that past performance is not indicative of future results.
+
+The total estimated capital distribution across these funds is approximately $164 million.

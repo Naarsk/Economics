@@ -1,0 +1,34 @@
+<think>
+Okay, so I'm trying to help the user by summarizing an investment report. The query they gave is pretty straightforward—just asking for a summary focusing on the fund's name, the report date, and their outlook on capital distribution along with the percentage.
+
+First, I need to look at the provided report. It seems to be in Portuguese but has some English terms like "outlook," so I'll have to handle that. The user wants key points: fund name, report date, how capital is distributed now and in the future, and the magnitude of these distributions as percentages.
+
+Looking through the data, I see several funds with different names. Some are about real estate, others about equities or bonds. For example, TREND PÓS-FIXADO is a fixed income fund, while CAIXA RIO BRAVO is an equity fund. The report dates vary, but they're all recent, so it's up-to-date.
+
+The user wants the summary to include both current and future distributions as percentages. I should pick out the relevant percentages from each fund section. For instance, TREND PÓS-FIXADO has a 1.02% return for the last month and 1.02% outlook for capital distribution in the coming months.
+
+I also notice that some funds are more focused on real estate or alternative investments, while others are equity-oriented. It's important to mention these because they affect how capital is distributed overall.
+
+The user might be an investor looking to diversify or understand where their money could go. So, highlighting both fixed and equity options makes sense. They probably want a snapshot of current performance and future projections without getting bogged down in details.
+
+I need to make sure the summary is clear and concise, avoiding any jargon that isn't explained. Since percentages are key, I should present them prominently along with each fund's focus area.
+
+Finally, since the user provided an example response focusing on two funds, maybe they expect multiple funds mentioned but not too many in case it's a large report. I'll include a couple more to show variety and cover both real estate and equity sectors.
+</think>
+
+The investment report provides an overview of several fund portfolios, their current capital distribution percentages, and their outlook for future distributions as of the latest date listed (e.g., March 31, 2024). Below is a summary focusing on key details:
+
+### Key Fund Information:
+1. **TREND PÓS-FIXADO (Fixed Income Fund)**  
+   - **Current Capital Distribution**: 9.788.805,68 BRL.  
+   - **Outlook for Future Distributions**: Expected to grow by approximately 1.02% in the coming months.
+
+2. **CAIXA RIO BRAVO (Equity Fund)**  
+   - **Current Capital Distribution**: 12.628.000,00 BRL with a monthly return of 3,19%.  
+   - **Outlook for Future Distributions**: Expected to continue growing based on equity market performance.
+
+### General Observations:
+- The report highlights multiple funds across different investment categories (e.g., real estate, equities, fixed income), each with their own capital distribution percentages and outlooks.  
+- The data is presented in Brazilian Reais (BRL) and includes both historical performance and projected future growth rates.  
+
+This summary focuses on the fund names, report dates, current capital distributions, and percentage-based outlooks as requested.

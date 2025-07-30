@@ -1,0 +1,19 @@
+<think>
+Okay, so I need to help summarize this investment report. The user specifically asked for a summary focusing on the fund's name, the date of the report, and the outlook on capital distributions, including their magnitude in percentage terms.
+
+First, I'll read through the provided report carefully. It starts with an introduction about the fund managed by Factum AG Vermögensverwaltung, which is based in Vaduz, Liechtenstein. The report was created on August 30, 2024, for distribution starting September 5, 2024.
+
+Looking at the structure, there are several sections: an overview of stock indices and commodities with current performance data, a market overview including bond markets, currencies, and emerging countries, followed by specific fund performance metrics. The fund in question is described as a "Multi-Asset Class Fund," focusing on stability and growth potential. It has exposure across equity, fixed income, real estate, commodities, and alternative investments.
+
+In the fund's performance section, it mentions that over the last year (YtD), it gained 9.80%. The expected capital distribution for September is a 1.64% gain on assets under management. The magnitude here is clear—1.64%, which I should present as a percentage.
+
+The user wants this information condensed into bullet points focusing only on the fund name, date, and capital distribution outlook with its percentage. So I'll extract these details: Fund Name (Multi-Asset Class Fund), Date of Report (August 30, 2024), and Capital Distribution Outlook (1.64%).
+
+I should make sure to present this in a clear and concise manner without including any other information from the report.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** Multi-Asset Class Fund  
+- **Date of Report:** August 30, 2024  
+- **Capital Distribution Outlook:** Expected growth of 1.64% in September

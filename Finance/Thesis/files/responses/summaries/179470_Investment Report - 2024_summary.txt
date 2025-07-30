@@ -1,0 +1,15 @@
+<think>
+Okay, so I have this query where someone is asking me to summarize a provided investment report. The user has specifically mentioned focusing on the fund's name, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, I need to understand what exactly they're looking for. They probably want a concise summary rather than going into every detail of the report. They might be someone involved in investing or maybe a financial analyst who needs quick insights without reading through the entire document.
+
+Looking at the investment report provided, it's about Previa 3 - Tres Bens, which is a Brazilian equity fund. The report dates back to March 13, 2025. The key points from the report are that they expect capital distributions of around R$4.7 billion. This represents approximately 2% of the fund's assets as of December 31, 2024.
+
+I should make sure I extract these specific elements: the fund name (Previa 3 - Tres Bens), the date (March 13, 2025), and the outlook on distributions along with their percentage. Also, it's important to mention the magnitude in terms of R$ value.
+
+Wait, but in the original query, the user just mentioned focusing on the name, date, outlook on capital distributions, and their magnitude in percentages. So I don't need to include other details like fees or holdings unless they're directly related.
+
+I should structure this summary clearly, starting with the fund's name, then the date of the report, followed by the expected capital distributions and their percentage value. That way, it's straightforward for the user to grasp the essential information quickly.
+</think>
+
+The investment report focuses on Previa 3 - Tres Bens, a Brazilian equity fund. The report was released on March 13, 2025. It outlines an outlook on capital distributions, which are expected to amount to approximately R$4.7 billion (representing about 2% of the fund's total assets as of December 31, 2024).

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "IPERS",
+    "date": "20210617",
+    "outlook": "increase",
+    "magnitude": 6.0,
+    "confidence": 0.8,
+    "explanation": "Capital distributions are expected to increase moderately based on prior year performance."
+  }
+}

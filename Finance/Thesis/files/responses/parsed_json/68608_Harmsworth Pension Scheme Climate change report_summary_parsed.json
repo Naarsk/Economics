@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "London Day-Trade Scheme (LDT)",
+    "date": "2023-03",
+    "outlook": "stable",
+    "magnitude": 5,
+    "confidence": 0.8,
+    "explanation": "Moderate growth expected from steady economic impacts and GHG emissions."
+  }
+}

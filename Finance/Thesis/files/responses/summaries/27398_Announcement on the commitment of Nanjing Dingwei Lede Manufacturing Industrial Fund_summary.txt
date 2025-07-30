@@ -1,0 +1,26 @@
+<think>
+好的，我现在需要处理用户的查询。用户提供了一份关于南京埃斯顿自动化股份有限公司投资报告的文本，并要求我总结这份报告，重点在于基金的名字、报告日期和资本分配的前景及百分比。
+
+首先，我要仔细阅读整个报告，提取关键信息。报告标题中提到了“产业投资基金”，这应该是用户需要的重点之一。接下来，报告提到基金的投资对象主要是公司的大宗产品，包括自动化核心部件、机器人等，这些都是工业4.0相关的领域，对中国的制造业升级有积极影响。
+
+然后，我注意到报告中详细说明了资本分配的机制：在一定时间内（三年内），投资者将获得分红；之后则可能进入退出期。这种结构意味着投资者可以先分享早期成长带来的收益，之后有机会通过出售或公司上市实现更大的回报。
+
+接下来，用户要求以百分比形式呈现分配规模。从报告中，我了解到基金的规模尚未明确，但强调了对技术创新的关注以及长期回报的可能性。这可能意味着未来资本分配的百分比可能会根据公司的实际表现而定。
+
+此外，报告中还提到了与关联方（派雷斯特及其控制公司）的投资，包括借款和销售自动化部件，这些关联交易虽然没有损害利益，但也需要关注潜在的风险，如宏观经济波动或行业周期变化带来的影响。
+
+最后，总结部分需要简洁明了。基金的名字、日期、资本分配的前景及百分比是用户的重点，因此我需要将这些信息有条理地呈现出来，确保用户能够一目了然。
+
+现在，我要整理出一个清晰的总结：基金名称、报告日期、投资方向、资本分配机制以及预期百分比。这样用户就能快速了解这份报告的核心内容和关键点。
+</think>
+
+**Summary of the Investment Report:**
+
+- **Fund Name:** "产业投资基金" (Sectoral Fund)
+- **Report Date:** June 21, 2021
+- **Capital Distribution Outlook:**
+  - The fund focuses on capital distribution mechanisms that prioritize returns to investors based on company performance and growth.
+  - Dividends are expected to be distributed in the first three years of operation (36-48 months), followed by potential exit opportunities through spin-offs or IPO.
+  - Capital distribution percentages are not explicitly stated but are tied to company performance, innovation, and market expansion.
+
+This fund aims to support strategic investments in high-growth sectors like automation and robotics, aligning with China's push toward industrialization 4.0.

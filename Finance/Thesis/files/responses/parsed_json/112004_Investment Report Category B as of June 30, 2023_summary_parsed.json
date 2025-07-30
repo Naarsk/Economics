@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "name": "SPX 2023-12-15 P4150",
+      "date": "2023-12-19",
+      "outlook": "increase",
+      "magnitude": 7,
+      "confidence": 0.6,
+      "explanation": "Positive outlook with moderate capital distribution increase."
+    },
+    {
+      "name": "DAX 2023-12-15 P4000",
+      "date": "2023-12-19",
+      "outlook": "increase",
+      "magnitude": 8,
+      "confidence": 0.7,
+      "explanation": "Positive outlook with notable capital distribution increase."
+    },
+    {
+      "name": "Warburg Pincus Global Growth",
+      "date": "2023-12-19",
+      "outlook": "increase",
+      "magnitude": 8,
+      "confidence": 0.85,
+      "explanation": "Significant positive capital distribution increase."
+    },
+    {
+      "name": "Xtrackers Eurozone Government",
+      "date": "2023-12-19",
+      "outlook": "increase",
+      "magnitude": 6,
+      "confidence": 0.65,
+      "explanation": "Positive outlook with notable capital distribution increase."
+    }
+  ]
+}

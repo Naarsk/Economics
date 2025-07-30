@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Actively Managed Multi-Asset Fund",
+    "date": "202203",
+    "outlook": "increase",
+    "magnitude": 3.0,
+    "confidence": 0.7,
+    "explanation": "Targeted to outperform the SONIA benchmark by 3.0% annually over three years."
+  }
+}

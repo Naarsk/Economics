@@ -1,0 +1,13 @@
+<think>
+Alright, I'm trying to help the user by summarizing a specific section of an investment report. The user wants me to focus on the "name of the fund," the "date of the report," and the "outlook on capital distributions" along with their percentage.
+
+First, I need to locate where in the provided text these details are mentioned. Looking through the content... Okay, under section 6.3, it talks about Portfolio Turnover Costs. The relevant information is that as of 20 October 2023, the total capital outstanding in the fund was £187 million.
+
+Wait, but I'm supposed to mention "capital distributions." Hmm, the text doesn't explicitly state the outlook on capital distributions or their percentage. It does discuss turnover costs and mentions managing cashflow costs by receiving income from mandates when possible.
+
+Since there's no direct information about future capital distributions or their expected magnitude as a percentage of total capital, I can't include that in my summary accurately. Therefore, it's best to inform the user that while we have the current capital outstanding, details on future distributions and their percentages aren't provided here.
+</think>
+
+The provided text does not contain specific information about the fund's name, date of the report, or its outlook on capital distributions as a percentage. However, if you are referring to the "Total Capital Outstanding" in section 6.3, it mentions that as of 20 October 2023, the total capital outstanding in the fund was £187 million.
+
+If this is not the information you're looking for, please provide more context or clarify your request.

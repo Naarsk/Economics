@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Unknown Fund",
+    "date": "2025-01-07",
+    "outlook": "increase",
+    "magnitude": 5,
+    "confidence": 0.8,
+    "explanation": "Market expected to increase by 5%, leading to CDA growth with 80% confidence."
+  }
+}

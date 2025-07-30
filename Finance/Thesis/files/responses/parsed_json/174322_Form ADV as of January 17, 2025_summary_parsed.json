@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "USD Gold Fund",
+    "date": "20240331",
+    "outlook": "stable",
+    "magnitude": 60,
+    "confidence": 0.85,
+    "explanation": "Holds a significant majority of the portfolio and is considered a safe asset, providing stability."
+  }
+}

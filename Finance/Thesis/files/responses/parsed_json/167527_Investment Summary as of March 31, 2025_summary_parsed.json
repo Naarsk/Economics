@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "St.Galler Pensionskasse (Konsolidiert)",
+    "date": "20250331",
+    "outlook": "increase",
+    "magnitude": 1.6,
+    "confidence": 0.95,
+    "explanation": "Capital distributions are expected to increase moderately, aligning with a conservative strategy focused on stability."
+  }
+}

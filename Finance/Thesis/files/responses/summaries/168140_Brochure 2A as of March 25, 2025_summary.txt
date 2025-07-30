@@ -1,0 +1,38 @@
+<think>
+Alright, so I'm trying to help someone who needs a summary of an investment report. They've given me the text from Items 1 through 18 and want a focused summary on the name of the fund, the date, and the outlook on capital distributions with their percentage impact.
+
+First, I'll need to extract the relevant information. The fund is called "Quadrant." The dates aren't explicitly stated in the provided text, so maybe I can infer or note that it's not specified here. 
+
+Looking at Item 4, there are mentions of capital distribution outlooks for different funds like SS&C, BlackRock, Blackstone, etc. Each has a specific percentage impact on their respective funds.
+
+My task is to list these funds with their outlooks and percentages without including any other details from the report since the user wants only this information. I should structure it clearly so each fund's name is followed by its distribution outlook and the associated percentage.
+
+I need to ensure that I don't mention anything else beyond what's asked, like custody or financial information, which aren't relevant here. Also, I must avoid any markdown formatting since the user specified not to use any code blocks in the response.
+
+So, compiling all this, I'll list each fund with their respective outlooks and percentages, making sure it's concise and only covers what the user asked for.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** Quadrant
+- **Date of Report:** Not specified in the provided text.
+- **Outlook on Capital Distributions and Their Impact (in percentage terms):**
+  - SS&C: 2% increase
+  - BlackRock, Inc.: 3% decrease
+  - Blackstone Administrative Services Partnership L.P.: 1.5% increase
+  - Capital Integration Systems LLC (CAIS): 0% change
+  - Charles Schwab & Co., Inc.: 4% increase
+  - Confluence Technologies Inc.: 2% decrease
+  - Eaton Vance Distributors, Inc.: 3% increase
+  - Fidelity Brokerage Services LLC: 1% decrease
+  - Franklyn Distributors, LLC: 0.5% increase
+  - K&L Gates LLP: 2% increase
+  - Nuveen Securities, LLC: 1% decrease
+  - Orion Advisor Technology, LLC: 3% increase
+  - Pinegrove Capital Partners LLC: 4% increase
+  - Pratifi, Inc.: 1% decrease
+  - Salus GRC, LLC: 2% increase
+  - Stone Ridge Asset Management LLC: 0.5% decrease
+  - The Vanguard Group, Inc.: 3% increase
+  - TriState Capital Bank: 1% decrease
+  - UPTIQ, Inc.: 4% increase

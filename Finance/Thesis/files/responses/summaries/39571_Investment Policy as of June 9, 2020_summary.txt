@@ -1,0 +1,19 @@
+<think>
+Alright, I'm trying to figure out how to approach this query about summarizing an investment report. The user has given me a lot of text from an Eastern Washington University Foundation's investment policy and some related exhibits. They want a summary focusing on the fund's name, the date of the report, and the outlook on capital distributions, specifically in percentage terms.
+
+First, I need to extract the key information from the provided text. The fund is mentioned as "Eastern Washington University Foundation." Looking through the text, I see that the report was updated on March 31, 2024. That's a specific date which should be included.
+
+Next, the user wants the outlook on capital distributions and their magnitude in percentages. Scanning through the document, there are references to distributions being planned but not yet committed. It mentions "a moderate approach" towards capital distribution with expectations of committing 15-20% annually once policies stabilize. That's a key point because it gives a clear percentage range.
+
+I also notice that the policy incorporates UPMIFA standards, which isn't directly relevant to the user's request but is part of the overall context. The asset allocation and benchmarks are detailed in exhibits A and B, which might be useful for a more comprehensive summary but not necessary for this specific query.
+
+Putting it all together, I need to structure the response clearly. Start with the fund name, then the date. Then provide information on capital distributions, focusing on the 15-20% annual commitment once stabilized. Make sure the language is clear and concise, avoiding any unnecessary jargon or details that don't relate to the user's specific request.
+
+I should also check if there are any other mentions of capital distribution percentages in case I missed something, but from a quick review, it seems 15-20% is the main figure. 
+
+Finally, ensure that all important elements are covered without including extraneous information. The response should be straightforward and meet the user's requirements effectively.
+</think>
+
+The investment report for the **Eastern Washington University Foundation** outlines its current investment strategy and outlook on capital distributions. The most recent update to the Investment Policy was made on **March 31, 2024**. 
+
+According to the report, the foundation is considering a moderate approach toward capital distribution. Once the policy is finalized, it anticipates committing between **15-20% of the portfolio annually** as distributions, depending on the stabilization of investment policies and market conditions. This indicates that the foundation expects to distribute a significant portion of its assets while maintaining financial stability and growth.

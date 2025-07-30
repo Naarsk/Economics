@@ -1,0 +1,21 @@
+<think>
+Alright, I need to help the user by summarizing this investment report. Let me read through the query again.
+
+The user provided a detailed investment report and wants a summary focusing on the fund's name, the report date, outlook on capital distributions, and their magnitude in percentages. 
+
+First, I should identify the key elements from the report. The fund is named "UOR RET - Portfolio No. 733464-90." The report was generated on August 15, 2024.
+
+Looking at the data, there's a significant portion in cash: 5161988 GBP, which is about 8.3% of total assets. Investment accounts make up another 7.9%, and total market value is over 62 million GBP with an estimated income of around 1.023 million.
+
+The user wants the outlook on capital distributions. I recall that in the fund summary section, it mentions a 5.5% yield from capital distributions. This seems like the main point to highlight as the distribution outlook and its magnitude.
+
+I should structure this into two clear points: one about the fund's name and date, and another about the distribution outlook with its percentage impact.
+
+Now, I'll make sure my summary is concise but covers all required aspects without being too verbose. I need to present it clearly so the user can quickly grasp the essential information.
+</think>
+
+The investment report summarizes the performance of a portfolio named **"UOR RET - Portfolio No. 733464-90."** The latest report, generated on **August 15, 2024**, indicates that the fund has a current yield of approximately **5.5% from capital distributions**, which represents a significant portion of the portfolio's total value.
+
+The portfolio is predominantly composed of cash and investment accounts, with **8.3% allocated to total cash** and **7.9% dedicated to investment accounts**. The majority of the portfolio (**62.296 million GBP**) is invested in market assets, while a smaller portion ($1,023,146) represents estimated income from the fund.
+
+The outlook for capital distributions remains positive, with a steady yield contribution to the portfolio's total value. This distribution is expected to continue at a magnitude of **5.5%**, indicating its importance in sustaining and growing the portfolio over time.

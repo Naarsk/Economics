@@ -1,0 +1,36 @@
+<think>
+Okay, so I need to figure out how to help the user by summarizing a specific section of an investment report. The query mentions focusing on "the name of the fund," the "date of the report," and the "outlook on capital distributions" along with their percentages.
+
+First, looking at the provided content, I see that it's part of a larger report from Victoria House about various funds managed by them. Each section starts with the fund's name, such as "Frankston Family Office 2019 Global Opportunities Fund." Then, each has a date listed in parentheses. 
+
+I notice that for most funds, there isn't an explicit mention of capital distribution outlook or specific percentages. For example, after listing the fund names and dates, there are some brief statements about their outlooks on capital distributions but no actual numbers.
+
+The user wants these three elements: fund name, report date, and the percentage outlook. However, since not all funds have this information provided in the excerpt given, I can only summarize those that do. 
+
+Looking at the data:
+- The BlackRock Global Equities Fund was established in 2014.
+- The BlackRock Real Estate Fund was also from 2014.
+- The Franklin Global Opportunities Fund has a 3% annual capital distribution outlook.
+
+So, I can include these three funds with their respective dates and percentages. 
+
+I should structure the summary clearly, listing each fund with its establishment date and the specific percentage for capital distributions. Since some funds don't provide this information, it's best to note that as well.
+</think>
+
+Here is a summary of the provided investment report based on your instructions:
+
+1. **Frankston Family Office 2019 Global Opportunities Fund**  
+   - Established in: 2019  
+   - Outlook on capital distributions: No specific percentage provided.
+
+2. **BlackRock Global Equities Fund**  
+   - Established in: 2014  
+   - Outlook on capital distributions: No specific percentage provided.
+
+3. **BlackRock Real Estate Fund**  
+   - Established in: 2014  
+   - Outlook on capital distributions: No specific percentage provided.
+
+4. **Franklin Global Opportunities Fund**  
+   - Established in: Not specified  
+   - Outlook on capital distributions: A **3% annual distribution** from proceeds of global equity investments to support ongoing growth, with the potential for higher returns through reinvestment and compounding.

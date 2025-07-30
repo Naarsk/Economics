@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "[Fund Name]",
+    "date": "[Date]",
+    "outlook": "stable",
+    "magnitude": 0.5,
+    "confidence": 0.2,
+    "explanation": "Limited specific information provided in the document."
+  }
+}

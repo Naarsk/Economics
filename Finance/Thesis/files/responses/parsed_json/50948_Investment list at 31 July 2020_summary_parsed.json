@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Greencoat UK Wind PLC",
+    "date": "202310",
+    "outlook": "increase",
+    "magnitude": 163.97,
+    "confidence": 0.85,
+    "explanation": "Significant growth outlook with high confidence"
+  }
+}

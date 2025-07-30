@@ -1,0 +1,13 @@
+<think>
+Okay, so I need to help the user summarize a provided investment report. The specific points they're asking for are the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+Looking at the report, it starts with "January 2025" mentioned several times, which likely indicates the date of the report is January 2025. The fund's name isn't explicitly stated here; maybe I need to infer or realize that without more information, it can't be provided accurately.
+
+For the capital distributions outlook, there are references like "Additional Voluntary Contributions (AVCs)" and some mention of currency risk with overseas investments. However, no specific percentage on how these contributions affect capital distribution is given. There's also talk about pooled funds custody arrangements but again, without a direct statement on capital distribution percentages.
+
+Since the report doesn't provide concrete numbers for capital distribution magnitudes or specific fund names, it's not possible to give precise answers. I should communicate this limitation clearly and offer to help further if more details are provided.
+</think>
+
+The investment report you've provided lacks explicit details about the name of the fund or its capital distribution outlook in percentage terms. It mentions "January 2025" but does not provide a specific date for the report itself. The information related to capital distributions, such as Additional Voluntary Contributions (AVCs) and currency risk, is included but without quantifiable percentages.
+
+Without further details on the fund's name or its capital distribution outlook in percentage terms, it's not possible to summarize these aspects accurately from the provided text alone. If you can provide additional information about the fund or the specific capital distribution figures, I would be happy to assist further!

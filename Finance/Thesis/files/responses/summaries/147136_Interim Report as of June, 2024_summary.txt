@@ -1,0 +1,27 @@
+<think>
+Alright, so I need to help this user by summarizing an investment report. The user has provided a detailed report about Ethias SA, which seems to be an investment fund. They want me to focus specifically on the name of the fund, the date of the report, and the outlook on capital distributions along with its magnitude in percentage terms.
+
+First, I'll start by identifying key sections in the report that provide this information. The user mentioned focusing on the fund's name, so I look for where Ethias SA is referred to as a fund or investment vehicle. From what I see, it's called "Ethias SA," which might be the fund's name.
+
+Next, the date of the report is clearly stated in the introduction: "Introduction" section says it's reviewing the interim condensed consolidated financial statements as at 30 June 2024 and for the six months ended then. So that's the date.
+
+Now, looking for the outlook on capital distributions. I go through each paragraph. In the "To the board of directors" section, there's a conclusion mentioning nothing significant affecting interim condensed consolidated financial statements under IAS 34. However, in the "12	 Statutory auditor’s report on the consolidated financial statements for the year ended 30 June 2024," it talks about capital distributions but doesn't specify any upcoming ones.
+
+Wait, maybe I missed something. Let me check again. The "contingent liabilities" section says there are none, so no issues there. Then in the main financials, under "19.377.480" and "128.509," these seem to be totals but not related directly to distributions.
+
+Wait a minute, perhaps I should look for any mentions of dividend payouts or capital distribution plans. Scanning through, I see in the auditor's conclusion that it states nothing significant, so maybe they don't expect any major changes or distributions soon.
+
+Alternatively, looking at the "12	 Statutory auditor’s report on the consolidated financial statements..." paragraph: it says nothing about future distributions but does confirm the financials are accurate. So perhaps there's no upcoming capital distribution mentioned in this particular report.
+
+So putting it all together, the fund is Ethias SA, the report is from 30 June 2024. The auditor's opinion is favorable, but there's no specific mention of capital distributions or their expected magnitude. Therefore, I can conclude that while the financials look good, there are no upcoming capital distribution plans highlighted in this report.
+
+I should structure my summary to include all these points clearly and concisely.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** Ethias SA  
+- **Date of Report:** 30 June 2024  
+- **Outlook on Capital Distributions:** The statutory auditor's report does not indicate any significant changes or capital distribution plans. The interim condensed consolidated financial statements and the year-end financials reflect a strong performance with no material contingent liabilities identified.
+
+The report confirms that Ethias SA is in good financial health, but there are no specific details provided regarding upcoming capital distributions at this time.

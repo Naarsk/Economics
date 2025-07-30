@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Orange's Financial Health Analysis",
+    "date": "2022-06-30",
+    "outlook": "decrease",
+    "magnitude": 0.25,
+    "confidence": 0.6,
+    "explanation": "Impairment charges and slower revenue growth offset positive strategic investments."
+  }
+}

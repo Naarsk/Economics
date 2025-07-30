@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "London Borough of Islington Pension Fund",
+    "date": "202012",
+    "outlook": "increase",
+    "magnitude": 5,
+    "confidence": 0.9,
+    "explanation": "Distribution rate at 4% exceeds minimum required and indicates an upward trend."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund X",
+    "date": "2025-01-15",
+    "outlook": "increase",
+    "magnitude": 15,
+    "confidence": 0.8,
+    "explanation": "The report indicates a significant capital distribution increase of $3.4 million, representing an 15% rise from the same period last year."
+  }
+}

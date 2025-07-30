@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "name": "Sequoia Capital Global Growth Fund III",
+      "date": "",
+      "outlook": "",
+      "magnitude": 0,
+      "confidence": 0.85,
+      "explanation": "Significant U.S. investment in California, indicating strong regional focus."
+    },
+    {
+      "name": "TP Growth Funds (II)",
+      "date": "",
+      "outlook": "",
+      "magnitude": 79000000,
+      "confidence": 0.78,
+      "explanation": "Largest allocation in U.S. markets with regional diversification."
+    },
+    {
+      "name": "SSG Capital Partners III",
+      "date": "",
+      "outlook": "",
+      "magnitude": 36000000,
+      "confidence": 0.72,
+      "explanation": "Cayman Islands' diversified approach across various sectors."
+    },
+    {
+      "name": "The Rise Fund",
+      "date": "",
+      "outlook": "",
+      "magnitude": null,
+      "confidence": 0.65,
+      "explanation": "UK-specific investments targeting market opportunities."
+    },
+    {
+      "name": "Chaptwo S.á.r.l.",
+      "date": "",
+      "outlook": "",
+      "magnitude": null,
+      "confidence": 0.92,
+      "explanation": "Non-listed loans focusing on unique industry segments."
+    }
+  ]
+}

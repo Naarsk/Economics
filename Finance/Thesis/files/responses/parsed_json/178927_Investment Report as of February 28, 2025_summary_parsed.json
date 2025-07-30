@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Town of Palm Beach Retirement System",
+    "date": "20250228",
+    "outlook": "increase",
+    "magnitude": 11.66,
+    "confidence": 0.9,
+    "explanation": "Positive performance with a high target index YTD and low risk due to short duration."
+  }
+}

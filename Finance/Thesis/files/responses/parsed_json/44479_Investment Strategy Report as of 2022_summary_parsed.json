@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "GMPF",
+    "date": "20231231",
+    "outlook": "increase",
+    "magnitude": 100,
+    "confidence": 0.6,
+    "explanation": "The fund's aggressive equity exposure suggests a high potential for capital growth."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "results": {
+    "name": "Fund XYZ",
+    "date": "230301",
+    "outlook": "stable",
+    "magnitude": 19,
+    "confidence": 80,
+    "explanation": "Capital distributions were stable at $68.7 billion, accounting for 19% of total returns."
+  },
+  "results": {
+    "name": "Fund XYZ",
+    "date": "2503",
+    "outlook": "decrease",
+    "magnitude": 17,
+    "confidence": 70,
+    "explanation": "Capital distributions decreased to $34.2 billion, slightly below expectations due to inflationary pressures."
+  }
+}

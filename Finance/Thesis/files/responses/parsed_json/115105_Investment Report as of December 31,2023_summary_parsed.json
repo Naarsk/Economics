@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Pensioenfonds Achmea",
+    "date": "2023-12-31",
+    "outlook": "increase",
+    "magnitude": 5.7,
+    "confidence": 0.95,
+    "explanation": "Improved profit-taking and enhanced reliability led to a notable increase in returns."
+  }
+}

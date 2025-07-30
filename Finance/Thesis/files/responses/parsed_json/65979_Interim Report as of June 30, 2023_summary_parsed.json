@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Global Portfolio Fund",
+    "date": "20230620",
+    "outlook": "decrease",
+    "magnitude": -8.5,
+    "confidence": 0.3,
+    "explanation": "Fund currently experiencing significant decrease in value due to poor market conditions."
+  }
+}

@@ -1,0 +1,13 @@
+<think>
+Alright, I need to help the user by summarizing a provided investment report. The user specifically wants me to focus on the name of the fund, the date of the report, and the outlook on capital distributions, including their magnitude in percentage terms.
+
+First, looking at the data given, there's an entry with "X" as the fund name, the date is November 30, 2023. The user didn't mention any specific fund details beyond that, so I have to work with what's provided.
+
+The next part mentions capital distributions totaling CHF 1,567 million and a distribution ratio of 98%. That seems important because the user wants the magnitude in percentage terms. So, I should note both the total amount and the distribution rate as percentages.
+
+I also need to make sure that my summary is clear and concise, sticking to the three main points: fund name, date, and capital distributions with their percentage. Since there's no additional information on the fund itself or performance beyond this report, those are the key takeaways.
+</think>
+
+The investment report focuses on a specific fund, likely related to **X**, as indicated by the context provided (though not explicitly named in the data). The report was issued on **November 30, 2023**.  
+
+The outlook for capital distributions is positive, with total distributions amounting to **CHF 1,567 million**, representing a distribution ratio of **98%**. This indicates that nearly all of the fund's capital is expected to be distributed in this period.

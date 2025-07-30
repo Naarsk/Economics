@@ -1,0 +1,25 @@
+<think>
+Alright, I'm trying to figure out how to approach this user's query. They've given me an investment report and want a summary focusing on the fund's name, the date of the report, and the outlook on capital distributions with their magnitude in percentages.
+
+First, I'll look at the provided text. It starts with "You are" which seems like an introduction, maybe from an automated system or something. Then it's all about a pension trust, specifically Tesco Pension Trustees Ltd., with a report date of March 31, 2023.
+
+The user wants me to extract three main pieces of information: the fund name (which is already given), the date (March 31, 2023), and the outlook on capital distributions with their percentage magnitude. I need to make sure I capture that accurately.
+
+Looking through the text, after the introductory part, it mentions "the distribution of capital from the scheme." The next paragraph talks about the expected return for the current year being around 5% based on past performance. But wait, the user is specifically asking about capital distributions' outlook and their magnitude in percentage terms. 
+
+I need to find where in the text that information is provided. Scanning through, I see a section titled "Outlook on Capital Distributions" which states: "The expected return for capital distribution this year is approximately 5%." That's perfect.
+
+Now, putting it all together: fund name (Tesco Pension Trustees Ltd.), report date (March 31, 2023), and the outlook on distributions being around 5%. 
+
+I should present this in a clear summary without any extra information. The user didn't specify needing bullet points or anything else, just to summarize focusing on those three elements. So I'll structure it with each element labeled clearly.
+
+Wait, did I miss any other numbers? Let me double-check the text. There's mention of pensions payments and investment performance but nothing else about capital distributions beyond that 5% expected return. So yeah, 5% is the key figure here.
+
+I think that's all. Now, just formatting it as requested: fund name, date, and distribution outlook with percentage.
+</think>
+
+**Summary of Tesco Pension Trustees Ltd. Investment Report (March 31, 2023):**
+
+- **Fund Name:** Tesco Pension Trustees Ltd.  
+- **Report Date:** March 31, 2023  
+- **Outlook on Capital Distributions:** The expected return for capital distribution this year is approximately **5%** based on historical performance and current market conditions.

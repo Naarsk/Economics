@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "LASERS Investment Performance",
+    "date": "20241231",
+    "outlook": "increase",
+    "magnitude": 9.8,
+    "confidence": 0.75,
+    "explanation": "Gross-of-fee returns are projected to increase by approximately 9.8%."
+  }
+}

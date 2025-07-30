@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": null,
+    "date": null,
+    "outlook": null,
+    "magnitude": null,
+    "confidence": 0.3,
+    "explanation": "Insufficient information to determine fund performance."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "results": {
+    "name": "GCM Select Advantage Fund Series 1",
+    "date": "2023-01-01",
+    "outlook": "",
+    "magnitude": 86,
+    "confidence": 0.5,
+    "explanation": "U.S. equities allocation is high but outlook direction unknown."
+  },
+  "results": {
+    "name": "GCM Select Advantage Fund Series 2",
+    "date": "2023-01-01",
+    "outlook": "",
+    "magnitude": 59,
+    "confidence": 0.7,
+    "explanation": "Allocations to U.S. large-cap value and global growth opportunities."
+  },
+  "results": {
+    "name": "GCM Select Advantage Fund Series 3",
+    "date": "2023-01-01",
+    "outlook": "",
+    "magnitude": 65,
+    "confidence": 0.8,
+    "explanation": "Allocations to developed markets, emerging markets, and alternative investments."
+  }
+}

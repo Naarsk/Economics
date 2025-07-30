@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "TechFund",
+    "date": "20230920",
+    "outlook": "stable",
+    "magnitude": 3,
+    "confidence": 0.95,
+    "explanation": "The fund is expected to maintain a stable performance with a slight capital shift of 3% in the upcoming periods."
+  }
+}

@@ -1,0 +1,23 @@
+<think>
+Okay, I'm trying to figure out how to approach this query. The user has provided a chunk of an investment report and wants me to summarize it based on specific points: the name of the fund, the date of the report, the outlook on capital distributions, and their magnitude in percentage terms.
+
+First, I'll scan through the text to find where the fund's name is mentioned. It says "SharpEdge U.S. Small Cap Fund" multiple times, so that should be my first point.
+
+Next, looking for the date. The report mentions January 15, 2025, which seems to be the latest update from January 14, so I'll note that as the date.
+
+Now, onto the capital distributions. The text talks about distribution frequency—quarterly—and the amount. It says "$60 million quarterly," but I need to convert this into a percentage of the fund's assets or another relevant figure. Wait, actually, the user didn't specify if it's a percentage or absolute value, so maybe just stating the absolute amount is fine here since they didn't ask for percentages relative to something else.
+
+Putting it all together: fund name, date, distribution frequency and amount. The report doesn't mention the size of the fund in assets, so I can’t provide a percentage unless I make an assumption or infer from context. Since there's no information on total assets or previous distributions, perhaps just stating the distribution amount is acceptable.
+
+Wait, but the user specifically asked for the magnitude in percentage terms. Without knowing the fund's total assets, it's tricky to convert $60 million into a percentage. Maybe I should mention that without more data, the percentage can't be calculated exactly and suggest looking at the fund's total value elsewhere for context.
+
+So my summary would include:
+- Fund name: SharpEdge U.S. Small Cap Fund
+- Date of report: January 15, 2025
+- Capital distributions: $60 million quarterly
+- Note on percentage: Cannot be provided without knowing total assets or previous distribution rates.
+
+I should make sure to present this clearly and concisely, highlighting each point as the user requested.
+</think>
+
+The investment report discusses **"SharpEdge U.S. Small Cap Fund"**, with a focus on its capital distributions. The latest report is from **January 15, 2025**. The fund is expected to distribute **$60 million quarterly**, and there are no specific details provided about the magnitude of these distributions in percentage terms relative to the fund's assets or other metrics.

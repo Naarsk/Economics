@@ -1,0 +1,19 @@
+<think>
+Okay, so I have this query about an investment report from ATRS. The user wants me to summarize it with a focus on the fund's name, the report date, and the outlook on capital distributions along with their percentage impact.
+
+First, I'll need to go through the provided information carefully. The report seems to be part of ATRS Board Policy 6, covering specific dates from October 2013 onwards, with amendments in 2020 and December 2020. It's a detailed document about various asset classes like Real Assets, Infrastructure, etc., but the user is specifically interested in capital distributions.
+
+I should look for sections that mention capital distribution or dividends. I remember seeing something about capital distributions under section H, Reporting and Monitoring. On page 7 of the report, it says "The Investment Staff and the Real Asset Consultant will monitor performance on a quarterly basis... The report will provide a comprehensive review..." So, the fund is reviewing its investment strategies but doesn't explicitly mention dividends or capital distribution magnitudes.
+
+Wait, maybe I missed something. Let me go through again. Pages 1-7 cover various aspects like diversification strategies, investment constraints, allocation limits for different asset classes, and responsibilities. Page 2 mentions a cap on crop investments in the agriculture section at 40%. But no mention of capital distribution percentages.
+
+Hmm, maybe there's something about dividends or distributions elsewhere? Looking again... I don't see any direct reference to capital distributions by name or percentage. The report focuses more on policy implementation and monitoring rather than payout specifics.
+
+So, without explicit information on the fund's name, the date, and details on capital distribution percentages, it seems impossible to provide an accurate summary as per the user's request. It might be necessary for the user to get updated reports from ATRS that include this information or refer back to past documents where such details were provided.
+
+I should inform the user that based on the current report they've shared, there isn't enough information about capital distribution magnitudes or fund names as requested. They might need to consult newer reports or contact the relevant departments for updated data.
+</think>
+
+The summary of the investment report from ATRS Board Policy 6 is not explicitly provided in the text you have shared. However, based on the content covered in the policy document, it appears that the report focuses on diversification strategies, capital allocation constraints, and operational responsibilities rather than explicit details on capital distribution percentages or fund names.
+
+If you are seeking specific information about capital distributions (e.g., dividend payouts or capital gains) from a particular fund, I recommend referring to more recent reports or directly accessing the fund's financial statements for that purpose.

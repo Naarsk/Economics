@@ -1,0 +1,60 @@
+{
+  "results": [
+    {
+      "name": "Global Dynamic Bond Fund",
+      "date": "20231215",
+      "outlook": "increase",
+      "magnitude": 0,
+      "confidence": 0.6,
+      "explanation": "Positive outlook with target return of 2% pa above benchmark."
+    },
+    {
+      "name": "Alpha Opportunities Fund",
+      "date": "20231215",
+      "outlook": "increase",
+      "magnitude": 4,
+      "confidence": 0.8,
+      "explanation": "Aim for returns between 3-5% pa."
+    },
+    {
+      "name": "Infrastructure Fund",
+      "date": "20231215",
+      "outlook": "increase",
+      "magnitude": 0,
+      "confidence": 0.9,
+      "explanation": "Targeting net return of up to 10% pa."
+    },
+    {
+      "name": "LDI, Credit, and Money Market Funds",
+      "date": "20231215",
+      "outlook": "stable",
+      "magnitude": 0,
+      "confidence": 0.7,
+      "explanation": "Aim to maintain or improve returns without specific percentage targets."
+    },
+    {
+      "name": "Leveraged Gilts-Based Liability Benchmark",
+      "date": "20231215",
+      "outlook": "stable",
+      "magnitude": 0,
+      "confidence": 0.8,
+      "explanation": "No specific benchmark, focus on maintaining/improving returns."
+    },
+    {
+      "name": "Gilts-Based Fully Funded Liability Benchmark",
+      "date": "20231215",
+      "outlook": "increase",
+      "magnitude": 2,
+      "confidence": 0.95,
+      "explanation": "Aim for net return of up to 2% pa."
+    },
+    {
+      "name": "Liquidity Plus Fund",
+      "date": "20231215",
+      "outlook": "increase",
+      "magnitude": 0,
+      "confidence": 0.7,
+      "explanation": "Targeted return of 0.25% pa above SONIA."
+    }
+  ]
+}

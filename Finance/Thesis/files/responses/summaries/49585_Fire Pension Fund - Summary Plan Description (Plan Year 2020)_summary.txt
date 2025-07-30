@@ -1,0 +1,13 @@
+<think>
+Alright, I'm looking at this query where someone wants a summary of an investment report. The key points they mentioned are to focus on the fund's name, the date of the report, the outlook on capital distributions, and their magnitude in percentages.
+
+First, I'll scan through the provided text to find these elements. The fund is called the Florida City Pension Fund. Next, I need to check when the latest investment report was published. It says "August 2019," so that's our date.
+
+Now, looking for the outlook on capital distributions. The text mentions a slight decrease of about 0.3 percentage points and an increase in dividends from U.S. Treasuries by approximately 4 percentage points. That seems to be the main focus areas for capital distribution changes.
+
+For the magnitude, I need to note down how much each part contributes. Dividends from U.S. Treasuries going up by about 4%, a slight decrease overall at 0.3%, and an increase in alternative investments by 2 percentage points. These details give a clear picture of where the fund's capital is heading.
+
+Putting it all together, I'll structure this information into a concise summary that highlights each point clearly without including any unnecessary details.
+</think>
+
+The latest investment report for the **Florida City Pension Fund** was published on **August 2019**. The report indicates that there will be a slight decrease in capital distributions of approximately **0.3 percentage points**, while there is an increase in dividends from U.S. Treasuries by roughly **4 percentage points**. Additionally, capital distributions to alternative investments are expected to rise by about **2 percentage points** due to favorable market conditions and the rising rate environment.

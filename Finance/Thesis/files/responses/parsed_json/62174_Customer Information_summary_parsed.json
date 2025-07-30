@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fine Invest.",
+    "date": "20230331",
+    "outlook": "stable",
+    "magnitude": 5,
+    "confidence": 0.9,
+    "explanation": "Capital distributions are expected to occur regularly, representing approximately 5% of the fund's value at year-end based on historical performance."
+  }
+}

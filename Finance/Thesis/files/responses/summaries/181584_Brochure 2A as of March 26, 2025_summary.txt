@@ -1,0 +1,24 @@
+<think>
+Alright, I need to help the user by summarizing the provided investment report. The query specifically asks for a summary focusing on the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, I'll read through the provided report carefully to identify where these specific details are mentioned. The report starts with some general information about the firm but quickly dives into specifics relevant to the question.
+
+Looking further down, I spot a section titled "OUTLOOK ON CAPITAL DISTRIBUTIONS." This is exactly where I should focus my attention because it contains the necessary data. Here, it mentions that distributions will depend on fund performance and market conditions. The report provides specific percentages: 3% for small-cap stocks and 7% for large-cap stocks.
+
+Next, I need to determine the date of this report. Scanning through the document, there's a clear section stating "Date: November 15, 2023." That's straightforward enough.
+
+Now, putting it all together, I should structure my summary to include the fund name, the date, and then break down the distribution outlook with their respective percentages. It's important to present this information clearly and concisely, making sure each detail is accurately extracted from the report without adding any extra information not requested.
+
+I also need to ensure that the response is in a conversational yet formal tone since it's summarizing an official document. The user wants a concise summary, so I should avoid including unnecessary details beyond what was asked.
+
+Double-checking everything: fund name is mentioned as "Fund X," date is correct, and distribution outlooks are properly highlighted with their percentages. Everything seems to be in order.
+</think>
+
+The provided investment report focuses on ** Fund X ** and provides the following key details:
+
+- **Date of the Report:** November 15, 2023  
+- **Outlook on Capital Distributions:**  
+  - Small-cap stocks are expected to distribute approximately **3%** of their capital.  
+  - Large-cap stocks will distribute approximately **7%** of their capital.  
+
+These details highlight the distribution outlook based on fund performance and market conditions as of the report's publication date.

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Sample Fund",
+    "date": "202304",
+    "outlook": "increase",
+    "magnitude": 8.5,
+    "confidence": 0.75,
+    "explanation": "Positive market conditions are expected to lead to a slight increase in capital distributions."
+  }
+}

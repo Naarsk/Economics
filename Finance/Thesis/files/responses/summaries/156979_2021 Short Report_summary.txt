@@ -1,0 +1,20 @@
+<think>
+Alright, let's try to break down what I need to do here. The user has given me a chunk of an investment report and asked me to summarize it, focusing specifically on three points: the name of the fund, the date of the report, and the outlook on capital distributions along with its magnitude in percentage terms.
+
+First, I'll read through the provided text carefully to identify where these key pieces of information are. The name of the fund is mentioned as "VELUX Foundations." That's straightforward enough—just one word there.
+
+Next, looking for the date of the report. Scanning through, I see a mention of the project period being from 2021–2025 and funding amount in CHF 1,540,000. However, it doesn't explicitly state the date of the investment report itself. It's possible that this is an ongoing report or that the user has provided enough context to infer it as recent since the information ends with "Project period: 2021–2025." Without a specific date mentioned, I might have to assume it's current or perhaps not available here.
+
+Now, onto the capital distribution outlook. The text mentions that investment managers are monitored regularly and excluded if they breach ESG principles continuously. It also states that assets by the end of 2021 were MCHF 273 with a return on investment of +15.2%. This suggests that the fund has performed positively, but I need to clarify whether this refers to the current capital distribution or just the overall performance.
+
+Putting it all together, I realize there's no explicit date provided in the report snippet, so I should note that as such. The user will probably expect me to point out what details are missing and perhaps request additional information if needed.
+</think>
+
+The investment report focuses on **VELUX Foundations**, with a project period of 2021–2025 and a funding amount of CHF 1,540,000. The report highlights the fund's performance, noting that by the end of 2021, assets were MCHF 273 with a return on investment of +15.2%. Capital distributions are managed with stringent criteria to ensure compliance with ESG principles, and exclusions are made for managers breaching these standards continuously. The report does not explicitly state the date of the investment report but appears to be current as of its publication.
+
+### Summary:
+- **Fund Name**: VELUX Foundations
+- **Project Period**: 2021–2025
+- **Funding Amount**: CHF 1,540,000
+- **Current Assets**: MCHF 273 with a return on investment of +15.2%.
+- **Capital Distribution Management**: Strictly monitored and excludes managers breaching ESG principles continuously.

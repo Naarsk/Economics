@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund X",
+    "date": "20231130",
+    "outlook": "increase",
+    "magnitude": 98,
+    "confidence": 0.95,
+    "explanation": "Distributions of CHF 1,567 million represent a near-complete distribution ratio, indicating strong positive outlook."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Provinziale Kasse AG",
+    "date": null,
+    "outlook": "stable",
+    "magnitude": 7,
+    "confidence": 0.6,
+    "explanation": "Assumed stable capital distribution plan with moderate confidence based on annual report context."
+  }
+}

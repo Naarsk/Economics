@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund X",
+    "date": "2023-10-31",
+    "outlook": "increase",
+    "magnitude": 13,
+    "confidence": 0.95,
+    "explanation": "Significant capital distributions expected from dividends and capital gains with income reinvestment."
+  }
+}

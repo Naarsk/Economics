@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Total Fund Composite",
+    "date": "20250531",
+    "outlook": "increase",
+    "magnitude": 7,
+    "confidence": 0.85,
+    "explanation": "Expected larger-than-normal distributions at year-end based on performance expectations."
+  }
+}

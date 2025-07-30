@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "name": "State Fund",
+      "date": "2019-123456",
+      "outlook": "increase",
+      "magnitude": 16.79,
+      "confidence": 0.8,
+      "explanation": "Return of 16.79% with a 63.7% funded ratio indicating moderate confidence in investment performance."
+    },
+    {
+      "name": "Worcester Regional",
+      "date": "2019-123456",
+      "outlook": "increase",
+      "magnitude": 16.61,
+      "confidence": 0.7,
+      "explanation": "Return of 16.61% with limited capital distribution details suggesting lower confidence in performance."
+    },
+    {
+      "name": "SHREWSBURY",
+      "date": "2019-123456",
+      "outlook": "increase",
+      "magnitude": 92.4,
+      "confidence": 0.3,
+      "explanation": "Significant return of 92.4% but no details on capital distribution indicating low confidence."
+    },
+    {
+      "name": "SOMERVILLE",
+      "date": "2019-123456",
+      "outlook": "increase",
+      "magnitude": 62.7,
+      "confidence": 0.6,
+      "explanation": "Return of 62.7% with limited capital distribution details suggesting moderate confidence."
+    }
+  ]
+}

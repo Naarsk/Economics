@@ -1,0 +1,15 @@
+<think>
+Okay, so I'm trying to help this user who has provided a detailed investment report about the Milk Pension Fund. They want me to summarize it with specific points: the fund's name, the date of the report, and an outlook on capital distribution including its magnitude in percentage terms.
+
+First, I'll look through the report they've given. The title is "Milk Pension Fund," so that's straightforward. Next, I need to find when this particular report was issued. Scanning the document, there are dates mentioned at the end: 29/05/2025 for Lynne Rawcliffe and another date towards the bottom of the Appendix related to Investment Strategy Statement. It seems like the main report is from May 29, 2025.
+
+Now, looking into the investment strategy section (Appendix 1), there's a part about liability hedging assets. The target range for this portion is between 40% and 100% of the Fund's funded long-term liabilities measured using a Gilts+0% discount rate. So that gives me the percentage they're focusing on.
+
+Putting it all together, I need to make sure each point is clear: the fund's name, the date of the report, and the specific outlook with its percentage.
+</think>
+
+**Summary of the Milk Pension Fund Investment Report**
+
+- **Fund Name**: Milk Pension Fund  
+- **Date of Report**: 29 May 2025  
+- **Capital Distribution Outlook**: The fund has allocated capital distribution to liability hedging assets, targeting a range of 40% to 100% of the Fund's funded long-term liabilities.

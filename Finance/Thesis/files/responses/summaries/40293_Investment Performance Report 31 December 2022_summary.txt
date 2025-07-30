@@ -1,0 +1,37 @@
+<think>
+Okay, so I have this query where someone wants me to summarize a section of an investment report. The specific parts they're asking for are the fund's name, the date of the report, and the outlook on capital distributions along with their magnitude as percentages.
+
+First, I need to look through the provided text to find these pieces of information. Let me scan the document. 
+
+I see mentions of various managers like Blackrock, Brookfield, JP Morgan, KKR, M&G, and Janus Henderson among others. But the fund in question isn't directly named here; instead, it's described as "Link - Janus Henderson Global Equities." So I can infer that this is a mandate from Janus Henderson for their global equities.
+
+Next, looking for the date of the report. The text mentions several dates: February 2023, January 2019, April 2022, September 2012, May 2015, November 2022, July 2007, December 2011, October 2020, March 2003, September 2012. Since the section being referred to is about Janus Henderson Global Equities, I should check when that specific report was made. The user included multiple sections but provided context up to page 65.
+
+In the excerpt from Mark Stevens in February 2023, it mentions the presentation related to UBS and their mandates. However, the actual fund's details are under Janus Henderson Global Equities with an incept date of May 2019. The manager is Janus Henderson, managed by M&G.
+
+Looking further into the section on investment mandates (Appendix 4), I see that Janus Henderson Global Equities has a benchmark of MSCI AC World NDR + 2.5%. This indicates the fund's target return.
+
+Putting it all together: The fund is Janus Henderson Global Equities, managed by M&G for Janus Henderson, with a report date in February 2023. The benchmark is +2.5% over five years. The capital distribution outlook isn't explicitly mentioned here, but typically such funds have distributions based on market performance and investor demand.
+
+Wait, the user specifically asked for the fund's name, the date of the report, and the outlook on capital distributions with their magnitudes in percentages. I see that the benchmark is 2.5% as a target return. However, capital distribution isn't provided here; it might require more context or data from another section.
+
+So my summary should include:
+- Fund: Janus Henderson Global Equities
+- Reported by: Mark Stevens on February 2023
+- Benchmark: MSCI AC World NDR + 2.5%
+But I'm not sure about capital distribution details since they aren't mentioned here.
+</think>
+
+The investment report discusses several managers and their mandates, including the Janus Henderson Global Equities fund managed by M&G for Janus Henderson. The report was presented by Mark Stevens on February 2023.
+
+### Key Points:
+1. **Fund Name**: Janus Henderson Global Equities  
+   - Managed by M&G for Janus Henderson.  
+
+2. **Report Date**: February 2023  
+
+3. **Capital Distribution Outlook**: The report does not explicitly provide details on the magnitude of capital distributions as a percentage, but it is typically influenced by market performance and investor demand.
+
+4. **Benchmark**: The fund's benchmark is the MSCI AC World NDR (Net Dividends Rate), which has a target return of +2.5% over five years.
+
+For more specific details about capital distribution percentages, additional data would be required beyond what is provided in this summary.

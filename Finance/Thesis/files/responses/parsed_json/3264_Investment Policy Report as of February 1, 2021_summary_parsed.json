@@ -1,0 +1,28 @@
+{
+  "results": {
+    {
+      "name": "J.P. Morgan & Vanguard International Equity",
+      "date": "2018-02",
+      "outlook": "increase",
+      "magnitude": 6,
+      "confidence": 0.8,
+      "explanation": "Aim to increase international exposure for higher returns beyond the MSCI EAFE Index with an additional 6% margin."
+    },
+    {
+      "name": "New Amsterdam Partners",
+      "date": "2018-02",
+      "outlook": "increase",
+      "magnitude": 95,
+      "confidence": 0.6,
+      "explanation": "Allocated between 85%-95% to small/mid-cap equities aiming for returns above the Russell 2500."
+    },
+    {
+      "name": "ASB and Barings Real Estate",
+      "date": "2018-02",
+      "outlook": "increase",
+      "magnitude": 100,
+      "confidence": 0.7,
+      "explanation": "Diversified core real estate investments aligning with NCREIF or U.S. private real estate indexes."
+    }
+  }
+}

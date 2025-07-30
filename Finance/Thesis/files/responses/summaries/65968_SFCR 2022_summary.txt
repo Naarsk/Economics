@@ -1,0 +1,22 @@
+<think>
+Okay, so I need to help the user by summarizing an investment report they've provided. Let me read through it carefully.
+
+First off, the report is about Neuflize Vie, which is a fund or company. The date of the report isn't explicitly stated here, but based on standard reporting practices, it's likely from January 2019 as that was mentioned in the context with "ne fera pas de bilan incomplet pour l'année 2018."
+
+The main points I need to focus on are the fund name, report date, outlook on capital distributions, and its magnitude in percentage terms. 
+
+Looking through the sections, under E.3, it says the fund has a capital of 705.42 million euros as of December 31, 2018. Then, in section B.1, under "Bilan," they state that on June 30, 2019, the capital increased to 1.6 billion euros, which is an increase from 705.42 million. 
+
+So, the capital distribution or growth happened between these two dates. The magnitude here would be the increase itself, which is approximately 894.58 million euros added. To find out the percentage increase relative to the initial amount, I can calculate (increase/original) * 100.
+
+That would be (894.58 / 705.42) * 100 ≈ 126.5%. 
+
+Putting it all together, the fund's capital increased by about 126.5% from December 31, 2018, to June 30, 2019.
+</think>
+
+**Summary of the Investment Report:**
+
+- **Fund Name:** Neuflize Vie  
+- **Report Date:** January 2019 (as it refers to the year 2018)  
+- **Outlook on Capital Distributions:** The fund's capital increased significantly during the reporting period.  
+- **Magnitude of Increase in Percentage Terms:** The capital grew by approximately **126.5%** from December 31, 2018 (705.42 million euros) to June 30, 2019 (1.6 billion euros).

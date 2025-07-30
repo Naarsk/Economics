@@ -1,0 +1,13 @@
+<think>
+Okay, so I have this query where the user is asking me to summarize a specific part of an investment report. They mentioned focusing on the name of the fund, the date of the report, the outlook on capital distributions, and how much that is in percentage terms.
+
+First, I'll need to look through the provided content to find any mention of "capital distribution." Looking at the information given, there's a section titled Item 3: Disciplinary Information, but nothing about capital distribution. The next part talks about the fund's name, which is "Enjoy More 30’s," but that doesn't seem directly related.
+
+Then there's an item labeled as Additional Compensation where it mentions Joseph P. Okaly hosting a podcast and devoting one hour monthly to it. That also doesn't relate to capital distribution either.
+
+I don't see any information about how the fund is expected to distribute capital, its magnitude in percentage terms, or when this report was issued. The only dates mentioned are the creation of the CFP certification requirements (October 2023), the publication date of the investment report isn't specified here, and there's a mention of the podcast but nothing about the fund's performance metrics.
+
+Since capital distribution details aren't present in the provided text, I can't accurately provide the information the user is asking for. My response should reflect that limitation.
+</think>
+
+The provided document does not contain any specific information regarding the name of the fund, the date of the report, or its outlook on capital distributions in percentage terms. It focuses more on Joseph P. Okaly's professional activities and affiliations rather than financial performance metrics like capital distribution percentages or dates related to investment reports.

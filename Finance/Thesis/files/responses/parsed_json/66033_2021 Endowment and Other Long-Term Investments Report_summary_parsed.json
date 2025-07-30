@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Education Innovation Fund",
+    "date": "20231205",  // Yesterday's date
+    "outlook": "increase",
+    "magnitude": 5,
+    "confidence": 0.8,
+    "explanation": "Supports academic programs and initiatives in science, engineering, health, and business with a 5% increase in capital distribution."
+  }
+}

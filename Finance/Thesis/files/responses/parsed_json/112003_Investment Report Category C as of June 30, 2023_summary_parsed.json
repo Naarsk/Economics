@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "iShares USD TIPS Acc",
+    "date": "20231023",
+    "outlook": "stable",
+    "magnitude": null,
+    "confidence": 0.95,
+    "explanation": "Inflation-protected security with stable outlook."
+  }
+}

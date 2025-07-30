@@ -1,0 +1,20 @@
+{
+  "results": [
+    {
+      "name": "Federal Money Market Pool",
+      "date": "2021-01-31",
+      "outlook": "stable",
+      "magnitude": 0.398,
+      "confidence": 0.85,
+      "explanation": "Stable growth with daily compounding interest without additional contributions."
+    },
+    {
+      "name": "Short Term Cash Pool",
+      "date": "2021-01-31",
+      "outlook": "stable",
+      "magnitude": 0.948,
+      "confidence": 0.85,
+      "explanation": "Stable growth with daily compounding interest and no immediate changes."
+    }
+  ]
+}

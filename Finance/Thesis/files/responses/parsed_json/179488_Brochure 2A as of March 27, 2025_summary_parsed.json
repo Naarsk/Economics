@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "FEG Select",
+    "date": "20231215",
+    "outlook": "stable",
+    "magnitude": 8,
+    "confidence": 0.7,
+    "explanation": "Capital distributions are expected at an annual rate of 8% starting next month."
+  }
+}

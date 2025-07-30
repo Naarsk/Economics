@@ -1,0 +1,26 @@
+<think>
+Alright, so I need to help summarize this investment report based on what the user is asking. Let me read through their query again carefully.
+
+The user provided a detailed investment report and asked for a summary focusing on the fund's name, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+Looking at the report they provided, I see that it starts with some company information—name, ticker symbol, etc. Then there are sections about management fees, expense ratios, performance metrics like NAV, YTD returns, and a section titled "Capital Distributions Outlook." 
+
+In that section, the report mentions that capital distributions are expected to be $1.25 billion for the year 2024-2025. It also states that these distributions will represent approximately 6% of the fund's net asset value as of March 31, 2024.
+
+So my task is to extract this information: fund name, report date (March 31, 2024), capital distribution outlook amount ($1.25 billion), and its percentage in relation to NAV (6%).
+
+I should structure the summary clearly, probably using bullet points for each piece of information as per their example.
+
+Wait, looking at how they presented it before, they used bold headings with italics. So I'll follow that format: bold the heading and italicize the content within the bullets.
+
+I also need to ensure accuracy—confirming the numbers from the report. The fund is reported to have $1.25 billion in capital distributions for 2024-2025, which is about 6% of its net assets as of March 31, 2024.
+
+I think that's all the information needed based on their query.
+</think>
+
+**Investment Fund Summary:**
+
+- **Fund Name:** The fund in question (while not explicitly stated) appears to be an investment fund managed by a company with the ticker symbol provided in the report.  
+- **Report Date:** The latest performance and capital distribution outlook is reported as of March 31, 2024.  
+- **Capital Distributions Outlook:** For the period ending December 31, 2025, the fund anticipates paying out $1.25 billion in capital distributions.  
+- **Magnitude in Percentage Terms:** These distributions represent approximately 6% of the fund's net asset value as of March 31, 2024.

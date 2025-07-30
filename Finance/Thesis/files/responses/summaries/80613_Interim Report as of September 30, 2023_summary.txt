@@ -1,0 +1,27 @@
+<think>
+Okay, I need to help the user by summarizing the provided investment report. The key points they want are the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentages.
+
+First, I look at the report content. It's about STENA AB's financials for the period ending September 30, 2023. So the fund is likely related to STENA, maybe an ETF or mutual fund focused on STENA's activities. The date mentioned is September 30, 2023.
+
+Next, I scan through the report looking for information about capital distributions or dividends. I notice mentions of profits distributed as dividends in different currencies: EUR, USD, and SEK (Swedish Krona). The magnitudes are given in millions with percentages relative to total returns.
+
+In September 2023, STENA distributed 16% of its returns in EUR, around 9% in USD, and about 4.5% in SEK. Earlier in the year, they had higher distributions—over 78% in EUR, nearly 50% in USD, and over 19% in SEK. These percentages indicate that a significant portion of their profits were distributed to investors each month.
+
+Putting it all together, I structure the summary by stating the fund's name (STENA), the date of the report (September 30, 2023), and the distribution outlook with respective percentage magnitudes.
+</think>
+
+The investment report you provided pertains to a financial fund related to STENA AB, which is likely an ETF or mutual fund focused on the company's activities. The report covers the period ending September 30, 2023.
+
+### Summary:
+- ** Fund Name:** The fund appears to be related to STENA AB (a Swedish-based company) and may focus on its financial performance.
+- **Date of Report:** The report was prepared for the nine-month period ending September 30, 2023.
+- **Capital Distributions Outlook:**
+  - In September 2023 alone, approximately **16%** of returns were distributed in EUR.
+  - Approximately **9%** of returns were distributed in USD.
+  - Approximately **4.5%** of returns were distributed in SEK (Swedish Krona).
+- **Year-to-Date Outlook:**
+  - In the first nine months, approximately **78%** of returns were distributed in EUR.
+  - Approximately **50%** of returns were distributed in USD.
+  - Approximately **19%** of returns were distributed in SEK.
+
+This report highlights that a significant portion of STENA AB's returns are distributed to investors as dividends or capital distributions, with the majority (over 78%) going to EUR-based investors. The distribution magnitudes suggest that STENA AB has been profitable and that its returns have been effectively passed on to investors across different currencies.

@@ -1,0 +1,16 @@
+<think>
+Okay, so I need to help the user by summarizing a given investment report. The user has specified that they want me to focus on three main points: the name of the fund, the date of the report, and the outlook on capital distributions along with its magnitude in percentage terms.
+
+First, I should read through the provided report carefully to extract all relevant information. Let's start by looking for the fund name. The report mentions "The Whyte and Mackay Pension Scheme" multiple times, so that's definitely the fund name we're focusing on.
+
+Next, I need to find out when this report was issued. Scanning through the document, I see references like "August 2022" at the end, which indicates the date of the report.
+
+Now, for the capital distribution outlook. The report talks about capital distributions and their magnitude in percentage terms. Looking further down, there's a section titled "Outlook on Capital Distributions," where it states that the next capital distribution is expected to be approximately 6% of the current valuation. This seems to be the key figure we need.
+
+Putting this all together, I should structure my summary by mentioning each point in order: fund name, report date, and the specific outlook with its percentage. It's important to present this information clearly and concisely so that anyone reading it can quickly grasp the main points without getting bogged down in unnecessary details.
+</think>
+
+**Summary of Investment Report:**  
+- **Fund Name:** The Whyte and Mackay Pension Scheme  
+- **Date of Report:** August 2022  
+- **Outlook on Capital Distributions:** The next capital distribution is expected to be approximately 6% of the current valuation.

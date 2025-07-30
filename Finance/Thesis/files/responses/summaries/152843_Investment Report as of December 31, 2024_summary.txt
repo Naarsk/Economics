@@ -1,0 +1,30 @@
+<think>
+Okay, so I need to help the user by summarizing an investment report. The user has given me specific instructions, focusing on the fund's name, the report's date, outlook on capital distributions, and their magnitude in percentages.
+
+First, looking at the provided report, the main details are under the 'Asset Allocation' section as of 12/31/2024. I see percentages for different asset classes like U.S. Equities at 26.98%, Non-U.S. Equities at 19.90%, and so on down to Short-term Cash at 1.44%. 
+
+The user wants the name of the fund, but in this report, I don't see any specific fund names listed. It seems more like a breakdown of the portfolio rather than per-fund details. So maybe there's no single fund name here.
+
+Next, the date is clearly given as 12/31/2024. Got that down.
+
+For the outlook on capital distributions and their magnitude in percentages, I see a table with various investment returns for different periods like Quarter, 1 Year, 3 Years, etc., across asset classes. The highest percentage return here is U.S. Equities at 21.08% over one year. But since it's about capital distribution outlook, perhaps the focus should be on how much each asset class might distribute in terms of cash flow or returns.
+
+However, without specific information per fund, I can't provide a fund-specific outlook. The report seems to outline current allocations and past performance rather than future distributions for individual funds.
+
+So putting it all together, my summary will include the date, the lack of a single fund name because there are multiple asset classes instead, mention the highest return period as an example, but note that the data doesn't provide fund-specific distribution outlooks. This way, I cover what's required without overstepping the available information.
+</think>
+
+### Summary:
+
+**Fund Name:**  
+The report does not specify a single fund name; it appears to outline an investment portfolio composed of multiple asset classes.
+
+**Date of Report:**  
+As of 12/31/2024.
+
+**Outlook on Capital Distributions and Magnitude (Percentage Terms):**  
+- The asset allocation shows that U.S. Equities represents the largest portion at 26.98%, followed by Non-U.S. Equities at 19.90%. Global Equity, Private Equity, Real Estate, and other categories follow.
+- Investment returns for various periods (Quarter, 1 Year, 3 Years, etc.) indicate varying performances across asset classes. For example, U.S. Equities had a return of 21.08% over one year, while International Equities returned -7.37% in the same period.
+- The total fund's performance showed an overall increase of 8.04% over five years.
+
+Please note that this report provides a snapshot of the portfolio composition and past performance but does not provide specific fund-specific capital distribution outlooks or guarantees for future performance.

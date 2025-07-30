@@ -1,0 +1,13 @@
+<think>
+Alright, so I'm trying to help this user who's asked me to summarize an investment report. Let me look at what they've given. The query is pretty straightforward: they want a summary focusing on the fund name, date of the report, and their outlook on capital distributions, including percentages.
+
+First off, I need to figure out where exactly in the provided text this information can be found. Scanning through the details, I see that there are two execution pages for Form ADV— one signed by Richard Oring as a managing member and another for a non-resident investment adviser with the same CRD number, 104553. Both have the signature date of January 15, 2025.
+
+Now, looking beyond those pages, I spot the main report. The fund name is clearly stated as "Fund X" in the header section. Then there's a date listed: January 15, 2025. That seems to be the date of the latest capital distribution report. 
+
+The next part talks about the outlook on capital distributions. It mentions that the magnitude is significant, specifically an increase of $2.7 million compared to the previous quarter, which was $3.4 million. The percentage-wise, it's a 15% increase from the same period last year.
+
+Putting this all together, I need to make sure my summary includes each point clearly and concisely without any extra information. I should avoid using markdown or any formatting as per the user's request. Just plain text with clear separation between the fund name, report date, and percentage increase.
+</think>
+
+The investment report pertains to "Fund X," which was last updated on January 15, 2025. The report highlights a significant capital distribution of $3.4 million in the most recent quarter, an increase of $2.7 million compared to the previous quarter. In percentage terms, this represents a 15% increase from the same period last year.

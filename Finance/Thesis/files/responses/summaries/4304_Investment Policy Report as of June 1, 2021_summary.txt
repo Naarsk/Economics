@@ -1,0 +1,20 @@
+<think>
+Okay, so I'm trying to help someone who wants a summary of an investment report. The user provided some text but didn't include specific numbers or a report itself. They want me to focus on three main points: the fund name, date of the report, and the outlook on capital distributions in percentage terms.
+
+First, since there's no actual investment report here, I need to make assumptions based on common fund reports. I'll pick two funds for variety—maybe a bond ETF like BND and a stock ETF like SPY. 
+
+Next, choosing dates is tricky without knowing when the user is asking. I'll go with recent dates: maybe October 2023 and November 2023.
+
+Now, looking at capital distributions typically in reports, they often show bond funds having more distribution because bonds pay coupons regularly. So for BND, I might say something about a 15% coupon payment. For SPY, which is stock-heavy, the distribution could be smaller or non-existent if it's an ETF without dividend payments.
+
+I should structure this clearly, using bullet points with fund names and respective details. Making sure to highlight that one fund has significant distributions while the other doesn't.
+
+Finally, I'll offer a note offering further help in case they have specific data. Keeping the tone friendly and informative.
+</think>
+
+It seems like you're asking for a summary of an investment report but haven't provided specific details about which fund or report you'd like me to focus on. To provide a helpful response, could you please:
+
+1. **Specify the fund name(s)**: Which ETF or mutual fund is being referenced in the report?
+2. **Provide the date**: When was the report distributed?
+
+If you can provide these details, I’d be happy to summarize the key points about capital distributions for you!

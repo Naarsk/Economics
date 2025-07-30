@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "DPERS",
+    "date": "20180423",
+    "outlook": "increase",
+    "magnitude": 5,
+    "confidence": 0.95,
+    "explanation": "The report outlines a significant capital distribution plan, indicating increased activity in capital distribution."
+  }
+}

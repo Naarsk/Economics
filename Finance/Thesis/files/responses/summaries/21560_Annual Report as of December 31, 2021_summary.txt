@@ -1,0 +1,23 @@
+<think>
+Alright, I need to help the user by summarizing a provided investment report. The user specifically asked for information about a fund named "Syngenta Active Growth Opportunities Fund." They also want details on when the report was released and an overview of how the capital distribution might look, expressed as a percentage.
+
+First, I'll scan through the provided text to find mentions of the fund. I see multiple references like "Syngenta Active Growth Opportunities Fund" at different points, so that's confirmed.
+
+Next, I'll check for the date of the report. Scrolling down, there's an entry from March 30, 2022. That must be the release date.
+
+Now, looking for information on capital distribution. The text mentions "capital distributions." Specifically, it states that they expect to pay distributions in the amount of CHF 1 per unit quarterly. But I need this as a percentage rather than a fixed amount.
+
+Wait, actually, the passage says, "Syngenta Active Growth Opportunities Fund will distribute CHF 0.25 per unit quarterly," which totals CHF 1 per unit annually. To find out what percentage that represents of the fund's performance or value isn't directly clear from the text. Maybe I need to infer based on typical fund distributions or perhaps it's implied elsewhere.
+
+Alternatively, if "CHF 0.25" is a fixed distribution amount regardless of the fund size, then converting this into a percentage would require knowing the fund's asset value per unit. Since that info isn't provided here, maybe I should state that the exact percentage isn't available but note the quarterly distribution.
+
+Wait, perhaps the user meant to ask for how capital distributions are expected to perform in terms of growth or yield, not just the amount. The report mentions "expect" regarding future performance and risks related to legal proceedings, regulatory approvals, etc., which could impact returns.
+
+Putting it all together: I'll structure the summary with the fund name, release date, and note on capital distribution as CHF 0.25 quarterly, while also mentioning that exact percentage growth isn't specified but mentions potential factors affecting performance.
+</think>
+
+**Summary of Investment Report for Syngenta Active Growth Opportunities Fund:**  
+
+- **Fund Name:** Syngenta Active Growth Opportunities Fund  
+- **Report Date:** March 30, 2022  
+- **Capital Distribution Outlook:** The fund is expected to distribute CHF 0.25 per unit quarterly. However, the exact percentage distribution in terms of fund performance or asset value isn't specified directly in the report. The fund's capital distributions may be influenced by factors such as legal proceedings, regulatory approvals, and market conditions.

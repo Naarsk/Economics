@@ -1,0 +1,13 @@
+<think>
+Alright, I need to help the user summarize a specific part of an investment report. The user has given me the text and they want a summary focusing on three points: the name of the fund, the date of the report, and the outlook on capital distributions including their magnitude in percentage terms.
+
+First, I'll scan through the provided text looking for mentions of "Northern Illinois University Foundation" as the fund's name. I see that at the beginning, it says "Northern Illinois University Foundation (Date) Investment Manager (Date) Investment Advisor (Date)". So the fund is Northern Illinois University Foundation.
+
+Next, I need to find the date of the report. The text mentions "Adopted June 15, 2001" and several revision dates: "Revised 2004-2015; May 2017; Committee Approved March 10, 2020; Board Approved May 2021". The most recent date mentioned is May 2021. I'll note that as the report date.
+
+Now, for the capital distributions section. Looking through the text, I don't see any direct mentions of capital distributions or their percentages. The report talks about performance metrics like net risk-adjusted returns, but not specific distribution amounts. Since there's no information on capital distributions here, it seems they're zero.
+
+Putting this together, the summary will state the fund name, the report date as May 2021, and note that capital distributions haven't occurred yet or have a magnitude of zero percent.
+</think>
+
+The investment report pertains to **Northern Illinois University Foundation**. The latest update or report mentioned is from **May 2021**, with no information on capital distributions provided in the text.

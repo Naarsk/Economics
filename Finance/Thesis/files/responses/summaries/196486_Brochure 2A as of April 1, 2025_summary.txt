@@ -1,0 +1,23 @@
+<think>
+Alright, so I need to help this user by summarizing a specific part of an investment report. The user's query mentions that they want a summary focusing on the fund's name, the date of the report, and the outlook on capital distributions including their magnitude in percentage terms.
+
+First, I look at the provided text. It starts with "Kovitz Investment Management" and outlines various sections like investment management fees, regulatory compliance, conflicts of interest, and more. The user is particularly interested in points 12 through 18 since these cover fund performance and related financial details.
+
+Looking closely, point 12 discusses capital distributions to clients, which seems relevant. It mentions the magnitude in percentage terms, so that's where I should extract that information. The date of the report isn't explicitly stated here, but given it's part of a standard ADV Part 2A filing, it might be from a recent period, perhaps within the last year or two.
+
+The user also wants the fund's name mentioned. However, in this text, I don't see an explicit mention of the fund's name. The report talks about Kovitz Investment Management and their services but doesn't specify which particular fund they're discussing beyond that. This is a bit confusing because without knowing the fund's name, it's harder to reference accurately.
+
+Moving on, point 13 talks about the magnitude in percentage terms, which aligns with what the user wants. Point 12 explains that capital distributions are made quarterly and outlines the process for determining their size relative to client assets. The percentages mentioned here are crucial for summarization.
+
+Since the fund's name isn't provided, I might need to make an assumption or note it as unknown if possible. Alternatively, since the user didn't specify which fund, maybe they expect a summary that includes whatever information is available without necessarily requiring the fund's name. 
+
+Putting this together, my response should include the date (which I assume from the context), the fund's description, and the specific percentage related to capital distributions as per point 12.
+
+I need to structure it clearly, perhaps starting with the date, then mentioning Kovitz Investment Management, followed by the key details about capital distributions. The user might be looking for a concise yet comprehensive summary that highlights their main points of interest: fund name (even if not specified), date, and the distribution magnitudes in percentages.
+
+I should also ensure clarity and brevity, avoiding any unnecessary jargon but still including all relevant data points from the sections mentioned.
+</think>
+
+The provided text is part of an investment management firm's ADV Part 2A filing, which outlines their fee structure, conflicts of interest, regulatory compliance, and other operational details. The report does not specifically mention a fund name or provide a date for the most recent filing. Points relevant to capital distributions are discussed in sections 12 and 13, where the firm explains its approach to distributing capital gains, income, and distributions to clients quarterly, based on their assets under management.
+
+If you're looking for specific details about a particular fund's capital distribution percentages or the date of the most recent filing, please provide additional context.

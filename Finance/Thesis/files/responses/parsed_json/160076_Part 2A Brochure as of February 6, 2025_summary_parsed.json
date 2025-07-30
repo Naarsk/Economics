@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": null,
+    "date": null,
+    "outlook": "increase",
+    "magnitude": 0,
+    "confidence": 0.1,
+    "explanation": "Typical capital distribution trends for funds, which often show an increase."
+  }
+}

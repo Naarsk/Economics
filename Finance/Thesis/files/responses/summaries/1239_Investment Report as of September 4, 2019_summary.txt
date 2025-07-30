@@ -1,0 +1,20 @@
+<think>
+Alright, I need to help the user by summarizing a provided investment report. Let me first understand what they're asking for.
+
+The user has given a chunk of text from an investment report about GIPMS - Grosvenor Institutional Partners, L.P., also known as the Fresno County Employees' Retirement Association Fund. The task is to summarize this report focusing on the fund's name, date of the report, outlook on capital distributions, and their magnitude in percentage terms.
+
+First, I'll look for the fund name. It seems it's GIPMS - Grosvenor Institutional Partners, L.P., with another reference to Fresno County Employees' Retirement Association. So that's straightforward.
+
+Next, I need the date of the report. Scanning through the text, there's a Run Date mentioned as 08 January 2019 at 04:48 PM. That should be the date of the report.
+
+Now, looking for the outlook on capital distributions and their magnitude in percentages. The text mentions "Account Fee Report" but doesn't provide specific details about future distributions or their size in percentages. It's important to note that there's no information available on this aspect from the provided text.
+
+So putting it all together, I can outline the fund name, report date, lack of distribution outlook, and absence of percentage data. This should meet the user's requirements.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** GIPMS - Grosvenor Institutional Partners, L.P. (Fresno County Employees' Retirement Association Fund)  
+- **Report Date:** January 8, 2019 (Run Date: 08 January 2019 at 04:48 PM).  
+
+The report does not provide specific information regarding the outlook on capital distributions or their magnitude in percentage terms. Further details on future distributions and their expected size are unavailable from the provided text.

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": null,
+    "date": null,
+    "outlook": "stable",
+    "magnitude": 0,
+    "confidence": 0.5,
+    "explanation": "Insufficient information is provided to generate a report."
+  }
+}

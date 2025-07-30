@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Sample Fund Name",
+    "date": "20241105",
+    "outlook": "stable",
+    "magnitude": 3,
+    "confidence": 0.6,
+    "explanation": "Lack of specific distribution data."
+  }
+}

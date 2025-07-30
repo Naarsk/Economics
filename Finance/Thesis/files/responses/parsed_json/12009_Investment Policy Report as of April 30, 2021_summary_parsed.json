@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "OPERS Retirement Fund",
+    "date": "20220316",
+    "outlook": "increase",
+    "magnitude": null,
+    "confidence": 0.95,
+    "explanation": "Distributions are expected to increase modestly each month based on historical data."
+  }
+}

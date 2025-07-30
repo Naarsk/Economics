@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": null,
+    "date": null,
+    "outlook": "stable",
+    "magnitude": 0.5,
+    "confidence": 0.3,
+    "explanation": "General metrics are provided but specific percentages relative to TAM aren't available."
+  }
+}

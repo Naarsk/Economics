@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "TechFund",
+    "date": "2023-10-31",
+    "outlook": "increase",
+    "magnitude": 2,
+    "confidence": 0.65,
+    "explanation": "Favorable tech news slightly increased the fund's performance."
+  }
+}

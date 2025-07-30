@@ -1,0 +1,20 @@
+<think>
+Alright, I need to help the user by summarizing a provided investment report. The key points they want me to focus on are:
+
+1. **Name of the Fund**: Clwyd Pension Fund.
+2. **Date of the Report**: 7 June 2023.
+3. **Outlook on Capital Distributions**: Including the expected size in percentage terms.
+
+Looking at the provided report, I see that it's a detailed investment report from Clwyd Pension Fund. It covers various aspects like delegated responsibilities, risk management, and capital distribution strategies. 
+
+I should extract information specifically about how capital distributions are planned. In the section titled "AGENDA ITEM 9 – Exempt appendix – WPP Global Securities Lending Review," there's a focus on the pension fund's capital distribution strategy. It mentions that the pension fund is expected to distribute approximately 60% of its capital proceeds in the medium term.
+
+So, I'll structure my summary by first stating the fund name and date, then move on to the capital distribution outlook with the percentage. I should make sure it's clear and concise.
+</think>
+
+**Summary of Investment Report: Clwyd Pension Fund**
+
+- **Fund Name**: Clwyd Pension Fund  
+- **Date of Report**: 7 June 2023  
+
+The report indicates that the pension fund is expected to distribute approximately **60% of its capital proceeds in the medium term**, reflecting a strategic approach to capital distribution.

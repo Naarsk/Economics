@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Barnard College Investment Fund",
+    "date": "2021-06-30",
+    "outlook": "increase",
+    "magnitude": 5,
+    "confidence": 0.9,
+    "explanation": "Slight increase in investment value compared to last year."
+  }
+}

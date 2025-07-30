@@ -1,0 +1,20 @@
+{
+  "results": [
+    {
+      "name": "FGP LONG TERM OVERALL BOND FUND",
+      "date": "2014-01-31",
+      "outlook": "decrease",
+      "magnitude": -2,
+      "confidence": 0.85,
+      "explanation": "Stable income distributions suggest a slight decrease in performance."
+    },
+    {
+      "name": "FGP LONG TERM BOND FUND",
+      "date": "2018-11-30",
+      "outlook": "stable",
+      "magnitude": 0,
+      "confidence": 0.85,
+      "explanation": "Consistent income distributions with no capital gains."
+    }
+  ]
+}

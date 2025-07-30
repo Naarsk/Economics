@@ -1,0 +1,54 @@
+<think>
+Okay, I need to help the user by summarizing a specific part of an investment report. The user has provided a detailed report from March 2022 about the pension scheme's investment principles and fund options.
+
+First, let me understand what the user is asking for. They want me to summarize the report, focusing on the name of the funds, the date of the report, and the outlook on capital distributions along with their percentage magnitude.
+
+Looking at the report, it starts with a section about the Statement of Investment Principles, which outlines the Trustee's investment policies as per regulations. Then there are sections detailing fund options for different asset classes: Asset class options, Investment Management Arrangements, etc.
+
+The user is specifically interested in summarizing these parts. So I need to extract information from each table provided.
+
+In the first table under "Fund," they list various funds with their asset allocation strategies and self-select options. The funds include things like Aon Managed Retirement Pathway Funds*, which are available both as asset allocation strategies and self-select funds. There's also a section about objective-based funds, each with specific benchmark targets, like 7% for the Initial Growth Fund.
+
+In the second table under "Investment Management Arrangements," they detail different funds along with their benchmarks and target performance. For example, the Actively Managed Multi-Asset Fund aims to outperform the Sterling Overnight Interest Average (SONIA) by 3.0% per annum over three years. There's also a Bond Fund targeting 50% of its benchmark.
+
+The third table under "Asset class based funds" includes more specialized funds like the Global Equity Fund aiming to match the MSCI All Country World Index, and others with similar or higher targets.
+
+Additionally, there are sections about cash funds and Pre-Retirement Annuity Protection Funds. Each fund has a specific target performance relative to its benchmark.
+
+Now, focusing on capital distribution, I need to look for any mention of how funds are distributed across different asset classes. However, in the provided report, I don't see explicit information about capital distribution percentages or allocations between different funds or asset classes.
+
+Wait, maybe I missed that part. Let me go through the report again. The sections mentioned include fund options with specific benchmarks and targets but no direct mention of capital distribution. Unless there's an assumption based on typical distributions in similar setups, but without explicit data here, it might be tricky to provide precise figures.
+
+Given that, perhaps the user is expecting a summary of each fund's structure rather than actual distribution percentages since those details aren't provided in the text.
+
+So, my approach should be:
+
+1. Identify all listed funds and their key features (asset allocation strategy, self-select options, benchmarks, target returns).
+2. Highlight the date of the report.
+3. Note that capital distribution data isn't explicitly provided but could imply or require external knowledge for precise figures.
+
+Since I can't extract exact percentages from this text, it's safest to mention that detailed capital distribution information might not be present and suggest referring to the fund's prospectuses for such details.
+
+In summary, my response should outline each fund with its respective features, include the report date, and clarify about capital distribution without making unwarranted assumptions.
+</think>
+
+The provided investment report from March 2022 outlines the pension scheme's investment principles and available fund options. Below is a concise summary focusing on the key aspects requested:
+
+### Summary of Funds and Investment Arrangements:
+
+1. **Fund Options:**
+   - The scheme offers various funds under different asset classes, each with specific benchmarks and target returns:
+     - **Actively Managed Multi-Asset Fund:** Targets to outperform the SONIA benchmark by 3.0% per annum over three years.
+     - **Bond Fund:** Aims to outperform a benchmark of 50% SONIA + 50% iBoxx Sterling Non-Gilts All Stocks Index.
+     - **Short-Term Inflation Protection Fund and Index-Linked Gilts Fund:** Targets performance in line with specific indices.
+     - **Global Equity Fund and UK Equity Fund:** Aims to match their respective benchmarks (MSCI All Country World Index and FTSE All Share Index).
+     - **Corporate Bond Fund:** Targets a 2.0% pa gain over three years.
+     - **Ethical Global Equity Fund:** Aims for performance in line with the FTSE4Good Global Index.
+
+   - Additional funds include cash options, global equity funds, corporate bond funds, and UK equity funds, each with their own targets and benchmarks.
+
+### Key Points:
+- The report was last updated on March 2022.
+- Capital distribution percentages are not explicitly provided in this document. For precise capital allocation details, refer to the fund's prospectus or performance data.
+
+This summary highlights the structure of the available funds and their investment objectives but does not include specific capital distribution figures.

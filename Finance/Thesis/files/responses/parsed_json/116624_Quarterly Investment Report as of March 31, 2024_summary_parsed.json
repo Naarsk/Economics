@@ -1,0 +1,20 @@
+{
+  "results": [
+    {
+      "name": "Axiom Growth Opportunities Fund",
+      "date": "2024-07",
+      "outlook": "increase",
+      "magnitude": 3.5,
+      "confidence": 0.9,
+      "explanation": "Positive capital distribution outlook with a reliable asset size and low expense ratio."
+    },
+    {
+      "name": "Bond Convoy Global Opportunities Fund",
+      "date": "2024-07",
+      "outlook": "increase",
+      "magnitude": 2.0,
+      "confidence": 0.85,
+      "explanation": "Slightly lower capital distribution outlook but reliable with a smaller asset size."
+    }
+  ]
+}

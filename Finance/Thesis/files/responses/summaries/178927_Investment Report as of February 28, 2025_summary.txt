@@ -1,0 +1,50 @@
+<think>
+Okay, so I need to help this user by summarizing an investment report. Let me start by reading through everything carefully.
+
+First, looking at the data, there's a lot about different funds and their performances. The user mentioned focusing specifically on the name of the fund, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+The main fund seems to be "Town of Palm Beach Retirement System." The report shows that as of February 28, 2025, it has a market value of $306,610,693. That's pretty substantial. 
+
+Looking at the performance metrics, I see returns for various periods: Total Fund, Fiscal YTD, Calendar YTD, and so on up to five years. The target index also varies across these periods. It looks like the fund has been outperforming compared to some indices but not as well as in previous years.
+
+The user asked about capital distribution outlook and its magnitude. I see that different portions of the market are weighted towards various investment types, like U.S. Treasuries, Commercial Paper, Corporate Notes/Bonds, etc. The money market funds also play a significant role at 40.39% of the core investments.
+
+The Weighted Average Duration Calculation shows an average duration of 1.02 years, which indicates that the portfolio is quite liquid since it's near one year on average. This might mean they can adjust capital distribution more frequently without too much risk.
+
+Putting this all together, I should structure a summary that includes the fund name, report date, market value, performance comparison with target index, current weightings of various assets, and the duration outlook.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** Town of Palm Beach Retirement System  
+- **Report Date:** February 28, 2025  
+
+- **Market Value:** $306,610,693 (as of February 28, 2025)  
+
+- **Performance Overview:**
+  - Total Fund Performance:
+    - QTD (Quarterly): +2.06%
+    - Fiscal YTD: +1.32%
+    - Calendar YTD: +8.89%
+    - 1 Year: +3.50%
+    - 3 Years: +6.85%
+  - Target Index Performance:
+    - QTD: +2.17%
+    - Fiscal YTD: +1.77%
+    - Calendar YTD: +11.66%
+    - 1 Year: +6.69%
+    - 3 Years: +9.79%  
+
+- **Capital Distribution Outlook:**
+  - **Market Composition (Core Investments):**
+    - U.S. Treasuries: 7.94%
+    - Federal Agencies: 3.15%
+    - Commercial Paper: 0.00%
+    - Corporate Notes/Bonds: 5.04%
+    - Municipal Notes/Bonds: 0.30%
+    - Asset Backed Security/Collateralized Mortgage Obligation: 3.08%
+    - Money Market Funds: 40.39%
+    - Certificates of Deposit: 21.83%  
+
+- **Weighted Average Duration Calculation:**  
+  - Weighted Average Duration: 1.02 years (indicating a portfolio that is easily adjustable for capital distribution without significant risk).

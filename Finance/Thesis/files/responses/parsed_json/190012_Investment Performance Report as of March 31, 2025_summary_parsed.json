@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Coalt Greenwich",
+    "date": "202404",
+    "outlook": "decrease",
+    "magnitude": 10,
+    "confidence": 0.8,
+    "explanation": "Capital distributions are expected to decrease slightly across April to September based on historical data."
+  }
+}

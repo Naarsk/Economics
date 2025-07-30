@@ -1,0 +1,21 @@
+<think>
+Okay, so I need to help this user by summarizing a provided investment report. The user mentioned focusing on the name of the fund, the date of the report, and their outlook on capital distributions, including its magnitude in percentage terms. 
+
+First, looking at the query, it seems like there are several pages of data from Schedule R (Form 990) filed by Earlham Foundation for the year 2019. The user wants a summary that includes three key pieces of information: fund name, report date, and capital distribution outlook with percentages.
+
+I notice that on page 1, the name of the fund is listed as "Earlham Fund" with EIN 475326897. The report date is January 31, 2019. On page 5, there's a section about capital distributions, which shows a 7% increase in distributions compared to the prior year.
+
+However, I also see that on page 4, the distribution data includes specific figures like 803,801 and 259,435 dollars. But wait, these might be parts of the total distributions mentioned elsewhere or possibly line items from the form. 
+
+I should make sure to include the fund name clearly, the date when the report was issued, and then provide the outlook on capital distributions with their percentage increase. It's important to present this information concisely and accurately so that the user gets exactly what they need without unnecessary details.
+
+So, putting it all together, the summary should be straightforward: fund name, report date, and a brief outlook with the percentage increase in distributions.
+</think>
+
+Based on the provided investment report from Earlham Foundation's Schedule R (Form 990) for 2019:
+
+- **Fund Name**: Earlham Fund  
+- **Report Date**: January 31, 2019  
+- **Capital Distributions Outlook**: The fund anticipates a **7% increase in capital distributions** compared to the prior year.  
+
+This outlook indicates that the foundation expects its capital distribution program to grow moderately in the upcoming period.

@@ -1,0 +1,17 @@
+<think>
+Alright, let me try to figure out how to approach this. The user has given me a block of text that's part of an investment policy statement for a pension fund. They want me to summarize it with specific points: the fund's name, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+First, I need to read through the provided text carefully to extract these pieces of information. The fund is referred to as "Pension Fund." Looking for where the date is mentioned, it says "the most recent quarterly" so I should note that the report's date isn't specified but it's a quarter ago or something similar.
+
+Next, there's a section about capital distributions and their outlook. It mentions distributing returns to participants through employer contributions and benefits. The magnitude part is in percentages: 35% to current employees and 60% to former employees' benefits. That gives me the distribution percentages.
+
+I also need to make sure I'm only focusing on these four points, even though there's a lot more text about investment policies, reporting, etc. So my summary should be concise, sticking strictly to the user's requirements without including extra details.
+
+Wait, maybe the date isn't explicitly mentioned in numbers. It just says "most recent quarterly." If I can't get a specific year or month from the provided text, I might have to leave it as is and perhaps note that it's an annual occurrence since it's a report. But looking back at the user's instructions, they don't specify needing exact dates beyond what's in the text.
+
+Putting it all together, my summary should clearly state the fund name, date of report (as 'most recent quarterly'), capital distribution percentages to current and former employees, and note that distributions are intended as a return on investment. I need to make sure I'm accurate with the percentages: 35% to current employees and 60% to benefits for terminated employees.
+
+I should also ensure clarity and conciseness in the summary so it's easy to understand at a glance.
+</think>
+
+The Investment Policy Statement provided pertains to a Pension Fund. The most recent quarterly report discusses the fund's strategy, performance metrics, and investment guidelines, with a focus on capital distribution returns intended for participants. Specifically, the fund aims to distribute returns through employer contributions or benefits, with 35% of returns distributed to current employees as part of their compensation package, and an additional 60% allocated to benefits for terminated employees' post-employment plans. The magnitude of these distributions is a key aspect of the fund's approach to return on investment.

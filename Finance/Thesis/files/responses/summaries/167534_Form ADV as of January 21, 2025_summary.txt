@@ -1,0 +1,28 @@
+<think>
+Alright, so I need to help this user who's given me a block of text that looks like an investment report. The user wants me to summarize it by focusing on three main points: the name of the fund, the date of the report, and the outlook on capital distributions, specifically in percentage terms.
+
+First, I'll scan through the provided text to understand what's going on. It seems like there are a few different sections here. The first part is about the investment company being state-registered with an EIN number 160186. Then there are three different execution pages for various registrations: non-resident, state-registered, and a resident one.
+
+Looking at each section:
+
+1. **Non-Resident Investment Adviser Execution Page**: This is signed by David Clay Hogan as the Chief Compliance Officer. It mentions that he's irrevocably appointing certain officers as agents to receive service on behalf of the company. It also includes a certification about books and records.
+
+2. **State-Registered Investment Adviser Execution Page**: Again, it's signed by the same individual with similar content but slightly different details, mentioning state regulation and compliance.
+
+3. **Resident Investment Adviser Execution Page**: This seems to be a more formal document where the company is applying for state registration or amending its registration. It includes information about the execution page used.
+
+Now, in all three sections, I don't see any specific mention of a fund name, date of report, capital distributions, or their percentages. The content appears to be more about compliance and regulatory reporting rather than detailed fund performance data.
+
+Given this, my initial thought is that perhaps there's no specific fund name being discussed here; instead, the focus seems to be on the company's registration and compliance processes. There might not be enough information provided in the text to extract the required details like fund names or distribution outlooks.
+
+But I should make sure I'm not missing anything. Let me go through each section again:
+
+- In the non-resident execution page, there's a date of 01/21/2025, but that seems to be the signature date rather than the report's issue date.
+- The state-registered page also has the same date at the bottom where it says "Date: MM/DD/YYYY" and then later notes "Printed Name:" with "David Clay Hogan" as the title, which is Chief Compliance Officer.
+
+Since there's no explicit mention of a fund name or capital distribution percentages in any of these execution pages, I can conclude that the user might have gotten confused about what exactly this report contains. It seems more like internal compliance documentation rather than detailed investment performance reports.
+
+So, without additional information on specific funds or performance data within these execution pages, it's not possible to summarize the name of a fund, its report date, and capital distribution outlook as requested.
+</think>
+
+The provided text appears to be internal compliance documentation for an investment company, specifically related to state registration and regulatory compliance. It does not contain any details about specific funds, their names, or capital distribution outlooks with percentage figures. Therefore, it is not possible to extract the required information (fund name, report date, capital distribution outlook in percentages) from this text.

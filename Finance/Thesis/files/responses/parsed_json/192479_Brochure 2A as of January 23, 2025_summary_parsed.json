@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "The Fund",
+    "date": "201810",
+    "outlook": "increase",
+    "magnitude": 6.25,
+    "confidence": 0.9,
+    "explanation": "Capital distributions are expected to increase."
+  }
+}

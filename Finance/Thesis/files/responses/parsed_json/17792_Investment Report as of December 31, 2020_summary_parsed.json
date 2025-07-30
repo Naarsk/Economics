@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "SHREWSBURY",
+    "date": "20200101",
+    "outlook": "stable",
+    "magnitude": 93.40,
+    "confidence": 0.75,
+    "explanation": "Held at a high magnitude of 93.40%, expected to have stable performance with moderate growth."
+  }
+}

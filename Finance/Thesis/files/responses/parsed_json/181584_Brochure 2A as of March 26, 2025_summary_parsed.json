@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund X",
+    "date": "20231115",
+    "outlook": "increase",
+    "magnitude": 5,
+    "confidence": 0.9,
+    "explanation": "Small-cap and large-cap stocks are expected to distribute capital at increased rates."
+  }
+}

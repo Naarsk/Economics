@@ -1,0 +1,13 @@
+<think>
+Alright, I need to help the user by summarizing the provided investment report. They specifically want me to focus on the fund's name, the report's date, and their outlook on capital distributions in percentage terms.
+
+First, I'll scan through the text to find where these key points are mentioned. The fund is called "Partners Capital Europe Fund." Looking for dates, I see it was updated on May 24th, 2023.
+
+Now, regarding the capital distribution, the report talks about distributing capital distributions by mid-July 2023 and expecting to complete them around early October. The user is interested in how much this will represent as a percentage of the total investment.
+
+The text mentions that distributions are expected to account for 45% of the fund's performance, but it's just an initial assessment. It also notes that capital distribution yields can vary depending on market conditions and manager fees.
+
+So, putting this together: the name is Partners Capital Europe Fund, date is May 24, 2023, and the expected percentage for distributions is around 45%, though it's subject to change based on various factors.
+</think>
+
+The investment report focuses on the "Partners Capital Europe Fund," which was last updated on **May 24, 2023**. The outlook indicates that capital distributions are expected to represent approximately **45% of the fund's performance**, with a goal to distribute capital by mid-July and complete the process by early October. This percentage is an initial assessment and may vary depending on market conditions and manager fees.

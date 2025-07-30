@@ -1,0 +1,17 @@
+<think>
+Alright, I need to help the user by summarizing an investment report they've provided. Let's see what information is given.
+
+First, the report mentions a fund called "Stable Growth Fund" with a total net asset value of $10 million as of December 31, 2024. The outlook for capital distributions in the next year is expected to be around 5%, which seems moderate but steady.
+
+I should start by identifying the key points: fund name, date, and the specific details about capital distributions. It's important to present this clearly so the user can quickly grasp the essential information without getting bogged down in unnecessary details.
+
+Wait, I also notice that there are two versions of the report provided—non-resident and resident investment adviser execution pages. Should I include those details? The user specifically asked for a summary focusing on the fund's name, date, and capital distribution outlook. So perhaps it's better to keep it concise and stick to what was requested.
+
+I should make sure the summary is accurate and easy to understand, avoiding any technical jargon unless necessary. Also, considering the user might be an investor looking for quick insights, clarity and brevity are key.
+
+Hmm, maybe I should structure the response with bullet points or a clear sectioning? The user hasn't specified format, so keeping it plain text but concise is probably best.
+
+Let me put this together: mention the fund name, the date of the report, the total assets under management, and the expected capital distribution percentage. That should cover all the necessary bases as per the task.
+</think>
+
+The investment report summarizes a fund called "Stable Growth Fund," which has a total net asset value of $10 million as of December 31, 2024. The report highlights an outlook for capital distributions in the next year, expecting to distribute approximately 5% of the fund's assets. This distribution is expected to be moderate and steady, aligning with the fund's stable growth strategy.

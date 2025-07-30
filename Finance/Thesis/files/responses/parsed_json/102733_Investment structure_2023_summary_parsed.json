@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Schweiz actively managed equity fund",
+    "date": "20231231",
+    "outlook": "positive",
+    "magnitude": 8.2,
+    "confidence": 0.85,
+    "explanation": "The fund's Schwellenländer exposure indicates potential growth, but the wide capital allocation range suggests moderate stability."
+  }
+}

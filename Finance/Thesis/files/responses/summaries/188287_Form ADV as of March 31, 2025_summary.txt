@@ -1,0 +1,13 @@
+<think>
+Okay, so I need to figure out how to help the user by summarizing a specific part of an investment report. They mentioned focusing on the name of the fund, the date of the report, and their outlook on capital distributions along with the magnitude in percentage terms.
+
+Looking at the provided text, it's from Peter S. Lin's Investment Report dated March 31, 2025. The main points are about a non-resident investment adviser executing Form ADV, which is related to reporting under the Investment Advisers Act of 1940. It doesn't mention any specific fund names or distributions.
+
+Since there's no information on the fund itself—like its name, size, or percentage allocations—the task can't be fully completed as requested. Without knowing which fund we're talking about, it's impossible to provide details on capital distribution percentages.
+
+The user might have expected a summary that includes these specifics but didn't realize that the provided text doesn't contain that information. Therefore, I should make sure they understand that the report lacks those elements and perhaps ask for additional details if needed.
+</think>
+
+The provided investment report from Peter S. Lin is related to an execution page for Form ADV, which pertains to reporting under the Investment Advisers Act of 1940. It does not include any specific fund names, capital distribution percentages, or allocations. The report focuses on non-resident investment advisers and their obligations regarding books and records.
+
+To summarize the required information about a specific fund (name, date, capital distribution outlook, and percentage terms), additional details would be needed beyond what is provided in this text.

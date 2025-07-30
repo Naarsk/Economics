@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund Name",
+    "date": "2025-01-01",
+    "outlook": "increase",
+    "magnitude": 80,
+    "confidence": 0.9,
+    "explanation": "Capital distributions increased by 80%, indicating strong returns to investors and positive cash flow."
+  }
+}

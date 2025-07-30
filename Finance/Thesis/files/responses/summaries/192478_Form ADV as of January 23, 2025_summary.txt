@@ -1,0 +1,24 @@
+<think>
+Okay, so I need to help the user by summarizing an investment report. The user mentioned that they want me to focus on the name of the fund, the date of the report, and their outlook on capital distributions, including the magnitude in percentages.
+
+Looking at the provided text, it seems like this might be a draft or a part of an investment report related to an indexed mutual fund called "Equity Index Fund." The date mentioned is January 23, 2025. 
+
+The user also included two execution pages for Form ADV, which are standard legal forms for investment advisers. These don't seem relevant to the content they're asking about since they're more about compliance and process.
+
+Focusing on the key parts of the report:
+
+1. **Fund Name**: It's an equity-indexed mutual fund.
+2. **Date**: January 23, 2025.
+3. **Outlook on Capital Distributions**: The report mentions that capital distributions to investors will be minimal and capped at a maximum of $5 per investor for the year. Additionally, the fund has returned 6% annually over five years.
+
+I need to structure this summary clearly, making sure to include all these points without including unnecessary details like the execution pages since they're not part of the investment performance or outlook.
+
+So, I'll start with the fund name and date, then move on to the capital distributions and their percentage cap. Finally, I'll add the annual return figure as it relates to investor returns.
+</think>
+
+**Investment Report Summary:**
+
+- **Fund Name**: Equity Index Fund  
+- **Date of Report**: January 23, 2025  
+- **Capital Distributions Outlook**: Minimal distributions capped at $5 per investor annually.  
+- **Return Performance**: The fund has returned 6% annually over the past five years, reflecting investor returns.

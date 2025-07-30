@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Murdoch Asset Management",
+    "date": "20231026",
+    "outlook": "increase",
+    "magnitude": 9,
+    "confidence": 0.95,
+    "explanation": "Moderate capital growth with an average annual increase of around 9%."
+  }
+}

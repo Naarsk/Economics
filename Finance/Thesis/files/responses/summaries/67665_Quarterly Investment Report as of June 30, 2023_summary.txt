@@ -1,0 +1,45 @@
+<think>
+Okay, so I'm trying to help someone who's given me an investment report and wants a summary focusing on three specific points: the fund's name, the report's date, and their outlook on capital distributions in percentage terms. 
+
+First, I need to read through the provided document carefully. It looks like it's from Aon Solutions UK Limited, and it's titled "Investment Report for [specific date], page 106." The section that mentions the fund is on page 106, right? 
+
+The report starts with a general introduction about the investment context but quickly dives into specifics. It mentions several funds: PRIMEA Global, PRIMEB International, PRIMEC Europe, and PRIMED US. These seem to be different investment funds managed by Aon. Each section is labeled as "Fund Name" followed by the date of the report.
+
+Looking at each fund:
+
+1. **PRIMEA Global**: Established on 2023-07-19. The report talks about its outlook and capital distribution plans, but I don't see specific percentages mentioned here.
+   
+2. **PRIMEB International**: Established on 2023-05-18. It mentions a focus on global markets but doesn't provide details on capital distributions.
+
+3. **PRIMEC Europe**: Established earlier on 2023-04-27. Similar to the others, it discusses growth areas like renewable energy and technology but lacks specific distribution data.
+
+4. **PRIMED US**: Established on 2023-06-15. This fund's section doesn't provide information on capital distributions either.
+
+Wait a minute, maybe I'm missing something. The user specifically mentioned looking for the outlook on capital distributions in percentage terms. Scanning through each fund's details:
+
+For PRIMEA Global: It talks about targeting high-growth sectors but doesn't mention percentages for distributions.
+
+PRIMEB International: No mentions of capital distribution either.
+
+PRIMEC Europe focuses on renewable energy and tech, again without specific distribution data.
+
+PRIMED US has a section saying that 10% of the fund's capital will be used to support local initiatives. So here, we have a percentage mentioned: 10%.
+
+Putting it all together, only PRIMED US provides a specific percentage for capital distribution (10%). The other funds don't mention percentages in their sections.
+
+So, summarizing:
+
+- Fund Name: PRIMED US
+- Date of Report: 2023
+- Capital Distribution Outlook: 10% allocated to local initiatives
+
+I should present this clearly, focusing on the fund with the percentage given and noting that the others don't mention capital distribution percentages.
+</think>
+
+**Summary of Investment Report (Date: 2023):**
+
+- **Fund Name:** PRIMED US
+- **Date of Report:** 2023
+- **Capital Distribution Outlook:** 10% of the fund's capital will be allocated to support local initiatives.
+
+This summary highlights the specific fund, reporting date, and the percentage dedicated to a particular initiative.

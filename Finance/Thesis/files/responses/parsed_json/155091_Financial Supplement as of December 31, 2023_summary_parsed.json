@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Aegon International Fund",
+    "date": "20240716",
+    "outlook": "decrease",
+    "magnitude": -7.5,
+    "confidence": 0.6,
+    "explanation": "Strong expected decrease in capital distribution for Q2 2024."
+  }
+}

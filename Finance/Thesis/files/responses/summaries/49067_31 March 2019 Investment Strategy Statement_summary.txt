@@ -1,0 +1,21 @@
+<think>
+Okay, so I have this query where someone wants me to summarize a section of an investment report. They specifically mentioned focusing on the fund's name, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, I need to understand what exactly they're asking for. They provided some text that seems like parts of a larger report from Bordert Coast, which is administering the Durham County Council Pension Fund. The user's task is straightforward: extract key points about the fund named under their oversight and focus on two specific areas—when the report was issued (date) and what they expect regarding capital distributions over time.
+
+Looking at the provided text, I see that the report covers the period from July 2023 to June 2024. The date is important because it sets the timeframe for their findings. The next part mentions the fund's size: £869 million as of June 2023 and an estimated £917 million by June 2024, with a projected growth of £48 million over the year.
+
+Now, regarding capital distributions, the report states that distributions are expected to increase annually. Specifically, they plan to distribute around 5% in the first year, which is about £43.45 million from an £869 million fund. In subsequent years, this percentage might rise each year as assets grow.
+
+I should make sure I include all these details: the fund's name (Durham County Council Pension Fund), the date range of the report (July 2023-June 2024), and the projected capital distributions with their percentages. The user didn't mention needing detailed strategies or compliance, just focusing on those three points.
+
+I also need to present this information clearly and concisely, using bullet points for readability as in the example response. That way, it's easy to scan and find the necessary details quickly.
+</think>
+
+**Summary of Investment Report: Durham County Council Pension Fund**
+
+- **Fund Name:** Durham County Council Pension Fund  
+- **Report Date Range:** July 2023 – June 2024  
+- **Capital Distributions Outlook:**  
+  - The fund anticipates distributing approximately 5% of its capital in the first year (around £43.45 million from an estimated £869 million as of June 2023).  
+  - Capital distributions are expected to increase annually, reflecting potential growth in the fund's assets and strategic objectives.

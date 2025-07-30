@@ -1,0 +1,18 @@
+<think>
+Alright, so I need to help the user by summarizing the given investment report. The user has specified that they want the summary to focus on three main points: the name of the fund, the date of the report, and the outlook on capital distributions along with their percentage magnitude.
+
+First, I'll look through the provided text to identify where these details are mentioned. Scanning the content, I see a list starting from item 1 up to item 18, each covering different aspects like fees, structure, compliance, etc. The user's main concern is about capital distributions and their outlook.
+
+I notice that in items 7 through 10, there's a discussion about the distribution of capital to general partners and limited partners. Specifically, on page 9, it mentions that distributions to general partners are expected next month at an annual rate of 8% per year, starting January 2024.
+
+So, putting this together, I can extract the necessary information: fund name (FEG Select), date of the report which is December 15, 2023, and the distribution outlook with its percentage. 
+
+I should structure the summary clearly, highlighting each point as specified by the user. Make sure to mention that distributions will be annual at 8% starting in January 2024.
+
+Let me check if I missed anything. The date is explicitly stated on page 9, so it's reliable. No other information about capital distribution is provided elsewhere, so this should cover what the user needs.
+</think>
+
+The investment report for **FEG Select** provides the following key details:
+
+- **Date of the Report**: December 15, 2023.
+- **Outlook on Capital Distributions**: Capital distributions to general partners are expected next month at an annual rate of **8% per year**, starting in January 2024.

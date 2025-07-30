@@ -1,0 +1,20 @@
+<think>
+Alright, let me try to figure out what I need to do here. The user has given me a block of text that looks like an investment report from a hedge fund or similar institution. They want me to summarize it, focusing specifically on the fund's name, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+First, I'll scan through the provided text to identify these key elements. The fund is named "Opus Selecta Special purpose III" with a ticker symbol OP. Next, the most recent report was on January 6, 2025. 
+
+Looking further down, there's information about capital distributions. It mentions that capital distributions are expected to be $18 million in total for the year, spread out across three months: March, June, and September 2024. Each of these months is projected to have a distribution of approximately $6 million each.
+
+Then, I need to figure out the magnitude in percentage terms relative to the fund's assets. The current net asset value (NAV) per share is stated as $18.35. To find the percentage, I'll divide the total distribution by the NAV and multiply by 100. So, ($6 million / $18.35) * 100 ≈ 32.74%. This means each distribution will represent about 32.74% of the fund's assets.
+
+Putting this all together, I'll structure the summary to include the fund name, date, expected total distributions, monthly amounts, and the percentage per distribution.
+</think>
+
+Here is a concise summary of the investment report based on the information provided:
+
+- **Fund Name**: Opus Selecta Special purpose III (Ticker: OP)
+- **Date of Report**: January 6, 2025
+- **Capital Distributions**:
+  - Total expected capital distributions for the year: $18 million.
+  - Monthly distributions: Approximately $6 million each in March, June, and September 2024.
+- **Magnitude of Distributions**: Each distribution represents approximately 32.74% of the fund's assets (calculated as ($6 million / $18.35 per share) * 100).

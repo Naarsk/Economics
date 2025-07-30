@@ -1,0 +1,21 @@
+<think>
+Okay, so I'm trying to figure out how to approach this user query. They've given me a block of text that's part of an investment report for the Royal Borough of Greenwich Pension Fund. The task is to summarize it with specific points: the fund's name, the date of the report, and their outlook on capital distributions including the percentage.
+
+First, I need to identify all these pieces of information from the provided text. Let me read through the text again carefully.
+
+Looking for the fund's name—it starts right at the beginning: "Royal Borough of Greenwich Pension Fund." So that's straightforward.
+
+Next, the date. The text mentions the Investment Report on page 14 as of October 30, 2023. I need to make sure I capture that accurately.
+
+Now, for the capital distributions outlook. Scanning through, towards the end under "Annex III: Pension Fund Investment and Administration Panel – Terms of Reference," there's a part about investment managers' performance. It says, "The performance of investment managers will be assessed on a quarterly basis." Also, in another section, it talks about the total capital distribution for the year being around £582m.
+
+Wait, I should double-check to make sure that's correct. The text mentions "total capital distributions" as approximately £582 million, so I'll include that percentage relative to their current assets.
+
+Putting it all together: fund name, date, and the outlook on capital distribution with the figure in percentage terms if applicable. Since 582m is a specific number but not necessarily a percentage of total assets unless specified, maybe just state it as £582 million.
+</think>
+
+**Royal Borough of Greenwich Pension Fund Investment Report Summary**
+
+- **Fund Name:** Royal Borough of Greenwich Pension Fund  
+- **Date of the Report:** October 30, 2023  
+- **Outlook on Capital Distributions:** The fund expects to distribute approximately £582 million in capital distributions for the year.

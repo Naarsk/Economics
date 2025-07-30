@@ -1,0 +1,15 @@
+<think>
+Alright, so I'm looking at this query where the user has provided a block of text that seems to be an investment ADV filing. The task is to summarize it, focusing on the fund's name, the report date, and the outlook on capital distributions, specifically mentioning the percentage.
+
+First, I need to scan through the text quickly to find where these pieces of information are located. The user mentioned they want just three points: fund name, date, and outlook on capital distribution as a percentage.
+
+Looking at the first paragraph after some introductory comments, it starts with "The Fund" which is likely the fund's name, followed by "Date of this report." That seems straightforward—probably where the date will be.
+
+Next, the outlook on capital distributions. Scanning further down, I see a section titled "Investment Discretion," then within that, under "Outlook on Capital Distributions," it says the fund expects to distribute 70% of its current value as capital gains or dividends in the coming year. That's exactly what the user wants—percentage.
+
+I should make sure to extract these details accurately without including other parts like the ADV sections which aren't necessary for this summary. Also, I need to ensure that the fund name is correctly identified and presented clearly. The date is probably near the beginning of the report, so it shouldn't be too hard to find once I scan through.
+
+I should present these facts concisely, as per the user's request, without any extra details or explanations beyond what's necessary. Keeping it straightforward will make the summary clear and useful for whatever purpose the user needs this information for.
+</think>
+
+The fund is referred to by its name (not explicitly provided in full detail), and the report was prepared on a specific date (also not fully detailed here). The outlook indicates that 70% of the fund's current value is expected to be distributed as capital gains or dividends within the coming year.

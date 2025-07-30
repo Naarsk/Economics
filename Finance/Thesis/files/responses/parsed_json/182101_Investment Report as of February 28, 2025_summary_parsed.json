@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "[Fund Name]",
+    "date": "20231130",
+    "outlook": "decrease",
+    "magnitude": -1.37,
+    "confidence": 0.8,
+    "explanation": "Outflows of $2.6M to $4.9M led to a slight decline in fund performance with a total rate of return of approximately -1.37%."
+  }
+}

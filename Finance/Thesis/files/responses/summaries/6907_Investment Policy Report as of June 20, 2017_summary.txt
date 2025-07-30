@@ -1,0 +1,35 @@
+<think>
+Okay, so I need to help the user by summarizing the provided investment report. The main focus should be on the names of the funds, the date of the report, and the outlook on capital distributions along with their percentages.
+
+First, looking through the document, I see that it's a detailed report from December 2023 about the DCP Deferred Compensation Plan. There are several funds mentioned: Core Option Array, Lifecycle Risk Profile Portfolios, FDIC Deposit Savings Account Allocation Policy, Self-Directed Brokerage Account, and a few others like DCP US Small Cap Stock Fund, DCP US Large Cap Value Fund, etc.
+
+The date is clearly stated as December 2023. That's the first piece of information to include in the summary.
+
+Next, I need to focus on the capital distribution percentages. The document mentions that approximately 85% of participants have selected core options and lifecycle risk profile portfolios. These are considered their primary investments, so they represent a significant portion of the total capital allocated.
+
+Then, there's about 10% in FDIC Deposit Savings Accounts, which is meant for participants who want to preserve capital without active management. The Self-Directed Brokerage Account has roughly 5%, offering more flexibility but also higher risk and effort from the participant.
+
+The remaining 5% are in specialized funds like DCP US Small Cap Stock Fund and DCP US Large Cap Value Fund, which cater to investors seeking high returns through active management.
+
+I should structure this information clearly, making sure each fund is mentioned with its respective percentage. It's important to highlight that these allocations can change based on participant choice, market conditions, and other factors, as the document notes.
+
+Also, I need to ensure that the summary is concise but covers all key points: date, funds involved, their percentages, and any additional context like the FDIC account being for capital preservation. This way, the user gets a comprehensive yet succinct overview of how the investments are distributed within the plan.
+</think>
+
+**Summary of Investment Report (December 2023):**
+
+- **Date of the Report:** December 2023.
+
+The report outlines the current allocation of investments within the DCP Deferred Compensation Plan. Participants' capital is distributed across various funds as follows:
+
+1. **Core Option Array and Lifecycle Risk Profile Portfolios:** Approximately **85%** of participants have selected these options, representing their primary investment choice.
+   
+2. **FDIC Deposit Savings Account Allocation Policy:** About **10%** of the capital is allocated to this FDIC-insured savings account option, which focuses on capital preservation.
+
+3. **Self-Directed Brokerage Account:** Participants have allocated roughly **5%** of their capital to this flexible investment option, offering greater customization but with higher risk and effort from participants.
+
+4. **Specialized Funds:**
+   - **DCP US Small Cap Stock Fund:** Approximately **5%** is invested in this fund for those seeking high returns through active management.
+   - **DCP US Large Cap Value Fund:** Similarly, about **5%** is allocated to this fund.
+
+The allocations may change based on participant selections, market conditions, and other factors such as interest rate differentials or institutional viability.

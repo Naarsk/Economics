@@ -1,0 +1,19 @@
+<think>
+Alright, so I need to help summarize the provided investment report based on the user's specific instructions. The user wants a summary focusing on three main points: the name of the fund, the date of the report, and the outlook on capital distributions, including their magnitude in percentage terms.
+
+First, looking at the information given, I see that the report is titled "CBE Pension Plan Responsible Investment Report." It was published on January 20, 2025. So those two points are covered: the name of the fund and the date.
+
+Next, the user wants an outlook on capital distributions and their magnitude. The report mentions that the pension plan is committed to sustainable investment practices and long-term financial stability. However, it doesn't provide specific numbers or percentages about the actual capital distributions from this report.
+
+I should make sure not to include any information that isn't directly provided in the text. Since there's no data on the actual distribution amounts or their percentages, I can only summarize what is stated without adding speculative figures.
+
+Putting it all together, I'll structure the summary with bullet points for clarity: one for each of the fund name and date, followed by a point about the investment focus without including specific numbers since they aren't available.
+</think>
+
+**CBE Pension Plan Responsible Investment Report Summary**
+
+- **Fund Name:** CBE Pension Plan
+- **Date of Report:** January 20, 2025
+- **Outlook on Capital Distributions:** The report emphasizes a commitment to sustainable investment practices and long-term financial stability. However, specific details about capital distribution amounts or their magnitude in percentage terms are not provided.
+
+This summary highlights the fund's name, the date of the report, and its general focus without including unspecified data points related to capital distributions.

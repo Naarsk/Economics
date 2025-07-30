@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "*",
+    "date": "03/24/2025",
+    "outlook": "stable",
+    "magnitude": 1.0,
+    "confidence": 0.6,
+    "explanation": "Capital distributions from general partners impacted the fund's capital allocation."
+  }
+}

@@ -1,0 +1,27 @@
+<think>
+Okay, so I need to help someone who provided an investment report and is asking me to summarize it focusing on three main points: the fund's name, the report's date, and the outlook on capital distributions with their magnitude. Let me start by reading through the report carefully.
+
+First, looking at the structure, there are two main sections: one starting with "You are..." which seems to outline the task but is perhaps part of a larger system setup. Then, in March 31, 2025, under "INVESTMENT REPORT," it mentions Westfield started on July 19, 2024, and Dodge & Cox on February 1, 2025. The report has various sections like "Fiscal YTD Returns by Asset Class" and "Manager Relative Returns." 
+
+The fund names mentioned are "Westfield" and "Dodge & Cox," with Westfield's start date given as July 19, 2024. Dodge & Cox started on February 1, 2025. The report also references several managers like William Blair, Boston Partners, etc., but the fund names are the main focus.
+
+Next, looking for the date of the report. It says "March 31, 2025," so that's straightforward.
+
+Now, for the outlook on capital distributions and their magnitude. Scanning through the sections, I see parts about returns: "Fiscal YTD Returns by Asset Class" mentions various percentages like -8.8%, 6.4%, etc., and another section labeled "Manager Relative Returns" with numbers such as 5.9%, -11.3%, etc.
+
+I should extract these percentage figures to present the outlook on capital distribution. The magnitude refers to how significant these returns are, so mentioning the percentages will suffice for their size relative to each other.
+
+Putting it all together: Fund name is either Westfield or Dodge & Cox; date is March 31, 2025; and the outlook includes specific percentage returns from both YTD and manager performances.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** The report covers two funds, "Westfield" which started on July 19, 2024, and "Dodge & Cox," which began on February 1, 2025.
+
+- **Report Date:** March 31, 2025.
+
+- **Outlook on Capital Distributions:**
+  - The fund shows YTD manager returns, with specific percentage gains and losses, such as a 6.4% return for one manager and a notable loss of -8.8% for another.
+  - The "Manager Relative Returns" section highlights relative performance metrics like a 5.9% gain and significant fluctuations, indicating varying capital distribution outcomes.
+
+These points provide a clear overview focusing on the fund names, report date, and the magnitude of returns influencing capital distribution.

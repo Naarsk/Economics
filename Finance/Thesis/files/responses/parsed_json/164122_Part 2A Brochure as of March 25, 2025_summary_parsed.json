@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund XYZ",
+    "date": "20231015",
+    "outlook": "stable",
+    "magnitude": 6,
+    "confidence": 0.8,
+    "explanation": "Stable capital distributions with moderate growth expected due to normal dividend payouts."
+  }
+}

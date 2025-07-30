@@ -1,0 +1,19 @@
+<think>
+Okay, I need to help the user by summarizing an investment report. The user specifically mentioned focusing on the name of the fund, the date of the report, and the outlook on capital distributions along with their percentage impact.
+
+First, I'll look at the provided content. The report starts with a title mentioning "Fund X," so that's the fund name. The date is October 31, 2024, which is clear. 
+
+Next, for the outlook on capital distributions, it mentions increasing distribution amounts in the next two fiscal years—4% and 6%. These are absolute percentages but I should note their impact relative to the total investment.
+
+I need to structure this summary clearly. I'll mention each year's distribution increase and its percentage effect. It's important to highlight that these are expected increases, indicating potential growth for investors.
+
+Now, putting it all together: Fund X is scheduled to boost dividends in 2025 and 2026 with increasing percentages. This should show a positive outlook without overcomplicating the summary.
+
+I'll make sure to present this information concisely, focusing on what the user asked for—name, date, and distribution outlook with their percentage impact.
+</think>
+
+The investment report discusses **Fund X**, which is expected to see an increase in capital distributions. The report was dated October 31, 2024.
+
+### Key Points:
+- The fund's capital distribution is projected to increase by 4% in the upcoming fiscal year (2025) and further jump to 6% in the following year (2026).
+- These increases are significant, reflecting potential growth opportunities for investors holding shares in Fund X.

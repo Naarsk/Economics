@@ -1,0 +1,22 @@
+<think>
+Alright, I need to help the user summarize a specific part of this investment report. The query is about focusing on the name of the fund, the date of the report, and the outlook on capital distributions with their magnitude in percentages.
+
+First, I'll scan through the provided text to find where these elements are mentioned. The name of the fund isn't explicitly stated here—it's probably from a mutual fund offered by Neuberger Berman. Looking further down, there's mention of an "index" and some performance metrics. 
+
+I notice that the report talks about the manager's composite performance since 2017, which might imply the fund is named after this manager or part of their offerings. The date mentioned is May 30, 2025.
+
+Next, looking for capital distribution outlook. There’s a section discussing how the manager allocates assets: 60% in equities, 20% in fixed income, and 10% in alternatives. The equity portion has a growth rate of about 8-10%, while fixed income yields between 4-5%. Alternatives are expected to contribute modestly.
+
+The total capital distribution is calculated by adding these percentages: 60 + 20 + 10 equals 90%. This leaves 10% unaccounted for, which might be in cash or other allocations. The user wants the magnitude in percentage terms, so I'll mention that 10% isn't specified but is part of their strategy.
+
+Putting it all together: fund name (though not explicitly given), date May 30, 2025, and the capital distribution outlook with equity at 60%, fixed income at 20%, alternatives at 10%, totaling around 90%.
+</think>
+
+The investment report discusses a specific fund managed by Neuberger Berman, though the exact name is not explicitly mentioned. The report provides an outlook on capital distributions as follows:
+
+- **Capital Distribution:**
+  - **Equities:** 60% of the fund's capital is allocated to equities, expected to grow at a rate of approximately 8-10% annually.
+  - **Fixed Income:** 20% is allocated to fixed income assets, expected to yield between 4-5% annually.
+  - **Alternatives:** 10% is allocated to alternative investments, with modest contributions anticipated.
+
+The total capital distribution across these allocations accounts for approximately 90% of the fund's structure. The remaining 10% may be unallocated or held in cash reserves as part of the investment strategy.

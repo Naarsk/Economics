@@ -1,0 +1,27 @@
+<think>
+Alright, so I need to help the user summarize a given investment report. They specifically mentioned focusing on the fund's name, the report date, and the outlook on capital distributions in percentages.
+
+First, I'll start by reading through the provided report carefully. It seems like it's about WAM Active Limited (ASX: WAA), which is managed by Wilson Asset Management. The report dates back to June 2024, so that's an important detail to include.
+
+Next, looking at the fund's focus, it mentions distributing capital in regular payments. I should note whether these are monthly or quarterly distributions because that affects how investors receive their returns and plan accordingly.
+
+The report talks about the magnitude of these distributions in percentage terms. I'll need to identify if there's a specific figure mentioned here. It also discusses capital distribution policies, which include both income and growth elements. So, it's not just about when the money is paid out but how much each payment consists of.
+
+I notice some disclaimers at the end, like Lonsec and Zenith, which are general advice statements, so I shouldn't include those in the summary. TheWilson Asset Management part also mentions their experience and products, but since the user wants a summary focused on capital distributions, that might be less necessary unless it's relevant.
+
+Putting this all together, I should structure the summary to include the fund name, report date, distribution frequency, payment sources (income vs growth), expected percentage of total capital distributed, any policy changes, and if there are plans for new products in the future.
+
+Wait, looking again, under the 'Magnitude' section, it says "capital distributions will be made on a regular basis" but doesn't specify the exact percentage. Hmm, maybe that's not provided here, so I might need to check or assume based on typical fund reports. Alternatively, if there isn't a specific percentage mentioned, perhaps I should focus only on the frequency and components without mentioning the magnitude.
+
+Also, there are sections about Lonsec and Zenith disclaimers which relate to general advice, so they shouldn't be included. The Investment Manager part is more about their background but doesn't directly affect capital distribution details.
+
+So, in my summary, I'll include the fund name (WAM Active Limited), date (June 2024), that distributions are regular, and whether they're income or growth focused, along with any percentage mentioned. If no specific percentage is given, maybe just note that it's a regular basis without exact numbers.
+
+I should also mention if there are any changes in policy affecting capital distribution and if new investment products are planned to distribute capital regularly.
+
+Wait, under the 'WAM Active Limited (ASX: WAA)' section, I see that past performance is mentioned as illustrative, so maybe it's not necessary unless I'm including trends. The main focus should be on future distributions.
+
+Putting it all together without including disclaimers or extra information, just sticking to capital distribution details.
+</think>
+
+The investment report focuses on **WAM Active Limited (ASX: WAA)**, managed by Wilson Asset Management, as of June 2024. The fund's capital will be distributed regularly, with a focus on both income and growth components. While specific percentage details are not provided in the summary, the report indicates that distributions will occur on a regular basis, contributing to future returns for investors.

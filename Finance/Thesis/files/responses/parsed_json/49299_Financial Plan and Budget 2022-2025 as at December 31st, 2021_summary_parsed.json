@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund_1",
+    "date": "2024-03",
+    "outlook": "increase",
+    "magnitude": 1.0,
+    "confidence": 0.95,
+    "explanation": "Capital distributions are growing at an increasing rate each year."
+  }
+}

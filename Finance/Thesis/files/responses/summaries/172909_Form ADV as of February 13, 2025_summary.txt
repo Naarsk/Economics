@@ -1,0 +1,21 @@
+<think>
+Alright, I need to help the user by summarizing an investment report. The query reminds me that the user wants a summary focusing on the fund's name, report date, and the outlook on capital distributions, including their percentage impact.
+
+Looking at the provided text, I see it starts with some general information about the firm and compliance officer details, but then quickly dives into the performance report for January 2025. The key points are:
+
+1. The fund had a significant gain in January: +7.6%.
+2. Capital distributions were positive, with $439 million returned to investors.
+3. This represented 80% of total inflows during the month.
+
+I should extract these details and present them clearly. I'll structure it by first stating the fund's name, followed by the report date, then the capital distribution figure and its percentage impact on inflows.
+
+I need to make sure the summary is concise yet includes all the necessary information without extra fluff. Also, since the user provided two similar execution pages for non-resident advisers, I should note that in the first sentence to indicate it's a separate section of the report.
+</think>
+
+The investment report summarizes performance data for January 2025 and highlights key activities related to capital distributions. Here is a concise summary:
+
+- **Fund Name**: Not explicitly mentioned in the provided text but likely refers to an investment fund managed by the firm.
+- **Report Date**: January 2025.
+- **Capital Distributions**: A total of $439 million was distributed back to investors, representing **80% of all inflows during the month**. This indicates a strong return to investors and positive cash flow for the fund.
+
+The report focuses on performance metrics such as capital distributions and their impact on investor returns, providing insights into the fund's activity and effectiveness in managing capital.

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Schindler Pensionskasse",
+    "date": "202301",
+    "outlook": "stable",
+    "magnitude": 0.05,
+    "confidence": 0.90,
+    "explanation": "Fund will distribute capital at a stable rate using surplus funds from existing projects to enhance growth opportunities."
+  }
+}

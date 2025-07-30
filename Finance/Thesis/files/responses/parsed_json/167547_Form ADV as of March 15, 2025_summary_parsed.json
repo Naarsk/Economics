@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Unknown Fund",
+    "date": "2023-10-01",
+    "outlook": "stable",
+    "magnitude": 5,
+    "confidence": 0.8,
+    "explanation": "No specific fund data provided, defaults used with placeholder values."
+  }
+}

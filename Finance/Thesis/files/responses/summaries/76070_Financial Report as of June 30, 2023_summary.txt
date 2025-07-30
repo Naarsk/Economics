@@ -1,0 +1,21 @@
+<think>
+Alright, I need to summarize this investment report. The user specifically asked for the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude as a percentage.
+
+First, I'll look through the text provided. I remember that the name of the fund is mentioned at the beginning: "Credito Emiliano S.p.A." So that's straightforward.
+
+Next, when was the report issued? Scanning further down, I see it mentions "Gli Amministratori sono responsabili per la redazione del bilancio Consolidato semestrale abbreviato in conformità al principio contabile internazionale applicabile per l’informazione finanziaria infrannuale (IAS 34) adottato dall’Unione Europea. E' nostra la responsabilità di esprimere una conclusione sul bilancio Consolidato semestrale abbreviato sulla base della revisione contabile limitata svolta." This seems to be about a report date, but it's in Italian and not explicitly stating the date.
+
+Wait, I also notice that at the end, there are dates mentioned: "8 Aug 2023" under Marco Benini's name. So it looks like this is a report dated August 8, 2023.
+
+Now for the outlook on capital distributions. The text says "Gruppo Credem" which I think refers to the investment group managing these funds. It mentions an "aspetti significativi" or significant aspects of financial information but doesn't provide specific details on the capital distribution outlook. So, it seems there's no explicit data here about how much each fund might distribute in terms of percentages.
+
+Putting it all together: The fund is Credito Emiliano S.p.A., the report was issued on August 8, 2023, and while they mentioned the structure of financial information under IAS 34, there's no specific outlook or percentage given for capital distributions. So in my summary, I'll note that we don't have explicit numbers on distribution percentages.
+
+I should make sure to present this clearly, focusing only on what's explicitly asked without including extra details unless they're necessary.
+</think>
+
+**Summary of the Investment Report:**
+
+- **Name of the Fund:** Credito Emiliano S.p.A.  
+- **Date of the Report:** August 8, 2023  
+- **Outlook on Capital Distributions:** The report does not provide specific details or percentages regarding the outlook on capital distributions for the fund.

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Durham County Council Pension Fund",
+    "date": "20231231",
+    "outlook": "increase",
+    "magnitude": 5,
+    "confidence": 0.9,
+    "explanation": "Capital distributions are expected to increase annually based on strategic objectives and potential asset growth."
+  }
+}

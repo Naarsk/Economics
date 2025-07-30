@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Staffordshire Pension Fund",
+    "date": "202310",
+    "outlook": "increase",
+    "magnitude": 2,
+    "confidence": 0.95,
+    "explanation": "Increased focus on growth assets with slight property underperformance but overall positive performance."
+  }
+}

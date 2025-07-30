@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "S&P 500 Options Contracts",
+    "date": "2021-08-21",
+    "outlook": "increase",
+    "magnitude": 36,
+    "confidence": 0.75,
+    "explanation": "High risk potential with significant gains or losses based on S&P 500 index movements."
+  }
+}

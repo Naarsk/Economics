@@ -1,0 +1,23 @@
+<think>
+Okay, I need to help the user summarize this investment report. The user's main points are to focus on the fund's name, the report's date, and the outlook on capital distributions including their magnitude in percentages.
+
+First, looking at the provided data, the fund is clearly stated as "UNILEVER PLC GBP0.03111" but I notice there might be a formatting issue where it's written with extra characters like underscores. So I should clean that up to correctly identify UNILEVER PLC as the fund name.
+
+The report was made on 24th July 2024, so that's straightforward. Now, for the capital distribution outlook, I need to find any relevant percentages mentioned in the report. Scanning through, I see mentions of 5P ORD, which typically represents a 5% ordinary dividend. There are multiple instances like BT GROUP PLC ORD 5P and GLAXOSMITHKLINE PLC ORD 25P. 
+
+However, most of these seem to be for different companies rather than the fund itself. The user is asking about the fund's capital distribution outlook, so I should focus on whether the fund mentions any dividend or other distributions.
+
+Upon reviewing further, I don't see specific information about UNILEVER PLC's capital distribution percentage in this report. It might have been included but not highlighted, or maybe it's part of a larger section that wasn't provided here. 
+
+Therefore, to summarize accurately without making assumptions beyond the data given, I'll state that while the fund was updated on 24th July 2024, there isn't explicit information about its capital distribution outlook in this report.
+</think>
+
+The investment report you have been provided with appears to be incomplete or formatted incorrectly. The fund name is not clearly identified beyond "UNILEVER PLC GBP0.03111," which seems to include additional characters that may hinder clarity. 
+
+However, based on the information available:
+
+- **Fund Name**: UNILEVER PLC
+- **Report Date**: The report was made on 24th July 2024.
+- **Capital Distribution Outlook**: There is no explicit mention of capital distribution percentages in this report.
+
+It's possible that the fund's investment strategy or any upcoming distributions were not detailed within the provided data.

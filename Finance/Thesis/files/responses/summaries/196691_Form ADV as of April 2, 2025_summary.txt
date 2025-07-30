@@ -1,0 +1,19 @@
+<think>
+Okay, so I need to figure out how to summarize this investment report based on the user's instructions. Let me start by reading through the query carefully.
+
+The user provided a block of text that seems to be an investment report. They want a summary focusing on the name of the fund, the date of the report, and the outlook on capital distributions in terms of percentage.
+
+Looking at the first part, I see "Name of Fund: XYZ Investment Fund." That's straightforward—just extract that. Next is "Date of Report: April 2, 2025," so that's simple enough to note down.
+
+Now, for the capital distribution outlook. The text mentions "The fund expects to distribute approximately 30% of its capital gains to unit holders as dividends." But wait, I need to check if there are any other distributions mentioned. It also says something about "capital distributions" in percentage terms, but only specifies a 30% figure for gains.
+
+I should make sure that the summary includes both the main distribution and perhaps mention whether there's another source or part of the distribution not covered by the 30%. However, looking back, it seems like only capital gains are being distributed as dividends at 30%, so maybe I can focus on that unless there's more information elsewhere.
+
+Putting it all together: Name is XYZ Investment Fund, date is April 2, 2025, and they expect to distribute about 30% of capital gains. That should cover the user's requirements without including extraneous details.
+</think>
+
+The investment report summarizes a fund with the following key points:
+
+- **Name of Fund**: XYZ Investment Fund
+- **Date of Report**: April 2, 2025
+- **Capital Distribution Outlook**: The fund expects to distribute approximately 30% of its capital gains to unit holders as dividends.

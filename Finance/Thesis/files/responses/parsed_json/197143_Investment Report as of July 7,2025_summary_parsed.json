@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "USD/CHF",
+    "date": "2025-06-30",
+    "outlook": "decrease",
+    "magnitude": -12.6,
+    "confidence": 0.85,
+    "explanation": "USD strengthened against CHF with significant depreciation in value."
+  }
+}

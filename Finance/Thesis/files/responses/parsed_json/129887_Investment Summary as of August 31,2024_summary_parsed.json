@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "St.Galler Pensionskasse (konsolidiert)",
+    "date": "202408",
+    "outlook": "increase",
+    "magnitude": 0.3,
+    "confidence": 1.0,
+    "explanation": "Fund expects capital increase of +8.0% with minor outperformance over BM."
+  }
+}

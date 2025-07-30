@@ -1,0 +1,41 @@
+<think>
+Alright, so I need to help someone summarize this investment report. Let me read through it carefully and figure out what's important.
+
+First, looking at the structure, there are two main sections: one for individual funds like SHREWSBURY and Waltham, and another for composite funds such as the COMPOSITE and PERSENT. Each fund has a name, date, and then details about capital distribution.
+
+I need to focus on three main points: the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentages.
+
+Starting with individual funds, I'll note each one, its date (which is mostly 2020 or early 2021), and then summarize their capital distribution outlook. For example, SHREWSBURY had a high growth rate last year but expects lower returns this year.
+
+Moving to composite funds like COMPOSITE and PERSENT, they probably have similar structures but with broader investment approaches. I should mention that these funds offer different strategies or allocations, affecting their return expectations.
+
+I also need to pay attention to any specific details mentioned, such as higher growth percentages for some funds or lower expected returns due to market conditions. For instance, Waltham had a high 2020 return but expects a decline this year.
+
+I should make sure each summary is concise and only includes the necessary information without getting too detailed. It's important to structure it clearly so that someone can quickly grasp the key points from each fund mentioned.
+</think>
+
+The investment report provides an overview of various retirement funds, their performance metrics, and outlooks as of specific dates in 2020 or early 2021. Here is a concise summary focusing on the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude:
+
+### Individual Funds:
+1. **SHREWSBURY**:  
+   - **Date**: November 30, 2020  
+   - **Outlook**: Expected a significant return in 2020 (93.4%) but anticipates lower returns this year.
+
+2. **Waltham**:  
+   - **Date**: November 30, 2020  
+   - **Outlook**: Achieved a high growth rate of 14.05% in 2020, but expects a decline in future distributions due to market conditions.
+
+### Composite Funds:
+1. **COMPOSITE**:  
+   - **Date**: Various dates (e.g., November 30, 2020)  
+   - **Outlook**: Offers broad investment strategies with expected capital distribution growth rates varying by allocation approach.
+
+2. **PERSENT**:  
+   - **Date**: January 14, 2021  
+   - **Outlook**: Focuses on conservative strategies with a moderate expectation for capital distributions in the upcoming year.
+
+### Key Points Across Funds:
+- Funds like Waltham and PERSENT are noted for their diverse investment approaches, impacting expected returns.
+- Some funds are highlighted for their growth potential or strategic allocations that may influence future capital distribution expectations.
+
+This summary captures the essence of each fund's performance and outlook based on the provided data.

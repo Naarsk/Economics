@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Local Government Pension Scheme (LGPS)",
+    "date": "202210",
+    "outlook": "increase",
+    "magnitude": 10.1,
+    "confidence": 0.95,
+    "explanation": "Expected increase due to inflationary pressures and policy updates."
+  }
+}

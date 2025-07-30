@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "The 2048 Fund",
+    "date": "200810",
+    "outlook": "increase",
+    "magnitude": 61.4,
+    "confidence": 0.95,
+    "explanation": "Global equities provide a significant hedge against economic uncertainty."
+  }
+}

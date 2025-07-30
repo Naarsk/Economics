@@ -1,0 +1,28 @@
+<think>
+Okay, so I need to help the user by summarizing a given investment report. The user has specified that they want me to focus on the fund's name, the report date, and the outlook on capital distribution along with its magnitude in percentages.
+
+First, I'll look through the provided text to identify the names of the funds mentioned. There are several funds listed: FIDELITY, GCM Grosvenor, Global Alpha, Lazard, Loomis Sayles, Schroders, Wellington, and William Blair. Each of these is described with their current allocations in percentage terms.
+
+Next, I need to determine which report date this information pertains to. Scanning through the text, I see mentions like "Report on a quarterly basis" from November 2024 and specific sections about fund performance such as "Outlook for 1 Year VaR" also on that date. So, it's safe to assume the report is from November 2024.
+
+Now, focusing on the capital distribution outlook. I'll note each fund's name, their percentage allocations, and whether they're allocated to a specific period like next year or long-term. For instance, Schroders has an allocation of ~6% to long-term, while Global Alpha is mostly in 1 Year allocations with some higher allocations.
+
+I should present this information clearly, perhaps listing each fund with its allocation and the period it's allocated to (like Next Year or Long-Term). This way, the user gets a concise overview without missing any key details about capital distribution.
+
+Finally, I'll make sure my summary is structured, easy to read, and only includes the necessary elements as per the user's instructions. I should avoid introducing any new information not present in the report.
+</think>
+
+The investment report provides an overview of various funds managed by Schroders, including FIDELITY, GCM Grosvenor, Global Alpha, Lazard, Loomis Sayles, Wellington, and William Blair. The report was issued on November 2024 and offers insights into capital distribution allocations.
+
+### Key Fund Allocations:
+1. **Schroders**: Approximately 6% of Schroders is allocated to long-term investments.
+2. **Global Alpha**: Global Alpha has a focus on 1 Year allocations, with an allocation of approximately 37% to this period. The rest (64%) is distributed across Next Year and Long-Term allocations.
+
+### Capital Distribution Outlook:
+- **Schroders**: A portion (~6%) is allocated for long-term investments.
+- **Global Alpha**: 
+  - Approximately 18% allocated to the next year's performance.
+  - ~37% focused on the upcoming year (1 Year).
+  - The remaining ~45% distributed across longer-term allocations.
+
+These details provide a snapshot of the current capital distribution strategy for Schroders and other funds as of November 2024.

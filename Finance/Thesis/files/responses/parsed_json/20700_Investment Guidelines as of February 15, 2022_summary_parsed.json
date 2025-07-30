@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "FPK",
+    "date": "2023-10-01",
+    "outlook": "mixed",
+    "magnitude": -15,
+    "confidence": 0.85,
+    "explanation": "Expected decrease in distributions with slight increase adjustments."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Financieel",
+    "date": "20230720",
+    "outlook": "increase",
+    "magnitude": 14.5,
+    "confidence": 0.9,
+    "explanation": "Capital distributions are expected to increase due to indexation adjustments, with allocations adjusted by approximately 14–15% starting from January 2023."
+  }
+}

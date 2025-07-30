@@ -1,0 +1,58 @@
+<think>
+Okay, I need to help the user summarize this investment report. The user mentioned that they want me to focus on four main points: the fund's name, the date of the report, the outlook on capital distributions, and the magnitude in percentage terms.
+
+First, looking at the data provided, there are multiple funds listed with different names, dates, and performance metrics. I should identify each fund individually because it seems like the report is a collection rather than a single fund's performance.
+
+I notice that some funds have similar names but slightly different versions, like Vivo Capital Fund VIII and WCAS Capital Partners IV. Each has its own date of report. For each fund, I need to extract the fund name, date, any outlook on distributions, and key percentage metrics like total return or capital gain.
+
+Wait, looking closer, most funds have a 'Total Return' line with a number in parentheses—some positive, some negative. These might indicate if there was a loss or gain. Also, there are IRR percentages which show the internal rate of return, another metric to consider for performance.
+
+I should structure each summary by fund name, date, total capital gain or loss percentage, and IRR with its sign (positive or negative). For funds where the outlook is positive or negative, that should be included as well. 
+
+But some entries have '(', indicating a loss—like Yucaipa Corporate Initiatives Fund II LP lost 2.14%. Others show gains, such as Vivo Capital Surplus Fund VIII LP with +29.63% IRR.
+
+I also need to note that there's no standardized comparison because of varying IRR calculation methods and secondary interest purchase timing, which might affect the accuracy for investors.
+
+Putting it all together, each summary should be concise, highlighting fund name, date, capital distribution direction (gain or loss), its magnitude in percentage, and the IRR. The user doesn't mention needing to differentiate between different funds beyond summarizing their performance, so treating each as separate entries is key.
+</think>
+
+The investment report highlights various limited partnerships managed by CalSTRS, with fund names such as Vivo Capital Fund VIII LP, WCAS Capital Partners IV LP, Welsh, Carson, Anderson & Stowe XII LP, and others. Each fund's performance metrics are summarized below:
+
+1. **Vivo Capital Surplus Fund VIII LP (2015)**  
+   - Total capital gain: +$69,224,973 (from $10,343,482).  
+   - IRR: +29.63%.
+
+2. **WCAS XIII LP (2019)**  
+   - Total capital gain: +$144,302,091 (from $4,272,601).  
+   - IRR: +47.79%.
+
+3. **Welsh, Carson, Anderson & Stowe XII LP (2015)**  
+   - Total capital gain: +$201,970,806 (from $10,343,482).  
+   - IRR: +31.17%.
+
+4. **Yucaipa Corporate Initiatives Fund II LP (2009)**  
+   - Total capital loss: -$13,096,202 (from $27,394,796).  
+   - IRR: -1.80%.
+
+5. **Vivo Capital Surplus Fund VIII LP (2015)**  
+   - Total capital gain: +$10,343,482 (from $6,222,934).  
+   - IRR: +29.63%.
+
+6. **WCAS Capital Partners IV LP (2005)**  
+   - Total capital gain: +$7,154,956 (from $7,154,956).  
+   - IRR: +5.38%.
+
+7. **Welsh, Carson, Anderson & Stowe XI LP (2009)**  
+   - Total capital loss: -$73,270,076 (from $251,761,250).  
+   - IRR: +11.66%.
+
+8. **Yucaipa Corporate Initiatives Fund LP (2003)**  
+   - Total capital gain: +$4,814,922 (from $4,549,727).  
+   - IRR: +3.78%.
+
+Key observations:
+- Many funds showed positive returns, with magnitudes ranging from 11.66% to +47.79%.
+- Some funds experienced losses, such as Yucaipa Corporate Initiatives Fund II LP (-1.80%).
+- The report notes that there is no standardized comparison due to varying IRR calculation methods and the timing of secondary interest purchases.
+
+Each fund's performance reflects its unique strategy and market conditions during the reported period.

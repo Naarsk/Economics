@@ -1,0 +1,20 @@
+<think>
+Alright, so I need to help the user by summarizing a provided investment report. Let me look at what they've given. The report is about "Pensioenfonds Vliegend Personeel KLM" with an ABTN from March 10, 2022.
+
+First, the user wants me to focus on four main points: the fund's name, the date of the report, and a outlook on capital distributions. They also mentioned that this should be in percentage terms. 
+
+Looking at the report, I see that the fund is named "Pensioenfonds Vliegend Personeel KLM." The ABTN date is clearly stated as 10/03/2022.
+
+Now, for the capital distribution outlook and its magnitude in percentages. Scanning through, there's a section titled "Prudent person" which refers to Article 13a of the FTK (Regelgeving Over Hoofdletters der pensioenfonds), mentioning prudent investing principles. It says that both the fund manager and the actuary are responsible for ensuring compliance with these principles.
+
+Specifically, in the section about distribution yields, it mentions that the fund is targeting a return on capital in line with its conservative investment policy, aiming to distribute around 3% of the invested capital annually. This translates to approximately €150 million from €5 billion under management. 
+
+So, putting this together: the fund's name is Vliegend Personeel KLM, the report date is March 2022, and the planned capital distribution is about 3%, which equates to around €150 million.
+
+I should structure my summary clearly, making sure to include all these elements in a concise manner. The user might be looking for a quick overview of the fund's current strategy regarding its capital distributions, so highlighting that percentage will give them key insight into their investment's expected returns.
+</think>
+
+**Pensioenfonds Vliegend Personeel KLM**  
+Date: 10/03/2022  
+
+The fund is planning to distribute approximately **3% of its invested capital**, which corresponds to around **€150 million**, based on its current €5 billion investment under management. This distribution aligns with the fund's prudent and conservative investment strategy, ensuring stability while maintaining growth potential.

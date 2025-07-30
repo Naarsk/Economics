@@ -1,0 +1,20 @@
+<think>
+Okay, I need to help the user by summarizing the provided investment report. The user specifically mentioned focusing on the fund's name, the date of the report, and the outlook on capital distributions along with their percentage impact.
+
+First, I'll look through the document to find where it mentions the fund's name. It says "CITY OF BOYNTON BEACH FIREFIGHTERS' RETIREMENT SYSTEM," so that's the fund in question.
+
+Next, I need to identify when the report was adopted. Scanning through, I see "Adopted: August 5th, 2020." That should be the date of the report.
+
+Now, for the outlook on capital distributions and their magnitude in percentage terms. The document mentions several points related to capital distributions but doesn't provide specific percentages or magnitudes. It talks about investment performance trends like higher returns than expected, moderate volatility compared to benchmarks, and strategies like dollar-cost averaging. However, there's no explicit percentage given for the size of these distributions.
+
+Since the user specifically asked for the magnitude in terms of percentages, I notice that the document does discuss investment performance but doesn't provide specific numbers regarding capital distribution sizes. Therefore, I might have to inform the user that while the qualitative aspects are covered, quantitative data on the magnitude isn't present.
+
+Putting it all together, I'll structure a summary with the fund name and report date as facts and note that the capital distribution details aren't quantified but discuss general performance.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** CITY OF BOYNTON BEACH FIREFIGHTERS' RETIREMENT SYSTEM  
+- **Date of Report:** August 5, 2020  
+
+The report outlines the investment policy for the fund and discusses capital distribution trends. However, it does not provide specific numerical data on the magnitude (in percentage terms) of capital distributions or their impact. The document mentions that capital distributions have been consistent with investment performance over time but does not quantify their size or effect.

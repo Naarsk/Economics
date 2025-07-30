@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Syngenta AG",
+    "date": "20210203",
+    "outlook": "increase",
+    "magnitude": 0.01,
+    "confidence": 0.95,
+    "explanation": "Capital distributions increased by approximately 1%."
+  }
+}

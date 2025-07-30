@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "ExampleFund",
+    "date": "20210622",
+    "outlook": "stable",
+    "magnitude": 2,
+    "confidence": 0.85,
+    "explanation": "Balanced fixed-income approach aiming for stable returns with conservative magnitude."
+  }
+}

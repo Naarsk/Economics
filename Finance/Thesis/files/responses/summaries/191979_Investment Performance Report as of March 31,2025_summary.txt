@@ -1,0 +1,15 @@
+<think>
+Okay, so I need to help this user by summarizing an investment report. The main points they're asking for are the fund's name, the date of the report, and their outlook on capital distributions along with the magnitude in percentage terms. 
+
+First, I'll look through the provided text to find where the fund name is mentioned. It says "Verus Global Opportunities Fund," so that's straightforward.
+
+Next, the date of the report isn't explicitly stated, but it mentions "as of October 31, 2023." Wait, no, actually, checking further down, there's a line about market values being estimated based on manager returns and other info as of the end of the reporting period. It doesn't specify the date, so I might need to infer or note that it's unspecified unless mentioned in more detail.
+
+Then, for capital distributions, the report talks about distributions varying by fund size but notes that they are minimal compared to inflows. The distribution magnitude is under 1%, which is a key point.
+
+I also see mentions of management fees at 0.75% and expense ratios around 0.95%. These details aren't directly about capital distributions, so maybe the user doesn't need them unless it's relevant for context.
+
+Putting it all together, I should structure the summary clearly, starting with the fund name, noting that the date isn't specified here, then discussing the minimal distribution magnitude of under 1%, and explaining why these distributions are minimal in comparison to inflows.
+</think>
+
+The investment report discusses **Verus Global Opportunities Fund**, which is evaluated as of an unspecified date. The report highlights that capital distributions for the fund are minimal, with a distribution magnitude estimated at less than 1%. This indicates that the fund's outflows due to distributions are relatively small compared to its inflows. Additionally, the management fee structure and expense ratios are noted but do not directly relate to the distribution details provided in this summary.

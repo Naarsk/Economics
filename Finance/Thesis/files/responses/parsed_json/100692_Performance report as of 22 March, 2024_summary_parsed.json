@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Pension Fund",
+    "date": "05/12/23",
+    "outlook": "increase",
+    "magnitude": -64.6,
+    "confidence": 80,
+    "explanation": "Allocations in high-growth areas have exceeded strategic targets, indicating a positive trend towards achieving growth objectives."
+  }
+}

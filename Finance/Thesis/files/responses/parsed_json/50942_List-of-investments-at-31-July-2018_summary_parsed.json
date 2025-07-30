@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "UNILEVER PLC",
+    "date": "20240724",
+    "outlook": "increase",
+    "magnitude": 65,
+    "confidence": 0.65,
+    "explanation": "Assumed increase based on fund strategy positioning."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "results": {
+    "Schroders": {
+      "date": "2411",
+      "outlook": "stable",
+      "magnitude": 6,
+      "confidence": 0.7,
+      "explanation": "Long-term investments are a significant portion of Schroders' allocations."
+    },
+    "Global Alpha": {
+      "date": "2411",
+      "outlook": "positive",
+      "magnitude": 37,
+      "confidence": 0.85,
+      "explanation": "Focus on the upcoming year with moderate focus on longer-term investments."
+    }
+  }
+}

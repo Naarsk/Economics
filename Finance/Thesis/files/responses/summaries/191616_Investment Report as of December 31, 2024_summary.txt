@@ -1,0 +1,17 @@
+<think>
+Alright, so I've got this query from a user who wants me to act as a financial analyst. They're asking me to summarize an investment report with specific focuses: the fund's name, the report's date, the outlook on capital distributions, and how big that distribution is in percentage terms.
+
+Looking at the provided report, it starts with "UHS Endowment Fund" as the name of the fund. The date mentioned is December 31, 2024. That part seems straightforward. Next, there's a section about the portfolio market value on the same fiscal year end, which is August 31st. However, since my task isn't to include all details but just specific ones, I should focus more on the distribution outlook.
+
+The user emphasized that they want the summary to highlight the name of the fund, the report's date, and the outlook on capital distributions along with its magnitude in percentage terms. So I need to extract that information from the report.
+
+Looking further into the report, under "OUTLOOK ON CAPITAL DISTRIBUTIONS," it mentions that the Fund anticipates making a regular quarterly distribution at a rate of 5% per annum. It also notes that there are potential changes, but as of now, the rate is expected to be around 5%, which is considered moderate.
+
+So I should structure my summary by first stating the fund name and report date, then mention the expected distribution rate in percentage terms along with whether it's moderate or other descriptors if applicable. I need to make sure I'm concise and only include what the user specifically asked for without adding extra information from the report.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** UHS Endowment Fund  
+- **Report Date:** December 31, 2024  
+- **Outlook on Capital Distributions:** The fund anticipates a quarterly distribution rate of approximately **5% per annum**, which is considered moderate.

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Hilti Pensionskasse",
+    "date": "202307",
+    "outlook": "increase",
+    "magnitude": 6.5,
+    "confidence": 0.95,
+    "explanation": "Conservative growth of 6.5% expected to address market volatility and inflation while meeting distribution needs."
+  }
+}

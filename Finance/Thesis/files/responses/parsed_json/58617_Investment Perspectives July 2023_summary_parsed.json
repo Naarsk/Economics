@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "FFG strategic portfolio",
+    "date": "202307",
+    "outlook": "stable",
+    "magnitude": 50,
+    "confidence": 0.9,
+    "explanation": "Allocates approximately 50% of capital to equities in July 2023 with stable performance expected."
+  }
+}

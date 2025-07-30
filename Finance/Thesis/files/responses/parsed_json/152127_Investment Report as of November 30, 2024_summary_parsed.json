@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Non-Endowed Pooled Funds",
+    "date": "20241130",
+    "outlook": "decrease",
+    "magnitude": 20,
+    "confidence": 0.95,
+    "explanation": "Capital distribution outflow of $11 million resulted in a net decrease, but contributions partially offset this."
+  }
+}

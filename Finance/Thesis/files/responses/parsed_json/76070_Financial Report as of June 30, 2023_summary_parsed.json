@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Credito Emiliano S.p.A.",
+    "date": "20230808",
+    "outlook": "stable",
+    "magnitude": 0,
+    "confidence": 0.1,
+    "explanation": "Uncertain outlook on capital distributions."
+  }
+}

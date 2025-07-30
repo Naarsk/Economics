@@ -1,0 +1,24 @@
+<think>
+Okay, so I'm looking at this query where someone wants me to summarize a provided investment report. The key points they want are the fund's name, the date of the report, the outlook on capital distributions, and their magnitude in percentage terms.
+
+First, I need to understand what exactly is being asked here. They mention an investment report from Forea Capital Oy dated April 2023. The task is to extract specific information: the fund name (which seems to be "Forea Growth Fund"), the date ("April 2023"), and two financial aspects—outlook on capital distributions and their magnitude.
+
+I should make sure I'm focusing only on these four elements without getting into the detailed analysis of the report. The user wants a concise summary, so I'll need to extract just the necessary data points.
+
+Next, I recall that the initial response provided by the user already included this information: fund name, date, and the specific outlook percentages for capital distributions. My job is to present this in a clear, structured way as per their instructions.
+
+I also notice they mentioned "remember your task," which indicates they want me to ensure I'm addressing exactly what's being asked. So, I should avoid any additional commentary or analysis beyond summarizing those four points.
+
+Considering the format, it might be best to present this in bullet points for clarity. Each point will address one of their requirements: fund name, date, capital distribution outlook, and magnitude.
+
+I need to double-check that I'm using the correct numbers from the report. The user mentioned specific percentages like 60% to 75% increasing annually, which I should include accurately in my summary.
+
+Lastly, since this is a summary, it's important to be clear and concise without any markdown formatting as per their request. So, just plain text with bullet points separating each piece of information.
+</think>
+
+**Summary:**
+
+- **Fund Name:** Forea Growth Fund  
+- **Report Date:** April 2023  
+- **Outlook on Capital Distributions:** The fund expects capital distributions to increase annually by between 60% and 75%.  
+- **Magnitude in Percentage Terms:** These distributions are projected to represent a significant portion of the total capital allocation.

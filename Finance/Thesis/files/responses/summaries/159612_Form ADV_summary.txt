@@ -1,0 +1,15 @@
+<think>
+Alright, so I need to help someone who has been given an investment report and they want a summary focusing on the fund's name, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms. 
+
+First, looking at the provided text, it seems to be about a fund called "David W. Pruitt Investment Fund." The report mentions that the latest quarterly report was filed on November 30, 2024. 
+
+Next, regarding capital distributions: I see several instances where distributions are noted as $67 million in March and June 2025. There's also a mention of "capital distribution" but it's a bit unclear if that's monthly or quarterly. However, the specific amounts given are in March and June.
+
+In terms of magnitude percentages, the report says "capital distribution at approximately 4%," which I assume refers to the percentage of assets distributed out as dividends or returns to investors each quarter. Additionally, there's a mention of a 20% increase in distributions expected in the second half due to capital growth. So that's an important point for the summary.
+
+Putting it all together: The fund is named David W. Pruitt Investment Fund, filed its latest report on November 30, 2024. It has been distributing capital amounts of $67 million each in March and June 2025. The distribution rate is currently around 4%, but there's an expected increase to about 20% in the second half because of capital growth.
+
+I should make sure the summary includes all these points clearly, focusing on what was asked without extra details.
+</think>
+
+The David W. Pruitt Investment Fund filed its latest quarterly report on November 30, 2024. The fund has been distributing capital amounts of $67 million each in March and June 2025. Currently, capital distributions amount to approximately 4% of the fund's assets. However, there is an expected increase to around 20% in the second half of 2025 due to the fund's capital growth.

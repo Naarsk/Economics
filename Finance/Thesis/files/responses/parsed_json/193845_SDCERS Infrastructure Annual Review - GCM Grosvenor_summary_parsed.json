@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "GCM Grosvenor",
+    "date": ["2023-01-24", "2023-02-01"],
+    "outlook": "increase",
+    "magnitude": 10,
+    "confidence": 0.85,
+    "explanation": "Net asset value increased by $27.45 with potential capital distributions contributing to a 10% increase."
+  }
+}

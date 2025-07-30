@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Metzler Pensionsfonds AG",
+    "date": "2024-01-01",
+    "outlook": "increase",
+    "magnitude": 5,
+    "confidence": 0.9,
+    "explanation": "Capital distributions are expected to increase annually, reaching a plateau."
+  }
+}

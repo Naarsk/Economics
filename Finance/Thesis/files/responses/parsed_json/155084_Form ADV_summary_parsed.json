@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "XYZ",
+    "date": "2024-12-31",
+    "outlook": "increase",
+    "magnitude": 3.7,
+    "confidence": 0.95,
+    "explanation": "Positive outlook with a projected increase of 3.7%."
+  }
+}

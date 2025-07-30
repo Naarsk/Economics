@@ -1,0 +1,52 @@
+{
+  "results": [
+    {
+      "name": "Xtrackers Eurozone Government",
+      "date": "06/21/24",
+      "outlook": "decrease",
+      "magnitude": 53,
+      "confidence": 0.7,
+      "explanation": "Expected to decrease with moderate impact."
+    },
+    {
+      "name": "MSCI Emerging Market",
+      "date": "06/21/24",
+      "outlook": "N/A",
+      "magnitude": 64,
+      "confidence": 0.85,
+      "explanation": "High allocation with no expected return."
+    },
+    {
+      "name": "Warburg Pincus Global Growth",
+      "date": "08/07/23",
+      "outlook": "moderate",
+      "magnitude": 39,
+      "confidence": 0.6,
+      "explanation": "Significant impact despite low allocation."
+    },
+    {
+      "name": "VANGUARD GROUP S&P 500 ETF",
+      "date": "06/21/24",
+      "outlook": "very low",
+      "magnitude": 0.09,
+      "confidence": 0.2,
+      "explanation": "Minimal impact expected with very low allocation."
+    },
+    {
+      "name": "Chicago Board Options Exchange - SPX...",
+      "date": "06/21/24",
+      "outlook": "high",
+      "magnitude": 1.1,
+      "confidence": 0.3,
+      "explanation": "High allocation without expected movement."
+    },
+    {
+      "name": "Eurex - SX5E...",
+      "date": "06/21/24",
+      "outlook": "moderate",
+      "magnitude": 0.04,
+      "confidence": 0.1,
+      "explanation": "Minimal allocation with moderate outlook."
+    }
+  ]
+}

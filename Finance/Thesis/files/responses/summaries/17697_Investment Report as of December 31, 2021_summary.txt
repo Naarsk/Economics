@@ -1,0 +1,17 @@
+<think>
+Okay, so I need to help summarize this investment report. The user is asking for a summary focusing on the fund's name, the date of the report, the outlook on capital distributions, and their magnitude in percentage terms.
+
+First, looking at the provided text, it seems there are multiple pages of reports from Aon Solutions UK Limited. The documents discuss various funds, but the specific ones mentioned include "Aon Opportunities Fund," "Aon Global Opportunities Fund," and "Aon Actuaries Choice Fund." 
+
+The date mentioned is October 2022, as seen on page 150 where it says "October 2022" in the disclaimer. So that's straightforward for the date.
+
+Next, looking into each fund's outlook on capital distributions. For instance, under the section titled "Aon Opportunities Fund," there's a mention of "capital distribution considerations." However, the exact details about the magnitude aren't provided here. The same goes for other funds; their sections don't specify the percentage magnitude of distributions.
+
+Since all three funds mentioned (Opportunities, Global Opportunities, Actuaries Choice) are discussed without providing specific figures on capital distributions or their percentages, I can note that the report doesn't include these details.
+
+So putting it together, the summary would state which funds are covered, mention the date, and indicate that while there's information on capital distribution considerations for each fund, the specific percentage magnitudes aren't provided in the text.
+</think>
+
+**Summary of Investment Report:**
+
+The report discusses three funds: "Aon Opportunities Fund," "Aon Global Opportunities Fund," and "Aon Actuaries Choice Fund." The date of the report is October 2022. Each fund's outlook on capital distributions is mentioned, but specific details regarding the magnitude in percentage terms are not provided within the text. Therefore, while the funds and their general considerations for capital distribution are noted, precise figures or percentages related to these distributions are absent from the document.

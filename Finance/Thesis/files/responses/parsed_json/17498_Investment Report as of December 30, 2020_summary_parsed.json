@@ -1,0 +1,12 @@
+{
+  "results": [
+    {
+      "name": "SHREWSBURY",
+      "date": "2020-11-30",
+      "outlook": "increase",
+      "magnitude": 93.4,
+      "confidence": 85,
+      "explanation": "Expected capital distribution growth due to market recovery after COVID-19 impact."
+    }
+  ]
+}

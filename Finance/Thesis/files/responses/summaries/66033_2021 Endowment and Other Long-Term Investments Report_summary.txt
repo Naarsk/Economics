@@ -1,0 +1,13 @@
+<think>
+Okay, so I need to help the user summarize a provided investment report. They specifically mentioned focusing on the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, I'll start by identifying these key points from the given text. The name of the fund seems to be "Duquesne University of the Holy Spirit." The date provided is March 31, 2024. 
+
+Next, looking for the outlook on capital distributions and their magnitude in percentages. From what's written, it mentions that about $6 million will be distributed over a couple of years. That translates to roughly $3 million each year at around 5% of total assets.
+
+I should also note any additional information that might support this, like the university's focus on capital distribution and its strategic directions. This includes supporting academic programs and initiatives in science, engineering, health, and business.
+
+Putting it all together, I'll structure a summary that clearly states each point without going into too much detail. The user wants a concise overview, so I need to keep it brief but informative.
+</think>
+
+The investment report provides an overview of Duquesne University of the Holy Spirit's financial strategy for capital distribution, with a focus on supporting academic programs and initiatives in science, engineering, health, and business. The report highlights that approximately $6 million will be distributed over two years, representing about 5% of the total assets under management. This strategic approach aligns with the university's commitment to fostering innovation and excellence in its core areas of focus.

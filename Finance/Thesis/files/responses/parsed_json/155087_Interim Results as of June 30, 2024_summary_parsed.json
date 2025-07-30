@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "World Financial Group",
+    "date": "20230915",
+    "outlook": "increase",
+    "magnitude": 8,
+    "confidence": 0.7,
+    "explanation": "Improved investment performance led to an increase in capital distribution."
+  }
+}

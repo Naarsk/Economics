@@ -1,0 +1,35 @@
+<think>
+Alright, I'm trying to help the user by summarizing a section from an investment report. The query mentions focusing on specific aspects like fund names, dates, and capital distribution outlooks.
+
+First, I'll read through the provided text carefully. It starts with a newsletter titled "MainePERSpective - FALL 2021." That gives me the date of the report as October or November 2021 since FALL typically refers to late summer or early fall in the U.S. educational system.
+
+Looking further, I see mentions of portfolio performance: a 25% gain in FY 2021, which is highlighted as the fifth best year since 1927. The user wants this fund's name and percentage, so I note "MainePERS" as the fund name with an increase from 6.75% to 6.5%. 
+
+Next, there's a part about reducing income needed in future years by lowering the required earnings rate due to the investment returns. That ties into capital distribution and magnitude. The amount saved is calculated as $3.2 billion (from $4.3 billion at 6.75% down to 6.5%).
+
+Then, there's a section about reaching 100% funding for retirement plans with preliminary results showing State/Teacher Plan moving from 82% to 83%, and the Participating Local District plan from 90% to 93%. 
+
+I need to compile all these points into a clear summary without including unrelated sections. I'll structure it by fund name, date of report, outlook on capital distribution, and the magnitude in percentage terms.
+
+Wait, is "MainePERS" singular or part of a larger entity? The text refers to "the State/Teacher Plan" and "Participating Local District Consolidated Retirement Plan." So I should mention that these are parts of the main fund system. Also, ensure that each point about capital distribution and funding levels is clearly stated.
+
+I need to make sure not to include any personal tasks or unrelated information, like the newsletter's purpose regarding security measures, as those aren't part of the user's query focus.
+
+Putting it all together: Fund name (MainePERS), date (FALL 2021/FY 2021), capital distribution outlooks with reductions from 6.75% to 6.5%, and savings amounting to $3.2 billion. Also, mention the progress towards 100% funding for both plans.
+
+I think that covers everything the user asked for without including extra details.
+</think>
+
+### Summary of Investment Report:
+
+**Fund Name:** MainePERS  
+**Date of Report:** FALL 2021 (corresponding to FY 2021)  
+
+**Outlook on Capital Distributions:**  
+The investment report highlights that the portfolio has achieved a notable capital gain, increasing the required rate of return from **6.75% to 6.5%**, thereby reducing future income needs by approximately **$3.2 billion** over time.
+
+**Magnitude in Percentage Terms:**  
+- The State/Teacher Plan funding increased slightly, from **82% to 83%** of the trust fund.
+- The Participating Local District Consolidated Retirement Plan also saw a modest increase, from **90% to 93%** of its assets.  
+
+These updates reflect progress toward achieving long-term funding goals for both retirement plans.

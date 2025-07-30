@@ -1,0 +1,27 @@
+<think>
+Alright, so I need to help this user by summarizing a provided investment report. The key points they want are the name of the fund, the date of the report, an outlook on capital distributions, and that magnitude in percentage terms.
+
+Looking at the text, the first thing I see is "RAPPORT D’ACTIVITÉ 2022" which suggests it's a report from January 2023 because often financial reports are annual but released shortly after. The fund mentioned is the Fonds de Dépôt et Transfert (FDT), which translates to a deposit and transfer fund, probably related to French banks.
+
+In the section titled "Mentions complémentaires," it says that the FDT doesn't have a general business objective, so I don't think it's actively managing investments. Instead, it collects donations for its activities.
+
+The report mentions contributions linked to public generosity, which are used for missions and other social activities. There's a part about contributions not linked to public generosity, which might be from individuals or other sources outside the FDT's direct aid programs.
+
+Looking at the section on "RAPPORT D’ACTIVITÉ 2022," there's an outline of income streams: contributions from the public, donations, prestations en nature (charitable acts), and concours publics (public contests). The total revenue is €1.85 million for the year.
+
+The FDT also renewed its membership in a fund registry at the end of 2022. There's mention of a website and follow-up methods like emails or social media, but that doesn't directly affect the investment summary.
+
+Now, focusing on capital distribution outlook: since it's not actively managed for growth, the primary use is for social programs and donations rather than investments that would appreciate in value. So the distribution outlook isn't about returns but about covering programmatic expenses.
+
+Magnitude-wise, the total revenue was €1.85 million in 2022. If we consider this as end-of-year assets, the magnitude is significant, but since it's not an actively managed fund for growth, percentage return isn't applicable. However, if forced to provide a figure, maybe looking at the annual contribution rate relative to their objectives, which might be around €1 million per year based on public generosity.
+
+Putting it all together: The FDT had €1.85M in 2022, uses it for its programs without active investment, so no percentage return but significant contributions.
+</think>
+
+**Summary of the Investment Report:**  
+
+- **Fund Name:** *Fonds de Dépôt et Transfert (FDT)*  
+- **Date of the Report:** January 1, 2023 (Based on "RAPPORT D’ACTIVITÉ 2022" and French accounting practices)  
+- **Outlook on Capital Distribution:** The FDT does not manage its capital actively for growth. Its primary focus is on funding its social programs, donations, and public generosity contributions. Capital distribution will be directed toward these programmatic needs rather than seeking investment returns.  
+
+- **Magnitude of Capital in Percentage Terms:** If considering the total revenue generated from contributions linked to public generosity ($1,852,925 for 2022), this represents a significant contribution to its objectives. However, since the FDT is not actively managed for growth, percentage return on investment is not applicable, but the fund demonstrates substantial support for its stated mission and social programs.

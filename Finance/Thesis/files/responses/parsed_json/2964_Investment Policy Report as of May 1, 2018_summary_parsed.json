@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Your Fund Name",
+    "date": "YYYYMMDD",
+    "outlook": "increase" if X is positive else ("stable" if X is zero else "decrease"),
+    "magnitude": X,
+    "confidence": [assumed confidence level],
+    "explanation": "Expected capital distributions outlook will be [increase/stable/decrease] due to [short reasoning]."
+  }
+}

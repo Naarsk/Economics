@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "University of Hawaii Foundation",
+    "date": "2021-06-30",
+    "outlook": "decrease",
+    "magnitude": 3.3,
+    "confidence": 0.9,
+    "explanation": "The foundation is facing tight liquidity, with only a small portion of unrestricted contributions available for general expenditures."
+  }
+}

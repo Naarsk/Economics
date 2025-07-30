@@ -1,0 +1,19 @@
+<think>
+Okay, so I need to help this user by summarizing a specific part of an investment report. The query mentions that the user wants me to focus on three things: the name of the fund, the date of the report, and the outlook on capital distributions along with their percentage.
+
+First, I'll look at the information provided in the report they included. It starts with "Item 17: Voting Client Securities" but then jumps into other sections. The user specifically mentioned looking for the fund's name, so maybe it's located elsewhere in the report.
+
+Scrolling through, under Item 5, there's a section titled "Outlook on Capital Distributions." That seems relevant because it talks about capital distributions and their percentages. Let me check: It mentions that capital distributions are expected to grow by an average of 3% to 4% annually going forward. So the outlook is positive.
+
+Now, looking for where the fund's name is mentioned. The first item after the greeting says "Item 1: Fund Overview" and it lists the fund as "Cogent Blue." That should be the fund's name.
+
+Next, I need the date of the report. I don't see a specific date in the provided text, so maybe it's not included here or was omitted by mistake. The user might have to check their system for that information separately.
+
+Putting it all together: the fund is Cogent Blue, no specific date from this report, and capital distributions are expected to grow between 3% and 4% annually. I should make sure my summary includes these points clearly.
+</think>
+
+Based on the provided investment report:
+
+- **Fund Name**: Cogent Blue
+- **Report Date**: Not explicitly mentioned in the provided text (please check the system for this information)
+- **Outlook on Capital Distributions**: The report indicates that capital distributions are expected to grow by an average of 3% to 4% annually going forward.

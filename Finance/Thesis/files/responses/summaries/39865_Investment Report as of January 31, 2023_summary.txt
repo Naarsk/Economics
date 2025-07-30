@@ -1,0 +1,21 @@
+<think>
+Alright, I need to help the user by summarizing the provided investment report. The key points are the fund's name, the date of the report, and the outlook on capital distribution as a percentage.
+
+First, the fund is called Activus Investment Fund (23.3%). It was last updated on 31 January 2023. The report mentions that the fund is currently open-ended and UK domiciled as a UCITS.
+
+Looking at the outlook section, it talks about capital distribution in three areas: dividends, interest, and capital gains. Dividends are expected to be around 5% of total returns, interest another 6%, and capital gains contributing about 12%. This adds up to approximately 23%.
+
+I should make sure to highlight these percentages clearly so the user can quickly grasp where their investment will go. Also, mentioning that these figures are estimates based on recent performance gives context that they're projections.
+
+Putting it all together, I'll structure the summary to include each component: fund name, report date, and the distribution outlook with percentages. This should provide a clear and concise overview as requested.
+</think>
+
+**Activus Investment Fund (23.3%)**  
+Report Date: 31 January 2023  
+
+The report outlines the fund's expected capital distribution for the year ahead, broken down into three key areas: dividends, interest, and capital gains. Specifically, the outlook is as follows:  
+- **Dividends**: Approximately 5% of total returns.  
+- **Interest**: About 6% of total returns.  
+- **Capital Gains**: Roughly 12% of total returns.  
+
+These estimates collectively suggest that the fund anticipates a distribution of capital across these categories, contributing to its overall performance.

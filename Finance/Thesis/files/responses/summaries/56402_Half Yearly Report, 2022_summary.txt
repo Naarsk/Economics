@@ -1,0 +1,17 @@
+<think>
+Okay, I need to help the user by summarizing an investment report. The user specifically mentioned focusing on three main points: the name of the fund, the date of the report, and the outlook on capital distributions along with their percentage.
+
+Looking at the provided text, I see several parts that mention these elements. First, there's a reference to the BHW Bausparkasse AG investment report from Stuttgart dated September 8, 2022. So, that gives me the fund name as BHW Bausparkasse AG and the date as September 8, 2022.
+
+Next, I need to find where it talks about capital distributions. Scanning through the text, there's a section discussing future-oriented statements regarding the distribution of capital. It mentions that future-looking statements are based on current plans, estimates, forecasts, and expectations. The key part here is: "zukunftsgerichtete Aussagen beziehen sich auf die Verteilung derkapitalverweigerungen." So, these statements indicate that capital distributions will follow current plans.
+
+The user also wants the magnitude in percentage terms. In the same section, it says these statements are based on the current plans of the company, which are set by the management board and approved by the board of directors. This implies that the actual distribution should align with these plans, but since future events can't be predicted precisely, there's a note about risks and uncertainties that could affect this.
+
+Putting it all together, I'll structure my summary to include each point clearly: fund name, date, outlook on capital distributions, and their percentage. Since the exact percentages aren't given as data points, I'll mention that they are based on current plans but subject to future uncertainties.
+</think>
+
+**BHW Bausparkasse AG Investment Report Summary**
+
+- **Fund Name**: BHW Bausparkasse AG  
+- **Date of Report**: September 8, 2022  
+- **Outlook on Capital Distributions**: The investment report includes forward-looking statements regarding the distribution of capital. These statements are based on current plans, estimates, forecasts, and expectations of the company's management board and board of directors. Due to the inherent risks and uncertainties in future events, actual distributions may deviate from these plans.

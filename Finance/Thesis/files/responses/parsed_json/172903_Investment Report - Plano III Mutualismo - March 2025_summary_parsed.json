@@ -1,0 +1,52 @@
+{
+  "results": [
+    {
+      "name": "Kadima High Vol Fund",
+      "date": "20231026",
+      "outlook": "increase",
+      "magnitude": 7.84,
+      "confidence": 0.65,
+      "explanation": "Expected to increase due to high volatility, moderate confidence."
+    },
+    {
+      "name": "Giant Zarathustra II Fund",
+      "date": "20231026",
+      "outlook": "stable",
+      "magnitude": 8.57,
+      "confidence": 0.72,
+      "explanation": "Stable performance expected with moderate confidence."
+    },
+    {
+      "name": "SPX Nimitz Estruturado Fund",
+      "date": "20231026",
+      "outlook": "increase",
+      "magnitude": 8.74,
+      "confidence": 0.58,
+      "explanation": "Growth expected with lower confidence."
+    },
+    {
+      "name": "Canvas Vector Fund",
+      "date": "20231026",
+      "outlook": "increase",
+      "magnitude": 7.92,
+      "confidence": 0.68,
+      "explanation": "Anticipated increase with moderate confidence."
+    },
+    {
+      "name": "Legacy Capital Fund",
+      "date": "20231026",
+      "outlook": "increase",
+      "magnitude": 9.42,
+      "confidence": 0.75,
+      "explanation": "Significant growth expected with high confidence."
+    },
+    {
+      "name": "Mutá Fund",
+      "date": "20231026",
+      "outlook": "stable",
+      "magnitude": 9.84,
+      "confidence": 0.78,
+      "explanation": "Stable with high confidence."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<think>
+Okay, so I need to help the user by summarizing an investment report based on their query. Let me read through what they provided.
+
+They have a specific task: summarize the given investment report focusing on four key elements—the fund's name, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+Looking at the data provided, I see it's structured with dates from 2016 to 2020, followed by an average row. Each year has a Rate Of Return broken down into different asset allocations like Domestic Stocks, International Bonds, etc., both Actuarial and Actual, along with Cash and Assumptions.
+
+First, I need to identify the fund name: "City of Sunrise Firefighters Pension Fund." That's straightforward.
+
+Next, the date. The latest report mentioned is 9/30/2020, so that should be included as well.
+
+Now, for capital distributions. Looking through each year from 2016 to 2020, I see varying percentages allocated across different assets like stocks, bonds, international bonds, etc., and cash positions. The allocations aren't static; they change yearly but seem relatively stable around certain percentages. For example, in 2016, the largest allocation was Domestic Stocks at 60%, followed by International Bonds at about 9.6%. Cash wasn't listed for each year except a couple of times.
+
+To outline the capital distribution outlook, I'll note that it's mostly international bonds and domestic stocks as primary allocations, with cash positions fluctuating but not exceeding certain thresholds. The allocations are quite consistent over the years mentioned.
+
+Regarding the magnitude in percentage terms, looking at the returns—7.90% down to 1.8% in 2020—it seems like there's a decline each year, especially notable from 2020's 1.8%. This could indicate some volatility or market conditions affecting the fund.
+
+Putting it all together: The fund is named City of Sunrise Firefighters Pension Fund; the latest report is from September 30, 2020. The capital distribution shows a consistent mix with international bonds as a significant allocation and varying returns each year, particularly declining in recent years.
+
+I should present this clearly, ensuring I include all necessary points without missing any critical details. Also, keeping the summary concise but comprehensive based on their instructions.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** City of Sunrise Firefighters Pension Fund  
+- **Report Date:** September 30, 2020  
+
+The fund's capital distribution shows a consistent allocation across various asset classes. The largest allocations are typically to international bonds and domestic stocks, with smaller percentages allocated to real estate, cash, and other assets. The returns over the five years range from an average of approximately 7.83% in 2016 to 1.8% in 2020, indicating variability in performance.

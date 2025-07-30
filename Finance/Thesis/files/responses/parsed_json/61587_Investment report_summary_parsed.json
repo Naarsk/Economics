@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Singapore Real Estate Portfolio",
+    "date": "2019-11-01",
+    "outlook": "stable",
+    "magnitude": 5,
+    "confidence": 0.7,
+    "explanation": "The portfolio's capital distribution outlook shows a moderate potential for return based on project tenures."
+  }
+}

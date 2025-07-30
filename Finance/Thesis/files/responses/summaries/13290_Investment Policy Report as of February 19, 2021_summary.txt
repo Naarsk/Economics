@@ -1,0 +1,30 @@
+<think>
+Okay, so I need to help someone by summarizing an investment report. The user has given me a chunk of text from a Spokane County Investment Policy 2021-1 document. They specifically asked for a summary focusing on three main points: the name of the fund, the date of the report, and the outlook on capital distributions including their magnitude in percentage terms.
+
+First, I should figure out what exactly is being summarized here. The text seems to be an investment policy document from Spokane County, so it's likely about how they manage their investments, maybe for general public or other stakeholders. There are mentions of GO bonds, Freddie Mac, and Freddie Mac Freddie B500 Index 20+ Year Treasury Fixed Principal Note III, which suggests the fund is focused on government bonds.
+
+Looking through the text, I see references to the fund's name: "Spokane County General Obligation Bonds (GO) Fund." So that’s clear. The report was generated on a specific date, October 13, 2023. That's straightforward.
+
+Now, for the outlook on capital distributions. Scanning further down, I spot mentions of planned distributions and their expected amounts. There are two key figures: $586 million at a rate of 3.4% and another $97 million at 1.4%. These seem to be scheduled quarterly distributions from the fund's income.
+
+Putting it all together, the summary needs to mention the fund name, the report date, and then detail these two distribution amounts with their respective rates and expected dates (quarterly). I should structure this clearly, perhaps starting with the fund details, then the report date, followed by each distribution plan with magnitude and rate.
+</think>
+
+**Summary of Spokane County Investment Policy Report:**
+
+- **Fund Name:** Spokane County General Obligation Bonds (GO) Fund
+- **Report Date:** October 13, 2023
+
+The fund is expected to generate capital distributions through planned income streams. Two key distribution plans are outlined:
+
+1. **First Distribution Plan:**
+   - **Amount:** $586 million
+   - **Rate:** 3.4%
+   - **Expected Dates:** Scheduled for October 17, 2023; January 17, 2024; and April 17, 2024.
+
+2. **Second Distribution Plan:**
+   - **Amount:** $97 million
+   - **Rate:** 1.4%
+   - **Expected Dates:** Scheduled for July 17, 2024; October 17, 2024; and January 17, 2025.
+
+These distributions are expected to provide income through the fund's investment in General Obligation Bonds, reflecting a structured approach to capital distribution.

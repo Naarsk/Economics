@@ -1,0 +1,34 @@
+{
+  "results": {
+    "name": "EQ Fund (Equity Fund)",
+    "date": "2023-04-15",
+    "outlook": "increase",
+    "magnitude": 6.7,
+    "confidence": 0.85,
+    "explanation": "Expecting significant capital distribution with moderate confidence."
+  },
+  {
+    "name": "Alternative Investments Fund",
+    "date": "2023-04-15",
+    "outlook": "increase",
+    "magnitude": 6.9,
+    "confidence": 0.87,
+    "explanation": "Expecting capital distribution with high confidence."
+  },
+  {
+    "name": "Real Estate Funds & Partially Owned Real Estate Companies",
+    "date": "2023-04-15",
+    "outlook": "increase",
+    "magnitude": 48.3,
+    "confidence": 0.95,
+    "explanation": "Largest magnitude with highest confidence."
+  },
+  {
+    "name": "Fixed Income Fund",
+    "date": "2023-04-15",
+    "outlook": "increase",
+    "magnitude": 136.0,
+    "confidence": 0.75,
+    "explanation": "Magnitude exceeds average with moderate confidence."
+  }
+}

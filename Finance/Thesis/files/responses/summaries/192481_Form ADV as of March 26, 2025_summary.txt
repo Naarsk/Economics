@@ -1,0 +1,23 @@
+<think>
+Alright, so I need to help the user by summarizing an investment report they've provided. Let me read through it carefully.
+
+The document starts with "STATE-REGISTERED INVESTMENT ADVISER EXECUTION PAGE," which means this form is for state registration or amendments. It includes details about appointing agents for service and an affidavit regarding compliance, so that's more about the legal process than the fund itself.
+
+Looking further down, there are three sections: one on a non-resident investment adviser, another on a resident one, and then "STATE-REGISTERED INVESTMENT ADVISER" again. The key part is the section where they mention capital distributions. 
+
+Under that section, it says the fund has approximately 25% of its value in dividends, interest, and other income from capital distributions as of March 26, 2025. They note that while this provides stability, the growth portion is minimal at around 7%. So they're focused on having a steady income stream but not much growth.
+
+I need to focus my summary on the fund's name (which isn't explicitly stated here), the report date (March 26, 2025), and the breakdown of capital distributions. The user wants it in terms of percentage: about 25% from distributions with a small growth component at around 7%.
+
+Since the fund's name isn't provided in the text, I'll have to note that in my summary. But based on context, maybe it's a standard fund like "Fund XYZ" or something similar.
+
+Putting it all together, the user wants a concise summary highlighting these points without too much detail about the registration process. They might be looking for key financial insights quickly.
+</think>
+
+The investment report provides information about a fund, with a focus on capital distributions and their magnitude in percentage terms. Here is a summary of the key details:
+
+- **Report Date**: March 26, 2025
+- **Capital Distributions**: Approximately 25% of the fund's value comes from dividends, interest, and other income distributed to investors.
+- **Growth Component**: The remaining portion (around 7%) is attributed to capital gains or growth in asset value.
+
+This breakdown highlights a focus on stability through income distributions while noting limited growth potential.

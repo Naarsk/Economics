@@ -1,0 +1,20 @@
+{
+  "results": {
+    "Previdência Social (PS)": {
+      "name": "Previdência Social",
+      "date": "20250430",
+      "outlook": "increase",
+      "magnitude": 55,
+      "confidence": 0.92,
+      "explanation": "Growth in equity investments driven by a positive Brazilian economy post-COVID."
+    },
+    "Previdência Universal (PU)": {
+      "name": "Previdência Universal",
+      "date": "20250430",
+      "outlook": "stable",
+      "magnitude": 13400,
+      "confidence": 0.73,
+      "explanation": "Moderate returns expected due to diversification and cautious outlook."
+    }
+  }
+}

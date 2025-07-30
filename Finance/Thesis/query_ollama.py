@@ -2,6 +2,7 @@ import requests
 import fitz  # PyMuPDF
 import os
 
+
 def extract_pdf_text(filepath):
     """Extracts text from a PDF file using PyMuPDF."""
     try:
@@ -30,7 +31,7 @@ def query_ollama(prompt, model="llama3", pdf_path=None):
         if not os.path.exists(pdf_path) or not pdf_path.endswith(".pdf"):
             return "[ERROR] Invalid or missing PDF file path."
         pdf_text = extract_pdf_text(pdf_path)
-        prompt = f"{prompt}\n\n[The following document is provided as context:]\n{pdf_text}"
+        prompt = f"{prompt}\n\n--- DOCUMENT START ---\n{pdf_text}\n--- DOCUMENT END ---\n \n"
 
     url = "http://localhost:11434/api/generate"
     payload = {
@@ -48,9 +49,43 @@ def query_ollama(prompt, model="llama3", pdf_path=None):
     except KeyError:
         return "[ERROR] Unexpected response format from Ollama."
 
-response = query_ollama(
-    prompt="Summarize the main arguments in the document.",
-    model = "deepseek-r1",
-    pdf_path=".\\files\\2e52e4b8-3cce-47d3-a571-d8d108fd139a.pdf"
-)
-print(response)
+
+def build_prompt(text):
+    """
+    Builds the final prompt for DeepSeek to extract the outlook
+    strictly in the required JSON format.
+    """
+    return f"""
+You are a financial analyst.  
+Your task: summarize the following investment report, focus on the name of the fund, the date of the report, the outlook on capital distributions, its magnitude in percentage terms
+
+{text}
+
+remember your task: summarize the provided investment report, focus on the name of the fund, the date of the report, the outlook on capital distributions, its magnitude in percentage terms
+"""
+
+
+def build_final_prompt(summary_text):
+    return f"""
+        You are a financial analyst that must output only a valid JSON object forecasting the outlook on capital distributions in the next year.
+        
+        Context from the document:
+        \"\"\"{summary_text}\"\"\"
+        
+        Based on the above context, produce strictly one JSON object following this schema:
+        {json_schema}
+        
+        Respond with ONLY the JSON object.
+        """
+
+
+json_schema = """{
+  "results": {
+    "name": "<fund name>",
+    "date": "<yyyymmdd>",
+    "outlook": "<increase|stable|decrease>",
+    "magnitude": <percentage>,
+    "confidence": <number between 0 and 1>,
+    "explanation": "<short one-line reasoning>"
+  }
+}"""

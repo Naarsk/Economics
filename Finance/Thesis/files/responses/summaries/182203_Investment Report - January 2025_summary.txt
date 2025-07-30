@@ -1,0 +1,26 @@
+<think>
+Alright, let me try to figure this out. The user has given me a query and an example response. They want me to act like a novice thinking through their problem.
+
+So, first, I need to understand what they're asking for. Their task is to summarize an investment report with specific focuses: the fund's name, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+Looking at their example response, it seems they provided a detailed analysis but then condensed it into key points that meet their criteria. The user's query mentions a report from SIMPREVI about an investment fund as of January 2025. They want me to extract specific information—name, date, distribution outlook, and magnitude.
+
+I should start by identifying the fund name. In the given text, it says "Fundamental 2024." That's straightforward. The date is clearly stated as January 1, 2025.
+
+Next, the outlook on capital distributions. From the text, I see phrases like "capital distribution will be concentrated in equities" and mentions of asset allocation shifting towards higher growth areas. Also, there are comments about market sentiment and the fund's strategy to maintain capital preservation while adapting to external factors.
+
+For the magnitude percentage, the text doesn't explicitly provide numbers for the size of the fund or exact percentages of investments. It does mention risks and diversification across sectors like energy, technology, etc., but no specific figures on capital distribution.
+
+Putting it all together, I can structure the summary by including each point clearly: fund name, date, distribution outlook with key areas and strategies, and note that magnitude data isn't provided.
+</think>
+
+**Relatório de Investimento: Fundamental 2024**
+
+- **Nome do Fundo:** Fundamental 2024  
+- **Data do Relatório:** 1 de Janeiro de 2025  
+
+**Perpectiva Sobre Distribuição de Capital:**  
+A distribuição de capital será concentrada em ativos de segurança (equities) eativos com altos rendimentos potenciais, incluindo a energy, tech e indústria de consumo. O fundo mantém uma allocation diversificada, evitando excessos de risco concentrado em um único setor. A direção da política monetária interna é considerada crucial para o longo prazo, com expectativas de estabilidade no ambiente econômico.  
+
+**Magnitude em Termos Percentuais:**  
+Os dados disponíveis não incluem specifically a magnitude percentual do fundo em relatione a outros ativos ou o percentual de allocation de cadaSetor.

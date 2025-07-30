@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "name": "Pension Supplement",
+      "date": "2023-07-01",
+      "outlook": "stable",
+      "magnitude": 5,
+      "confidence": 0.7,
+      "explanation": "Cautious management aligns with market conditions."
+    },
+    {
+      "name": "Defined Benefit Insurance (ITP 2)",
+      "date": "2023-07-01",
+      "outlook": "stable",
+      "magnitude": 4,
+      "confidence": 0.7,
+      "explanation": "Fixed pension amounts are maintained."
+    },
+    {
+      "name": "Defined Contribution Insurance (ITP 1)",
+      "date": "2023-07-01",
+      "outlook": "stable",
+      "magnitude": 6,
+      "confidence": 0.7,
+      "explanation": "Premiums linked to contributions."
+    },
+    {
+      "name": "Equity Fund",
+      "date": "2023-07-01",
+      "outlook": "increase",
+      "magnitude": 15,
+      "confidence": 0.6,
+      "explanation": "Focus on renewable energy investments."
+    }
+  ]
+}

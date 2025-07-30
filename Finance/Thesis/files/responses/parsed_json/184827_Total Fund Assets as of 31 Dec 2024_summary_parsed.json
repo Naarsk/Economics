@@ -1,0 +1,90 @@
+{
+  "results": {
+    "name": "Legal & General - Fundamental Global Reduced Carbon Fund",
+    "date": "202310",
+    "outlook": "increase",
+    "magnitude": 9.3,
+    "confidence": 0.85,
+    "explanation": "Positive growth expected with a moderate magnitude."
+  },
+  "results": {
+    "name": "LGPS Central Climate Multi Factor Fund",
+    "date": "202310",
+    "outlook": "increase",
+    "magnitude": 11.4,
+    "confidence": 0.75,
+    "explanation": "Positive performance anticipated with a higher magnitude."
+  },
+  "results": {
+    "name": "BlueBay Total Return Diversified Credit Fund",
+    "date": "202310",
+    "outlook": "increase",
+    "magnitude": 3.7,
+    "confidence": 0.65,
+    "explanation": "Positive growth expected with a moderate magnitude."
+  },
+  "results": {
+    "name": "Henderson Horizon Total Return Bond Fund",
+    "date": "202310",
+    "outlook": "increase",
+    "magnitude": 2.5,
+    "confidence": 0.9,
+    "explanation": "Positive performance anticipated with a higher magnitude."
+  },
+  "results": {
+    "name": "Legal and General Over 5y Index-Linked and Fixed Gilts Fund",
+    "date": "202310",
+    "outlook": "stable",
+    "magnitude": 0.2,
+    "confidence": 0.4,
+    "explanation": "Minimal growth expected with a very small magnitude."
+  },
+  "results": {
+    "name": "LGPS Central Emerging Market Debt Fund",
+    "date": "202310",
+    "outlook": "decrease",
+    "magnitude": -0.4,
+    "confidence": 0.95,
+    "explanation": "Negative performance anticipated with a significant magnitude."
+  },
+  "results": {
+    "name": "M&G Alpha Opportunities Fund",
+    "date": "202310",
+    "outlook": "increase",
+    "magnitude": "Not specified in context",
+    "confidence": 0.7,
+    "explanation": "Positive outlook with incomplete magnitude information."
+  },
+  "results": {
+    "name": "German Retail Box Fund",
+    "date": "202310",
+    "outlook": "NA",
+    "magnitude": "Not specified in context",
+    "confidence": 0,
+    "explanation": "No specific outlook information provided."
+  },
+  "results": {
+    "name": "Legal and General - Infrastructure",
+    "date": "202310",
+    "outlook": "increase",
+    "magnitude": "Not fully specified in context",
+    "confidence": 0.75,
+    "explanation": "Positive outlook with pending distribution details."
+  },
+  "results": {
+    "name": "LGPS Central - Private Debt",
+    "date": "202310",
+    "outlook": "NA",
+    "magnitude": "Not specified in context",
+    "confidence": 0,
+    "explanation": "No specific outlook information provided."
+  },
+  "results": {
+    "name": "Private Equity Investments",
+    "date": "202310",
+    "outlook": "NA",
+    "magnitude": "Not specified in context",
+    "confidence": 0,
+    "explanation": "No specific distribution magnitude mentioned."
+  }
+}

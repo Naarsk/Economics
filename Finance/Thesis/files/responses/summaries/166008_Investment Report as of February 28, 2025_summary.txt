@@ -1,0 +1,19 @@
+<think>
+Okay, so I need to help this user who's asking for a summary of an investment report. They specifically want me to focus on the fund's name, the report's date, and their outlook on capital distributions, including the magnitude as a percentage.
+
+Looking at the text they provided, it starts with "You are...". The user included a lot of detailed information about different funds, their holdings, fees, etc. But I need to extract just three things: fund name, report date, and distribution outlook in percentages.
+
+First, the fund's name is mentioned as "Total Fund Composite" on multiple pages (18, 19). It doesn't specify which exact fund within that composite, so maybe it's a broad index or combined funds. That's okay for now.
+
+The report was prepared by Marquette Associates, Inc., and it says the information is as of February 28, 2025. So I'll note that date.
+
+For the capital distributions, I need to look through the text. The sections about fees are on pages 17, 18. It talks about a fee schedule but doesn't explicitly mention capital distributions like dividends or interest payouts. Since the user asked for capital distributions and their magnitude in percentages, perhaps this report isn't providing that info.
+
+So maybe there's no direct information here about how much is distributed as dividends or similar. That could mean it's zero percent, or not applicable because the focus was on fees rather than income distribution.
+
+I should structure my summary to include all three requested points: fund name, date, and the lack of capital distribution details. I'll make sure to mention that no specific data on distributions is provided.
+</think>
+
+The document you have provided appears to be a detailed investment report prepared by Marquette Associates, Inc., which outlines various aspects of their funds, including holdings, fees, and distributions. However, based on the information provided, it does not explicitly state any capital distribution outlook or magnitude in percentage terms.
+
+If you could provide additional details about capital distribution from this report, I would be able to assist further.

@@ -1,0 +1,15 @@
+<think>
+Alright, I'm looking at this user query where they want me to summarize a specific section of an investment report. The main points they're interested in are the fund's name, the date of the report, and their outlook on capital distributions along with the magnitude in percentage terms.
+
+First, I scan through the provided content. I notice that the fund is named "Scottish Hydro-Electric Pension Scheme," which seems consistent across several pages of the report. The dates mentioned are all around August 2022, so it's safe to assume this summary is from a report dated that month.
+
+Next, I need to find where the outlook on capital distributions is detailed. Scrolling through, I come across sections discussing distribution policies and the potential impact of capital distributions on the fund's performance. The user specified the magnitude in percentage terms, so I look for any figures provided regarding how much capital is distributed or the expected distribution amounts.
+
+Looking further down, there are mentions of factors affecting capital distribution, such as investment performance and market conditions. However, I don't see specific percentage values tied to distributions mentioned directly. It seems that while the magnitude isn't explicitly stated in percentages here, it's more about the approach rather than a fixed figure.
+
+Considering this, I realize that without explicit data on the percentage of capital distributed or its expected size, I can't provide a precise number. However, I should still mention the factors influencing distribution decisions to give a complete summary.
+
+Putting it all together, the summary needs to include the fund name, date, and outline both the general outlook and any associated percentages if available. Since specific figures aren't present here, I'll note that details on percentage magnitude are not provided but discuss the influencing factors instead.
+</think>
+
+The investment report for the **Scottish Hydro-Electric Pension Scheme** dated August 2022 provides an overview of its investment strategy, policies, and performance expectations. However, the specific outlook on capital distributions or their magnitude in percentage terms is not explicitly detailed in the provided text. The report emphasizes factors such as investment performance, market conditions, and regulatory requirements that may influence future capital distribution decisions.

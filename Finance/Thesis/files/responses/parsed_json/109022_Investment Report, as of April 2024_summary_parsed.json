@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "St.Galler Pensionskasse (konsolidiert)",
+    "date": "20240430",
+    "outlook": "increase",
+    "magnitude": 3.1,
+    "confidence": 0.8,
+    "explanation": "The portfolio manager expects a moderate increase in Emerging Market equities allocations based on their view."
+  }
+}

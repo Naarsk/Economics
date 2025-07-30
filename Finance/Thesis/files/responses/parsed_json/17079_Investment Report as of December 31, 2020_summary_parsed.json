@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "name": "SHREWSBURY",
+      "date": "2021-01-01",
+      "outlook": "moderate",
+      "magnitude": 8.5,
+      "confidence": 0.95,
+      "explanation": "Moderate capital distribution expected with high confidence."
+    },
+    {
+      "name": "SOMERVILLE",
+      "date": "2021-01-01",
+      "outlook": "moderate",
+      "magnitude": 7.5,
+      "confidence": 0.92,
+      "explanation": "Moderate capital distribution expected with high confidence."
+    },
+    {
+      "name": "SOUTHBRIDGE",
+      "date": "2021-01-01",
+      "outlook": "moderate",
+      "magnitude": 8.5,
+      "confidence": 0.85,
+      "explanation": "Moderate capital distribution expected with moderate confidence."
+    },
+    {
+      "name": "SPRINGFIELD",
+      "date": "2021-01-01",
+      "outlook": "moderate",
+      "magnitude": 6.5,
+      "confidence": 0.75,
+      "explanation": "Moderate capital distribution expected with lower confidence."
+    },
+    {
+      "name": "STATE",
+      "date": "2021-01-01",
+      "outlook": "moderate",
+      "magnitude": 4.5,
+      "confidence": 0.90,
+      "explanation": "Moderate capital distribution expected with high confidence."
+    }
+  ]
+}

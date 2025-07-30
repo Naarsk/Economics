@@ -1,0 +1,37 @@
+<think>
+Okay, I need to help the user by summarizing this financial report. Let me first read through the entire document carefully to understand all the key points.
+
+The report starts with some basic information about the University of Hawaii Foundation, including its name and the dates covered (June 30, 2021 and 2020). Then there's a detailed section on liquidity and availability. It explains how the foundation receives various contributions and support, both unrestricted and restricted.
+
+I notice that in 2021, the foundation received significant contributions with donor restrictions and established endowments. The income from these endowments is used for programs. Support without donor restrictions was about 0.4% of program funding needs each year. That's a small portion but still important.
+
+Moving on to the cash flow analysis, they mention that general expenditures include administrative expenses, fundraising, and program expenses due in the next year. The foundation manages its cash carefully with three principles: financial soundness, adequate liquid assets, and reserves for endowments.
+
+The table under "Liquidity and Availability" shows total financial assets as $707 million at the end of 2021. However, a significant portion ($683 million) isn't available within a year, leaving only about $23.5 million to cover general expenditures. That's quite tight.
+
+Then there are some subsequent events: the foundation paid off a loan with an outstanding balance of $7.4 million as of June 30, 2021. In October 2021, they forgiven a $1.6 million unsecured note under PPP and recognized it as other income in fiscal year 2022.
+
+Putting this all together, the user wants a summary focusing on the fund name, report date, outlook on capital distributions, and its magnitude in percentage terms. 
+
+I need to identify that the University of Hawaii Foundation is the fund name, the report dates are June 30, 2021. The foundation has $707 million in total assets but only about $23.5 million available for general spending within a year. So, they're facing tight liquidity.
+
+For capital distributions, they have limited unrestricted support at 0.4% of needs each year, which isn't significant. But with the forgiveness of the PPP loan and note, their income might increase in future periods. 
+
+I should present this information clearly, making sure to highlight the liquidity concerns and the upcoming events that could affect capital distribution.
+</think>
+
+**Summary of the University of Hawaii Foundation Investment Report**
+
+**Fund Name:** University of Hawaii Foundation  
+**Report Date:** June 30, 2021  
+
+The foundation has reported significant financial assets ($707.5 million) as of June 30, 2021, but only $23.56 million is available for general expenditures within the next year after accounting for restricted contributions and other obligations.  
+
+**Capital Distribution Outlook:**  
+- **General Expenditures:** The foundation will face tight liquidity due to limited unrestricted support (approximately 0.4% of annual program funding needs).  
+- **Endowment Income:** The foundation expects to rely heavily on income from its endowments, which is a key source of funding for its programs.  
+
+**Key Financial Observations:**  
+- Total financial assets: $707,528,151 (including cash and investments)  
+- Unrestricted contributions historically represent only 0.4% of program funding needs, indicating reliance on endowment income and other sources like PPP loan forgiveness.  
+- Future events may impact capital distribution, including potential increases due to the forgiveness of a $1.6 million unsecured note payable under the CARES Act's PPP program in October 2021.

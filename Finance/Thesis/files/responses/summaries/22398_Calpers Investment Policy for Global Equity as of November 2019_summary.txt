@@ -1,0 +1,18 @@
+<think>
+Alright, so I've got this query where someone wants me to summarize a specific section of an investment report. They mentioned that the summary should focus on three main points: the name of the fund, the date of the report, and their outlook on capital distributions along with its magnitude in percentage terms.
+
+First off, looking at the provided text, I need to extract all relevant information related to these three areas. The document talks about a Market Capitalization Weighted Segment and a Factor Weighted Segment under the Global Equity fund. It mentions that as of 11/30/2023, the percentage of capital allocated is 4% for each segment.
+
+Wait, but in the query, they're asking for the magnitude in percentage terms regarding capital distributions. So I need to check if there's any data on how capital is distributed between these two segments or perhaps as a total allocation? From the text, it says that both segments make up 4%, so combined that would be 8% of the total capital under Global Equity.
+
+Next, the outlook part isn't explicitly stated in the provided text. The document mainly outlines the structure and policies but doesn't provide future projections or upcoming events affecting capital distribution. So I might need to infer or state that there's no specific outlook given here.
+
+The date mentioned is November 30, 2023, as per the report. 
+
+So putting it all together, I can summarize that as of November 30, 2023, 8% of the capital under Global Equity is allocated to these two segments. However, without specific data on future changes or allocations, there's no detailed outlook provided.
+
+I should make sure the summary is clear and only includes the required information succinctly.
+</think>
+
+**Summary:**  
+The investment report indicates that as of **November 30, 2023**, **8%** of the capital under Global Equity is allocated to the Market Capitalization Weighted Segment and the Factor Weighted Segment. The document does not provide specific insights or outlooks on future capital distribution trends for these segments.

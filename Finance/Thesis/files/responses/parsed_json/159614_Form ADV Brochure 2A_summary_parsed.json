@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Ashdon Fund",
+    "date": "2024-06-30",
+    "outlook": "decrease",
+    "magnitude": 45,
+    "confidence": 0.9,
+    "explanation": "Distributions expected to slightly decrease, around 45%."
+  }
+}

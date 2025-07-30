@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "NILGOSC Local Government Pension Scheme",
+    "date": "202307",
+    "outlook": "increase",
+    "magnitude": 1,
+    "confidence": 0.65,
+    "explanation": "Moderate positive outlook with distributions of 1% annually based on performance"
+  }
+}

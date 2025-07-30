@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund XYZ",
+    "date": "20231015",
+    "outlook": "increase",
+    "magnitude": 10,
+    "confidence": 0.75,
+    "explanation": "Assuming a moderate positive outlook with an estimated impact of 10%"
+  }
+}

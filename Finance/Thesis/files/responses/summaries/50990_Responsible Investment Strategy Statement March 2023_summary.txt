@@ -1,0 +1,11 @@
+<think>
+Okay, I need to help the user summarize a specific section from their investment report. They want me to focus on three main points: the fund's name, the date of the report, and their outlook on capital distributions including the magnitude as a percentage.
+
+First, let's look at the provided text to extract these details. The fund is called the Eglinton Pensions Fund (EAPF). I can see it was updated in April 2018 when it transitioned assets into Brunel. The latest report date mentioned is March 22, 2023.
+
+Now, for capital distributions. The text doesn't mention anything specific about expected returns or distribution amounts directly. It talks more about the investment strategy, management processes like diversification and sustainability, and the governance structure with multiple oversight bodies. There's no data on dividend yields, growth projections, or income streams mentioned either.
+
+So, I need to structure this into a summary that includes each of these elements clearly. Since there's no numerical data provided for capital distributions, it's appropriate to note that information isn't available in the document. That way, the user is aware of what they can and cannot derive from the text.
+</think>
+
+The investment report discusses the **Eglinton Pensions Fund (EAPF)** as of March 22, 2023, which was updated on April 1, 2018, when it transitioned assets into Brunel Ltd. The report does not provide specific details about capital distributions or their expected magnitude in percentage terms. It focuses instead on the fund's strategy, including diversification across asset classes such as private markets and infrastructure, its governance structure (e.g., oversight boards, shareholder agreements), and its commitment to sustainability and long-term investments. The outlook for capital distribution is not explicitly mentioned in the provided text.

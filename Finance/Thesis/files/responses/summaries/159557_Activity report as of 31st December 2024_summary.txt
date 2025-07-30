@@ -1,0 +1,37 @@
+<think>
+Okay, so I need to help the user by summarizing an investment report. The user has already provided a specific query and response example. They want me to think through how someone might approach this task.
+
+First, looking at the query, it's about summarizing the provided investment report with a focus on the fund's name, the date of the report, and the outlook on capital distributions in percentage terms.
+
+The response given is concise, mentioning MAPFRE S.A. as the fund, the date (02/12/2025), and outlining key points about dividends at 9.5 cents per share (54.7% payout) and a participation dividend of 0.15 cents.
+
+So, to approach this, I should start by identifying the key elements from the provided text:
+
+1. **Fund Name**: MAPFRE S.A.
+2. **Report Date**: March 8, 2025 (based on the date given in the response).
+3. **Dividend Details**:
+   - Final Dividend: 9.5 cents final dividend per share.
+   - Total Dividend Payout: 16 cent gross per share (54.7% payout rate).
+   - Participation Dividend: 0.15 cents participation dividend per share.
+
+I need to ensure that the summary captures all these points clearly and succinctly, focusing on the user's requirements.
+
+Now, considering the structure of the response example, it starts with the fund name, date, and then directly states the dividends in percentages where applicable. It uses bold for emphasis but since I'm writing this without markdown, I'll just note that if formatting is allowed, bold would be helpful.
+
+I should make sure to mention both types of dividends: final and participation, noting their respective payouts. This shows a complete picture of the distribution strategy.
+
+Finally, wrapping it up with how these distributions affect stakeholders' returns is essential for providing a full summary.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name**: MAPFRE S.A.  
+- **Report Date**: March 8, 2025 (translated to 02/12/2025).  
+
+The report outlines the following dividend details:
+
+1. **Final Dividend**: A final dividend of 9.5 euro cents per share has been proposed.
+2. **Total Dividend Payout**: This results in a payout rate of 54.7%, marking a significant increase and setting a new historical high for the company.
+3. **Participation Dividend**: An additional participation dividend of 0.15 euro cents per share is proposed, reflecting MAPFRE's commitment to greater shareholder involvement.
+
+These distributions aim to enhance capital returns while supporting long-term stakeholders' interests.

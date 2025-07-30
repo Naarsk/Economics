@@ -1,0 +1,25 @@
+<think>
+Okay, so I need to summarize this investment report with a focus on the fund's name, the date of the report, and the outlook on capital distributions, including their magnitude in percentages. Let me start by reading through the provided text carefully.
+
+First, I see that the report is about a fund called "Total Fund Composite." The most recent report was as of April 30, 2025. Now, looking at the sections, under "Outlook on Capital Distributions," there are several percentages mentioned. 
+
+I notice lines like:
+- Cash Equivalents: 15%
+- Short Duration Fixed Income: 40%
+- Medium Duration Fixed Income: 25%
+- Long Duration Fixed Income: 20%
+
+These add up to 100%, so that seems comprehensive.
+
+So, putting it together, the summary should mention the fund name, the date of the report, and list each category with its respective percentage. I need to make sure it's clear and concise, highlighting all these points without including too much extra information.
+</think>
+
+**Summary of Investment Report: Total Fund Composite**
+
+- **Fund Name:** Total Fund Composite
+- **Report Date:** April 30, 2025
+- **Capital Distribution Overview:**
+  - Cash Equivalents: 15%
+  - Short Duration Fixed Income: 40%
+  - Medium Duration Fixed Income: 25%
+  - Long Duration Fixed Income: 20%

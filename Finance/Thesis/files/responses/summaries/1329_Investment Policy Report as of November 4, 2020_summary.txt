@@ -1,0 +1,21 @@
+<think>
+Okay, so I need to help this user by summarizing a given investment report. The user is a financial analyst, and their task is to extract specific information from the provided document. Let me start by reading through the query carefully.
+
+The user wants a summary that focuses on three main points: the name of the fund, the date of the report, and the outlook on capital distributions along with its magnitude in percentage terms. 
+
+Looking at the investment report provided, I notice it's an addendum to the Statement of Investment Policy for the City of Boyton Beach Firefighters' Retirement System. The report outlines the guidelines set by the system's Investment Committee. It mentions two investment options: one is the SIMNA fund, which uses U.S. Treasury Inflation Protection Securities and money market instruments, while the other was an earlier version with TIPS and some other assets.
+
+The key dates are October 20, 2020 for both the policy statement and the addendum, and December 9, 2020 as the date of the report. The policies are part of a larger document from August 5, 2020. 
+
+Now, focusing on capital distributions, the SIMNA fund aims to achieve returns similar to TIPS, which typically offer inflation protection. This means that if inflation rises above expectations, bond prices tend to fall, but with TIPS, they adjust by increasing interest payments to offset inflation. The magnitude isn't specified in percentages here, so I'll note that it's focused on achieving the Target Index without necessarily detailing specific returns.
+
+Putting this together, my summary should clearly state the fund name (SIMNA), its effective date as October 20, 2020, and mention the strategy to match TIPS performance. However, since no percentage magnitude is provided in the report, I'll focus on the qualitative aspect of risk-adjusted returns.
+</think>
+
+**Summary:**
+
+- **Fund Name:** The Investment Fund managed by SCHRODER INVESTMENT MANAGEMENT NORTH AMERICA INC. for the City of Boyton Beach Firefighters' Retirement System, referred to as the "SIMNA" fund.
+
+- **Date of Report:** December 9, 2020 (effective as of October 20, 2020).
+
+- **Capital Distribution Outlook:** The fund aims to achieve risk-adjusted returns consistent with a Target Index based on U.S. Treasury Inflation Protection Securities (TIPS). While the report does not specify the magnitude of expected capital distribution in percentage terms, the strategy focuses on maintaining portfolio characteristics aligned with TIPS performance, offering inflation protection and stability.

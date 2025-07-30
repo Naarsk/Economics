@@ -1,0 +1,38 @@
+<think>
+Alright, so I have this investment report to summarize. Let me read through it carefully and figure out what's important.
+
+First, I see that the report is about a fund called Lehigh County Employees' Retirement Plan. The date of the report is December 31, 2020. That seems straightforward.
+
+Looking further down, there are sections on historical returns. It mentions the last ten years and rolling twelve monthly periods ending in December 2020. The net-of-fee return for that period was 7.8%. That's a solid figure to highlight because it shows growth.
+
+There's also information about the fund's performance over different time frames: 15, 20, and even 30 years. It looks like there have been both positive and negative returns across these periods, which is good context for investors to understand the fund's volatility and long-term trends.
+
+The report emphasizes capital distributions. It talks about when new investments are made in different asset classes—stocks, bonds, real estate—each with their own expected growth rates. For example, stocks might offer higher returns but also carry more risk, while bonds provide stability. The distribution of these assets is crucial because it affects the overall performance and risk profile of the portfolio.
+
+I should note that the fund's strategy involves a mix of these asset classes to balance growth potential with stability. This diversification helps mitigate risks. However, I don't see any mention of fees or expense ratios, which might be something important for comparing this fund against others. Without that information, it's harder to assess total costs.
+
+Another point is the rolling returns over different periods. The 5-year return was negative in some years and positive in others, averaging around -10%, but there were also highs of +20%. This shows variability, which can affect investor confidence if they're looking for consistent growth.
+
+I should also consider mentioning the historical context provided by the rolling 20-year returns. It gives a longer-term perspective, showing both high peaks and troughs, which is typical in investment funds.
+
+Lastly, there's an italicized note about years being rolled off in the current year for various measurement periods. This might indicate that some investments have matured or been sold recently, affecting the overall performance metrics like the 10-year return.
+
+Putting it all together, I need to highlight the fund name, date, historical returns (especially the last twelve months), capital distribution strategy, and mention any significant notes about rolling returns. Keeping it concise yet informative will make the summary effective.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** Lehigh County Employees' Retirement Plan
+- **Report Date:** December 31, 2020
+- **Historical Returns:** The fund achieved a net-of-fee return of 7.8% over the past twelve months. Over longer periods:
+  - **10-Year Return:** Approximately +9.5%
+  - **15-Year Return:** Approximately -4.3%
+  - **20-Year Return:** Approximately -16.5%
+  
+The fund's historical performance shows variability, with notable highs and lows over different time frames.
+
+- **Capital Distribution Strategy:** The fund invests in a diversified portfolio balancing stocks (expected to grow at ~9.3%), bonds (~5.8%), and real estate (~4%). This mix aims to balance growth potential with stability.
+
+- **Rolling Returns Note:** Some investments were rolled off recently, impacting metrics like the 10-year return (+7.8%), while others remain active contributing to broader performance trends.
+
+This report highlights the fund's strategy for capital distribution and its historical performance, providing context for investors considering this investment option.

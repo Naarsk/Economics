@@ -1,0 +1,22 @@
+<think>
+Okay, I need to help the user by summarizing a specific part of an investment report. The user has provided a chunk of text from the report and wants me to extract information about the fund's name, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+First, I'll read through the provided text carefully to locate these elements. The fund is named "Dynamic Planning Life (DPL) Variable Annuity Fund." Looking for the most recent report date, I see it's from March 2024.
+
+Next, I need to find where capital distributions are discussed. Scanning further down, there's a section titled "Investment Discretion." Within that, under "Voting Client Securities" and "Proxy Voting," it mentions the management of capital distributions for variable annuity products. The outlook is positive: clients can expect increasing capital distributions over the next three to five years.
+
+Now, looking for the magnitude or percentage. Earlier in the report, under "Item 14 Client Referrals and Other Compensation," there's a mention of compensation arrangements with an aggregate amount of $1,000 or more per unaffiliated person over a year. However, this doesn't directly relate to capital distributions.
+
+Wait, I might have missed something. Let me check again. There's also a section under "Item 16 Investment Discretion" where it talks about investment discretion and proxy voting. But still no percentage mentioned there. Hmm, perhaps the magnitude is not explicitly stated in this excerpt. Maybe the user expects me to note that the information isn't provided here or suggest checking elsewhere.
+
+Putting it all together: the fund name is Dynamic Planning Life (DPL) Variable Annuity Fund, report date is March 2024, positive outlook on capital distributions expected to increase over three to five years, but without a specific percentage mentioned in this text.
+</think>
+
+**Dynamic Planning Life (DPL) Variable Annuity Fund Report Summary:**
+
+- **Fund Name:** Dynamic Planning Life (DPL) Variable Annuity Fund
+- **Report Date:** March 2024
+- **Capital Distribution Outlook:** The report indicates a positive outlook for increasing capital distributions to clients over the next three to five years.
+- **Magnitude of Capital Distributions:** The percentage or specific amount of capital distribution increase is not explicitly mentioned in this excerpt.
+
+This summary focuses on extracting the key elements requested: fund name, report date, outlook on capital distributions, and its magnitude.

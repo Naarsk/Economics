@@ -1,0 +1,21 @@
+<think>
+Okay, so I need to help summarize this investment report. The user specifically asked to focus on the name of the fund, the date of the report, and the outlook on capital distributions along with their percentage.
+
+Looking at the document provided, I see a lot of information but it's not structured with clear sections or specific fund names. It starts with an organization and moves through various parts like performance metrics, peer groups, asset categories, risk analysis, organizational changes, etc. 
+
+I notice some tables in the middle that mention specific funds or managers under different asset categories. For example, there's "Large Cap Equity" with S&P500 as the index. I think these could be potential fund names, but they're quite broad.
+
+Since the user wants a summary of capital distribution outlook and its percentage, I should look for mentions of capital distribution within each fund's performance or risk-adjusted returns. However, upon closer inspection, the document doesn't provide specific figures on capital distribution percentages. It talks about Sharpe Ratios, standard deviations, and peer group comparisons but not exact dollar amounts or percentages related to capital distributions.
+
+So, I might conclude that there's insufficient information in the provided report to accurately determine the percentage of capital distribution outlook for any particular fund. The focus seems more on performance metrics rather than how capital is distributed among different funds or assets within the Trust.
+</think>
+
+The investment report from the Retiree Benefit Trust of St. Mary's County, Maryland, provides an overview of various aspects of their portfolio and fund management but lacks specific details about capital distribution percentages for individual funds or managers.
+
+**Summary:**
+- **Name of Funds/Managers:** The document refers to funds under different asset categories such as "Large Cap Equity" (S&P500), "Value" (S&P500), etc., and mentions specific managers like "Real Estate MStar."
+- **Date of Report:** Unfortunately, the date is not explicitly provided in the excerpt.
+- **Capital Distribution Outlook:** The report discusses performance metrics such as Sharpe Ratios, risk-adjusted returns, peer group comparisons, and standard deviations but does not provide specific percentages related to capital distribution among funds or assets.
+
+**Conclusion:**
+The document offers insights into fund performance, risk analysis, and portfolio management but does not include information on the percentage of capital distributed within each fund.

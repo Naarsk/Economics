@@ -1,0 +1,26 @@
+{
+  "results": {
+    "name": "TRX Real Estate",
+    "date": "2024-02",
+    "outlook": "increase",
+    "magnitude": 16.75,
+    "confidence": 0.9,
+    "explanation": "Strong performance with significant contribution to the portfolio."
+  },
+  "results": {
+    "name": "Vinci Offices",
+    "date": "2024-02",
+    "outlook": "increase",
+    "magnitude": 7.66,
+    "confidence": 0.85,
+    "explanation": "Positive performance contributing moderately."
+  },
+  "results": {
+    "name": "FII Castello Branco Office Park",
+    "date": "2024-02",
+    "outlook": "increase",
+    "magnitude": 0.04,
+    "confidence": 0.1,
+    "explanation": "Minimal contribution with slight positive growth."
+  }
+}

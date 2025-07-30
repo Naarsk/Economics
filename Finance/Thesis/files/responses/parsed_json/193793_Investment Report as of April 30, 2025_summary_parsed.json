@@ -1,0 +1,20 @@
+{
+  "results": [
+    {
+      "name": "TREND PÓS-FIXADO (Fixed Income Fund)",
+      "date": "2024-03-31",
+      "outlook": "+",
+      "magnitude": 1.02,
+      "confidence": 0.85,
+      "explanation": "Expected to grow by approximately 1.02% in the coming months, indicating stable growth."
+    },
+    {
+      "name": "CAIXA RIO BRAVO (Equity Fund)",
+      "date": "2024-03-31",
+      "outlook": "+",
+      "magnitude": 3.19,
+      "confidence": 0.95,
+      "explanation": "Continued growth based on strong equity market performance, with a monthly return of approximately 3.19%."
+    }
+  ]
+}

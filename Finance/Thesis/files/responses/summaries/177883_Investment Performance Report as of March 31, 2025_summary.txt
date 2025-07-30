@@ -1,0 +1,27 @@
+<think>
+Alright, I need to help the user by summarizing a given investment report. The user has specified that they want me to focus on three main points: the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, I'll start by identifying the key details from the provided text. The report is titled "Investment Commentary March 31, 2025," so that gives me both the fund name (which isn't explicitly stated but is likely a specific fund like an equity index or bond ETF) and the date as March 31, 2025.
+
+Next, I need to look for information about capital distributions. The report mentions that equity markets are entering 2025 with valuations near the top decile historically. It also discusses that U.S. equity prices have outperformed international markets but are now at a discount compared to their historical averages. Additionally, bond markets are performing worse, indicating more cash is being distributed through equities.
+
+Looking for percentage details, I see mentions of the S&P 500's forward P/E ratio being down from its February peak, though still higher than its 20-year average. There's also a note about MSCI EAFE outperforming compared to U.S. equities by 30%, narrowing slightly year-to-date.
+
+Putting this together, I should structure the summary to include these points clearly and concisely, ensuring it meets the user's requirements without including unnecessary details.
+</think>
+
+**Investment Summary: March 31, 2025**
+
+- **Fund Name:** The report discusses equity markets, likely referring to an equity index or related investment fund such as a U.S. equity ETF.
+
+- **Date of Report:** March 31, 2025.
+
+- **Outlook on Capital Distributions:**  
+  - Equity markets are entering the year with valuations near historical top decile, indicating a premium compared to their past averages for large-cap and growth equities. U.S. small and mid-cap equities now trade at a discount relative to their 20-year average.  
+  - International developed markets (e.g., MSCI EAFE) are outperforming U.S. equities by about 30% year-to-date, narrowing the gap compared to historical averages.  
+  - Fixed income markets (e.g., U.S. Aggregate Bond Index) have underperformed, with a month-to-date decline of approximately 0.8%, reflecting reduced cash distribution through equity markets.
+
+- **Magnitude in Percentage Terms:**  
+  - The forward P/E ratio for the S&P 500 is down from its February peak but still higher than the 20-year average (15.9x vs. current levels).  
+  - U.S. small and mid-cap equities are trading at a discount compared to their historical averages, while large-cap and growth equities remain at a premium.  
+  - MSCI EAFE has outperformed U.S. equities by about 30% year-to-date, narrowing its discount relative to the S&P 500's historical average of 17%.

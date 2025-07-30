@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund XYZ",
+    "date": "2023-10-05",
+    "outlook": "increase",
+    "magnitude": 8,
+    "confidence": 0.7,
+    "explanation": "Potential capital gains due to achieving a hurdle rate of 8% per year."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "TfL Pension Fund",
+    "date": "2023-06-01",
+    "outlook": "stable",
+    "magnitude": 0,
+    "confidence": 0.5,
+    "explanation": "No information provided on future capital distributions."
+  }
+}

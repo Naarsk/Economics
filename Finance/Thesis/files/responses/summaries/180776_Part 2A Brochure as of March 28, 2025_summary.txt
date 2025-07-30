@@ -1,0 +1,23 @@
+<think>
+Alright, so I'm trying to help this user who has provided a detailed investment report from Bitterroot Capital. They want me to summarize it, focusing specifically on the fund's name, the date of the report, and their outlook on capital distributions along with its magnitude in percentage terms.
+
+First, I need to understand what each part of the report says. Looking through the sections, I notice that most of them are about compliance procedures, custody, investment discretion, and reviews rather than direct financial performance or distribution details. The user is particularly interested in the fund's outlook on distributions, so maybe they're looking for something beyond just compliance.
+
+I see Section 12 talks about Brokerage Practices, which mentions how Bitterroot Capital might receive commissions based on their relationship with custodians. However, I don't see any direct information about capital distribution here. Then there's Section 18 labeled as Financial Information but it says "Not applicable," so that doesn't help.
+
+Since the user is asking for capital distributions and their percentage magnitude, maybe this report doesn't provide that data. They might be confused or expecting something they aren't getting here. Alternatively, perhaps there's a section I'm missing where capital distribution details are discussed elsewhere in the document.
+
+I should also consider if "capital distributions" refer to dividends or interest payments from investments held by the fund. If this report doesn't cover that, it's possible the information isn't included, and I need to clarify that to the user.
+
+Given all this, my response should inform them that while they requested specific details on capital distributions, those aren't provided in the sections covered here. It would be helpful if they provide more context or check for additional parts of the report where such information might be located.
+</think>
+
+The investment report from Bitterroot Capital does not explicitly provide detailed information about capital distributions or their magnitude in percentage terms. The report focuses on compliance procedures, custody arrangements, investment discretion, and review processes rather than direct financial performance metrics like capital distribution percentages.
+
+To summarize:
+
+- **Fund Name**: Bitterroot Capital's fund details are not provided in the sections covered here.
+- **Date of Report**: The report does not specify a date.
+- **Capital Distributions**: Specific information about capital distributions or their magnitude is not detailed in the sections provided.
+
+If you need further clarification or additional context, please provide more details.

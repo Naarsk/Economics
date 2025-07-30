@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Earlham Fund",
+    "date": "20190131",
+    "outlook": "increase",
+    "magnitude": 7,
+    "confidence": 0.85,
+    "explanation": "The foundation expects a small increase (7%) in capital distributions next year."
+  }
+}

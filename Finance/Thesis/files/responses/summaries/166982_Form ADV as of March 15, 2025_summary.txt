@@ -1,0 +1,17 @@
+<think>
+Alright, I need to help the user by summarizing a provided investment report. Let me first look at the query again.
+
+The user says they have an investment report and wants it summarized focusing on the name of the fund, the date, the outlook on capital distributions, and their magnitude in percentage terms. 
+
+Looking at the data given, there are three different execution pages for a non-resident investment adviser with a CRD number 291158. All three have the same details about the Chief Compliance Officer's name and title.
+
+However, I don't see any specific fund names or dates mentioned in the provided text. It seems like only the structure of the ADV execution pages is given, not actual fund information. 
+
+I should inform the user that the data doesn't include the necessary fund specifics they're asking for. Maybe they need to provide more details about the fund itself and the date of the report.
+
+So, my response needs to acknowledge their request but explain that I can't provide a summary because the required information isn't present in the given text. I should politely ask them to supply additional details so I can assist better.
+</think>
+
+The provided text does not contain specific details about the fund name, date of the report, or outlook on capital distributions. It appears to be related to ADV (Advisory Form) execution pages for a non-resident investment adviser with a CRD number 291158 and a Chief Compliance Officer named Douglas Michael Sheaahan. There is no mention of any fund name, date, or details about capital distributions in percentage terms.
+
+To summarize the fund's performance or provide insights into its outlook on capital distributions, additional information about the fund itself (e.g., its ticker symbol, investment strategy, market position) and the specific report date would be necessary.

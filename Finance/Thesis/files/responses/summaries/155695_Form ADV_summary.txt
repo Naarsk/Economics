@@ -1,0 +1,15 @@
+<think>
+Alright, so I need to summarize this investment report. The user has given me a chunk of text that seems to be an ADV filing or something similar from an investment fund. My task is to focus on three main points: the name of the fund, the date of the report, and the outlook on capital distributions along with their percentage.
+
+First, I'll look through the provided text for any headings that mention the fund's name. Scanning through... Okay, at the very top, there's "Name of Fund:" mentioned. The name is "FRANK GARCIA - FCA Investment Fund." Got it, so that's my first point: the fund's name.
+
+Next, I need to find when this report was generated. The dates are listed as 01/06/2025, which seems pretty specific. Since it's an ADV filing, typically these reports are submitted on a weekly basis by RIAs (Registered Investment Advisors). So, the date of the report is January 6, 2025.
+
+Now, looking for the outlook on capital distributions and their magnitude in percentage terms. In the text, there's a section titled "Outlook on Capital Distributions." It says that distributions will be moderate at $1 million to $5 million per month, depending on net income performance. The current estimate is around $3 million monthly.
+
+I should make sure I'm only summarizing these three points without including unnecessary details like the sections or explanations about CRD numbers or agent designations since they're not required for this summary.
+
+Putting it all together: fund name, report date, and outlook on distributions with their percentages. I think that's all the user needs.
+</think>
+
+The investment fund named "FRANK GARCIA - FCA Investment Fund" submitted its ADV filing on January 6, 2025. The fund projects moderate capital distributions of $1 million to $5 million per month, contingent on net income performance, with an estimated monthly distribution of approximately $3 million.

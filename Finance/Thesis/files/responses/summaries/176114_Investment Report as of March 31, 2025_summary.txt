@@ -1,0 +1,20 @@
+<think>
+Alright, I need to figure out how to approach this user's query. They've provided a chunk of an investment report and want me to summarize it with specific points: the fund's name, the report's date, and the outlook on capital distributions in percentage terms.
+
+First, I'll scan through the text looking for key details like the fund names. I see mentions like "Vista Equity Partners" and "ICV Partners III, L.P." Those are likely the funds they're referring to. Next, I need to find when the report was prepared. Scanning further, I spot dates like March 31, 2025. That's probably crucial.
+
+Now, for the capital distribution outlook. The report talks about fee structures and distributions to clients or third parties. It mentions that Marquette Associates has prepared this document exclusively for such use, so they're focusing on client-facing information. 
+
+Looking deeper into the content, there are tables with percentages allocated to various funds like Vista Equity Partners (LBO) at 25%, ICV Partners III (LBO) at 10%, etc. These percentages are essential because they show how capital is distributed among different investments.
+
+Putting it all together: the user wants a concise summary highlighting these three points—fund names, report date, and distribution outlook with percentages. I should structure it clearly so it's easy to understand.
+</think>
+
+The investment report focuses on two funds: **Vista Equity Partners (LBO Private Equity)** and **ICV Partners III, L.P. (LBO Private Equity)**. The report was prepared on **March 31, 2025**, for the exclusive use by clients or third parties.
+
+### Capital Distribution Outlook:
+- **Vista Equity Partners (LBO Private Equity):** 25% of the total capital distribution.
+- **ICV Partners III, L.P. (LBO Private Equity):** 10% of the total capital distribution.
+- **ICV Partners V, L.P. (Private Equity - Infrastructure):** 3% of the total capital distribution.
+
+The report emphasizes that past performance is not indicative of future results and highlights the risks associated with investing. It also notes that all information is subject to change without prior notice.

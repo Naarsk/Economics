@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Factum AG Vermögensverwaltung",
+    "date": "2024-09-30",
+    "outlook": "increase",
+    "magnitude": 65,
+    "confidence": 0.87,
+    "explanation": "Equities dominate with strong performance, while bonds and commodities show mixed results."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "The Fund",
+    "date": "20240429",
+    "outlook": "increase",
+    "magnitude": 40,
+    "confidence": 0.85,
+    "explanation": "Capital distributions are expected to contribute significantly, making up approximately 40% of fee yield."
+  }
+}

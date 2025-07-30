@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Zürcher Kantonalbank",
+    "date": "2024-06-30",
+    "outlook": "stable",
+    "magnitude": 3,
+    "confidence": 0.8,
+    "explanation": "Reserve creation suggests cautious capital management, indicating moderate confidence in overall stability."
+  }
+}

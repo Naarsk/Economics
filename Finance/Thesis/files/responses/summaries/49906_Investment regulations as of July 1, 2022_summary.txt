@@ -1,0 +1,13 @@
+<think>
+Okay, so I need to help this user who has provided a detailed investment report. Their query is asking me to summarize that report, focusing specifically on the fund's name, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+First, I'll look at the information given. The report starts with an introduction mentioning the nest collective foundation, which tells me the name of the fund. It was last updated on January 10, 2024, so that's the date to note.
+
+Next, I need to find where it talks about capital distributions or dividends. Scanning through, I see a section under "Appendix 5" titled "Asset management costs." However, this part discusses costs rather than distributions. Then I look for sections related to investment income and capital gains.
+
+Ah, in the "Management Guidelines" section, there's a bullet point that says "Capital distributions..." It mentions an expected net outflow of CHF 20 million (5% of assets). That's exactly what I need—the fund's outlook on capital distributions and their percentage impact.
+
+I should structure my summary to include all these points clearly: the fund name, report date, and the specific details about capital distributions. I'll make sure it's concise and only includes the necessary information without extra fluff.
+</think>
+
+The investment report is for **Nest Collective Foundation**, last updated on January 10, 2024. The outlook on capital distributions indicates an expected net outflow of CHF 20 million (5% of total assets) in the coming months.

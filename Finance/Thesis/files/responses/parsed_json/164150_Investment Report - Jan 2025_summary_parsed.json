@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "IndaPreq",
+    "date": "2025-01-01",
+    "outlook": "decrease",
+    "magnitude": 10,
+    "confidence": 0.7,
+    "explanation": "Alocação decrescente em ativos liquidos e cash, indicando possíveis maiores exposições a longos prazos."
+  }
+}

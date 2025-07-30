@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "XYZ Fund",
+    "date": "20250326",
+    "outlook": "stable",
+    "magnitude": 7,
+    "confidence": 0.85,
+    "explanation": "The fund's capital distributions (25%) provide stability, while the small growth component (7%) indicates limited potential."
+  }
+}

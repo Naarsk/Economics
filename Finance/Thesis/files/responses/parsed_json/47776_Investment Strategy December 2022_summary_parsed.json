@@ -1,0 +1,13 @@
+Here’s the JSON based on the analysis:
+
+
+{
+  "results": {
+    "name": "Fund XYZ",
+    "date": "20231001",
+    "outlook": "increase",
+    "magnitude": 50,
+    "confidence": 0.7,
+    "explanation": "The fund is expected to see increased exposure to low-carbon investments, though the exact distribution and confidence level are estimates."
+  }
+}

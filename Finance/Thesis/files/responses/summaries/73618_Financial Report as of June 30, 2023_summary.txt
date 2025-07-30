@@ -1,0 +1,23 @@
+<think>
+Okay, so I need to help the user by summarizing a specific section of an investment report. The user is asking for a summary focusing on the name of the fund, the date of the report, and the outlook on capital distributions, including their magnitude in percentage terms.
+
+First, I'll look at the provided text. It's an investment report from Orange S.A., which seems to be about financial statements rather than an individual investment fund. There's a section titled "Statement by the person responsible" where Jean-Michel Thibaud mentions the executive director for finance and development. 
+
+The user is interested in identifying the name of the fund, but I notice that this report isn't specifically about a particular fund like an ETF or a specific investment product; it seems to cover the company's financial health and performance over the first half of 2023.
+
+Next, there's information about capital distributions. The financial statements mention cash payments based on outstanding shares, with an estimated amount of 798 million euros. This payment is part of the regular corporate activities, not necessarily a dividend distribution to shareholders.
+
+However, considering that this is an annual report, it might include information about future plans for dividends or capital distributions. But in the provided text, there's no explicit mention of upcoming distributions beyond the current period's financials.
+
+Since the user asked for the magnitude in percentage terms, but I don't see any percentage data related to distributions here. The only numerical value is 798 million euros, which isn't a percentage.
+
+Given all this, it seems that there might be no specific fund name mentioned, and the capital distribution information provided doesn't fit the user's request with percentages or specific fund details.
+</think>
+
+The investment report from Orange S.A., dated July 26, 2023, provides an overview of the company's financial performance for the first half of 2023. The report does not specifically identify a particular investment fund but covers general corporate activities.
+
+Key points:
+- **Date**: July 26, 2023.
+- **Capital Distribution Outlook**: The report mentions a cash payment based on outstanding ordinary shares amounting to €798 million as part of the company's financial operations. However, there is no explicit mention of capital distributions (e.g., dividends) or their expected magnitude in percentage terms.
+
+The document does not highlight any specific fund name or details related to planned capital distributions with percentage figures.

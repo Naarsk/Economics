@@ -1,0 +1,17 @@
+<think>
+Okay, I need to help the user by summarizing a specific section from an investment report they've provided. Let me first read through the query again carefully.
+
+The user is asking for a summary focusing on three main points: the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms.
+
+Looking at the provided content, I see that it's an investment policy document from IPERS, discussing various aspects like types of funds, portfolio strategies, private market investments, their performance, risk diversification, and investment policies. However, I don't immediately notice a specific fund name mentioned. The report seems to outline general guidelines rather than focusing on a particular fund.
+
+The date provided is effective as of June 17, 2021. The content discusses capital distributions but doesn't give exact figures like percentages. It mentions that the strategy focuses on timing drawdowns and managing risk through diversification across vintage years, geographic regions, industries, etc. There's a mention of the policy being reviewed annually.
+
+Since there's no specific fund name mentioned, I might need to inform the user that while they've provided detailed information about IPERS' investment policies and strategies, there isn't an explicit fund name in the text. Therefore, I can summarize the key points related to capital distribution without including a fund name as it wasn't specified.
+
+I should structure my response to clearly state what was provided: the absence of a specific fund name, the effective date, and the general strategy regarding capital distributions with emphasis on diversification and risk management but without exact percentage figures. I'll make sure to mention that details about capital distribution specifics aren't available from the given text.
+
+Finally, I need to present this in a clear, concise summary that addresses each of the user's requested points as much as possible based on the information provided.
+</think>
+
+The investment report you provided outlines the policies and strategies for IPERS' private markets portfolio. It does not specify a particular fund name but provides general guidance on capital distribution strategies. The policy emphasizes diversification across vintage years, geographic regions, industries, and investment types to manage risk. Capital distributions are part of a broader strategy focused on timing drawdowns and managing risk through these diversifications. However, there is no mention of specific percentages or figures for capital distribution in this document.

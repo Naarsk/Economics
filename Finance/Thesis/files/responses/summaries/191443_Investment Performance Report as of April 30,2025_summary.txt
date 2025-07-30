@@ -1,0 +1,31 @@
+<think>
+Alright, I'm trying to figure out how to approach this user's query. They want me to act as a financial analyst and summarize an investment performance report. The key points they mentioned are focusing on the fund name, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+First, I'll read through the provided investment report carefully. It starts with an Investment Performance Summary as of April 30, 2025. So that's my date covered. The report talks about different pools like Domestic Equity Pool TR, International Equity Pool TR, Fixed Income Pools, and a Money Market Pool. Each has their own performance metrics over various periods.
+
+The user wants the fund name mentioned. But looking through the report, I don't see an explicit fund name listed; instead, it refers to different investment options or mixes like Aggressive Mix, Conservative Mix, etc. So maybe they're referring to the overall fund managed by the Community Foundation. 
+
+Next, the outlook on capital distributions isn't directly provided in the summary. The report shows historical returns but doesn't give a forward-looking statement about future distributions. That's something I might need to note as missing information.
+
+Regarding the magnitude of capital distribution, it mentions that returns for periods over one year are compound annual returns. But without specific data on distribution percentages or timing, it's hard to quantify this aspect from the given report.
+
+I should structure my summary to include the date, mention the fund (probably managed by the Community Foundation), note the lack of explicit capital distribution outlook, and discuss the historical performance of the pools using percentage returns. Since the user wants a focus on these elements, I'll highlight them accordingly.
+</think>
+
+The investment performance report is summarized below, focusing on the key aspects requested:
+
+---
+
+**Fund Name**: The report details various investment options managed by the Community Foundation, including equity pools, fixed income pools, and a money market pool.
+
+**Date of the Report**: As of **April 30, 2025**, this report provides performance data for different investment pools and mixes.
+
+**Outlook on Capital Distributions**: The report does not explicitly provide information about future capital distribution plans or outlooks. However, it highlights the historical performance of various investment pools (e.g., Domestic Equity Pool TR, International Equity Pool TR, Intermediate-Term Fixed Income Pool, etc.) over different time periods, which may inform potential distribution strategies.
+
+**Magnitude in Percentage Terms**: The report shows percentage returns for various pools and mixes, such as:
+
+- **Domestic Equity Pool TR**: 22% allocation to the Aggressive Mix.
+- **Fixed Income Pools**: Allocations ranging from 10% (Intermediate-Term Fixed Income Pool) to 42% (Short-Term Fixed Income Pool).
+- **Money Market Pool**: Allocation of 3% at the shortest term and up to 100% for longer-term investments.
+
+The performance data presented in the report is based on historical returns, net of investment management fees and other transaction costs.

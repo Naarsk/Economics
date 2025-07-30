@@ -1,0 +1,15 @@
+<think>
+Alright, I need to help this user by summarizing an investment report. The key points they want me to focus on are the fund's name, the date of the report, and their outlook on capital distributions, including the magnitude in percentage terms.
+
+First, looking at the information provided, the fund is called "Syngenta AG shareholder equity." The report was generated on July 15, 2023. I should note that clearly.
+
+Next, for the outlook on capital distributions, the user mentioned focusing on whether they expect regular dividends and their size in percentage terms. From the data, I see that Syngenta declared a dividend of CHF 8 per share in June 2023. Since each share is valued at CHF 105, this would equate to about 7.6% of the total investment. That's significant because it shows a substantial portion of returns through dividends.
+
+I should also consider if there are any other factors like capital gains or changes in net debt that might affect future distributions, but based on the user's instructions, I'm focusing mainly on the dividend outlook and its percentage impact.
+
+Putting this together, the summary will highlight these points succinctly.
+</think>
+
+The investment report for Syngenta AG shareholder equity was generated on **July 15, 2023**, providing insights into the fund's capital distribution strategy. The fund has shown a consistent dividend payout, with a total dividend of CHF 8 per share in June 2023, based on an investment value of CHF 105 per share. This translates to approximately **7.6%** of the total investment as dividends, which is a notable and regular source of return for investors holding shares in the fund.
+
+This highlights that a significant portion of capital distributions are achieved through dividend payments, indicating a focus on regular income generation for shareholders.

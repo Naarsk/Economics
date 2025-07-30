@@ -1,0 +1,24 @@
+<think>
+Okay, I need to help the user by summarizing a specific section from an ADV Part 2A report. The query mentions that they want me to summarize based on the name of the fund, the date of the report, the outlook on capital distributions, and their magnitude in percentage terms.
+
+First, looking at the provided content, I see it's about an investment management company called Great Lakes Retirement Solutions, Inc. They've shared a section from their ADV Part 2A filing as of 3/24/25. The sections provided don't explicitly mention any specific fund name, so that might be a point to note for the user.
+
+The key information needed is the fund's name, but since it's not listed here, perhaps I should state that the fund isn't specified in this report. Next, the date of the ADV filing is clearly stated as 3/24/25.
+
+Looking further down, section 17 talks about voting client securities and doesn't mention any specific fund performance or distributions. Section 19 provides information about Mr. Starke's background but again, no fund-specific details are there. Sections around management, fees, and investment discretion also don't offer the required fund outlook.
+
+Since none of these sections address capital distribution or its percentage impact on the fund, it seems that this ADV Part 2A report doesn't include the necessary information about a specific fund's capital distributions. Therefore, the best I can do is inform the user that while there's relevant general information provided by the company, the requested detailed fund outlook isn't available in this document.
+</think>
+
+The ADV Part 2A filing provided does not specify a particular fund name or include details about capital distribution outlooks for any specific fund. However, here are some key points from the report:
+
+1. **Date of Report**: March 24, 2025.
+
+2. **General Information**:
+   - The company is registered as an investment adviser.
+   - Mr. Starke, the principal executive officer, has disclosed his background and conflicts of interest but does not provide fund-specific details about capital distributions.
+   - The company discloses that it does not have any significant financial commitments or past bankruptcies.
+
+3. **Lack of Specific Fund Information**: The report does not focus on a specific fund, nor does it provide information about capital distribution outlooks for an individual fund.
+
+In summary, while the filing provides general information about the company and its principals, there is no detailed information available regarding any specific fund's capital distribution or outlook.

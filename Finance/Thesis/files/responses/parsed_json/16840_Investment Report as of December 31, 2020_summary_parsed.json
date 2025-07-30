@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "name": "Westfield",
+      "date": "2020-12-31",
+      "outlook": "increase",
+      "magnitude": 15.26,
+      "confidence": 0.9,
+      "explanation": "Strong performance and expected regular capital payouts."
+    },
+    {
+      "name": "Wellesley",
+      "date": "2020-12-31",
+      "outlook": "increase",
+      "magnitude": 12.51,
+      "confidence": 0.9,
+      "explanation": "Expected regular capital distribution with annual return performance."
+    },
+    {
+      "name": "Waltham",
+      "date": "2020-12-31",
+      "outlook": "increase",
+      "magnitude": 14.05,
+      "confidence": 0.9,
+      "explanation": "Projected regular capital payouts based on strong performance."
+    },
+    {
+      "name": "Westfield Regional",
+      "date": "2020-12-31",
+      "outlook": "increase",
+      "magnitude": 15.26,
+      "confidence": 0.9,
+      "explanation": "Mirrors full fund performance and outlook."
+    }
+  ]
+}

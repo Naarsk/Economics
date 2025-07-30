@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Pensioenfonds Vliegend Personeel KLM",
+    "date": "2022-03-10",
+    "outlook": "stable",
+    "magnitude": 3,
+    "confidence": 0.95,
+    "explanation": "The fund is distributing 3% of its capital, indicating a stable approach to returns."
+  }
+}

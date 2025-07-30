@@ -1,0 +1,15 @@
+<think>
+Alright, I'm looking at this query where the user has provided an investment report and wants a summary focusing on the fund's name, the report's date, the outlook on capital distributions, and their magnitude in percentage terms. 
+
+First, I'll scan through the report to find the relevant information. The report starts with some general policies and then moves into specific sections like Financial Overview, Investment Philosophy, Performance, and then goes on to Addressing Client Concerns.
+
+I'm specifically looking for where it mentions capital distributions and their outlook. I remember seeing a section titled "Investment Discretion" which talks about not having investment discretion but does mention fee capping at 15 basis points per trade. That doesn't directly address capital distribution, so maybe that's not relevant.
+
+Next, I check the Performance section where it discusses past performance and projections. However, there's no direct mention of capital distributions here either. Then, looking through other sections like Client Referrals, Custody, Investment Discretion, etc., I don't spot any specific details about capital distributions or their percentages.
+
+I realize that without a clear section on capital distribution in the provided report, it might not be covered. Therefore, my conclusion is that there's no information available regarding the outlook on capital distributions or their magnitude as percentages. 
+
+In summary, even though the user provided detailed sections from the investment report, this particular aspect isn't addressed within those documents.
+</think>
+
+The provided document appears to outline the policies and operational aspects of an investment fund, but it does not explicitly mention any information about the name of the fund, the date of the report, or details regarding capital distributions. To provide a summary focused on these specific elements would require additional context or data that is not included in the provided text.

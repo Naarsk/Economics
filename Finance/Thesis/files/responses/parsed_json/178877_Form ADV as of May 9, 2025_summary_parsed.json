@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund X",
+    "date": "20241031",
+    "outlook": "increase",
+    "magnitude": 4,
+    "confidence": 0.9,
+    "explanation": "Capital distributions for Fund X are expected to increase by 4% in 2025 and further jump to 6% in 2026."
+  }
+}

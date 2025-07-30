@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Pension Fund",
+    "date": "20240331",
+    "outlook": "decrease",
+    "magnitude": 5,
+    "confidence": 0.8,
+    "explanation": "Potential decrease in capital distributions due to underperforming asset allocation or fund manager performance."
+  }
+}

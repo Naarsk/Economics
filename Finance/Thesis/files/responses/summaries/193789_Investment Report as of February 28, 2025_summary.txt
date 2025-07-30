@@ -1,0 +1,32 @@
+<think>
+Okay, so I have this user query where they want me to summarize an investment report. Let me try to break down what they need and how best to approach it.
+
+First, looking at their initial message, they provided a chunk of text that seems like an investment report from RPPS, probably related to Brazilian investments since the terms are in Portuguese. The user specifically mentioned focusing on the name of the fund, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+Hmm, I need to make sure I extract just those key points without getting bogged down by all the other details like fees, VaR calculations, or specific fund categories. The user seems to be someone who's analyzing investment reports, maybe a financial analyst or an investor themselves. They want a concise summary rather than a detailed breakdown.
+
+I should start by identifying each section of the report and pulling out the relevant information. For example, looking at the first part, I see "RPPS - atlas" with some fund names like "Função de Atualização de Preços," "Banco do Brasil," etc. Each has a date, which is important for context.
+
+The user wants the name of the fund, so I'll note that down as "RPPS - Atlas." Then, the date of the report is necessary too; in this case, it's from June 30, 2021. 
+
+Next, they mentioned outlook on capital distributions and their magnitude. Scanning through the text, I see several mentions about fund performance, returns, and percentages like "retornos de -4,5%," which indicates a decrease. There are also VaR figures in some sections, but since VaR is more about risk, maybe it's not necessary unless specifically required.
+
+Wait, the user specified to focus on capital distributions' outlook and magnitude, so perhaps they want both the direction (increase or decrease) and the percentage change. So I need to look for those numbers associated with each fund.
+
+Putting this together, I'll structure the summary starting with the fund name, then date, followed by the key points about each fund's performance, focusing on capital distribution trends and their percentages. I should avoid including too much detail but ensure all critical information is covered as per the user's request.
+
+I also need to make sure the summary is clear and concise, avoiding any markdown or formatting since they mentioned not to use it in the response. Just plain text with bullet points for clarity.
+
+Lastly, considering the user might be planning investments or analyzing market trends, providing accurate and relevant data will help them make informed decisions. So accuracy is key here.
+</think>
+
+**Resumo da Relatório de Investimento:**
+
+O relatório relata sobre o fundo **RPPS - Atlas**, que cobre a performance de investedimentos em ativos como cotas de funções de atualização de preços, investimentos no Banho do Brasil e outras alternativas. 
+
+- A data do relatório é **30 de junho de 2021**.
+- O fundo exibe movimentos globais negativos, com taxas de retorno de -4,5% e -6,7%, indicando uma minorsia em资本分配.
+- Atividades como a buyside e valorização de imóveis refletem preços baixos, com retornos de -3,1% e -2,8%, respectivamente.
+- As performance metrics, incluindo VaR, refletem volatilidade e risco associados ao investimento.
+
+O relatório destaca a necessidade de monitoramento atento, especialmente em contextos de market uncertainty.

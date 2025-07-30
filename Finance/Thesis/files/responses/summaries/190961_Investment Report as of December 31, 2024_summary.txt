@@ -1,0 +1,26 @@
+<think>
+Alright, so I need to help the user by summarizing an investment report for a pension fund. The fund is called NBPSPP, and there's a specific part about their Responsible Investment Report. 
+
+First, let me figure out what information they're asking for. They mentioned focusing on the name of the fund, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+Looking at the provided text, I see that the Responsible Investment Report was released on January 25, 2025. That's clear enough. 
+
+Next, they want information about capital distribution outlooks and their magnitudes as percentages. In the report, it says the NBPSPP portfolio finances 47.9 tonnes of CO2 per million dollars invested. It also notes that this equates to either 11.2 home annual energy uses or 14.7 passenger vehicle equivalents, but importantly, this represents 90% of the assets.
+
+So, the user is probably interested in understanding how their pension fund is using their money ethically and sustainably. They might be a member looking for transparency on investment practices or maybe someone involved in the fund wanting to communicate these responsible strategies to members.
+
+They want a concise summary focusing on specific elements: fund name, report date, capital distribution outlook, and magnitude as percentages. I should make sure the summary is clear and highlights the key points about their environmental impact.
+
+I also notice that 90% of the portfolio's CO2 equivalent is from investments, so it's significant but not all of it. The rest might be in other areas like infrastructure or government bonds. This could indicate a diversified approach with a strong focus on ESG factors.
+
+Putting it all together, I need to structure the summary with each element clearly addressed: fund name, date, and then both capital distribution outlook and its magnitude percentage-wise.
+</think>
+
+**Summary of the NBPSPP Responsible Investment Report**
+
+- **Fund Name**: New Brunswick Pension Benefits Plan (NBPSPP)  
+- **Date of Report**: January 25, 2025  
+
+The NBPSPP’s Responsible Investment Report highlights significant environmental impacts from its investments. The fund’s portfolio contributes 47.9 tonnes of CO2 per million dollars invested, equivalent to the energy used by 11.2 home annual energy uses or 14.7 passenger vehicles. This represents **90%** of the Plan’s investment portfolio.  
+
+The report underscores the fund’s commitment to integrating environmental, social, and governance (ESG) considerations into its investments, aligning with long-term sustainability goals and responsible practices.

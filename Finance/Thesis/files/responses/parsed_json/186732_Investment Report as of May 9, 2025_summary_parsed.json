@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Factum AG Vermögensverwaltung Investment Report",
+    "date": "20250430",
+    "outlook": "decrease",
+    "magnitude": -9.47,
+    "confidence": 0.85,
+    "explanation": "Market shows significant decrease across major indices with some gains in select assets."
+  }
+}

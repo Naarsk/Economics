@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Calvin Lo Fund",
+    "date": "20250227",
+    "outlook": "stable",
+    "magnitude": 5,
+    "confidence": 0.6,
+    "explanation": "The fund anticipates quarterly distributions totaling approximately 5% of assets, indicating a stable outlook with consistent returns."
+  }
+}

@@ -1,0 +1,18 @@
+<think>
+Okay, so I need to help the user by summarizing the provided investment report. The user specifically wants me to focus on the name of the fund, the date of the report, the outlook on capital distributions, and their magnitude in percentage terms.
+
+First, I'll look through the report they've given. It seems to be about a Fund of Collective Investment in the Italian SOFR (Short-Term Rate) Index, with a ticker symbol FIS SRI. The latest report is from April 14, 2023. 
+
+Next, the outlook on capital distributions mentions that the fund expects annual distributions based on the performance of its portfolio. It's important to note whether these are dividends or other types of distributions, but since it's not specified, I'll assume they're dividends.
+
+Now, looking for the magnitude part—how much the fund anticipates distributing as a percentage of its assets. The report states an annual distribution of 7.5% based on portfolio performance. This means that FIS SRI expects to distribute 7.5% of its total capital to investors each year.
+
+I should structure my summary to include these key points: fund name, date, expected distributions as a percentage. I'll make sure it's clear and concise for the user.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** Fund of Collective Investment in the Italian SOFR (Short-Term Rate) Index (Ticker: FIS SRI).  
+- **Report Date:** April 14, 2023.  
+- **Outlook on Capital Distributions:** The fund anticipates annual capital distributions based on its portfolio performance.  
+- **Magnitude of Distributions:** The expected annual distribution is 7.5% of the fund's capital, likely reflecting dividend payments or returns to investors.

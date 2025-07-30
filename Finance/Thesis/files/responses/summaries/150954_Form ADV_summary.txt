@@ -1,0 +1,29 @@
+<think>
+Okay, so I'm trying to help someone who's been given an investment report and needs a summary focusing on the fund's name, the date of the report, the outlook on capital distributions, and how significant those distributions are in percentage terms. 
+
+First, looking at the provided text, it seems like it's part of an ADV (Advisory Opinion on Business) document for a non-resident investment adviser. The user mentioned that they want to summarize this report with specific points: fund name, date, outlook on capital distributions, and their magnitude in percentage terms.
+
+But wait, I notice that the text provided is actually two separate execution pages for different ADVs—specifically, one for a resident and another for a non-resident. The content of these pages includes appointment of agents for service of process, consent regarding books and records, etc., but there's no mention of any fund name or capital distribution details.
+
+So, if I'm supposed to summarize the investment report, which probably refers to this ADV document, then perhaps the user is looking for a summary based on standard information included in such documents. Typically, an ADV would outline the investor's business operations, including things like the structure of investments (funds), their performance, and any upcoming distributions.
+
+However, since the provided text doesn't include specific fund names or distribution outlooks, I can only provide a general template or example of how such a summary might look based on typical ADV information. If there are specific details about funds or distributions in the original report that weren't included here, then those would need to be added accordingly.
+
+In any case, my task is to summarize this provided investment report focusing on the name of the fund, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms. But since the provided text doesn't include these specifics, I might have to inform the user that more details are needed or explain how to structure such a summary if they can provide additional information.
+</think>
+
+Based on the analysis of the provided ADV documents, it's clear that specific fund names or capital distribution details are not included. Therefore, summarizing the investment report with the requested elements isn't possible without additional information. 
+
+To assist effectively, please provide:
+
+1. The name of the fund(s).
+2. The exact date of the report.
+3. Any outlook on capital distributions mentioned in the document.
+
+Once these details are available, a structured summary can be created highlighting:
+- Fund name
+- Date of the report
+- Capital distribution outlook (e.g., quarterly, annual)
+- Magnitude in percentage terms
+
+If you provide this information, I can help craft an accurate and concise summary.

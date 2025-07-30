@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "The Whyte and Mackay Pension Scheme",
+    "date": "20220831",
+    "outlook": "increase",
+    "magnitude": 6,
+    "confidence": 0.8,
+    "explanation": "Capital distributions are expected to increase at approximately 6%"
+  }
+}

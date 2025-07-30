@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "[Fund Name]",
+    "date": "03/14/2025",
+    "outlook": "stable",
+    "magnitude": 2.5,
+    "confidence": 0.8,
+    "explanation": "Capital distributions are expected to provide a stable return of 2.5% annually."
+  }
+}

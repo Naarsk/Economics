@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund XYZ",
+    "date": "2023-10-01",
+    "outlook": "increase",
+    "magnitude": 5,
+    "confidence": 0.85,
+    "explanation": "The report includes fund performance metrics and compliance details, reflecting a positive outlook with moderate confidence."
+  }
+}

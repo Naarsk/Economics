@@ -1,0 +1,15 @@
+<think>
+Alright, so I've got this query from someone who's a financial analyst. They want me to summarize an investment report with a specific focus. Let me break down what they need.
+
+First, they mentioned focusing on three main points: the fund's name, the date of the report, and the outlook on capital distributions along with their magnitude in percentage terms. That makes sense because those are key pieces of information for any financial analyst evaluating an investment.
+
+I should start by clearly stating each point. Maybe begin with the fund name to give context, then provide the date so readers know when this analysis is current. Next, outline the outlook on capital distributions—this includes whether it's expected to increase or decrease and by what percentage. It's also important to mention the reasons behind these expectations, like economic factors or investment performance.
+
+I need to keep the summary concise but informative. Using bold for each section title might help in readability, especially if this is part of a larger report where formatting could matter. Also, ensuring that all key points are covered without being too verbose will make it useful for quick reviews.
+
+Wait, should I include any additional details? Maybe not necessary unless the user specifies further information needed. The query seems pretty straightforward, so sticking to the three main areas is probably best.
+
+I'll structure my response with each section clearly labeled and keep each part brief. Making sure that each sentence adds value without repeating information. That way, it's clear and actionable for someone else reviewing the report.
+</think>
+
+Sure! Please provide the investment report you'd like me to summarize.

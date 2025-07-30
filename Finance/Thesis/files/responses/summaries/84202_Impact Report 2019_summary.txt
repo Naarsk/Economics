@@ -1,0 +1,41 @@
+<think>
+Okay, I need to help summarize this investment report. Let me read through it carefully first.
+
+The report is from Future Super Investment Services Pty Ltd as of 24 October 2021, focusing on their fund performance and capital distribution. The main points are about their investment strategy, ethical exclusions, divestment movement impact, carbon outcomes, renewable energy generation, and comparison to other actions like air travel and car usage.
+
+The user wants a summary that includes the fund name, report date, outlook on capital distributions, and magnitude in percentage terms. I should focus on the key figures they've provided without going into too much detail about each section.
+
+I'll start by noting the fund is Future Super Fund, established in 2015 with an AFS Representative AFSL 482684. They're committed to responsible investment and diversification. The report mentions they haven't changed their capital allocation since launch, which shows a consistent strategy.
+
+Looking at the capital distribution: 73% in Australian shares, international shares, fixed interest investments, and alternative investments. This suggests most of their funds are in equities and fixed income. Then there's a 26% split between ethical exclusions (green energy and ESG factors) and sustainable investments (including renewable energy), with 1% in gold. That means they're steering clear of certain sectors while supporting others.
+
+In terms of performance, the fund has returned over 80% annually since launch. They use ISS ESG for analysis, focusing on ethical exclusions like gambling, tobacco, and fossil fuels. Their diversification across geographies helps mitigate risk.
+
+The report also mentions their impact strategy involves divestment from certain industries, which they've flagged specific companies in their portfolio. This contributes to their ethical approach.
+
+Carbon outcomes: They avoid carbon emissions equivalent to a roundtrip flight between Sydney and London via Singapore (1.75tCO2e) and driving 12,600 km per year. They abate carbon from renewable energy investments.
+
+They benchmark their performance against a hypothetical portfolio without exclusions, showing the impact of their strategy. The total fund's abatement is calculated based on investment proportions in each product.
+
+Comparisons are made to individual actions like car usage and air travel, highlighting significant emissions reduction through their portfolio.
+
+I should structure this into key points: Fund Details, Capital Distribution, Performance, Ethical Strategy, and Environmental Impact. Each section will highlight the essential information as per the user's request.
+
+Now, I'll write a concise summary focusing on each of these areas without getting too detailed. Make sure to include percentages where applicable and mention their commitment to responsible investing.
+</think>
+
+**Summary of Future Super Fund Investment Report (24 October 2021):**
+
+- **Fund Name:** *Future Super Fund*  
+- **Report Date:** 24 October 2021  
+
+The report outlines the performance and investment strategy of Future Super Fund, which was established in 2015 with an AFS Representative AFSL 482684. The fund is committed to responsible investing, diversification, and ethical exclusions. Since its inception, the fund has maintained a consistent capital allocation:
+
+- **73%** allocated to Australian shares, international shares, fixed interest investments, and alternative investments  
+- **26%** distributed between ethical exclusions (e.g., green energy and ESG factors) and sustainable investments (including renewable energy), with **1%** invested in gold  
+
+The fund has achieved significant annual returns of over 80% since launch. It employs ISS ESG to assess impact investing, focusing on exclusions related to gambling, tobacco, fossil fuels, and weapons. The portfolio is diversified across geographies to mitigate risk.
+
+In terms of environmental impact, the fund avoids carbon equivalent to a roundtrip flight between Sydney and London (1.75tCO2e) and driving 12,600 km per year in Australia. Carbon abatement is attributed to renewable energy investments. The fund's performance is benchmarked against a hypothetical portfolio without exclusions, demonstrating the impact of its strategy.
+
+The report highlights the fund's commitment to ethical investing, with significant emissions reduction achieved through its portfolio compared to individual actions like car usage and air travel.

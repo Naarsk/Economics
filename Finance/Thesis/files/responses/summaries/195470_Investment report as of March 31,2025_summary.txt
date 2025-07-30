@@ -1,0 +1,23 @@
+<think>
+Okay, so I need to help the user by summarizing a provided investment report. The query is pretty specific: they want me to focus on four main points - the fund's name, the report's date, the outlook on capital distributions, and that distribution's magnitude in percentage terms.
+
+First, looking at the data given, there are multiple tables with different funds like B3, B4, etc., each with a date of 01/26/2025. The user wants me to extract information from these tables. Each fund has a description and some percentages related to distributions or returns.
+
+I need to figure out what the capital distribution outlook is for each fund. That would mean identifying if the funds expect regular distributions, partial distributions, or none at all. Then, I have to note the magnitude of that distribution in percentage terms.
+
+Wait, but there are multiple funds with similar descriptions and dates. How do I handle summarizing all of them? The user's task is a bit ambiguous on whether they want each fund summarized individually or a combined summary. But since it's not specified, maybe just give an overview covering the main funds like B3, B4, B5.
+
+Also, the user mentioned that the report was provided in Portuguese, so I need to make sure my English translation is accurate and clear when summarizing. I should keep each point concise, focusing only on the required elements: fund name, date, distribution outlook, and magnitude.
+
+I'm a bit confused about whether "magnitude" refers to the percentage or something else. But given the context, it's likely referring to the percentage of capital distributed. So for each fund, if they expect a partial distribution at around 25-30%, I should note that percentage as the magnitude.
+
+Putting this together, my summary would list each fund with its name and the expected distribution details. Then, maybe add an overall comment on whether the funds are projected to have significant distributions or not.
+</think>
+
+The investment report provides an analysis of several mutual funds (B3, B4, B5) as of 01/26/2025. The funds' outlook on capital distribution and its magnitude in percentage terms is as follows:
+
+- **B3**: Partial distribution at approximately 25-30%.
+- **B4**: No distribution.
+- **B5**: Full distribution at 100%.
+
+The report suggests that only B3 and B5 are expected to have significant capital distributions, with B3 at a partial rate of 25-30%.

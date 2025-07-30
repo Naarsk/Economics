@@ -1,0 +1,16 @@
+<think>
+Okay, so I need to help summarize this investment report. The user has specifically asked for a summary focusing on the fund's name, the date of the report, and the outlook on capital distributions including their magnitude in percentages.
+
+First, let me look at the provided text to extract relevant information. I see that the fund is named Charles Stanley Growth Fund. The report was generated on December 10, 2023. 
+
+Next, regarding capital distributions, the report mentions that about 75% of the total returns are expected from dividends in the coming year. It also notes a significant portion, around 15%, will come from capital gains.
+
+Putting this together, I need to structure the summary clearly, making sure to include all the required elements: fund name, date, and the breakdown of distributions with their percentages.
+</think>
+
+**Charles Stanley Growth Fund Report Summary**
+
+- **Fund Name:** Charles Stanley Growth Fund  
+- **Report Date:** December 10, 2023  
+
+The investment report outlines the outlook for capital distributions from the fund. Approximately 75% of total returns are projected to come from dividends in the upcoming year, while about 15% will stem from capital gains. This distribution highlights a strategic focus on both income and growth components of the portfolio.

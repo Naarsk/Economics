@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Real Estate Fund",
+    "date": "202311",
+    "outlook": "increase",
+    "magnitude": 0.8,
+    "confidence": 0.95,
+    "explanation": "Capital distribution is expected to increase, driven by stable economic conditions supporting retail and commercial property demand."
+  }
+}

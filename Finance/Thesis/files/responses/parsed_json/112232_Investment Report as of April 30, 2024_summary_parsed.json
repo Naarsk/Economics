@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Factum AG Vermögensverwaltung",
+    "date": "20240329",
+    "outlook": "increase",
+    "magnitude": 0.15,
+    "confidence": 0.8,
+    "explanation": "Bond yields are expected to remain stable or rise, providing positive cash flow."
+  }
+}

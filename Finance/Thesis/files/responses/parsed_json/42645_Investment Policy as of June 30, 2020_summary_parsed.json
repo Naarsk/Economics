@@ -1,0 +1,20 @@
+{
+  "results": [
+    {
+      "name": "Vantage Capital Group Fund Managers (Pty) Ltd - 28711",
+      "date": "20250220",
+      "outlook": "increase",
+      "magnitude": 3.0,
+      "confidence": 0.8,
+      "explanation": "Stable growth with moderate capital distribution benefits."
+    },
+    {
+      "name": "Vantage GreenX Fund Advisors (Pty) Ltd - 44668",
+      "date": "20250220",
+      "outlook": "increase",
+      "magnitude": 5.0,
+      "confidence": 0.9,
+      "explanation": "Significant capital distribution benefits expected."
+    }
+  ]
+}

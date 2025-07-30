@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Gloucestershire Pension Fund",
+    "date": "202312",
+    "outlook": "surplus",
+    "magnitude": 10,
+    "confidence": 0.95,
+    "explanation": "The fund has a surplus and is well-funded, indicating stability for capital distributions."
+  }
+}

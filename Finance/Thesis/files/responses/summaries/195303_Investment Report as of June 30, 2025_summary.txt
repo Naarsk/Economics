@@ -1,0 +1,46 @@
+<think>
+Okay, so the user has given me a query where they need to summarize an investment report with specific instructions. They want me to focus on the fund's name, the report's date, and the outlook on capital distributions along with their magnitude.
+
+First, I'll start by identifying the key elements from the provided information. The report mentions two funds: "Westfield" and "Dodge & Cox." But looking closer, the user specified "the" investment report, so it's likely referring to one of these. However, since both are mentioned separately, maybe it's a composite or separate funds.
+
+The date is clearly June 30, 2025. So that's straightforward.
+
+For capital distribution outlook, I need to look through the data provided. The section titled "Fiscal YTD Returns by Asset Class" seems relevant here. Each fund has different returns: for example, Dodge & Cox had a loss of -6%, while Westfield showed gains across various asset classes like large cap growth, mid-cap value, etc.
+
+I should note that capital distribution refers to how the fund's assets are allocated across different asset classes (like stocks, bonds, real estate). The positive returns in some and negative in others indicate varying strategies or allocations. 
+
+The magnitude of these distributions isn't explicitly mentioned as percentages but rather the actual returns. However, since the task is about outlook on capital distribution, I should explain how the funds are positioned with their current asset mixes.
+
+I also notice that Dodge & Cox had a 5% increase in real estate investments and a significant jump in international equity, which could indicate a shift towards more aggressive or defensive strategies based on market performance.
+
+Westfield, on the other hand, had mixed results: some asset classes gained while others like real estate core and fixed income saw decreases. This suggests a balanced approach but with varying exposures depending on market conditions.
+
+Putting it all together, I need to structure this information clearly, making sure each point is concise yet informative about both funds' strategies based on their current capital distributions.
+</think>
+
+### Investment Report Summary:
+
+**Fund Name:**  
+- **Westfield Asset Management**, Dodge & Cox Fund  
+
+**Report Date:**  
+June 30, 2025  
+
+**Capital Distribution Outlook and Magnitude:**  
+The report indicates the fund's capital distribution across various asset classes for the Fiscal Year-to-Date (Fiscal YTD) as of June 30, 2025. Key observations include:  
+1. **Dodge & Cox Fund Performance:**  
+   - The fund has experienced mixed returns across its asset allocations. For example, U.S. Small Cap Growth Equity** returned 19%, while Fixed Income returned -6%. Global Equity* returned 8.7%, and Core Equity returned 4%. International Equity returned 3.5%.  
+
+2. **Westfield Asset Management Performance:**  
+   - The fund has shown strong performance in certain asset classes, such as U.S. Large Cap Core Equity (19%) and U.S. Mid-Cap Growth Equity (15%). However, it has underperformed in others like Real Estate Core (Core Bond**) (-24%) and Fixed Income (-6%).  
+
+3. **General Observations:**  
+   - The fund's capital distribution appears to be heavily weighted towards equities across different sizes and types (Large Cap, Mid-Cap), with a significant allocation to International Equity. This strategy aligns with the fund's stated focus on global diversification and growth opportunities.  
+
+4. **Magnitude of Returns:**  
+   - The fund has experienced both gains and losses in its capital distribution, reflecting varying performance across asset classes. For example:  
+     - Growth equity segments (U.S., Mid-Cap) returned 19% and 15%, respectively.  
+     - Fixed Income returned a loss of 6%.  
+
+**Conclusion:**  
+The fund's capital distribution strategy appears to be balanced between equities, with significant exposure to global and international markets, alongside fixed income investments. The performance highlights both growth potential in certain segments (e.g., U.S. Small Cap Growth Equity) and risks in others (e.g., Real Estate Core).

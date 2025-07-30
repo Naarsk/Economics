@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Example Investment Report",
+    "date": "2025-01-31",
+    "outlook": "stable",
+    "magnitude": 0,
+    "confidence": 0.6,
+    "explanation": "The report suggests a cautious investment approach with fixed-income stability and equity exposure in major indices while considering commodities for potential gains."
+  }
+}

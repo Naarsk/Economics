@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "East Sussex Pension Fund",
+    "date": "2022-12-31",
+    "outlook": "increase",
+    "magnitude": 8,
+    "confidence": 0.6,
+    "explanation": "Expected gains of 8% based on current trends."
+  }
+}

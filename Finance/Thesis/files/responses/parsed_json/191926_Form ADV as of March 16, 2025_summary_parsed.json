@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund X",
+    "date": "20230901",
+    "outlook": "stable",
+    "magnitude": -5.0,
+    "confidence": 0.8,
+    "explanation": "Compliance processes suggest stable capital distribution expectations with a slight decrease anticipated due to current market conditions."
+  }
+}

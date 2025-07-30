@@ -1,0 +1,26 @@
+<think>
+Alright, I need to help the user by summarizing the provided investment report. The user mentioned that they want the summary to include the fund's name, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+First, looking at the information given, the fund is Factum AG Vermögensverwaltung. They have an English name too: Independent Asset Management Company. The latest report was on September 30, 2024.
+
+Next, I should identify what's meant by capital distribution outlook and its magnitude. From the text, it seems they're talking about how returns are distributed across different assets like stocks, bonds, and commodities. In their report, there are sections about stock indices, bond markets, and commodities.
+
+Looking at the stock indices, companies like S&P 500 have a YtD (year-to-date) return of over 21%. The Euro Stoxx 50 is also up around 13-14%, while the DAX and MSCI Emerging Markets are down slightly but still positive overall. 
+
+For bonds, US Treasury Bonds barely lost ground at -0.12%, German Bunds had a slight dip too, and Swiss Bonds were lower as well.
+
+In commodities, Gold was up about 5% year-to-date, while oil prices fell significantly with WTI dropping over 7%.
+
+Putting this together, the capital distribution is mainly in stocks, particularly US equities, which have been performing strongly despite some dips. The magnitude here would be around high returns for equities and slight losses in bonds but mixed with commodities.
+
+So summarizing all that into a concise point about the main asset allocations and their performance percentages should cover what the user needs.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** Factum AG Vermögensverwaltung (Independent Asset Management Company)  
+- **Report Date:** 30 September 2024  
+
+The outlook on capital distribution highlights a focus on equities, particularly U.S. stocks and emerging markets, with strong year-to-date returns of over 21% for the S&P 500 and Euro Stoxx 50, while bonds (e.g., U.S. Treasury Bonds) showed minimal movement (-0.12%). Commodities include notable performance in Gold (+5%) but slight drops in oil prices (WTI WTI crude fell -4.70%).  
+
+The magnitude of capital distribution shows a significant tilt toward equities with robust returns, complemented by modest bond investments and mixed commodity performance.

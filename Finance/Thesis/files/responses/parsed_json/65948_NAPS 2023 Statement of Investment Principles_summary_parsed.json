@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund XYZ",
+    "date": "2023-12-31",
+    "outlook": "increase",
+    "magnitude": 80,
+    "confidence": 0.95,
+    "explanation": "The report expects an increase in capital distributions with at least 80% of outstanding shares paid as dividends."
+  }
+}

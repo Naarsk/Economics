@@ -1,0 +1,45 @@
+<think>
+Okay, so I'm trying to help someone who needs a summary of this investment report from Factum AG Vermögensverwaltung. They specifically want me to focus on the fund's name, the date of the report, and their outlook on capital distributions including the magnitude in percentage terms.
+
+First, looking at the provided text, it starts with "FACTUM AG Asset Management" and mentions that they're a licensed company in Liechtenstein. The investment report is titled "Market overview 30 April 2025." So I can note that down as the date of the report.
+
+Next, the fund's name isn't explicitly stated here. It might be part of the structure or title but it's not provided in the text. Maybe I need to infer based on context? Or perhaps there are multiple funds mentioned elsewhere? Hmm, since the user didn't provide a list of funds, I might have to assume that the main focus is on the market overview rather than individual funds.
+
+Looking through the report, they mention various indices like S&P 500, Nikkei 225, MSCI Emerging Markets, and bonds from different countries. They also talk about commodities like gold, WTI oil, and Bitcoin. Currencies such as EUR/CHF, USD/CHF, etc., are covered too.
+
+The section on "Market overview" gives the current values, year-to-date (YtD) percentages, and performance since 30 April 2025 (S&Pt). For example, the S&P 500 is down -4.93% YTD and has moved by -9.47% since 30 April. The MSCI Emerging Markets are up 1.34% with a 4.37% gain since 30 April.
+
+The bonds section shows that US Treasury Bonds have decreased slightly, while the Swiss and German bonds have also shown small decreases but mostly within negative territory in S&Pt terms. 
+
+Currencies include several pairs, all showing decreases except for EUR/USD which increased significantly. The commodities section highlights gold with a 25.31% increase YTD and Bitcoin at 0.93%. 
+
+Bitcoin's performance is particularly strong here, increasing by nearly 14%. Gold also has a positive YTD return.
+
+Now, regarding capital distributions or expected allocations, I don't see any specific data on how funds are distributed within the portfolio. There might be underlying assumptions based on index movements, but without explicit figures, it's hard to provide exact percentages.
+
+So, putting this together, my summary should mention the fund (if known), the report date (30 April 2025), and discuss market performance across different asset classes with their respective percentage changes. Since capital distribution specifics aren't provided, I'll note that data isn't available in the text.
+</think>
+
+**Summary of Investment Report from Factum AG Vermögensverwaltung**
+
+- **Date of the Report:** 30 April 2025
+- **Market Overview:**
+  - The report provides a comprehensive market snapshot across various asset classes:
+    - **Equity Indices:**
+      - S&P 500: -4.93% YTD, -9.47% since 30 April.
+      - Nikkei 225: -8.81% YTD, +4.37% since 30 April.
+      - MSCI Emerging Markets: +1.34% YTD, +4.37% since 30 April.
+    - **Fixed Income:**
+      - US Treasury Bonds: Slightly negative in both YTD and since 30 April.
+      - Swiss and German Bonds: Negative or small increases but within negative territory in S&Pt terms.
+    - **Commodities:**
+      - Gold (USD/fine ounce): +25.31% YTD.
+      - WTI Oil (USD/barrel): -18.84% YTD.
+      - Bitcoin (XBT/USD): +0.93%.
+    - **Currencies:**
+      - EUR/USD: Significant increase of 14.75%.
+
+- **Capital Distribution:**
+  - The report does not provide explicit data on the fund's capital distribution or expected allocations, leaving specific percentages unavailable.
+
+This summary highlights the varied performance across asset classes as of 30 April 2025, reflecting a mix of gains and losses in different markets.

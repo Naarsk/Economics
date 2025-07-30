@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Northern Trust Fund",
+    "date": "2023-01-01",
+    "outlook": "increase",
+    "magnitude": 6.25,
+    "confidence": 0.95,
+    "explanation": "Capital distributions exceed indexed interest rates by 4.5%, resulting in net returns of 6.25% with a structured distribution approach."
+  }
+}

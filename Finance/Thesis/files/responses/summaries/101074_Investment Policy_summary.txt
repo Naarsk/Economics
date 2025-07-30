@@ -1,0 +1,23 @@
+<think>
+Okay, so I need to help the user by summarizing an investment report. The user has given me a specific task where they want a summary focusing on three main points: the fund's name, the report's date, and the outlook on capital distributions including their magnitude in percentage terms.
+
+First, I'll look at the provided text to extract the necessary details. The fund is called "Versorgungswerk der Psychotherapeutenkammer Schleswig-Holstein." That seems straightforward enough—just need to make sure it's correctly noted as the fund's name.
+
+Next, the date of the report is given as March 19, 2020. I should include that exactly as it appears in the text.
+
+Now, for the outlook on capital distributions and their magnitude. Scanning through the content, I see several mentions of capital distributions but no explicit percentage figures or specific outlook details. The text talks about the composition of the portfolio—like the emphasis on long-term stability, safety, returns, diversification, etc.—but not actual distribution percentages.
+
+Since there are no numbers provided regarding how much is allocated to different types of assets like equities, bonds, alternatives, I can't provide specific percentage magnitudes. Therefore, it seems that detailed information on capital distribution isn't available here.
+
+I need to structure the summary clearly, mentioning each part: fund name, report date, and then address the capital distribution outlook. Since there's no data on percentages or specific allocations, I'll note that accordingly.
+
+Also, considering the user might be looking for insights into where capital is being placed or how it's structured within this fund, but without explicit figures, I should clarify that the information isn't detailed in the provided text.
+
+Finally, putting it all together succinctly while ensuring clarity and including all required elements as per the task.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** Versorgungswerk der Psychotherapeutenkammer Schleswig-Holstein  
+- **Date of Report:** 19.03.2020 (March 19, 2020)  
+- **Outlook on Capital Distributions:** The report does not provide explicit details on the magnitude or distribution of capital allocations within the fund. However, it emphasizes a focus on long-term stability, safety, and returns through diversification across asset classes such as equities, bonds, alternatives, and real estate. Specific percentages or allocations for different types of assets are not detailed in the provided text.

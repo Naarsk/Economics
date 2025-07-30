@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Factum AG Vermögensverwaltung",
+    "date": "2024-08-01",
+    "outlook": "decrease",
+    "magnitude": -12.39,
+    "confidence": 0.85,
+    "explanation": "Equities underperformed with Nikkei 225 dropping significantly, while commodities showed volatility."
+  }
+}

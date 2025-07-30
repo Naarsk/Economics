@@ -1,0 +1,75 @@
+<think>
+Okay, I need to help this user by summarizing an investment report. Let me read through their query carefully.
+
+They mentioned they're a financial analyst and their task is to summarize the given investment report. The specific points they want to focus on are: the name of each fund, the date of the report (which seems to be January 2025), the outlook on capital distributions, and its magnitude in percentage terms.
+
+Looking at the data provided, there's a list of various retirement plans and their respective market values. Each plan is under different sections like Public Employees' Retirement Systems Plan 1 & 2/3, Teachers' Retirement System, etc. The total market value is also given.
+
+I should start by identifying each fund as per the name listed in the report. Then note down the date of the report, which I can see from JANUARY 2025.
+
+Next, I need to outline the outlook on capital distributions. From the data, I notice that some plans have negative market values compared to previous periods, like Public Employees' Retirement System Plan 1 and 2/3. Others show significant increases or decreases, but since this is a monthly report, it's likely reflecting the current position as of January.
+
+For the magnitude in percentage terms, I need to figure out what portion each plan contributes to the total market value. Since the user didn't provide percentages directly, I'll have to calculate them based on the numbers given. 
+
+I should also mention that while higher education and target date funds show the highest allocations, it's important to note any plans with significant changes in their market values, as this indicates investor sentiment or strategic shifts.
+
+Putting it all together, I can structure each fund with its name, market value, percentage of total, and a brief statement on trends. This will provide a clear, concise summary meeting the user's requirements.
+</think>
+
+**Summary: Investment Report Overview**
+
+- **Date of Report**: January 2025  
+- **Funds and Market Values**: Below is an overview of the funds and their respective market values as of January 2025:
+
+1. **Public Employees' Retirement System Plan 1**:  
+   - Market Value: $9,279,728,165  
+   - Percentage of Total: ~5.3%  
+
+2. **Public Employees' Retirement System Plan 2/3**:  
+   - Market Value: $72,054,578,425  
+   - Percentage of Total: ~41.6%  
+
+3. **Teachers' Retirement System Plan 1**:  
+   - Market Value: $6,940,752,011  
+   - Percentage of Total: ~3.97%  
+
+4. **Teachers' Retirement System Plan 2/3**:  
+   - Market Value: $36,766,111,217  
+   - Percentage of Total: ~21.2%  
+
+5. **Washington State Patrol Retirement System Plan 1**:  
+   - Market Value: $1,614,907,788  
+   - Percentage of Total: ~0.93%  
+
+6. **Washington State Patrol Retirement System Plan 2**:  
+   - Market Value: $294,959,177  
+   - Percentage of Total: ~0.169%  
+
+7. **Law Enforcement Officers' & Fire Fighters' Plan 1**:  
+   - Market Value: $7,013,919,750  
+   - Percentage of Total: ~4.03%  
+
+8. **Law Enforcement Officers' & Fire Fighters' Plan 2**:  
+   - Market Value: $22,769,251,231  
+   - Percentage of Total: ~12.9%  
+
+9. **School Employees' Retirement System Plan 2/3**:  
+   - Market Value: $12,689,849,974  
+   - Percentage of Total: ~7.25%  
+
+10. **Public Safety Employees' Retirement System Plan 2**:  
+    - Market Value: $1,803,420,264  
+    - Percentage of Total: ~1.04%  
+
+11. **Higher Education Retirement Plan**:  
+    - Market Value: $225,280,032  
+    - Percentage of Total: ~0.129%  
+
+12. **Target Date Funds**:  
+    - Market Value: $1,688,501,757  
+    - Percentage of Total: ~0.97%  
+
+- **Total Market Value**: $173,141,259,790  
+
+**Observations**:  
+The report indicates that the Public Employees' Retirement System Plan 2/3 has the largest market share (~41.6%), followed by Teachers' Retirement System Plan 2/3 (~21.2%) and Law Enforcement Officers' & Fire Fighters' Plan 2 (~12.9%). Higher education and target date funds also have significant allocations, while some plans, such as Public Employees' Retirement System Plan 1 and Washington State Patrol Retirement System Plan 1, show lower market values relative to the total.

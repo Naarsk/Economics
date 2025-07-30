@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Fund A",
+    "date": "20210405",
+    "outlook": "stable",
+    "magnitude": 3,
+    "confidence": 0.8,
+    "explanation": "Distributions are expected to remain stable at approximately 3% of AUM for Fund A."
+  }
+}

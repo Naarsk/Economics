@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "name": "Sculptor Real Estate Parallel Fund III B, LP",
+      "date": "2024-09",
+      "outlook": "increase",
+      "magnitude": 15,
+      "confidence": 0.8,
+      "explanation": "Market value increased by 15% with moderate growth expected."
+    },
+    {
+      "name": "EnCap Energy Capital Fund XI L.P.",
+      "date": "2024-09",
+      "outlook": "increase",
+      "magnitude": 5,
+      "confidence": 0.95,
+      "explanation": "Market value increased by over 5% with significant capital distribution expected."
+    },
+    {
+      "name": "AG Realty Value Fund X, LP",
+      "date": "2024-09",
+      "outlook": "increase",
+      "magnitude": 15,
+      "confidence": 0.75,
+      "explanation": "Market value increased by about 15% with notable capital distribution expected."
+    },
+    {
+      "name": "Silver Point Specialty Credit Fund III",
+      "date": "2024-09",
+      "outlook": "stable",
+      "magnitude": 74,
+      "confidence": 0.6,
+      "explanation": "Market value at $830k with stable market value and small capital distribution expected."
+    }
+  ]
+}

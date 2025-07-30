@@ -1,0 +1,17 @@
+<think>
+Okay, I need to help the user summarize the provided investment report. The key points they want me to focus on are the fund's name, the date of the report, the outlook on capital distributions, and its magnitude in percentage terms.
+
+First, looking at the information given, there isn't a specific fund named mentioned, like "Caltech Endowment Fund" or similar. Instead, it seems to be a general policy document from the California State University Endowment. So, I should mention that the report doesn't specify a particular fund but covers the endowment as a whole.
+
+The date of the report is December 2023, so that's straightforward. 
+
+Next, the outlook on capital distributions isn't explicitly stated in the provided text. The policy talks about distribution policies and performance reviews, but there's no mention of future distribution plans or amounts. So I'll note that the report doesn't provide specific details on future distributions.
+
+Regarding the magnitude of capital distributions, again, without specific figures from the report, it's not possible to give a percentage. However, if necessary, I can suggest asking for more detailed information since this isn't covered in the provided text.
+
+I should make sure my summary is clear and concise, highlighting each point as per the user's request. Since no fund name or specific distribution details are available, I'll focus on what's given without making assumptions beyond that.
+</think>
+
+The provided document appears to be a policy statement from the California State University Endowment, detailing its investment strategy, policies, and operational guidelines rather than information about a specific fund. It does not include details such as the name of a particular fund, the date of the report, or specifics about capital distributions.
+
+If you are looking for general information about the endowment's investment outlook and distribution plans, I can summarize the policy's key points. However, if you have additional context or specific questions about the endowment's current holdings or future strategies, feel free to provide further details!

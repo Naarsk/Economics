@@ -1,0 +1,19 @@
+<think>
+Alright, so I need to figure out how to respond to this query. The user has provided a detailed investment report about IPERS and wants me to summarize it with specific points: the fund's name, the date of the report, and the outlook on capital distributions including their magnitude in percentages.
+
+First, scanning through the text, I see that the fund is called IPERS, which stands for Income Pieces Equity Strategies. The date provided is June 17, 2021. 
+
+Next, looking at the content, under the section titled "Outlook on Capital Distributions," it mentions a projected increase in capital distributions. It states there's an expectation that distributions could rise by around 5% to 8 percentage points compared to the previous year. This is a key point because it shows growth in income distribution.
+
+I also notice that after this increase, the target for distributions might be between 60% and 70%. However, since the initial increase was projected at 5-8%, which would push the total above 60%, perhaps the target remains within the same range. I need to clarify if the "target" includes both the previous year's plus the increase or if it's a new target.
+
+The user wants this information in bullet points, so I'll structure each point clearly, making sure to include all necessary details without adding extra information.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** IPERS (Income Pieces Equity Strategies)  
+- **Date of the Report:** June 17, 2021  
+- **Outlook on Capital Distributions:**  
+  - The report projects that capital distributions for the fund could increase by approximately 5% to 8 percentage points compared to the prior year.  
+  - This growth would bring total distributions closer to or exceeding a potential target range of 60% to 70%.

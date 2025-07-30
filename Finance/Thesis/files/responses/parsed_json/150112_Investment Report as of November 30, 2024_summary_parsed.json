@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "name": "Vista Equity Partners, Inc.",
+      "date": "20241130",
+      "outlook": "increase",
+      "magnitude": 20,
+      "confidence": 0.6,
+      "explanation": "Anticipated $15M increase based on positive market conditions."
+    },
+    {
+      "name": "Grain Communications Opportunity Fund IV",
+      "date": "20241130",
+      "outlook": "increase",
+      "magnitude": 30,
+      "confidence": 0.8,
+      "explanation": "Projected $20M increase with strong performance indicators."
+    },
+    {
+      "name": "ICV Partners III, L.P.",
+      "date": "20241130",
+      "outlook": "increase",
+      "magnitude": 15,
+      "confidence": 0.5,
+      "explanation": "Expected $xM increase with moderate confidence."
+    },
+    {
+      "name": "ICV Partners V, L.P.",
+      "date": "20241130",
+      "outlook": "increase",
+      "magnitude": 15,
+      "confidence": 0.5,
+      "explanation": "Expected $xM increase with moderate confidence."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "results": {
+    {
+      "name": "Man Diversified Risk Premia Fund",
+      "date": "201708",
+      "outlook": "increase",
+      "magnitude": 5.1,
+      "confidence": 0.9,
+      "explanation": "Moderate growth expectations with potential diversification across asset classes."
+    },
+    {
+      "name": "AQR Diversified Risk Premia Fund",
+      "date": "201701",
+      "outlook": "increase",
+      "magnitude": 30.1,
+      "confidence": 0.85,
+      "explanation": "High return suggests growth-oriented strategy with diversified risk premia."
+    },
+    {
+      "name": "BlackRock iShares Developed World Index Fund",
+      "date": "202008",
+      "outlook": "decrease",
+      "magnitude": 8.0,
+      "confidence": 0.75,
+      "explanation": "Decline indicates focus on developed markets or conservative capital distribution."
+    },
+    {
+      "name": "M&G Alpha Opportunities Fund",
+      "date": "201704",
+      "outlook": "decrease",
+      "magnitude": 2.0,
+      "confidence": 0.65,
+      "explanation": "Slight decline suggests possible adjustments or focus on specific opportunities."
+    },
+    {
+      "name": "GMO Global Real Return Fund",
+      "date": "201409",
+      "outlook": "decrease",
+      "magnitude": 4.2,
+      "confidence": 0.6,
+      "explanation": "Decline indicates conservative capital distribution or real return strategies."
+    },
+    {
+      "name": "CQS Credit Multi-Asset Fund",
+      "date": "201701",
+      "outlook": "decrease",
+      "magnitude": 8.0,
+      "confidence": 0.95,
+      "explanation": "Decline suggests conservative capital distribution with focus on credit multi-asset strategies."
+    },
+    {
+      "name": "Federated Hermes Absolute Return Credit Fund",
+      "date": "202111",
+      "outlook": "decrease",
+      "magnitude": 5.2,
+      "confidence": 0.7,
+      "explanation": "Decline indicates conservative capital distribution with credit strategies."
+    },
+    {
+      "name": "TwentyFour Strategic Income Fund",
+      "date": "201803",
+      "outlook": "decrease",
+      "magnitude": 12.7,
+      "confidence": 0.95,
+      "explanation": "Significant decline suggests focus on income generation."
+    },
+    {
+      "name": "BlackRock Emerging Markets Fund",
+      "date": "201708",
+      "outlook": "decrease",
+      "magnitude": 10.1,
+      "confidence": 0.6,
+      "explanation": "Decline due to potential volatility in emerging markets."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<think>
+Okay, so I have this investment report about a fund called StepStone for SDCERS. The user wants me to summarize it focusing specifically on the fund's name, the date of the report, and their outlook on capital distributions including the percentage.
+
+First, I'll need to go through the provided text carefully to extract those details. Let me start by identifying when the report was issued. Scanning through, I see mentions like "2019" but it doesn't specify a month or year beyond that. That might be enough for now unless more info is available.
+
+Next, looking for where they talk about capital distributions and their outlook. The text discusses things like quarterly reports, capital requests from managers, and monitoring to ensure stewardship of investments. It also mentions reviewing performance with SDCERS staff. But I don't see specific numbers regarding the magnitude or timing (like whether it's quarterly, annually) of capital distributions.
+
+I notice some sections about investment rankings based on performance quartiles, but nothing directly about capital distribution outlooks in terms of percentages. The user specifically asked for the magnitude and timing, so maybe this report doesn't provide that information? If that's the case, I should mention it as something not covered here.
+
+So putting it all together, the summary would include the fund name, date (as far as possible), and note about capital distributions without specific numbers. That way, I cover what was asked even if details aren't provided.
+</think>
+
+**Summary of StepStone Private Equity Fund Report for SDCERS**
+
+- **Fund Name:** StepStone
+- **Report Date:** 2019 (specific month not specified)
+- **Capital Distributions Outlook:** The report does not provide specific details on the timing or magnitude of capital distributions, but it mentions quarterly reports and updates to stakeholders.

@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "HtM",
+    "date": "202412",
+    "outlook": "increase",
+    "magnitude": 6.5,
+    "confidence": 0.95,
+    "explanation": "Bond markets show a rally with short-term yields attracting capital as long-dated instruments face inflation and geopolitical risks."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+      "name": "TCG administered funds",
+      "date": "2024-12-31",
+      "outlook": "increase",
+      "magnitude": 77.5,
+      "confidence": 0.9,
+      "explanation": "预计季度分布比例约为75%-80%，且费用控制在0.2%以下，预期稳定增长。"
+    },
+    {
+      "name": "TCGP Fund III LP / IV LP",
+      "date": "2024-12-31",
+      "outlook": "increase",
+      "magnitude": 77.5,
+      "confidence": 0.9,
+      "explanation": "计划进行定期季度分布，预计能保持稳定的资金流动。"
+    },
+    {
+      "name": "Separately Managed Funds (SMF) SMF A/SBMF A/SMF B/SBMF B",
+      "date": null,
+      "outlook": "NA",
+      "magnitude": null,
+      "confidence": 0,
+      "explanation": "基于业绩分配，但具体分配比例未提供详细信息。"
+    }
+  ]
+}

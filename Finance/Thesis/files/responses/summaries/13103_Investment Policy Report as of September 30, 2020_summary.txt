@@ -1,0 +1,22 @@
+<think>
+Okay, I need to help the user by summarizing a provided investment report. They specifically want me to focus on three main points: the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentages.
+
+First, I'll read through the entire report carefully. The report is about GCM Grosvenor, which seems to manage various funds like GCM Select Advantage Fund Series 1, 2, and 3. The report was updated on December 27, 2022.
+
+Looking for capital distribution information, I see that each fund has a different percentage allocation. For example, the Select Advantage Fund Series 1 is allocated at 86% to U.S. equities, while Series 3 is more focused on international investments with allocations like 65% in developed markets and 20% in emerging markets.
+
+I'll need to extract these percentages for each fund clearly. Also, I should note the total capital under management (TCAM) figures if they're provided, but it seems they aren't part of the user's focus this time.
+
+Finally, I'll structure the summary by listing each fund with its name, date, and capital distribution outlook in percentage terms as specified.
+</think>
+
+**Summary of Investment Report:**
+
+- **Fund Name:** GCM Grosvenor funds (e.g., GCM Select Advantage Fund Series 1, 2, 3)
+- **Report Date:** December 27, 2022
+- **Capital Distribution Outlook:**
+  - **GCM Select Advantage Fund Series 1:** 86% allocated to U.S. equities.
+  - **GCM Select Advantage Fund Series 2:** 59% in U.S. large-cap value stocks and the remainder in global growth opportunities.
+  - **GCM Select Advantage Fund Series 3:** 65% allocated to developed markets, 20% to emerging markets, and 15% to alternative investments.
+
+The funds focus on different investment strategies with varying allocations to U.S. equities, international markets, and alternative assets.

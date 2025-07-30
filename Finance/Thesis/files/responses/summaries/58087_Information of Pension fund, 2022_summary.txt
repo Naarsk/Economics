@@ -1,0 +1,20 @@
+<think>
+Alright, so I need to help the user by summarizing a given investment report. The user specifically asked to focus on the name of the fund, the date of the report, and the outlook on capital distributions along with their magnitude in percentages.
+
+First, I'll read through the provided text carefully. It's an investment report from Schindler Pensionskasse, which is a German pension fund. The report seems to be dated January 2023, so that gives me the date of the report right away.
+
+The user wants the name of the fund highlighted. From the context, it looks like they're referring to the Schindler Pensionskasse itself, but in investment reports, this might sometimes refer to a specific fund within the company. However, since no particular fund is named here, I'll stick with the main entity.
+
+Next, the outlook on capital distributions. The text mentions "Kapazitäten" which translates to "capital distribution capabilities." It talks about distributing capital in an optimal manner and increasing the capital available for new investments through surplus funds from existing projects. So, the fund is planning to distribute capital effectively and utilize any surplus.
+
+In terms of magnitude, it's mentioned that the total amount distributed will be several billion euros each year. That gives a clear figure on the scale of these distributions.
+
+I also need to structure this into bullet points as per the user's example. I'll make sure each point is concise and only includes the necessary information without extra details.
+</think>
+
+**Schindler Pensionskasse Investment Report Summary (January 2023)**
+
+- **Name of the Fund**: Schindler Pensionskasse  
+- **Date of the Report**: January 2023  
+- **Outlook on Capital Distributions**: The fund is expected to distribute capital in an optimal manner, leveraging surplus funds from existing projects to increase its investment capacity.  
+- **Magnitude of Distributions**: The total amount distributed will be several billion euros annually.

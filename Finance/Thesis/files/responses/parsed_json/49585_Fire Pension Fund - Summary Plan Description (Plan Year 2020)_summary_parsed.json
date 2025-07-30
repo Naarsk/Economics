@@ -1,0 +1,10 @@
+{
+  "results": {
+    "name": "Florida City Pension Fund",
+    "date": "20190801",
+    "outlook": "decrease",
+    "magnitude": 0.3,
+    "confidence": 0.75,
+    "explanation": "Capital distributions are expected to decrease by about 0.3 percentage points, while dividends from U.S. Treasuries and alternative investments rise."
+  }
+}
