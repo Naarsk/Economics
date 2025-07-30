@@ -1,7 +1,7 @@
 import os
 import random
 
-from Finance.Thesis.functions import make_json_from_summary, make_summary
+from Finance.Thesis.functions import make_summary
 
 # Paths
 source_dir = r"D:\Files\OneDrive - University of Luxembourg\Thesis\PreqinDownloads\Investement Reports"

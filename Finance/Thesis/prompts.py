@@ -1,7 +1,7 @@
 json_schema = """{
   "results": {
-    "name": "<fund name>",
-    "date": "<yyyymmdd>",
+    "fund_name": "<fund name>",
+    "report_date": "<yyyymmdd>",
     "outlook": "<increase|stable|decrease>",
     "magnitude": <percentage>,
     "confidence": <number between 0 and 1>,
@@ -21,19 +21,22 @@ def build_summary_prompt(text):
     """
     return f"""
             You are a financial analyst.  
-            Your task: summarize the following investment report, focus on the name of the fund, the date of the report, {variable_of_interest} for the {period}, its magnitude in percentage terms, and your confidence in the prediction.
+            Your task: summarize the following investment report, 
+            keep track of the name of the fund and the date of the report, 
+            focus on {variable_of_interest} for the {period}, its magnitude in percentage terms, and your confidence in the prediction.
             
             Context from the document:
             \"\"\"{text}\"\"\"
             
-            remember your task: summarize the provided investment report, focus on the name of the fund, the date of the report, {variable_of_interest}for the {period}, its magnitude in percentage terms, and your confidence in the prediction.
-
+            remember your task: summarize the following investment report, 
+            keep track of the name of the fund and the date of the report, 
+            focus on {variable_of_interest} for the {period}, its magnitude in percentage terms, and your confidence in the prediction.
             """
 
 
 def build_json_prompt(summary_text):
     return f"""
-        You are a financial analyst that must output only a valid JSON object, forecasting {variable_of_interest} in the next year.
+        You are a financial analyst that must output only a valid JSON object, forecasting {variable_of_interest} for the {period}.
         
         Context from the document:
         \"\"\"{summary_text}\"\"\"

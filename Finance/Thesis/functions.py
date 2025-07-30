@@ -9,7 +9,7 @@ from collections import Counter
 from nltk import WordNetLemmatizer
 from nltk.corpus import stopwords
 
-from Finance.Thesis.schemas import build_summary_prompt, build_json_prompt
+from Finance.Thesis.prompts import build_summary_prompt, build_json_prompt
 
 
 def extract_pdf_text(filepath):
@@ -80,6 +80,40 @@ def make_summary(source_dir, output_dir, selected_pdfs):
     print(f"✅ All {total} documents have been processed.")
 
 
+def remove_think_tags(text):
+    """Remove all content enclosed in <think>...</think> tags."""
+    text = re.sub(r"```json|```", "", text)
+    return re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
+
+
+def make_json_from_summary(summary_dir,output_dir):
+    for file in os.listdir(summary_dir):
+        if file.lower().endswith(".txt"):
+            summary_path = os.path.join(summary_dir, file)
+
+            with open(summary_path, "r", encoding="utf-8") as f:
+                summary_text = f.read()
+
+            # ✅ Clean summaries from <think> sections
+            cleaned_summary = remove_think_tags(summary_text)
+
+            # Build prompt using the cleaned summary
+            prompt = build_json_prompt(cleaned_summary)
+
+            # Query DeepSeek
+            response = query_ollama(prompt=prompt, model="deepseek-r1")
+
+            # Save response directly (no JSON cleaning)
+            output_file = os.path.splitext(file)[0] + "_parsed.json"
+            output_path = os.path.join(output_dir, output_file)
+
+            with open(output_path, "w", encoding="utf-8") as out:
+                out.write(remove_think_tags(response))
+
+            print(f"Processed {file} → {output_file}")
+    print("✅ All summaries cleaned and processed into JSON.")
+
+
 def clean_outlooks_df(df: pd.DataFrame) -> pd.DataFrame:
     """Clean the outlooks DataFrame: keep required columns, normalize date,
     and add numeric outlook column."""
@@ -113,38 +147,35 @@ def clean_outlooks_df(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def remove_think_tags(text):
-    """Remove all content enclosed in <think>...</think> tags."""
-    text = re.sub(r"```json|```", "", text)
-    return re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
+def make_excel_from_json(json_dir, excel_dir, excel_name ="clean_outlooks.xlsx"):
+    excel_path = os.path.join(excel_dir, excel_name)
 
+    data = []
+    for file in os.listdir(json_dir):
+        print("Processing {}".format(file))
+        if file.endswith("_parsed.json"):
+            filepath = os.path.join(json_dir, file)
+            try:
+                with open(filepath, "r", encoding="utf-8") as f:
+                    json_data = json.load(f)
+                    results = json_data.get("results", None)
 
-def make_json_from_summary(summary_dir,output_dir):
-    for file in os.listdir(summary_dir):
-        if file.lower().endswith(".txt"):
-            summary_path = os.path.join(summary_dir, file)
+                    # ✅ only keep entries where results is a dict
+                    if isinstance(results, dict):
+                        results["source_file"] = file
+                        data.append(results)
+                    else:
+                        print(f"[SKIP] {file} -> results is not a dict")
 
-            with open(summary_path, "r", encoding="utf-8") as f:
-                summary_text = f.read()
-
-            # ✅ Clean summaries from <think> sections
-            cleaned_summary = remove_think_tags(summary_text)
-
-            # Build prompt using the cleaned summary
-            prompt = build_json_prompt(cleaned_summary)
-
-            # Query DeepSeek
-            response = query_ollama(prompt=prompt, model="deepseek-r1")
-
-            # Save response directly (no JSON cleaning)
-            output_file = os.path.splitext(file)[0] + "_parsed.json"
-            output_path = os.path.join(output_dir, output_file)
-
-            with open(output_path, "w", encoding="utf-8") as out:
-                out.write(remove_think_tags(response))
-
-            print(f"Processed {file} → {output_file}")
-    print("✅ All summaries cleaned and processed into JSON.")
+            except Exception as e:
+                print(f"[WARNING] Could not parse {file}: {e}")
+    # ✅ Create DataFrame from list of dicts
+    df = pd.DataFrame(data)
+    clean_df = clean_outlooks_df(df)
+    # ✅ Save to Excel
+    os.makedirs(excel_dir, exist_ok=True)
+    clean_df.to_excel(excel_path, index=False)
+    print(f"[INFO] Saved {len(df)} entries to {excel_path}")
 
 
 def plot_avg_outlook_by_quarter(df: pd.DataFrame):
@@ -275,32 +306,3 @@ def get_least_used_words(df: pd.DataFrame, last_n: int = 20,min_count: int = 1):
     return df_counts
 
 
-def make_excel(json_dir, excel_dir, excel_name = "clean_outlooks.xlsx"):
-    excel_path = os.path.join(excel_dir, excel_name)
-
-    data = []
-    for file in os.listdir(json_dir):
-        print("Processing {}".format(file))
-        if file.endswith("_parsed.json"):
-            filepath = os.path.join(json_dir, file)
-            try:
-                with open(filepath, "r", encoding="utf-8") as f:
-                    json_data = json.load(f)
-                    results = json_data.get("results", None)
-
-                    # ✅ only keep entries where results is a dict
-                    if isinstance(results, dict):
-                        results["source_file"] = file
-                        data.append(results)
-                    else:
-                        print(f"[SKIP] {file} -> results is not a dict")
-
-            except Exception as e:
-                print(f"[WARNING] Could not parse {file}: {e}")
-    # ✅ Create DataFrame from list of dicts
-    df = pd.DataFrame(data)
-    clean_df = clean_outlooks_df(df)
-    # ✅ Save to Excel
-    os.makedirs(excel_dir, exist_ok=True)
-    clean_df.to_excel(excel_path, index=False)
-    print(f"[INFO] Saved {len(df)} entries to {excel_path}")
