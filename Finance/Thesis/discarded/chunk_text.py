@@ -1,5 +1,4 @@
-from Finance.Thesis.query_ollama import extract_pdf_text
-from Finance.Thesis.query_ollama import query_ollama
+from Finance.Thesis.functions import extract_pdf_text, query_ollama
 
 
 def chunk_text(text, max_chars=4000):
