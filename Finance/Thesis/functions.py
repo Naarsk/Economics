@@ -54,31 +54,37 @@ def query_ollama(prompt, url = "http://localhost:11434/api/generate", model="lla
 
 
 def make_summary(source_dir, output_dir, selected_pdfs):
+
+    os.makedirs(output_dir, exist_ok=True)   # ✅ ensure directory exists
+
     total = len(selected_pdfs)
-    completed = 0
 
-    for pdf_file in selected_pdfs:
-        completed += 1
-        print(f"[{completed}/{total}] Processing {pdf_file}...")
+    for i, pdf_file in enumerate(selected_pdfs, start=1):
+        try:
+            print(f"[{i}/{total}] Processing {pdf_file}...")
 
-        pdf_path = os.path.join(source_dir, pdf_file)
-        text = extract_pdf_text(pdf_path)
-        final_prompt = build_summary_prompt(text)
+            pdf_path = os.path.join(source_dir, pdf_file)
+            text = extract_pdf_text(pdf_path)
+            final_prompt = build_summary_prompt(text)
 
-        # Query DeepSeek 
-        response = query_ollama(prompt=final_prompt, model="deepseek-r1")
+            # ✅ Ensure response is converted to string
+            response = query_ollama(prompt=final_prompt, model="deepseek-r1")
+            if not isinstance(response, str):
+                response = str(response)
 
-        # Save response to a .txt file
-        output_filename = os.path.splitext(pdf_file)[0] + "_summary.txt"
-        output_path = os.path.join(output_dir, output_filename)
+            # ✅ Save response
+            output_filename = os.path.splitext(pdf_file)[0] + "_summary.txt"
+            output_path = os.path.join(output_dir, output_filename)
 
-        with open(output_path, 'w', encoding='utf-8') as f:
-            f.write(response)
+            with open(output_path, 'w', encoding='utf-8') as f:
+                f.write(response)
 
-        print(f"[{completed}/{total}] ✅ Processed: {pdf_file} → {output_filename}")
+            print(f"[{i}/{total}] ✅ Saved → {output_filename}")
 
-    print(f"✅ All {total} documents have been processed.")
+        except Exception as e:
+            print(f"[{i}/{total}] ❌ Failed for {pdf_file}: {e}")
 
+    print(f"✅ Completed processing {total} documents.")
 
 def remove_think_tags(text):
     """Remove all content enclosed in <think>...</think> tags."""
@@ -119,7 +125,7 @@ def clean_outlooks_df(df: pd.DataFrame) -> pd.DataFrame:
     and add numeric outlook column."""
 
     # ✅ keep only required columns (ignore missing ones safely)
-    required_cols = ["name", "date", "outlook", "magnitude", "confidence", "explanation", "source_file"]
+    required_cols = ["fund_name", "report_date", "outlook", "magnitude", "confidence", "explanation", "source_file"]
     df = df[[col for col in required_cols if col in df.columns]].copy()
 
     # ✅ convert date to yyyymmdd
@@ -129,10 +135,10 @@ def clean_outlooks_df(df: pd.DataFrame) -> pd.DataFrame:
         except Exception:
             return None
 
-    df["date"] = df["date"].apply(normalize_date)
+    df["report_date"] = df["report_date"].apply(normalize_date)
 
     # ✅ drop rows with invalid dates
-    df = df[df["date"].notna()]
+    df = df[df["report_date"].notna()]
 
     # Ensure outlook is a string (take the first element if it's a list)
     df["outlook"] = df["outlook"].apply(lambda x: x[0] if isinstance(x, list) and x else x)
@@ -205,7 +211,7 @@ def plot_avg_outlook_by_year(df: pd.DataFrame, start_year=2019, end_year=2025):
     """Calculates average outlook_num by year (2019–2025) and plots it."""
 
     # ✅ Ensure date is datetime
-    df["date_dt"] = pd.to_datetime(df["date"], format="%Y%m%d", errors="coerce")
+    df["date_dt"] = pd.to_datetime(df["report_date"], format="%Y%m%d", errors="coerce")
     df = df[df["date_dt"].notna()]
 
     # ✅ Extract year and filter range

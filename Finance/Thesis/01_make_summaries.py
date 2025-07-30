@@ -5,7 +5,7 @@ from Finance.Thesis.functions import make_summary
 
 # Paths
 source_dir = r"D:\Files\OneDrive - University of Luxembourg\Thesis\PreqinDownloads\Investement Reports"
-summary_dir = r"C:\Users\leocr\Projects\Economics\Finance\Thesis\files\responses\summaries"
+summary_dir = r"C:\Users\leocr\Projects\Economics\Finance\Thesis\files/responses/summaries"
 
 # Ensure output directory exists
 os.makedirs(summary_dir, exist_ok=True)
@@ -14,7 +14,7 @@ os.makedirs(summary_dir, exist_ok=True)
 all_pdfs = [f for f in os.listdir(source_dir) if f.lower().endswith('.pdf')]
 
 # Randomly select 50 PDFs
-n=50
+n=5
 #n=len(all_pdfs)
 
 selected_pdfs = random.sample(all_pdfs, min(n, len(all_pdfs)))
