@@ -14,8 +14,8 @@ os.makedirs(summary_dir, exist_ok=True)
 all_pdfs = [f for f in os.listdir(source_dir) if f.lower().endswith('.pdf')]
 
 # Randomly select 50 PDFs
-n=5
-#n=len(all_pdfs)
+#n=5
+n=len(all_pdfs)
 
 selected_pdfs = random.sample(all_pdfs, min(n, len(all_pdfs)))
 

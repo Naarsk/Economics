@@ -1,0 +1,137 @@
+\documentclass[12pt,a4paper]{report}
+
+% ---------- PACKAGES ----------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{setspace}        % line spacing
+\usepackage{geometry}        % page margins
+\usepackage{booktabs}        % tables
+\usepackage{graphicx}        % figures
+\usepackage{amsmath, amssymb} % math
+\usepackage{hyperref}        % clickable links
+\usepackage{natbib}          % bibliography
+\usepackage{float}           % tables/figures positioning
+\usepackage{caption}
+\usepackage{subcaption}
+
+\geometry{margin=1in}
+\doublespacing
+
+% ---------- DOCUMENT ----------
+\begin{document}
+
+    \begin{titlepage}
+    \centering
+
+    % University Logo
+    \includegraphics[width=0.4\textwidth]{img/unilu_logo}\par\vspace{1cm}
+    \vspace{0.5cm}
+
+    % University Name
+    {\Large \textbf{Master in Quantitative Economics and Finance} \par}
+    \vspace{1cm}
+
+
+    % Thesis Title
+    {\LARGE \bfseries Generating Beliefs for Private Equity using Large Language Models \par}
+    \vspace{1cm}
+
+    % Author
+    {\Large Leonardo Cruciani \par}
+    \vspace{0.5cm}
+
+    % Supervisors
+    {\large Relator: Prof.~B. Holcblat \par}
+    {\large Co-Relator: Dr.~A. Ermakov \par}
+    \vspace{0.5cm}
+
+    % Academic Year
+    {\large Academic Year 2024--2025 \par}
+    \vspace{1cm}
+
+    % Footer
+
+    \vfill
+    {\large Master Thesis \par}
+    % Date
+    {\large \today \par}
+\end{titlepage}
+
+
+\tableofcontents
+\newpage
+
+% ===============================
+\chapter{Introduction}\label{ch:introduction}
+\input{01-introduction}
+
+\chapter{Data \& Setup Description}\label{ch:data-description}
+% ===============================
+\section{Private Equity Deal Databases}
+% -- Describe Preqin, Columbia data.
+
+\section{Textual Sources}
+% -- Detail investment reports, DD docs, etc.
+
+\section{LLM and Computational Setup}
+Describe the choice of Deepseek models (8B locally, 671B on ULHPC),why these models are suitable, and how inference is run (batching,summarization + forecasting). Mention hardware briefly.
+
+\section{Preprocessing}
+% -- Explain cleaning, parsing, entity recognition.
+
+\chapter{Methodology}\label{ch:methodology}
+\input{03-methodology}
+
+
+
+
+
+% ===============================
+\chapter{Results}
+% ===============================
+\section{Quantitative Performance}
+% -- Show main results.
+
+\section{Case Studies}
+% -- Highlight successes and failures.
+
+\section{Comparison with Public Market Baselines}
+% -- Contrast with results from public markets.
+
+% ===============================
+\chapter{Discussion}
+% ===============================
+\section{What Worked, What Did Not, and Why}
+% -- Discuss findings.
+
+\section{Implications for LPs, GPs, and Risk Management}
+% -- Practical implications.
+
+\section{Limitations}
+% -- Limitations of your approach.
+
+% ===============================
+\chapter{Conclusion and Future Work}
+% ===============================
+\section{Key Takeaways}
+% -- Summarize contributions.
+
+\section{Roadmap for Extending to Other Granularity}
+% -- Forward-looking ideas.
+
+% ===============================
+\appendix
+\chapter{Appendices}
+% ===============================
+\section{Detailed Prompts}
+% -- Include prompt examples.
+
+\section{Additional Tables and Figures}
+% -- Additional empirical outputs.
+
+% ===============================
+\bibliographystyle{apalike}
+\bibliography{references}  % Create references.bib file
+
+\end{document}
