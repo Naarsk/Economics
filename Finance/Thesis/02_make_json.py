@@ -2,8 +2,8 @@ import os
 from Finance.Thesis.functions import make_json_from_summary
 
 # Paths
-summary_dir = r"C:\Users\leocr\Projects\Economics/Finance/Thesis/files/responses\summaries"
-output_dir = r"C:\Users\leocr\Projects\Economics\Finance/Thesis/files/responses\parsed_json"
+summary_dir = r"C:\Users\leocr\Projects\Economics/Finance/Thesis/files/responses\summaries_22_TCG"
+output_dir = r"C:\Users\leocr\Projects\Economics\Finance/Thesis/files/responses\parsed_json_22_TCG"
 
 # Ensure output directory exists
 os.makedirs(summary_dir, exist_ok=True)

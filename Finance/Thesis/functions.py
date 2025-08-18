@@ -2,6 +2,7 @@ import json
 import os
 import re
 import fitz
+import numpy as np
 import pandas as pd
 import requests
 from matplotlib import pyplot as plt
@@ -153,7 +154,7 @@ def clean_outlooks_df(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def make_excel_from_json(json_dir, excel_dir, excel_name ="clean_outlooks.xlsx"):
+def make_excel_from_json(json_dir, excel_dir, excel_name="clean_outlooks.xlsx"):
     excel_path = os.path.join(excel_dir, excel_name)
 
     data = []
@@ -166,23 +167,38 @@ def make_excel_from_json(json_dir, excel_dir, excel_name ="clean_outlooks.xlsx")
                     json_data = json.load(f)
                     results = json_data.get("results", None)
 
-                    # ✅ only keep entries where results is a dict
                     if isinstance(results, dict):
+                        # ✅ single dict case
                         results["source_file"] = file
                         data.append(results)
+
+                    elif isinstance(results, list):
+                        # ✅ list of dicts case
+                        for entry in results:
+                            if isinstance(entry, dict):
+                                entry["source_file"] = file
+                                data.append(entry)
+
                     else:
-                        print(f"[SKIP] {file} -> results is not a dict")
+                        print(f"[SKIP] {file} -> results not dict or list")
 
             except Exception as e:
                 print(f"[WARNING] Could not parse {file}: {e}")
+
     # ✅ Create DataFrame from list of dicts
     df = pd.DataFrame(data)
-    clean_df = clean_outlooks_df(df)
+
+    # Apply cleaning step if you have it
+    if "clean_outlooks_df" in globals():
+        clean_df = clean_outlooks_df(df)
+    else:
+        clean_df = df
+
     # ✅ Save to Excel
     os.makedirs(excel_dir, exist_ok=True)
     clean_df.to_excel(excel_path, index=False)
-    print(f"[INFO] Saved {len(df)} entries to {excel_path}")
 
+    print(f"Saved {len(clean_df)} rows to {excel_path}")
 
 def plot_avg_outlook_by_quarter(df: pd.DataFrame):
     """Calculates average outlook_num by quarter and plots it."""
@@ -207,8 +223,28 @@ def plot_avg_outlook_by_quarter(df: pd.DataFrame):
     plt.show()
 
 
-def plot_avg_outlook_by_year(df: pd.DataFrame, start_year=2019, end_year=2025):
-    """Calculates average outlook_num by year (2019–2025) and plots it."""
+# Custom color palette
+palette = {
+    "primary_red": "#C00000",
+    "dark_gray": "#4D4D4D",
+    "soft_gray": "#A6A6A6",
+    "accent_orange": "#E07B39",
+    "deep_blue": "#003366",
+    "muted_green": "#3A7D44"
+}
+
+def plot_avg_outlook_by_year(df: pd.DataFrame,
+                             filename: str,
+                             start_year=2019,
+                             end_year=2025,
+                             output_dir=r"C:\Users\leocr\Projects\Economics\Finance\Thesis\Latex\img"):
+    """
+    Calculates average outlook_num by year (2019–2025), plots it with error bars,
+    and saves to the given filename.
+
+    Error bars are inversely proportional to sqrt(n), where n is the number of entries.
+    Gaps if <3 entries, but line connects valid points.
+    """
 
     # ✅ Ensure date is datetime
     df["date_dt"] = pd.to_datetime(df["report_date"], format="%Y%m%d", errors="coerce")
@@ -218,19 +254,44 @@ def plot_avg_outlook_by_year(df: pd.DataFrame, start_year=2019, end_year=2025):
     df["year"] = df["date_dt"].dt.year
     df = df[(df["year"] >= start_year) & (df["year"] <= end_year)]
 
-    # ✅ Calculate average per year
-    avg_by_year = df.groupby("year")["outlook_num"].mean()
+    # ✅ Compute mean + count per year
+    grouped = df.groupby("year")["outlook_num"].agg(["mean", "count"])
+
+    # ✅ Only keep mean if count >= 3
+    grouped.loc[grouped["count"] < 3, "mean"] = float("nan")
+
+    # ✅ Reindex to full year range
+    years = range(start_year, end_year + 1)
+    avg_by_year = grouped["mean"].reindex(years)
+    counts = grouped["count"].reindex(years)
+
+    # ✅ Define error bars (inverse sqrt of n)
+    errors = 0.5 / np.sqrt(counts.replace(0, np.nan))  # avoid /0
 
     # ✅ Plot
     plt.figure(figsize=(8, 5))
-    avg_by_year.plot(marker="o", color="blue")
+
+    # Scatter with error bars
+    plt.errorbar(avg_by_year.index, avg_by_year.values,
+                 yerr=errors,
+                 fmt="o", color=palette["primary_red"], ecolor=palette["dark_gray"], capsize=5)
+
+    # Line only for valid points
+    valid = avg_by_year.dropna()
+    plt.plot(valid.index, valid.values, "-", color=palette["primary_red"])
+
     plt.title(f"Average Outlook by Year ({start_year}–{end_year})")
     plt.xlabel("Year")
     plt.ylabel("Average Outlook (1=Increase, 0=Stable, -1=Decrease)")
     plt.grid(True)
-    plt.show()
 
+    # ✅ Save to file
+    os.makedirs(output_dir, exist_ok=True)
+    filepath = os.path.join(output_dir, filename)
+    plt.savefig(filepath, dpi=300, bbox_inches="tight")
+    plt.close()
 
+    print(f"Plot saved to {filepath}")
 def plot_distributions(df: pd.DataFrame):
     """Plots histogram distributions for outlook_num and confidence."""
 

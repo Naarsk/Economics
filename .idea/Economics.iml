@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/LaTeX" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/scripts" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/.venv2" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.12 (Economics)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -12,12 +13,5 @@
   <component name="PackageRequirementsSettings">
     <option name="versionSpecifier" value="Don't specify version" />
     <option name="keepMatchingSpecifier" value="false" />
-  </component>
-  <component name="PyNamespacePackagesService">
-    <option name="namespacePackageFolders">
-      <list>
-        <option value="$MODULE_DIR$/Econometrics" />
-      </list>
-    </option>
   </component>
 </module>
