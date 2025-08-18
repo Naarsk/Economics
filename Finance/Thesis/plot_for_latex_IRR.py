@@ -1,16 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+from Finance.Thesis.palette import palette
 
-# Custom color palette
-palette = {
-    "primary_red": "#C00000",
-    "dark_gray": "#4D4D4D",
-    "soft_gray": "#A6A6A6",
-    "accent_orange": "#E07B39",
-    "deep_blue": "#003366",
-    "muted_green": "#3A7D44"
-}
 
 # --- Load S&P500 daily close ---
 sp500_df = pd.read_excel(r"C:\Users\leocr\Projects\Economics\Risk Management\data_sp500.xlsx")

@@ -1,5 +1,5 @@
 import pandas as pd
-import os
+
 
 def filter_gp_cashflows():
     # Input and output paths

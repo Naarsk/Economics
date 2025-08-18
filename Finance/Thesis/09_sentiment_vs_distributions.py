@@ -2,24 +2,8 @@ import pandas as pd
 import numpy as np
 import statsmodels.api as sm
 import matplotlib.pyplot as plt
-
-# -----------------------------
-# Load Sentiment
-# -----------------------------
-def load_sentiment(sentiment_path, start_year=2019, end_year=2025):
-    df = pd.read_excel(sentiment_path)
-    df["date_dt"] = pd.to_datetime(df["report_date"], format="%Y%m%d", errors="coerce")
-    df = df[df["date_dt"].notna()]
-
-    df["year"] = df["date_dt"].dt.year
-    df = df[(df["year"] >= start_year) & (df["year"] <= end_year)]
-
-    grouped = df.groupby("year")["outlook_num"].agg(["mean", "count"])
-    years = range(start_year, end_year + 1)
-    grouped = grouped.reindex(years)
-
-    errors = 1 / np.sqrt(grouped["count"].replace(0, np.nan))
-    return grouped["mean"], errors
+from Finance.Thesis.functions import load_sentiment
+from Finance.Thesis.palette import palette
 
 
 # -----------------------------
@@ -33,8 +17,8 @@ def load_gp_cashflows(filepath):
     df["year"] = df["date_dt"].dt.year
 
     net_cf = df.groupby("year")["NET CASHFLOW"].sum()
-    ratio = (df["NET CASHFLOW"] / df["CUMULATIVE CONTRIBUTION"]).groupby(df["year"]).sum()
-    return net_cf, ratio
+    dpi = (df["CUMULATIVE DISTRIBUTION"] / df["CUMULATIVE CONTRIBUTION"]).groupby(df["year"]).mean()
+    return net_cf, dpi
 
 
 # -----------------------------
@@ -57,11 +41,11 @@ def plot_dual_axis(years, sentiment, errors, secondary_series, secondary_label, 
     fig, ax1 = plt.subplots(figsize=(9, 5))
 
     # sentiment with shaded error area
-    ax1.plot(years, sentiment, marker="o", color="#C00000", label="Sentiment Index")
+    ax1.plot(years, sentiment, marker="o", color=palette["primary_red"], label="Sentiment Index")
     ax1.fill_between(years, sentiment - errors, sentiment + errors,
-                     color="#C00000", alpha=0.2)
-    ax1.set_ylabel("Sentiment Index", color="#C00000")
-    ax1.tick_params(axis="y", labelcolor="#C00000")
+                     color=palette["primary_red"], alpha=0.2)
+    ax1.set_ylabel("Sentiment Index", color=palette["primary_red"])
+    ax1.tick_params(axis="y", labelcolor=palette["primary_red"])
 
     # secondary axis
     ax2 = ax1.twinx()
@@ -101,7 +85,7 @@ if __name__ == "__main__":
 
     print("Regression 1: NET CASHFLOW ~ Lagged Sentiment")
     print(res_cf.summary())
-    print("\nRegression 2: NET CF / CUMULATIVE CONTRIBUTION ~ Lagged Sentiment")
+    print("\nRegression 2: DPI ~ Lagged Sentiment")
     print(res_ratio.summary())
 
     # plots

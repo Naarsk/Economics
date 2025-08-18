@@ -1,48 +1,11 @@
-import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
+
+from Finance.Thesis.functions import load_sentiment, load_pe_irr
+from Finance.Thesis.palette import palette
 
 # --- Parameters ---
 start_year, end_year = 2015, 2025
 years = range(start_year, end_year + 1)
-
-palette = {
-    "primary_red": "#C00000",
-    "dark_gray": "#4D4D4D",
-    "soft_gray": "#A6A6A6",
-    "accent_orange": "#E07B39",
-    "deep_blue": "#003366",
-    "muted_green": "#3A7D44"
-}
-
-# --- Functions ---
-def load_sentiment(path, start_year, end_year):
-    """Load and aggregate sentiment by year, returning mean, count, and error bands."""
-    df = pd.read_excel(path)
-    df["date_dt"] = pd.to_datetime(df["report_date"], format="%Y%m%d", errors="coerce")
-    df = df[df["date_dt"].notna()]
-
-    df["year"] = df["date_dt"].dt.year
-    df = df[(df["year"] >= start_year) & (df["year"] <= end_year)]
-
-    grouped = df.groupby("year")["outlook_num"].agg(["mean", "count"])
-    mean = grouped["mean"].reindex(range(start_year, end_year + 1))
-    counts = grouped["count"].reindex(range(start_year, end_year + 1))
-
-    # Errors = 1/sqrt(n), shaded area
-    errors = 0.5 / np.sqrt(counts.replace(0, np.nan))
-    return mean, errors
-
-
-def load_pe_irr(path, years):
-    """Load PE IRR Excel, return annual averages aligned with years."""
-    df = pd.read_excel(path)
-    df.iloc[:, 0] = pd.to_datetime(df.iloc[:, 0])
-    df = df.set_index(df.columns[0])
-    pe_1yr_irr = df.iloc[:, 0] / 100  # convert % to decimal if needed
-
-    pe_annual = pe_1yr_irr.groupby(pe_1yr_irr.index.year).mean()
-    return pe_annual.reindex(years)
 
 
 def plot_sentiment_vs_irr(years, sentiment, errors, irr, title):
