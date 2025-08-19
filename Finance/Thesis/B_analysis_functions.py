@@ -85,8 +85,26 @@ def clean_outlooks_df(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def load_sentiment(path, start_year, end_year):
-    """Load and aggregate sentiment by year, returning mean, count, and error bands."""
+def load_sentiment(path, start_year, end_year, freq="yearly")->pd.DataFrame:
+    """
+    Load and aggregate sentiment by year or quarter.
+
+    Parameters
+    ----------
+    path : str
+        Path to Excel file with 'report_date' and 'outlook_num'.
+    start_year, end_year : int
+        Start and end year for filtering.
+    freq : {"yearly", "quarterly"}
+        Aggregation frequency.
+
+    Returns
+    -------
+    mean : pd.Series
+        Mean sentiment per period.
+    errors : pd.Series
+        Error bands per period (0.5 / sqrt(n)).
+    """
     df = pd.read_excel(path)
     df["date_dt"] = pd.to_datetime(df["report_date"], format="%Y%m%d", errors="coerce")
     df = df[df["date_dt"].notna()]
@@ -94,13 +112,20 @@ def load_sentiment(path, start_year, end_year):
     df["year"] = df["date_dt"].dt.year
     df = df[(df["year"] >= start_year) & (df["year"] <= end_year)]
 
-    grouped = df.groupby("year")["outlook_num"].agg(["mean", "count"])
-    mean = grouped["mean"].reindex(range(start_year, end_year + 1))
-    counts = grouped["count"].reindex(range(start_year, end_year + 1))
+    if freq == "yearly":
+        df["period"] = df["year"]
 
-    # Errors = 1/sqrt(n), shaded area
-    errors = 0.5 / np.sqrt(counts.replace(0, np.nan))
-    return mean, errors
+    elif freq == "quarterly":
+        df["quarter"] = df["date_dt"].dt.quarter
+        df["period"] = df["year"] + (df["quarter"] - 1) / 4
+
+    else:
+        raise ValueError("freq must be 'yearly' or 'quarterly'")
+
+    grouped = df.groupby("period")["outlook_num"].agg(["mean", "count"])
+    grouped["errors"] =0.5 / np.sqrt(grouped["count"].replace(0, np.nan))
+
+    return grouped
 
 
 def load_pe_irr(path, years):
@@ -114,16 +139,74 @@ def load_pe_irr(path, years):
     return pe_annual.reindex(years)
 
 
-def load_gp_cashflows(filepath, fund):
-    df = pd.read_excel(filepath)
+def load_gp_cashflows(cashflow_path, fund, start_year=None, end_year=None, freq="yearly") -> pd.DataFrame:
+    """
+    Load GP cashflows and aggregate by year or quarter.-
+
+    Parameters
+    ----------
+    cashflow_path : str
+        Path to Excel file with GP cashflows.
+    fund : str
+        Fund manager name to filter.
+    start_year, end_year : int, optional
+        Restrict range of years.
+    freq : {"yearly", "quarterly"}
+        Aggregation frequency.
+
+    Returns
+    -------
+    pd.DataFrame
+        DataFrame with net_cf, dpi, abs_change_net_cf, rel_change_net_cf
+    """
+    df = pd.read_excel(cashflow_path)
     df = df[(df["TRANSACTION TYPE"] == "Distribution") & (df["FUND MANAGER"] == fund)]
 
     df["date_dt"] = pd.to_datetime(df["TRANSACTION DATE"], errors="coerce")
+    df = df[df["date_dt"].notna()]
+
     df["year"] = df["date_dt"].dt.year
+    if start_year and end_year:
+        df = df[(df["year"] >= start_year) & (df["year"] <= end_year)]
 
-    net_cf = df.groupby("year")["NET CASHFLOW"].sum()
-    dpi = (df["CUMULATIVE DISTRIBUTION"] / df["CUMULATIVE CONTRIBUTION"]).groupby(df["year"]).mean()
-    return net_cf, dpi
+    # ✅ Define period
+    if freq == "yearly":
+        df["period"] = df["year"]
+    elif freq == "quarterly":
+        df["quarter"] = df["date_dt"].dt.quarter
+        df["period"] = df["year"] + (df["quarter"] - 1) / 4
+    else:
+        raise ValueError("freq must be 'yearly' or 'quarterly'")
 
+    # ✅ Aggregate
+    net_cf = df.groupby("period")["NET CASHFLOW"].sum()
+    dpi = (-df["CUMULATIVE DISTRIBUTION"] / df["CUMULATIVE CONTRIBUTION"]).groupby(df["period"]).mean()
+
+    # ✅ Combine into DataFrame
+    out = pd.concat([net_cf.rename("net_cf"), dpi.rename("dpi")], axis=1)
+
+    # ✅ Absolute + relative changes of net_cf
+    out["abs_change_net_cf"] = out["net_cf"].diff()
+    out["rel_change_net_cf"] = out["net_cf"].pct_change()
+
+    return out
+
+
+def interpolate_sentiment_dpi(sentiment_path, cashflow_path, fund, start_year, end_year):
+    """Load and aggregate sentiment by year, returning mean, count, and error bands."""
+    df = pd.read_excel(sentiment_path)
+    df["date_dt"] = pd.to_datetime(df["report_date"], format="%Y%m%d", errors="coerce")
+    df = df[df["date_dt"].notna()]
+
+    df["year"] = df["date_dt"].dt.year
+    df = df[(df["year"] >= start_year) & (df["year"] <= end_year)]
+
+    grouped = df.groupby("year")["outlook_num"].agg(["mean", "count"])
+    mean = grouped["mean"].reindex(range(start_year, end_year + 1))
+    counts = grouped["count"].reindex(range(start_year, end_year + 1))
+
+    # Errors = 1/sqrt(n), shaded area
+    errors = 0.5 / np.sqrt(counts.replace(0, np.nan))
+    return mean, errors
 
 

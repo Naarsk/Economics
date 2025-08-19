@@ -30,12 +30,12 @@ start_year, end_year = 2015, 2025
 years = range(start_year, end_year + 1)
 
 
-sentiment, errors = load_sentiment(
+sentiment_df = load_sentiment(
     rf"C:\Users\leocr\Projects\Economics\Finance\Thesis\files\responses\excel\{fund_number_name}.xlsx",
-    start_year, end_year
+    start_year, end_year, freq="yearly"
 )
-weights = 1 / (errors ** 2)
-weights.name = "weights"
+sentiment =sentiment_df["mean"]
+weights = sentiment_df["counts"]
 
 pe_irr = load_pe_irr(
     r"D:\Files\OneDrive - University of Luxembourg\Thesis\PreqinDownloads\Excels\Horizon_IRR.xlsx",

@@ -5,12 +5,12 @@ from Finance.Thesis.C_plotting_functions import plot_sentiment_vs_irr
 start_year, end_year = 2018, 2025
 years = range(start_year, end_year + 1)
 fund_number_name = "22_TCG"
+sentiment_path = rf"C:\Users\leocr\Projects\Economics\Finance\Thesis\files\responses\excel\{fund_number_name}.xlsx"
 
 # --- Main ---
-sentiment, errors = load_sentiment(
-    rf"C:\Users\leocr\Projects\Economics\Finance\Thesis\files\responses\excel\{fund_number_name}.xlsx",
-    start_year, end_year
-)
+sentiment_df = load_sentiment(sentiment_path, start_year, end_year)
+sentiment =sentiment_df["mean"]
+errors = sentiment_df["errors"]
 
 pe_irr = load_pe_irr(
     r"D:\Files\OneDrive - University of Luxembourg\Thesis\PreqinDownloads\Excels\Horizon_IRR.xlsx",

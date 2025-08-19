@@ -1,11 +1,11 @@
 import os
 import random
 
-from Finance.Thesis.functions import make_summary
+from Finance.Thesis.A_processing_functions import make_summary
 
 # Paths
-source_dir = r"D:\Files\OneDrive - University of Luxembourg\Thesis\PreqinDownloads\GPs\22_TCG"
-summary_dir = r"C:\Users\leocr\Projects\Economics\Finance\Thesis\files/responses/summaries_22_TCG"
+source_dir = r"D:\Files\OneDrive - University of Luxembourg\Thesis\PreqinDownloads\GPs\23_AGM"
+summary_dir = r"C:\Users\leocr\Projects\Economics\Finance\Thesis\files/responses/summaries_23_AGM"
 
 # Ensure output directory exists
 os.makedirs(summary_dir, exist_ok=True)

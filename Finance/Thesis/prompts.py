@@ -13,7 +13,7 @@ variable_of_interest = "the outlook on capital distributions"
 
 period = "year following the report date"
 
-fund_manager = "The Carlyle Group"
+fund_manager = "Apollo Global Management"
 
 def build_summary_prompt(text):
     """
