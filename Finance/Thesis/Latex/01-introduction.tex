@@ -63,6 +63,9 @@ This suggests that beliefs can be modeled as processes influenced by the statist
 
 Private equity adds further complexity.
 Unlike public equities, PE valuations are not continuously updated, and information flows are limited to periodic GP reports and occasional external assessments.
+Recent work emphasizes how investor beliefs and biases shape asset prices, even in settings where fundamentals are difficult to observe.
+For instance, \citet{ermakov2024believe} highlight the role of subjective beliefs in private equity valuation, showing that reported performance can diverge from underlying fundamentals depending on how narratives are interpreted.
+Similarly, \citet{brown2022finding} study how institutional investors select asset managers, pointing to the importance of qualitative signals in decision-making.
 Reported NAVs may be smoothed or manipulated, particularly around fundraising events or during market downturns~\citep{brown2008private}.
 \cite{gupta2020valuing} show that when PE cash flows are decomposed into exposures to risk factors, most apparent outperformance disappears, and risk-adjusted returns are often negative.
 This indicates that beliefs based solely on NAVs are likely distorted.
@@ -85,13 +88,10 @@ This underscores the potential of AI-driven analysis in opaque markets and motiv
 Against this backdrop, the central research question of this thesis is:
 
 \begin{quote}
-    \emph{How are beliefs about private equity performance formed from qualitative
-    information, and do large language models exhibit the same biases as human
-    investors when generating such beliefs?}
+    \emph{Are LLMs able to understand PE investment reports and form quantitative beliefs? How accurate are they?}
 \end{quote}
 
-To address this question, I leverage a dataset of over 20,000 PE investment reports from Preqin, enriched with cash flow data on NAVs,
-capital calls, and distributions.
+To address this question, I leverage a dataset of over 20,000 PE investment reports from Preqin, enriched with cash flow data on capital calls and distributions.
 The reports provide information on portfolio companies, market outlooks, and fund strategies in the unstructured format that LLMs are designed to process.
 By  extracting belief measures directly from this text and comparing them to realized outcomes, I can test whether PE disclosures contain predictive
 content and whether LLM-generated beliefs exhibit systematic biases.
@@ -103,11 +103,9 @@ This thesis makes three contributions:
     to quantify beliefs in private equity by applying LLMs to GP
     communications and extracting structured forecasts from unstructured
     text.
-    \item \textbf{Bias in Reporting and Interpretation:} I test whether
-    GP-reported NAVs and qualitative narratives are biased in a predictable
-    way and examine whether LLMs replicate, amplify, or correct such biases.
     \item \textbf{Implications for Asset Pricing and Allocation:} By linking
     text-derived beliefs to realized cash flows and factor-adjusted
     performance, I provide evidence on whether beliefs contain incremental
     information for forecasting PE outcomes.
+    \item \textbf{Grounds for further research:} I provide ideas for further research.
 \end{enumerate}

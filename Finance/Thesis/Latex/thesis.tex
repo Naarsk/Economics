@@ -18,21 +18,82 @@
 \usepackage{listings}
 \usepackage{xcolor}
 
-\lstset{
+\lstdefinestyle{cmd}{
     basicstyle=\ttfamily\scriptsize, % very small monospace
-    lineskip=-1pt,                   % reduce vertical spacing
+    lineskip=-1pt,
     aboveskip=10pt,
     belowskip=10pt,
     frame=single,
     breaklines=true,
     showstringspaces=false,
-    xleftmargin=1em,                 % add left margin
-    xrightmargin=1em,                % add right margin
+    xleftmargin=1em,
+    xrightmargin=1em,
     framexleftmargin=1em,
     framexrightmargin=1em,
 }
+% --- JSON style ---
+\lstdefinestyle{json}{
+    basicstyle=\ttfamily\footnotesize,
+    keywordstyle=\color{uniRed},
+    stringstyle=\color{uniBlue},
+    commentstyle=\color{uniGray}\itshape,
+    showstringspaces=false,
+    breaklines=true,
+    frame=single,
+    literate=
+     *{0}{{{\color{uniRed}0}}}{1}
+      {1}{{{\color{uniRed}1}}}{1}
+      {2}{{{\color{uniRed}2}}}{1}
+      {3}{{{\color{uniRed}3}}}{1}
+      {4}{{{\color{uniRed}4}}}{1}
+      {5}{{{\color{uniRed}5}}}{1}
+      {6}{{{\color{uniRed}6}}}{1}
+      {7}{{{\color{uniRed}7}}}{1}
+      {8}{{{\color{uniRed}8}}}{1}
+      {9}{{{\color{uniRed}9}}}{1}
+}
 
-\geometry{margin=1in}
+% --- Database Schema / SQL style ---
+\lstdefinestyle{db}{
+    basicstyle=\ttfamily\footnotesize,
+    keywordstyle=\color{uniRed}\bfseries,
+    stringstyle=\color{uniBlue},
+    commentstyle=\color{uniGray}\itshape,
+    numbers=left,
+    numberstyle=\tiny\color{uniGray},
+    stepnumber=1,
+    numbersep=8pt,
+    showstringspaces=false,
+    breaklines=true,
+    frame=single,
+    tabsize=2,
+    morekeywords={CREATE, TABLE, PRIMARY, KEY, FOREIGN, REFERENCES, VARCHAR, INT, DATE}
+}
+
+% --- Python style ---
+\lstdefinestyle{python}{
+    basicstyle=\ttfamily\footnotesize,
+    keywordstyle=\color{uniRed}\bfseries,
+    stringstyle=\color{uniBlue},
+    commentstyle=\color{uniGray}\itshape,
+    numbers=left,
+    numberstyle=\tiny\color{uniGray},
+    stepnumber=1,
+    numbersep=8pt,
+    showstringspaces=false,
+    breaklines=true,
+    frame=single,
+    tabsize=4,
+    captionpos=b
+}
+
+
+\definecolor{uniRed}{HTML}{E30613}
+\definecolor{uniBlue}{HTML}{009FE3}
+\definecolor{uniGray}{HTML}{7D7D7D}
+
+
+\geometry{margin=1.2in}
 \doublespacing
 
 % ---------- DOCUMENT ----------
@@ -48,7 +109,6 @@
     % University Name
     {\Large \textbf{Master in Quantitative Economics and Finance} \par}
     \vspace{1cm}
-
 
     % Thesis Title
     {\LARGE \bfseries Generating Beliefs for Private Equity using Large Language Models \par}
@@ -68,240 +128,62 @@
     \vspace{1cm}
 
     % Footer
-
     \vfill
     {\large Master Thesis \par}
     % Date
     {\large \today \par}
 \end{titlepage}
 
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+
 
 \tableofcontents
 \newpage
 
 % ===============================
+
 \chapter{Introduction}\label{ch:introduction}
 \input{01-introduction}
 
-\chapter{Data \& Setup Description}\label{ch:data-description}
+% ===============================
+
+\chapter{Data \& Setup Description}\label{ch:data-setup-description}
+\input{02-data-setup-description}
 
 % ===============================
-\section{Selected fund managers}\label{sec:selected-fund-managers}
 
-    To investigate the sentiment, I consider a list of 20 GPs and 20 LPs, selected by fund size and reported in table~\ref{tab:selected_funds}.
-
-    \begin{sidewaystable}[ht]
-    \centering
-    \caption{Top 20 Private Equity GPs and LPs by Fund Size or Commitment (USD mn)}
-    \begin{tabular}{l r | l r}
-    \hline
-    \textbf{GP} & \textbf{Fund Size} & \textbf{LP} & \textbf{Commitment} \\
-    \hline
-    TPG & 57,088.5 & California Public Employees' Retirement System & 29,685.33 \\
-    The Carlyle Group & 53,275.79 & CPP Investments & 25,130.54 \\
-    Apollo Global Management & 52,034 & California State Teachers' Retirement System & 22,637.9 \\
-    Blackstone & 46,950 & Washington State Investment Board & 16,853.35 \\
-    CVC Capital Partners & 38,355.47 & Oregon Public Employees Retirement Fund & 16,093.9 \\
-    Apax Partners & 35,544.61 & New York State Common Retirement Fund & 15,128.15 \\
-    Goldman Sachs Asset Management & 30,550 & Teacher Retirement System of Texas & 14,248.47 \\
-    Bain Capital & 29,507 & Florida State Board of Administration & 11,212.6 \\
-    Kohlberg Kravis Roberts & 28,572.18 & Hamilton Lane & 9,833.73 \\
-    Advent International & 27,559.44 & Pennsylvania Public School Employees' Retirement System & 8,414.04 \\
-    Permira & 25,125.9 & Michigan Department of Treasury & 8,283.78 \\
-    Silver Lake & 23,300 & State of Wisconsin Investment Board & 6,602.43 \\
-    Providence Equity Partners & 22,808 & Massachusetts Pension Reserves Investment Management Board & 6,277.31 \\
-    Madison Dearborn Partners & 22,163 & Teachers Retirement System of Georgia & 5,321.97 \\
-    EQT & 19,486.98 & Teachers' Retirement System of the State of Illinois & 5,215.23 \\
-    Nordic Capital & 16,014.86 & State Teachers Retirement System of Ohio & 5,204.57 \\
-    Welsh, Carson, Anderson \& Stowe & 15,386.7 & Los Angeles County Employees' Retirement Association & 5,058.98 \\
-    Leonard Green \& Partners & 15,007 & New York State Teachers' Retirement System & 4,736.66 \\
-    Charterhouse Capital Partners & 14,468.42 & Maryland State Retirement and Pension System & 4,675 \\
-    Onex & 13,810 & Minnesota State Board of Investment & 4,596.94 \\
-    \hline
-    \end{tabular}
-    \label{tab:selected_funds}
-    \end{sidewaystable}
-
-    For each of them, all the investor documents that contain the fund name are obtained from Preqin, and stored for LLM processing.
-    Moreover, for the 20 GPs, the cashflows for the funds they manage are also obtained.
-
-    \begin{table}[ht]
-        \centering
-        \caption{Number of retrieved documents}
-        \begin{tabular}{l r}
-\hline
-\textbf{LP} & \textbf{Number of documents} \\
-\hline
-California Public Employees' Retirement System & 359 \\
-CPP Investments & 103 \\
-California State Teachers' Retirement System & 142 \\
-Washington State Investment Board & 84 \\
-Oregon Public Employees Retirement Fund & 114 \\
-New York State Common Retirement Fund & 139 \\
-Teacher Retirement System of Texas & 127 \\
-Florida State Board of Administration & 247 \\
-Hamilton Lane & 1571 \\
-Pennsylvania Public School Employees' Retirement System & 71 \\
-Michigan Department of Treasury & 73 \\
-State of Wisconsin Investment Board & 147 \\
-Massachusetts Pension Reserves Investment Management Board & 56 \\
-Teachers Retirement System of Georgia & 53 \\
-Teachers' Retirement System of the State of Illinois & 246 \\
-State Teachers Retirement System of Ohio & 137 \\
-Los Angeles County Employees' Retirement Association & 209 \\
-New York State Teachers' Retirement System & 84 \\
-Maryland State Retirement and Pension System & 122 \\
-Minnesota State Board of Investment & 96 \\
-\hline
-        Total & 4180 \\
-\hline
-\end{tabular}
-        \\ \vspace{0.5cm}
-        \begin{tabular}{l r}
-\hline
-\textbf{GP} & \textbf{Number of documents} \\
-\hline
-TPG & 810 \\
-The Carlyle Group & 455 \\
-Apollo Global Management & 687 \\
-Blackstone & 1403 \\
-CVC Capital Partners & 1014 \\
-Apax Partners & 800 \\
-Goldman Sachs Asset Management & 947 \\
-Bain Capital & 1241 \\
-Kohlberg Kravis Roberts & 485 \\
-Advent International & 757 \\
-Permira & 903 \\
-Silver Lake & 908 \\
-Providence Equity Partners & 283 \\
-Madison Dearborn Partners & 89 \\
-EQT & 2719 \\
-Nordic Capital & 388 \\
-Welsh, Carson, Anderson \& Stowe & 307 \\
-Leonard Green \& Partners &  \\
-Charterhouse Capital Partners &  \\
-Onex &  \\
-\hline
-    Total & 14196 \\
-    \hline
-\end{tabular}\label{tab:num_of_docs}
-    \end{table}
-
-
-\section{LLM and Computational Setup}\label{sec:llm-and-computational-setup}
-    Experiments were conducted using two large language models: Deepseek-R1 8B (see~\ref{lst:deepseek-r1}) and GPT-OSS 20B (see~\ref{lst:gptoss}), both run on the University of Luxembourg High-Performance Computing cluster (ULHPC).
-    Additionally, Deepseek 8B was tested on a local machine for comparison.
-    Both models were evaluated on summarization and forecasting tasks, and their outputs were broadly comparable, indicating that either model could effectively support the workflow.
-    The models were chosen for their ability to \textit{think} and to handle long-context inputs, which is essential given that the average document in our dataset spans roughly 15 pages, corresponding to approximately 80,000 tokens.
-    The hardware setup differed between environments.
-    On the local machine, inference was carried out on an NVIDIA GeForce GTX~1070 GPU with 8\,GB of VRAM (CUDA~12.8), which limited the feasible model size and imposed a maximum context length of 2,048 tokens for Deepseek~8B.
-    This required documents to be split into multiple segments for processing.
-    In contrast, the ULHPC nodes were equipped with NVIDIA Tesla V100-SXM2 GPUs with 32\,GB of VRAM  (CUDA~12.7), offering four times the memory capacity and significantly greater compute throughput.
-    This enabled the use of both Deepseek~8B and GPT-OSS~20B with extended context lengths of up to 131,072 tokens, allowing entire documents to be processed in a single pass with batch inference, thereby reducing preprocessing overhead and improving throughput.
-    All the models were accessed through an Ollama API.
-
-    \begin{center}
-    \begin{minipage}{0.85\linewidth}
-    \begin{lstlisting}[label={lst:gptoss}]
-        Model
-            architecture        gptoss
-            parameters          20.9B
-            context length      131072
-            embedding length    2880
-            quantization        MXFP4
-
-        Capabilities
-            completion
-            tools
-            thinking
-
-        Parameters
-            temperature    1
-
-        License
-            Apache License
-            Version 2.0, January 2004
-    \end{lstlisting}
-    \\
-    \begin{lstlisting}[label={lst:deepseek-r1}]
-        Model
-            architecture        qwen3
-            parameters          8.2B
-            context length      131072
-            embedding length    4096
-            quantization        Q4_K_M
-
-        Capabilities
-            completion
-            thinking
-
-        Parameters
-            stop           "<｜begin▁of▁sentence｜>"
-            stop           "<｜end▁of▁sentence｜>"
-            stop           "<｜User｜>"
-            stop           "<｜Assistant｜>"
-            temperature    0.6
-            top_p          0.95
-
-        License
-            MIT License
-            Copyright (c) 2023 DeepSeek
-    \end{lstlisting}
-    \end{minipage}
-    \end{center}
-
-
-    \chapter{Methodology}\label{ch:methodology}
+\chapter{Methodology}\label{ch:methodology}
 \input{03-methodology}
 
+% ===============================
 
-
-
+\chapter{Results}\label{ch:results}
+\input{04-results}
 
 % ===============================
-\chapter{Results}
-% ===============================
-\section{Quantitative Performance}
-% -- Show main results.
 
-\section{Case Studies}
-% -- Highlight successes and failures.
-
-\section{Comparison with Public Market Baselines}
-% -- Contrast with results from public markets.
-
-% ===============================
-\chapter{Discussion}
-% ===============================
-\section{What Worked, What Did Not, and Why}
-% -- Discuss findings.
-
-\section{Implications for LPs, GPs, and Risk Management}
-% -- Practical implications.
-
-\section{Limitations}
-% -- Limitations of your approach.
-
-% ===============================
-\chapter{Conclusion and Future Work}
-% ===============================
-\section{Key Takeaways}
-% -- Summarize contributions.
-
-\section{Roadmap for Extending to Other Granularity}
-% -- Forward-looking ideas.
+\chapter{Conclusion and Future Work}\label{ch:conclusion-and-future-work}
+\input{05-conclusion-and-future-work}
 
 % ===============================
 \appendix
 \chapter{Appendices}
 % ===============================
-\section{Detailed Prompts}
-% -- Include prompt examples.
 
 \section{Additional Tables and Figures}
-% -- Additional empirical outputs.
+    In this section I include additional figures.
+    \begin{figure}
+        \centering
+        \includegraphics[width = 0.85 \linewidth]{img/21_TPG}
+        \includegraphics[width = 0.85 \linewidth]{img/22_TCG}
+        \includegraphics[width = 0.85 \linewidth]{img/23_AGM}
+        \label{fig:figure}
+        \caption{The sentiment indices for TPG, Carlyle Group and Apollo Global Management. Quarterly aggregation.}
+    \end{figure}
 
-% ===============================
 \bibliographystyle{apalike}
 \bibliography{references}  % Create references.bib file
 

@@ -79,7 +79,7 @@ def plot_avg_outlook(path,
     """
 
     grouped = load_sentiment(path,start_year,end_year, freq)
-    avg = grouped["mean"]
+    avg = grouped["sentiment"]
     errors = grouped["errors"]
 
     # ✅ Plot

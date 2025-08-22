@@ -4,8 +4,8 @@ import random
 from Finance.Thesis.A_processing_functions import make_summary
 
 # Paths
-source_dir = r"D:\Files\OneDrive - University of Luxembourg\Thesis\PreqinDownloads\GPs\23_AGM"
-summary_dir = r"C:\Users\leocr\Projects\Economics\Finance\Thesis\files/responses/summaries_23_AGM"
+source_dir = r"D:\Files\OneDrive - University of Luxembourg\Thesis\PreqinDownloads\GPs\24_BS"
+summary_dir = r"C:\Users\leocr\Projects\Economics\Finance\Thesis\files/responses/summaries_24_BS"
 
 # Ensure output directory exists
 os.makedirs(summary_dir, exist_ok=True)

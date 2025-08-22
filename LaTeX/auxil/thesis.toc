@@ -1,25 +1,28 @@
-\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Motivation}{3}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Literature Review}{5}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}LLMs in Finance}{6}{subsection.1.2.1}%
-\contentsline {section}{\numberline {1.3}Research Question and Contributions}{7}{section.1.3}%
-\contentsline {chapter}{\numberline {2}Data \& Setup Description}{8}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Selected fund managers}{8}{section.2.1}%
-\contentsline {section}{\numberline {2.2}LLM and Computational Setup}{8}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Methodology}{12}{chapter.3}%
-\contentsline {section}{\numberline {3.1}How to generate beliefs using LLMs}{12}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Construction of the Sentiment Index}{13}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Results}{14}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Quantitative Performance}{14}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Case Studies}{14}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Comparison with Public Market Baselines}{14}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Discussion}{15}{chapter.5}%
-\contentsline {section}{\numberline {5.1}What Worked, What Did Not, and Why}{15}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Implications for LPs, GPs, and Risk Management}{15}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Limitations}{15}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Conclusion and Future Work}{16}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Key Takeaways}{16}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Roadmap for Extending to Other Granularity}{16}{section.6.2}%
-\contentsline {chapter}{\numberline {A}Appendices}{17}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Detailed Prompts}{17}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Additional Tables and Figures}{17}{section.A.2}%
+\contentsline {chapter}{\numberline {1}Introduction}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Motivation}{4}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Literature Review}{6}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}LLMs in Finance}{7}{subsection.1.2.1}%
+\contentsline {section}{\numberline {1.3}Research Question and Contributions}{8}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Data \& Setup Description}{10}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Selected fund managers}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}LLM and Computational Setup}{10}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Methodology}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}2-query procedure to generate beliefs}{14}{section.3.1}%
+\contentsline {paragraph}{Document summary:}{15}{section*.7}%
+\contentsline {paragraph}{JSON-formatted answers:}{15}{section*.8}%
+\contentsline {section}{\numberline {3.2}Construction of the Sentiment Index}{16}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Comparison with hard data}{16}{section.3.3}%
+\contentsline {paragraph}{Net cashflows}{17}{section*.10}%
+\contentsline {paragraph}{Market returns}{17}{section*.11}%
+\contentsline {chapter}{\numberline {4}Results}{18}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Case Study}{18}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Panel Regression}{21}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Comparison with Market Baselines}{21}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{23}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Key Takeaways}{23}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Roadmap for Extension}{24}{section.5.2}%
+\contentsline {paragraph}{Deployment on ULHPC and usage of more advanced models}{24}{section*.16}%
+\contentsline {paragraph}{Investigate other quantities and other forecasting horizons}{25}{section*.17}%
+\contentsline {paragraph}{Improve Granularity}{25}{section*.18}%
+\contentsline {chapter}{\numberline {A}Appendices}{26}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Additional Tables and Figures}{26}{section.A.1}%

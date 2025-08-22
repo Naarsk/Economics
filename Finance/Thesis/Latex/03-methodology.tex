@@ -1,10 +1,18 @@
 This chapter presents the methodology used in this research.
 
-\section{How to generate beliefs using LLMs}\label{sec:how-to-generate-beliefs-using-llms}
-For all the documents in table~\ref{tab:selected_funds}, I do a first round of queries to the LLM, asking to summarize the documents, focusing on the most important pieces of information.
-An example of the prompt used for GPs is reported in~\ref{lst:GP_prompt_summary}.
+\section{2-query procedure to generate beliefs}\label{sec:how-to-generate-beliefs-using-llms}
+The scope of this procedure is to produce quantitative estimates from textual content.
+In order to do so, we need to ask the LLM to produce structured results (which can be seen as \textit{answers to a survey}), which are then aggregated to make the index.
+Due to hardware limitations, the whole context length (the amount of input the model can see in one run, or the \textit{short term memory} of an LLM) of 131072 tokens (the chunks in which the text is split, each roughly corresponding to $\frac{3}{4}$ of an average English word) that Deepseek-r1 would support is not available.
+Instead, Ollama restricts the model to a 2048 token window, and batches the requests.
+Therefore, the model is unable to handle complex tasks, such as providing a well-structured output, in just one go (the instructions \textit{get lost} in the sea of information of the document text).
+Instead, first each document is summarized to few lines with a particular focus on the quantities of interest, and then a second round produces the structured output.
 
-\begin{lstlisting}[label={lst:GP_prompt_summary}]
+\paragraph{Document summary:} All the documents in table~\ref{tab:selected_funds} are summarized focusing on the most important pieces of information.
+An example of the prompt used for GPs is reported in~\ref{lst:GP_prompt_summary}.
+Examples of output can be found in section~\ref{{sec:case-studies}}
+
+\begin{lstlisting}[style= cmd,label={lst:GP_prompt_summary}]
     You are a financial analyst.
     Your task: summarize the following investment report,
     keep track of the name of the fund and the date of the report,
@@ -18,10 +26,10 @@ An example of the prompt used for GPs is reported in~\ref{lst:GP_prompt_summary}
     focus on {quantity_of_interest} for the {period} in the perspective of fund manager {fund_manager}, its magnitude in percentage terms, and your confidence in the prediction.
 \end{lstlisting}
 
-Then, I execute a second round of queries, this time asking for the forecast (a prompt example is~\ref{lst:GP_prompt_json}).
-The machine is also told that the answer must be submitted in a JSON format (see~\ref{lst:json_schema}):
+\paragraph{JSON-formatted answers:} Then, I execute a second round of queries, this time asking for the forecast.
+A prompt example is the following:
 
-\begin{lstlisting}[label={lst:GP_prompt_json}]
+\begin{lstlisting}[style= cmd,label={lst:GP_prompt_json}]
         You are a financial analyst that must output only a valid JSON object, forecasting {variable_of_interest} for the {period}.
 
         Context from the document:
@@ -33,7 +41,9 @@ The machine is also told that the answer must be submitted in a JSON format (see
         Respond with ONLY the JSON object.
 \end{lstlisting}
 
-\begin{lstlisting}[label={lst:json_schema}]
+The machine is also told that the answer must be submitted in a JSON format as follows:
+
+\begin{lstlisting}[style=json,label={lst:json_schema}]
     {"results": {
         "fund_name": "<fund name>",
         "report_date": "<yyyymmdd>",
@@ -45,6 +55,38 @@ The machine is also told that the answer must be submitted in a JSON format (see
     }
 \end{lstlisting}
 
+\section{Construction of the Sentiment Index}\label{sec:construction-of-the-sentiment-index}
+Finally the entries from the JSON files are extracted and collected in a database.
+Moreover, the outlook is converted to a numerical value according to the following table:
+\begin{center}
+    \begin{tabular}{l|r}
+        increase & 1 \\ \hline
+        stable & 0 \\ \hline
+        decrease & -1 \\
+    \end{tabular}
+\end{center}
 
-\section{Construction of the Sentiment Index}
-To each outlook
+Following Bybee's Ghost in the Machine Approach, the numerical outlooks $O^m_{t}$ for each GP $m$ are then averaged based on the report date to create the sentiment index $S^m_t$.
+I use both yearly and quarterly aggregation.
+\begin{equation}
+    S_t^m = \sum_{t < u \leq t+1} O_u^m,\label{eq:sentiment}
+\end{equation}
+where $t$ is the period.
+The other values extracted from the beliefs are not used.
+
+\begin{figure}[h]
+    \centering
+    \label{fig:sentiment_TCG}
+    \includegraphics[width = 0.7\linewidth]{img/22_TCG}
+    \caption{The sentiment index for GP \textit{Carlyle Group}}
+\end{figure}
+
+\section{Comparison with hard data}\label{sec:econometrics}
+The aim is to be able to run a panel data regression to evaluate how well does the predicted sentiment correlates with the actual data for the same quantity (which in this analysis, are outlooks on cash flow distributions), as well as other macroeconomic indicator, such as the aggregated returns of public and private markets.
+
+\paragraph{Net cashflows} The data for net cashflows, i.e. sum of inflows and distributions, net of fees, is directly available on Preqin.
+The values are discounted to the beginning of each period and aggregated to the desired frequency to match the sentiment~\ref{eq:sentiment}.
+I tested both the levels and the changes, the latter both in relative and absolute terms
+
+
+\paragraph{Market returns} As a proxy for public and private market returns I use the S\&P500 log-returns and Preqin aggregate IRR, respectively, as in Fig.~\ref{fig:pe_vs_pm}.
