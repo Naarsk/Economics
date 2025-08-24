@@ -21,24 +21,21 @@ These features make it difficult to determine whether observed performance refle
         \caption{PE assets under management, dry powder, and unrealized value.}
         \label{fig:aum_drypowder}
     \end{subfigure}
-    \caption{Trends in private equity capital and dry powder levels over time. Data from Preqin.}
+    \caption{Trends in private equity cash flows and capital. Data from Preqin.}
     \label{fig:pe_trends}
 \end{figure}
 
-Unlike public equities, where investor beliefs can be inferred directly from market prices, private equity beliefs are not observable in real time.
+In fact, unlike public equities, where investor beliefs can be inferred directly from market prices, private equity beliefs are not observable in real time.
 Limited partners (LPs) form expectations about future distributions, exit values, and returns by interpreting a narrow set of signals: GP reports, due diligence materials, industry news, and historical cash flows.
-These communications often combine hard information with softer language that can influence perceptions.
-It remains unclear whether LPs are consistently able to extract the predictive content of these narratives or if they are sometimes influenced by sentiment and bias.
-
-Historical episodes illustrate the stakes.
-During the global financial crisis (2008–2009), many PE funds were slow to revise net asset values (NAVs), creating a disconnect between reported valuations and underlying fundamentals.
+GP communications often combine hard information with softer language that can influence perceptions, and it remains unclear whether LPs are consistently able to extract the predictive content of these narratives or if they are sometimes influenced by sentiment and bias.
+Historical episodes illustrate the stakes: during the global financial crisis (2008-2009), many PE funds were slow to revise net asset values (NAVs), creating a disconnect between reported valuations and underlying fundamentals.
 In contrast, during the COVID-19 shock, GPs initially issued cautious updates but quickly turned more optimistic as public markets recovered.
 Both episodes suggest that GP communications can shape investor beliefs in ways not fully explained by fundamentals, with potential implications for capital allocation and risk perception (see Figure~\ref{fig:pe_vs_pm}).
 
 \begin{figure}
     \centering
     \includegraphics[width=0.8 \linewidth]{img/pe_vs_pm}
-    \caption{Private equity returns (source: Preqin) are calculated using the NAV reported by GPs. Therefore, they tend to be much less volatile than market returns.}
+    \caption{Private equity returns (source: Preqin) are calculated using the NAV reported by GPs. Therefore, they tend to be much less elastic than market returns.}
     \label{fig:pe_vs_pm}
 \end{figure}
 
@@ -47,16 +44,16 @@ LLMs can process complex textual information and generate probabilistic forecast
 interpretation.
 In public markets, LLMs have already been shown to match human analysts performances when it comes to predict returns, infer sentiment, and identify risk exposures from unstructured data.
 However, private markets present a more challenging environment: the data is scarcer, disclosures are less standardized, and outcomes are realized over long horizons.
-The aim of this thesis is to introduce a methodology to use LLMs to process GPs report and extract information effectively and quantify the sentiment expressed in these documents.
+The aim of this thesis is to introduce a methodology to use LLMs to process GPs report to extract information effectively and quantify the sentiment expressed by these documents.
 
 \section{Literature Review}\label{sec:literature-review}
 
-The starting point for this thesis is the literature on belief formation in asset pricing.
 Classical models assume rational expectations, where investors form unbiased forecasts given available information.
 Yet empirical evidence shows that beliefs often deviate systematically from fundamentals.
 Behavioral models document patterns such as overreaction to recent performance, underreaction to fundamentals, and herding behavior~\citep{barberis2018behavioral}, observed in analyst forecasts, mutual fund flows, and investor reactions to earnings announcements.
 In public markets, these biases are frequently linked to the use of heuristics when processing complex signals.
 
+The starting point for this thesis is the literature is the work of~\cite{bybee2025ghost}.
 \cite{bybee2025ghost} introduces a framework in which belief formation is shaped by language patterns.
 Comparing human analyst reports and LLM-generated forecasts in response to news, he finds that both humans and models overweight recent returns, anchor on past price movements, and underweight fundamentals.
 This suggests that beliefs can be modeled as processes influenced by the statistical patterns embedded in language rather than purely rational inference.
@@ -64,8 +61,8 @@ This suggests that beliefs can be modeled as processes influenced by the statist
 Private equity adds further complexity.
 Unlike public equities, PE valuations are not continuously updated, and information flows are limited to periodic GP reports and occasional external assessments.
 Recent work emphasizes how investor beliefs and biases shape asset prices, even in settings where fundamentals are difficult to observe.
-For instance, \citet{ermakov2024believe} highlight the role of subjective beliefs in private equity valuation, showing that reported performance can diverge from underlying fundamentals depending on how narratives are interpreted.
-Similarly, \citet{brown2022finding} study how institutional investors select asset managers, pointing to the importance of qualitative signals in decision-making.
+For instance, \cite{ermakov2024believe} highlight the role of subjective beliefs in private equity valuation, showing that reported performance can diverge from underlying fundamentals depending on how narratives are interpreted.
+Similarly, \cite{brown2022finding} study how institutional investors select asset managers, pointing to the importance of qualitative signals in decision-making.
 Reported NAVs may be smoothed or manipulated, particularly around fundraising events or during market downturns~\citep{brown2008private}.
 \cite{gupta2020valuing} show that when PE cash flows are decomposed into exposures to risk factors, most apparent outperformance disappears, and risk-adjusted returns are often negative.
 This indicates that beliefs based solely on NAVs are likely distorted.

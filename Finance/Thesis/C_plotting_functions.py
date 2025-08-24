@@ -1,6 +1,5 @@
 import os
 
-import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 
@@ -104,3 +103,36 @@ def plot_avg_outlook(path,
     plt.close()
 
     print(f"Plot saved to {filepath}")
+
+
+
+def plot_distributions(path, fund_code):
+    """Plots histogram distributions for outlook_num and confidence."""
+    df = pd.read_excel(path)
+
+    # Convert confidence to numeric, ignoring errors
+    df["confidence"] = pd.to_numeric(df["confidence"], errors="coerce")
+
+    plt.figure(figsize=(12, 5))
+
+    # ✅ Outlook_num distribution
+    plt.subplot(1, 2, 1)
+    if "outlook_num" in df.columns:
+        df["outlook_num"].dropna().hist(bins=3, rwidth=0.8)
+        plt.xticks([-1, 0, 1], ["Decrease (-1)", "Stable (0)", "Increase (1)"])
+        plt.title("Distribution of Outlook")
+        plt.xlabel("Outlook")
+        plt.ylabel("Count")
+
+    # ✅ Confidence distribution
+    plt.subplot(1, 2, 2)
+    if "confidence" in df.columns:
+        df["confidence"].dropna().hist(bins=10, rwidth=0.8)
+        plt.title("Distribution of Confidence")
+        plt.xlabel("Confidence")
+        plt.ylabel("Count")
+
+    plt.tight_layout()
+    plt.savefig(f"Latex/img/{fund_code}_outlook_distribution.png")
+    plt.show()
+    plt.close()

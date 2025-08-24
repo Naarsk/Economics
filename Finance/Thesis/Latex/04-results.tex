@@ -1,8 +1,8 @@
 % ===============================
 
-\section{Case Study}\label{sec:case-study}
+\section{Case Study}\label{sec:case-studies}
     In this section I detail the intermediate outputs of the index construction for the GP \textit{TPG}.
-    For this GP, 810 documents have been processed, including the document I will pick as an example, \texit{1047 - Oregon Public Employees Retirement Fund Opportunity Portfolio}, which details the performance of several funds in which the Oregon Public Employees Retirement Fund is invested, managed by TPG\@.
+    For this GP, 810 documents have been processed, including the document I will pick as an example, \textit{1047 - Oregon Public Employees Retirement Fund Opportunity Portfolio}, which details the performance of several funds in which the Oregon Public Employees Retirement Fund is invested, managed by TPG\@.
     The first step of the elaboration is the summary, which I present below as produced by the model:
 
     \begin{lstlisting}[style=cmd, label={lst:oregon_summary}]
@@ -95,8 +95,6 @@
 
     \begin{table}[h!]
         \centering
-        \caption{OLS Regression of Sentiment on Net Cashflow Changes}
-        \label{tab:ols_sentiment}
         \begin{tabular}{lcccc}
         \toprule
          & Coef.
@@ -111,17 +109,28 @@
         \multicolumn{5}{l}{\textit{F-statistic}: 25.38 (p = 0.015), \quad \textit{DW}: 1.873} \\
         \bottomrule
         \end{tabular}
+        \caption{OLS Regression of Sentiment on Net Cashflow Changes}
+        \label{tab:ols_sentiment}
     \end{table}
 
     \begin{figure}
         \centering
-        \label{fig:sentiment_TPG}
         \includegraphics[width = 0.7\linewidth]{img/21_TPG_Lagged Sentiment vs Relative Change in Net Cashflow (TPG)}\\
         \caption{Comparison between the sentiment index and the data from Preqin}
+        \label{fig:sentiment_TPG}
     \end{figure}
 
 \section{Panel Regression}
 
+\section{Confidence of Results}
+    \begin{figure}
+        \centering
+        \includegraphics[width = 0.4\linewidth]{img/21_TPG_outlook_distribution} \quad
+        \includegraphics[width = 0.4\linewidth]{img/23_AGM_outlook_distribution}
+        \caption{Distribution of outlooks and confidence levels for funds TPG and Apollo Global Management}
+        \label{fig:confidence}
+    \end{figure}
+It can be observed from the distribution of the outlooks and the of the confidence values that, despite majority of the forecasts expect a positive outlook, the confidence of the model in his forecasts remains very low, with the $0-10\%$ confidence bucket taking the majority of observations (ref. Fig. \ref{fig:confidence})
 
 
 \section{Comparison with Market Baselines}\label{sec:comparison-with-public-market-baselines}

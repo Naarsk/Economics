@@ -2,18 +2,22 @@
 
 \section{Key Takeaways}
 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{img/response_time}
+    \caption{Average computational time for one query to the LLM. To process 20 thousand documents, 40 thousand queries are required, for a total elaboration time of around 90 days.}
+    \label{fig:response_time}
+\end{figure}
+
 The proposed methodology demonstrates strong potential when the sentiment index is based on a sufficient number of observations, ensuring that the resulting measure is both stable and representative.
 This analysis suggests that in private equity, certain general partners (GPs) appear more consistent in maintaining the expectations they set, while others exhibit greater variability, potentially reflecting differences in communication strategies or internal forecasting accuracy.
-However, one critical limitation is computational efficiency: processing large volumes of unstructured text data can become prohibitively time-consuming without access to adequate computing resources, especially when applying advanced language models.
+However, one critical limitation is computational efficiency: processing large volumes of unstructured text data can become prohibitively time-consuming (see Fig.\ref{fig:response_time} for the average time required to handle just one query) without access to adequate computing resources, especially when applying advanced language models.
 Another challenge lies in the heterogeneity of the dataset.
 Mixing funds across asset classes and incorporating statements from both GPs and limited partners (LPs) can introduce noise, making it harder to draw clear causal inferences. 
 This highlights the importance of segmenting the analysis by fund type, region, or strategy to improve robustness and interpretability.
 Despite these limitations, the methodology is highly promising.
 It is inherently scalable and can be adapted to a wide range of applications, from monitoring market sentiment in real time to enhancing risk models for capital allocation.
 As computational infrastructure improves and more granular data becomes available, this approach could become a standard tool for analyzing belief formation and expectation management in private markets.
-
-
-
 
 \section{Roadmap for Extension}
     Here I present some extensions to overcome the limitations found in my research.

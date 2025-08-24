@@ -172,14 +172,36 @@
 \appendix
 \chapter{Appendices}
 % ===============================
+\section{Code Explanation}\label{sec:code-explanation}
+    The replication package contains the python script needed to process the document and run the analysis:
+    \begin{enumerate}
+        \item \textit{01\_make\_summaries.py} reads all the PDFs in the \texttt{source\_dir}, randomly chooses a subset of \texttt{n} of them (can be set to all by \textit{len(all\_pdfs)}) and start the queries by calling function \texttt{make\_summary}, according to the following parameters:
+        \begin{itemize}
+            \item \texttt{url}: the url to ollama server, can be the local host or a url to an external machine; the server must be started before executing the python script.
+            \item \texttt{model}: the model to query, if multiple are available.
+            \item \texttt{variable\_of\_interest}: for this analysis I used \textit{the outlook on capital distributions}, can be any relevant quantity.
+            \item \texttt{period}: for this analysis I used \textit{year following the report date}, can be any reasonable span of time
+            \item \texttt{fund\_manager}: the fund manager whose perspective should be represented by the LLM answer.
+            I used the GP to which the documents were related.
+            \item \texttt{source\_dir, summary\_dir, selected\_pdfs}; input, output directories and name of files to process
+        \end{itemize}
+        Output of the \texttt{make\_summary} is a number of \texttt{.txt} files equal to (or less than, in case there were documents which could not be processed) the number of input \texttt{.pdf} files, each corresponding to a summary of a \texttt{.pdf} files.
+        Function \texttt{make\_summary} internally uses the helper function \texttt{build\_summary\_prompt}, where the basic structure of the prompt is defined.
+        \item \textit{02\_make\_json.py} uses \texttt{make\_json\_from\_summary}, which operates analogously to the function of the previous step.
+        The only difference is in the prompt helper function, \texttt{build\_json\_prompt}, and the types of input (\texttt{.txt}) and output (\texttt{.json}).
+        No selection of shuffling is implemented, but all the \texttt{.txt} document in the input directory all processed.
+        \item \textit{03\_make\_excel.py} processes the \texttt{.json} files and creates an \texttt{.xlsx} with all the entries.
+        \item Scripts \textit{04\_x\_sentiment\_x.py} compute and plot the sentiment index, alone or jointly with other quantities.
+        They rely on functions \texttt{load\_sentiment} and \texttt{load\_gp\_cashflows} to read and aggregate data to the desired frequency (\texttt{'yearly', 'quaterly', 'semiannual'}).
+    \end{enumerate}
 
 \section{Additional Tables and Figures}
     In this section I include additional figures.
     \begin{figure}
         \centering
-        \includegraphics[width = 0.85 \linewidth]{img/21_TPG}
-        \includegraphics[width = 0.85 \linewidth]{img/22_TCG}
-        \includegraphics[width = 0.85 \linewidth]{img/23_AGM}
+        \includegraphics[width = 0.8 \linewidth]{img/21_TPG}
+        \includegraphics[width = 0.8 \linewidth]{img/22_TCG}
+        \includegraphics[width = 0.8 \linewidth]{img/23_AGM}
         \label{fig:figure}
         \caption{The sentiment indices for TPG, Carlyle Group and Apollo Global Management. Quarterly aggregation.}
     \end{figure}

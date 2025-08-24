@@ -17,12 +17,14 @@
 \contentsline {chapter}{\numberline {4}Results}{18}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Case Study}{18}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Panel Regression}{21}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Comparison with Market Baselines}{21}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Key Takeaways}{23}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Roadmap for Extension}{24}{section.5.2}%
-\contentsline {paragraph}{Deployment on ULHPC and usage of more advanced models}{24}{section*.16}%
-\contentsline {paragraph}{Investigate other quantities and other forecasting horizons}{25}{section*.17}%
-\contentsline {paragraph}{Improve Granularity}{25}{section*.18}%
-\contentsline {chapter}{\numberline {A}Appendices}{26}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Additional Tables and Figures}{26}{section.A.1}%
+\contentsline {section}{\numberline {4.3}Confidence of Results}{21}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Comparison with Market Baselines}{21}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Conclusion and Future Work}{24}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Key Takeaways}{24}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Roadmap for Extension}{25}{section.5.2}%
+\contentsline {paragraph}{Deployment on ULHPC and usage of more advanced models}{25}{section*.18}%
+\contentsline {paragraph}{Investigate other quantities and other forecasting horizons}{26}{section*.19}%
+\contentsline {paragraph}{Improve Granularity}{26}{section*.20}%
+\contentsline {chapter}{\numberline {A}Appendices}{27}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Code Explanation}{27}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Additional Tables and Figures}{28}{section.A.2}%

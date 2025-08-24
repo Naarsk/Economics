@@ -9,13 +9,8 @@ json_schema = """{
   }
 }"""
 
-variable_of_interest = "the outlook on capital distributions"
 
-period = "year following the report date"
-
-fund_manager = "Apollo Global Management"
-
-def build_summary_prompt(text):
+def build_summary_prompt(document_text, variable_of_interest, period, fund_manager):
     """
     Builds the final prompt for DeepSeek to extract the outlook
     strictly in the required JSON format.
@@ -27,7 +22,7 @@ def build_summary_prompt(text):
             focus on {variable_of_interest} for the {period} in the perspective of fund manager {fund_manager}, its magnitude in percentage terms, and your confidence in the prediction.
             
             Context from the document:
-            \"\"\"{text}\"\"\"
+            \"\"\"{document_text}\"\"\"
             
             remember your task: summarize the following investment report, 
             keep track of the name of the fund and the date of the report, 
@@ -35,7 +30,7 @@ def build_summary_prompt(text):
             """
 
 
-def build_json_prompt(summary_text):
+def build_json_prompt(summary_text, variable_of_interest, period, json_schema):
     return f"""
         You are a financial analyst that must output only a valid JSON object, forecasting {variable_of_interest} for the {period}.
         
